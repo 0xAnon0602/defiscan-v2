@@ -1,0 +1,14 @@
+{
+  "framework": "Snapshot (off-chain)",
+  "voteExecution": "offchain",
+  "votingUnit": "CAKE",
+  "proposalRequirements": "100K CAKE",
+  "votingProcess": "Off-chain Snapshot vote (3-day window for community proposals); 3-of-7 multisig executes if approved. No on-chain timelock.",
+  "proposalPeriod": {
+    "kind": "fixed",
+    "value": "3 days"
+  },
+  "executionDelay": {
+    "kind": "none"
+  }
+}

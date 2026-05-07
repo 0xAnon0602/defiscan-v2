@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "lastModified": "2026-05-07T19:53:40.878Z",
+  "tags": [
+    {
+      "contractAddress": "bnb:0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73",
+      "isExternal": false,
+      "fetchAggregate": true,
+      "aggregateHandler": "pancakeswap-v2-factory",
+      "aggregateLabel": "V2 Pairs (DeFiLlama)",
+      "timestamp": "2026-05-06T10:53:05.388Z"
+    },
+    {
+      "contractAddress": "bnb:0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+      "isExternal": false,
+      "entity": "PancakeSwap",
+      "isToken": true,
+      "timestamp": "2026-05-06T11:21:52.142Z"
+    },
+    {
+      "contractAddress": "bnb:0xA1f482Dc58145Ba2210bC21878Ca34000E2e8fE4",
+      "isExternal": false,
+      "isGovernance": true,
+      "entity": "PancakeSwap Timelock",
+      "timestamp": "2026-05-06T11:21:52.152Z"
+    }
+  ]
+}
