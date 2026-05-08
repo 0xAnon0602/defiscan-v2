@@ -1,7 +1,7 @@
 {
   "version": "1.1",
-  "lastReconciledAt": 1778147655,
-  "lastConsumedUpdateNotifierId": 164,
+  "lastReconciledAt": 1778229615,
+  "lastConsumedUpdateNotifierId": 167,
   "events": [
     {
       "timestamp": "2026-05-04T09:33:39.000Z",
@@ -219,6 +219,23 @@
       "entity": null,
       "id": "164:eth:0x985F3290d7971a840152E46d00b5ceb60A56f235:contract-added",
       "type": "contract-added"
+    },
+    {
+      "timestamp": "2026-05-08T08:29:40.000Z",
+      "updateNotifierId": 167,
+      "address": "eth:0xB0F70C0bD6FD87dbEb7C10dC692a2a6106817072",
+      "contractName": "NativeLBTC",
+      "isDependency": true,
+      "entity": "Lombard",
+      "id": "167:eth:0xB0F70C0bD6FD87dbEb7C10dC692a2a6106817072:data-change",
+      "type": "data-change",
+      "changes": [
+        {
+          "field": "values.getMintFee",
+          "before": 512,
+          "after": 86
+        }
+      ]
     }
   ]
 }

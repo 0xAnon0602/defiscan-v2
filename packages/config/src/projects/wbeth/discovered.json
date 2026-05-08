@@ -1,6 +1,6 @@
 {
   "name": "wbeth",
-  "timestamp": 1778158633,
+  "timestamp": 1778228980,
   "configHash": "0x46ebd271aa7148b14193959633d2df18e98583c615601e235f0c9a1eb122d59c",
   "entries": [
     {
@@ -163,7 +163,7 @@
         "decimals": 18,
         "DOMAIN_SEPARATOR": "0xd37a875f1ef2a63f2649b9d08b634c22faa1921cbcb1de62790e04176d134bab",
         "ethReceiver": "eth:0x26ad6395DABF271fD9bFDC82d7377261930E6B86",
-        "exchangeRate": "1097008996878000000",
+        "exchangeRate": "1097085995939000000",
         "implementation": "eth:0x9E021c9607bD3ADB7424D3b25a2D35763ff180BB",
         "masterMinter": "eth:0x099d699C07Bbc8eE6eB5703746063E04B2aA62A7",
         "minters": ["eth:0xb05a6449f383a1A43A172970858B97394FEcDAD6"],
@@ -190,7 +190,6 @@
       "address": "eth:0xA3eE6926edcce93BacF05F4222c243c4d9F6d853",
       "type": "EOA",
       "proxyType": "EOA",
-      "controlsMajorityOfUpgradePermissions": true,
       "receivedPermissions": [
         {
           "permission": "upgrade",
@@ -202,7 +201,8 @@
           "from": "eth:0xa2E3356610840701BDf5611a53974510Ae27E2e1",
           "role": "admin"
         }
-      ]
+      ],
+      "controlsMajorityOfUpgradePermissions": true
     },
     {
       "address": "eth:0xa42436335a41fA6C82CDe224Ae2B82C025027e5b",
@@ -487,6 +487,6 @@
     ]
   },
   "usedTemplates": {},
-  "usedBlockNumbers": { "ethereum": 25043304 },
+  "usedBlockNumbers": { "ethereum": 25049148 },
   "permissionsConfigHash": "0x56dcc208fc53dc38aeff2362dddbcae3eb6797d2a2d152fda8b2c784eb0cd3e2"
 }

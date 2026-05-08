@@ -1,6 +1,6 @@
 {
   "name": "compound-v3",
-  "timestamp": 1777972650,
+  "timestamp": 1778228980,
   "configHash": "0x8eac43a4e021b7d365daedbdc9ca6f270514c5a026e7c5ed24d4808ba6d2a552",
   "entries": [
     {
@@ -145,6 +145,15 @@
         "0x56c4704c3e23ea95d1055ff82f1efdd0e332e3934b0ba7bd4bf53a87b1db87bc"
       ],
       "proxyType": "immutable",
+      "sinceTimestamp": 1660368851,
+      "sinceBlock": 15331582,
+      "values": {
+        "$immutable": true,
+        "owner": "eth:0x6d903f6003cca6255D85CcA4D3B5E5146dC33925"
+      },
+      "implementationNames": {
+        "eth:0x1EC63B5883C3481134FD50D5DAebc83Ecd2E8779": "CometProxyAdmin"
+      },
       "receivedPermissions": [
         {
           "permission": "upgrade",
@@ -176,16 +185,7 @@
           "from": "eth:0xc3d688B66703497DAA19211EEdff47f25384cdc3",
           "role": "admin"
         }
-      ],
-      "sinceTimestamp": 1660368851,
-      "sinceBlock": 15331582,
-      "values": {
-        "$immutable": true,
-        "owner": "eth:0x6d903f6003cca6255D85CcA4D3B5E5146dC33925"
-      },
-      "implementationNames": {
-        "eth:0x1EC63B5883C3481134FD50D5DAebc83Ecd2E8779": "CometProxyAdmin"
-      }
+      ]
     },
     {
       "name": "GnosisSafe",
@@ -222,7 +222,7 @@
         ],
         "multisigThreshold": "4 of 9 (44%)",
         "NAME": "Gnosis Safe",
-        "nonce": 2106,
+        "nonce": 2108,
         "VERSION": "1.1.1"
       },
       "implementationNames": {
@@ -263,13 +263,6 @@
         "0x3c9ed9082dc3030e40991223d0644d2e7f61036e500c90e6d7f1c118ca79c377"
       ],
       "proxyType": "immutable",
-      "directlyReceivedPermissions": [
-        {
-          "permission": "act",
-          "from": "eth:0x21f73D42Eb58Ba49dDB685dc29D3bF5c0f0373CA",
-          "role": ".GnosisSafe_modules"
-        }
-      ],
       "sinceTimestamp": 1603267019,
       "sinceBlock": 11098283,
       "values": {
@@ -280,7 +273,14 @@
       },
       "implementationNames": {
         "eth:0x2e1B5a40Edc922bCE489668b11749B8eAbd67f6b": "ConfirmedTransactionModule"
-      }
+      },
+      "directlyReceivedPermissions": [
+        {
+          "permission": "act",
+          "from": "eth:0x21f73D42Eb58Ba49dDB685dc29D3bF5c0f0373CA",
+          "role": ".GnosisSafe_modules"
+        }
+      ]
     },
     {
       "name": "CompoundGovernor",
@@ -646,9 +646,9 @@
         "getBorrowRate": [
           475646879, 475646879, 475646879, 475646879, 475646879
         ],
-        "getReserves": 937955906860,
+        "getReserves": 940014396271,
         "getSupplyRate": [0, 0, 0, 0, 0],
-        "getUtilization": "787386026689707036",
+        "getUtilization": "839350051280418733",
         "governor": "eth:0x6d903f6003cca6255D85CcA4D3B5E5146dC33925",
         "isAbsorbPaused": false,
         "isBuyPaused": false,
@@ -663,8 +663,8 @@
         "supplyPerSecondInterestRateSlopeHigh": 101344495180,
         "supplyPerSecondInterestRateSlopeLow": 1141552511,
         "targetReserves": 20000000000000,
-        "totalBorrow": 150681801840514,
-        "totalSupply": 191369662796747,
+        "totalBorrow": 153519872530582,
+        "totalSupply": 182902750505499,
         "trackingIndexScale": 1000000000000000
       },
       "errors": {
@@ -823,9 +823,9 @@
         "getBorrowRate": [
           317097919, 317097919, 317097919, 317097919, 317097919
         ],
-        "getReserves": "29419405099573907532",
+        "getReserves": "29597373443938082081",
         "getSupplyRate": [0, 0, 0, 0, 0],
-        "getUtilization": "1007199048247403231",
+        "getUtilization": "1005952287661830248",
         "governor": "eth:0x6d903f6003cca6255D85CcA4D3B5E5146dC33925",
         "isAbsorbPaused": false,
         "isBuyPaused": false,
@@ -840,8 +840,8 @@
         "supplyPerSecondInterestRateSlopeHigh": 8561643835,
         "supplyPerSecondInterestRateSlopeLow": 634195839,
         "targetReserves": "5000000000000000000000",
-        "totalBorrow": "3953388823388576340278",
-        "totalSupply": "3925115018524526503052",
+        "totalBorrow": "3949993505205521134001",
+        "totalSupply": "3926605218965504435516",
         "trackingIndexScale": 1000000000000000
       },
       "errors": {
@@ -1149,9 +1149,9 @@
         "getBorrowRate": [
           475646879, 475646879, 475646879, 475646879, 475646879
         ],
-        "getReserves": "424216750525997296798395",
+        "getReserves": "424286768652920807583682",
         "getSupplyRate": [0, 0, 0, 0, 0],
-        "getUtilization": "886926710539661138",
+        "getUtilization": "905225417474428535",
         "governor": "eth:0x6d903f6003cca6255D85CcA4D3B5E5146dC33925",
         "isAbsorbPaused": false,
         "isBuyPaused": false,
@@ -1166,8 +1166,8 @@
         "supplyPerSecondInterestRateSlopeHigh": 101344495180,
         "supplyPerSecondInterestRateSlopeLow": 1141552511,
         "targetReserves": "20000000000000000000000000",
-        "totalBorrow": "1828344999029018828037969",
-        "totalSupply": "2061417868900421852674564",
+        "totalBorrow": "1829252017737621609609882",
+        "totalSupply": "2020710654948894451471568",
         "trackingIndexScale": 1000000000000000
       },
       "errors": {
@@ -1193,6 +1193,20 @@
         "0xe3b901cb5aa1c82bbd5408f2a10b05f9a2b9f5bfd5521f848d92e119b3467acd"
       ],
       "proxyType": "immutable",
+      "sinceTimestamp": 1570830762,
+      "sinceBlock": 8722895,
+      "values": {
+        "$immutable": true,
+        "admin": "eth:0x309a862bbC1A00e45506cB8A802D1ff10004c8C0",
+        "delay": 172800,
+        "GRACE_PERIOD": 1209600,
+        "MAXIMUM_DELAY": 2592000,
+        "MINIMUM_DELAY": 172800,
+        "pendingAdmin": "eth:0x0000000000000000000000000000000000000000"
+      },
+      "implementationNames": {
+        "eth:0x6d903f6003cca6255D85CcA4D3B5E5146dC33925": "Timelock"
+      },
       "receivedPermissions": [
         {
           "permission": "upgrade",
@@ -1209,21 +1223,7 @@
           "from": "eth:0x725ED7F44F0888aeC1b7630AB1ACdced91E0591A",
           "role": ".owner"
         }
-      ],
-      "sinceTimestamp": 1570830762,
-      "sinceBlock": 8722895,
-      "values": {
-        "$immutable": true,
-        "admin": "eth:0x309a862bbC1A00e45506cB8A802D1ff10004c8C0",
-        "delay": 172800,
-        "GRACE_PERIOD": 1209600,
-        "MAXIMUM_DELAY": 2592000,
-        "MINIMUM_DELAY": 172800,
-        "pendingAdmin": "eth:0x0000000000000000000000000000000000000000"
-      },
-      "implementationNames": {
-        "eth:0x6d903f6003cca6255D85CcA4D3B5E5146dC33925": "Timelock"
-      }
+      ]
     },
     {
       "address": "eth:0x7052cB84079905400ea52B635cAb6a275fDA8823",
@@ -1239,13 +1239,6 @@
         "0x8fd8f837bb320bd2a7463c103bea2ff207b0969b5795f320a6c868858aa92074"
       ],
       "proxyType": "immutable",
-      "directlyReceivedPermissions": [
-        {
-          "permission": "upgrade",
-          "from": "eth:0x309a862bbC1A00e45506cB8A802D1ff10004c8C0",
-          "role": "admin"
-        }
-      ],
       "sinceTimestamp": 1737653243,
       "sinceBlock": 21688680,
       "values": {
@@ -1255,7 +1248,14 @@
       },
       "implementationNames": {
         "eth:0x725ED7F44F0888aeC1b7630AB1ACdced91E0591A": "ProxyAdmin"
-      }
+      },
+      "directlyReceivedPermissions": [
+        {
+          "permission": "upgrade",
+          "from": "eth:0x309a862bbC1A00e45506cB8A802D1ff10004c8C0",
+          "role": "admin"
+        }
+      ]
     },
     {
       "name": "ConstantPriceFeed",
@@ -1275,8 +1275,8 @@
         "latestRoundData": {
           "roundId": 1,
           "answer": 100000000,
-          "startedAt": 1777972643,
-          "updatedAt": 1777972643,
+          "startedAt": 1778228963,
+          "updatedAt": 1778228963,
           "answeredInRound": 1
         },
         "version": 1
@@ -1308,10 +1308,10 @@
         "DOMAIN_SEPARATOR": "0xd4a8ff90a402dc7d4fcbf60f5488291263c743ccff180e139f47d139cedfd5fe",
         "name": "Wrapped liquid staked Ether 2.0",
         "stETH": "eth:0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
-        "stEthPerToken": "1233588993979284831",
+        "stEthPerToken": "1233865925767819611",
         "symbol": "wstETH",
-        "tokensPerStEth": "810642770712651641",
-        "totalSupply": "3380448039277786000513277"
+        "tokensPerStEth": "810460828130667667",
+        "totalSupply": "3374912330316830155192378"
       },
       "implementationNames": {
         "eth:0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0": "WstETH"
@@ -1418,7 +1418,7 @@
         "RECEIVE_WITH_AUTHORIZATION_TYPEHASH": "0xd099cc98ef71107a616c4f0f941f04c322d8e254fe26b3c6668db87aae413de8",
         "rescuer": "eth:0x0000000000000000000000000000000000000000",
         "symbol": "USDC",
-        "totalSupply": "54362004008437695",
+        "totalSupply": "55332644428449660",
         "TRANSFER_WITH_AUTHORIZATION_TYPEHASH": "0x7c7c6cdb67a18743f49ec6fa9b35f50d52ed05cbed4cc592e13b44501c1a2267",
         "version": "2"
       },
@@ -1752,9 +1752,9 @@
         "getBorrowRate": [
           317097919, 317097919, 317097919, 317097919, 317097919
         ],
-        "getReserves": "959543310001627931358",
+        "getReserves": "959158599699961290394",
         "getSupplyRate": [0, 0, 0, 0, 0],
-        "getUtilization": "552886120735607697",
+        "getUtilization": "872426303054971395",
         "governor": "eth:0x6d903f6003cca6255D85CcA4D3B5E5146dC33925",
         "isAbsorbPaused": false,
         "isBuyPaused": false,
@@ -1769,8 +1769,8 @@
         "supplyPerSecondInterestRateSlopeHigh": 8561643835,
         "supplyPerSecondInterestRateSlopeLow": 634195839,
         "targetReserves": "5000000000000000000000",
-        "totalBorrow": "30140659010962941615296",
-        "totalSupply": "54515122565316169988145",
+        "totalBorrow": "44355604313733552953343",
+        "totalSupply": "50841657433710857810733",
         "trackingIndexScale": 1000000000000000
       },
       "errors": {
@@ -1940,7 +1940,7 @@
         "decimals": 18,
         "name": "Wrapped Ether",
         "symbol": "WETH",
-        "totalSupply": "1894635160439081882523905"
+        "totalSupply": "1996561518084384590807275"
       },
       "implementationNames": {
         "eth:0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": "WETH9"
@@ -2297,9 +2297,9 @@
         "getBorrowRate": [
           475646879, 475646879, 475646879, 475646879, 475646879
         ],
-        "getReserves": 13956467726043,
+        "getReserves": 13958648753017,
         "getSupplyRate": [0, 0, 0, 0, 0],
-        "getUtilization": "773220186017885769",
+        "getUtilization": "795823432230580278",
         "governor": "eth:0x6d903f6003cca6255D85CcA4D3B5E5146dC33925",
         "isAbsorbPaused": false,
         "isBuyPaused": false,
@@ -2314,8 +2314,8 @@
         "supplyPerSecondInterestRateSlopeHigh": 101344495180,
         "supplyPerSecondInterestRateSlopeLow": 1141552511,
         "targetReserves": 20000000000000,
-        "totalBorrow": 269239281109272,
-        "totalSupply": 348204916587922,
+        "totalBorrow": 271740178369907,
+        "totalSupply": 341457838049846,
         "trackingIndexScale": 1000000000000000
       },
       "errors": {
@@ -2495,8 +2495,8 @@
         "latestRoundData": {
           "roundId": 1,
           "answer": 100000000,
-          "startedAt": 1777972643,
-          "updatedAt": 1777972643,
+          "startedAt": 1778228963,
+          "updatedAt": 1778228963,
           "answeredInRound": 1
         },
         "version": 1
@@ -2563,7 +2563,7 @@
         "name": "USDS Stablecoin",
         "PERMIT_TYPEHASH": "0x6e71edae12b1b97f4d1f60370fef10105fa2faae0126114a169c64845d6126c9",
         "symbol": "USDS",
-        "totalSupply": "8327419261751377104086405698",
+        "totalSupply": "7760098446829359955206281910",
         "UPGRADE_INTERFACE_VERSION": "5.0.0",
         "version": "1"
       },
@@ -4369,6 +4369,6 @@
     "tokens/circle/USDC": "0x7263a38223ab636dc8a5aa9a09174968ffed892ce24134bf7e2407576d7fbbdb",
     "tokens/Lido/wstETH": "0xd55ccc93c3f52e654ebbffee9194b0b8a0d974753091db2a43a185679e002e88"
   },
-  "usedBlockNumbers": { "ethereum": 25027852 },
+  "usedBlockNumbers": { "ethereum": 25049148 },
   "permissionsConfigHash": "0xbc83be3d14198dbfce58437623686372bd696250e78fc7e1248f9e262fed9868"
 }
