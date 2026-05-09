@@ -1,9 +1,9 @@
 {
   "version": "1.0",
-  "lastModified": "2026-05-08T08:48:11.567Z",
+  "lastModified": "2026-05-09T11:14:31.033Z",
   "contracts": {
     "base:0xeE8F4eC5672F09119b96Ab6fB59C27E1b7e44b61": {
-      "lastFetched": "2026-05-08T08:48:10.354Z",
+      "lastFetched": "2026-05-09T11:14:29.673Z",
       "balances": {
         "tokens": [
           {
@@ -724,7 +724,7 @@
             "name": "Wrapped Ether",
             "balance": "1",
             "decimals": 18,
-            "usdValue": 2.2876700000000004e-15
+            "usdValue": 2.3145900000000004e-15
           },
           {
             "assetAddress": "0x4280c2c2a91a9257f32d034eba6dc9de44baa112",
@@ -1540,7 +1540,7 @@
             "name": "Aerodrome",
             "balance": "456449172682",
             "decimals": 18,
-            "usdValue": 2.0695462563411912e-7
+            "usdValue": 2.1971001800168841e-7
           },
           {
             "assetAddress": "0x947fbc826e4f065be3205650de9509a622cb93a0",
@@ -2244,7 +2244,7 @@
             "name": "Cypher",
             "balance": "18445209263787390",
             "decimals": 18,
-            "usdValue": 0.00018197453704695433
+            "usdValue": 0.0001871585328159982
           },
           {
             "assetAddress": "0xd26ca3d6fdc71a900ef17f1976d9ef3e3de739f1",
@@ -2815,8 +2815,8 @@
             "usdValue": 0
           }
         ],
-        "totalUsdValue": 0.0001841814916748761,
-        "timestamp": "2026-05-08T08:48:11.288Z",
+        "totalUsdValue": 0.00018937824283631448,
+        "timestamp": "2026-05-09T11:14:30.737Z",
         "source": "debank"
       },
       "positions": {
@@ -2830,15 +2830,15 @@
               {
                 "name": "Deposit",
                 "stats": {
-                  "assetUsdValue": 806955.6547141678,
+                  "assetUsdValue": 807040.9178015065,
                   "debtUsdValue": 0,
-                  "netUsdValue": 806955.6547141678
+                  "netUsdValue": 807040.9178015065
                 },
                 "tokens": [
                   {
                     "symbol": "USDC",
                     "name": "USD Coin",
-                    "amount": 806955.6547141678,
+                    "amount": 807040.9178015065,
                     "price": 1
                   }
                 ]
@@ -2846,15 +2846,15 @@
               {
                 "name": "Deposit",
                 "stats": {
-                  "assetUsdValue": 335357484.9344927,
+                  "assetUsdValue": 333537237.52497554,
                   "debtUsdValue": 0,
-                  "netUsdValue": 335357484.9344927
+                  "netUsdValue": 333537237.52497554
                 },
                 "tokens": [
                   {
                     "symbol": "USDC",
                     "name": "USD Coin",
-                    "amount": 335357484.9344927,
+                    "amount": 333537237.52497554,
                     "price": 1
                   }
                 ]
@@ -2862,15 +2862,15 @@
               {
                 "name": "Deposit",
                 "stats": {
-                  "assetUsdValue": 9.889086906987555e-7,
+                  "assetUsdValue": 9.892163023847832e-7,
                   "debtUsdValue": 0,
-                  "netUsdValue": 9.889086906987555e-7
+                  "netUsdValue": 9.892163023847832e-7
                 },
                 "tokens": [
                   {
                     "symbol": "USDC",
                     "name": "USD Coin",
-                    "amount": 9.889086906987555e-7,
+                    "amount": 9.892163023847832e-7,
                     "price": 1
                   }
                 ]
@@ -2878,15 +2878,15 @@
               {
                 "name": "Deposit",
                 "stats": {
-                  "assetUsdValue": 361249.57907678385,
+                  "assetUsdValue": 361287.6400474508,
                   "debtUsdValue": 0,
-                  "netUsdValue": 361249.57907678385
+                  "netUsdValue": 361287.6400474508
                 },
                 "tokens": [
                   {
                     "symbol": "USDC",
                     "name": "USD Coin",
-                    "amount": 361249.57907678385,
+                    "amount": 361287.6400474508,
                     "price": 1
                   }
                 ]
@@ -2894,15 +2894,15 @@
               {
                 "name": "Deposit",
                 "stats": {
-                  "assetUsdValue": 657706.5451210855,
+                  "assetUsdValue": 650203.2365291653,
                   "debtUsdValue": 0,
-                  "netUsdValue": 657706.5451210855
+                  "netUsdValue": 650203.2365291653
                 },
                 "tokens": [
                   {
                     "symbol": "USDC",
                     "name": "USD Coin",
-                    "amount": 657706.5451210855,
+                    "amount": 650203.2365291653,
                     "price": 1
                   }
                 ]
@@ -2910,25 +2910,25 @@
               {
                 "name": "Deposit",
                 "stats": {
-                  "assetUsdValue": 16713282.285393232,
+                  "assetUsdValue": 16157680.604580702,
                   "debtUsdValue": 0,
-                  "netUsdValue": 16713282.285393232
+                  "netUsdValue": 16157680.604580702
                 },
                 "tokens": [
                   {
                     "symbol": "USDC",
                     "name": "USD Coin",
-                    "amount": 16713282.285393232,
+                    "amount": 16157680.604580702,
                     "price": 1
                   }
                 ]
               }
             ],
-            "totalUsdValue": 353896678.99879897
+            "totalUsdValue": 351513449.92393535
           }
         ],
-        "totalUsdValue": 353896678.99879897,
-        "timestamp": "2026-05-08T08:48:11.567Z",
+        "totalUsdValue": 351513449.92393535,
+        "timestamp": "2026-05-09T11:14:31.033Z",
         "source": "debank"
       }
     }

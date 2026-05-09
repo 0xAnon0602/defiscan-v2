@@ -1,7 +1,7 @@
 {
   "version": "1.1",
-  "lastReconciledAt": 1778229007,
-  "lastConsumedUpdateNotifierId": 165,
+  "lastReconciledAt": 1778324215,
+  "lastConsumedUpdateNotifierId": 170,
   "events": [
     {
       "timestamp": "2026-03-02T13:49:30.000Z",
@@ -2558,6 +2558,423 @@
           "field": "values.isWithdrawPaused",
           "before": true,
           "after": false
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-09T08:52:51.000Z",
+      "updateNotifierId": 169,
+      "address": "eth:0x030A60EB6A12C4B31fB2F0d7108Bfbf8425b5d92",
+      "contractName": "AssetList",
+      "entity": null,
+      "id": "169:eth:0x030A60EB6A12C4B31fB2F0d7108Bfbf8425b5d92:contract-removed",
+      "type": "contract-removed"
+    },
+    {
+      "timestamp": "2026-05-09T08:52:51.000Z",
+      "updateNotifierId": 169,
+      "address": "eth:0x23AF5804560d2e066A9AE422eBb3dB08Bb5E5B81",
+      "contractName": "AssetList",
+      "entity": null,
+      "id": "169:eth:0x23AF5804560d2e066A9AE422eBb3dB08Bb5E5B81:contract-removed",
+      "type": "contract-removed"
+    },
+    {
+      "timestamp": "2026-05-09T08:52:51.000Z",
+      "updateNotifierId": 169,
+      "address": "eth:0x3551C50F84f1B528170E488d1cf03023EdC86b98",
+      "contractName": "AssetList",
+      "entity": null,
+      "id": "169:eth:0x3551C50F84f1B528170E488d1cf03023EdC86b98:contract-removed",
+      "type": "contract-removed"
+    },
+    {
+      "timestamp": "2026-05-09T08:52:51.000Z",
+      "updateNotifierId": 169,
+      "address": "eth:0x3Afdc9BCA9213A35503b077a6072F3D0d5AB0840",
+      "contractName": "cUSDTv3",
+      "entity": null,
+      "id": "169:eth:0x3Afdc9BCA9213A35503b077a6072F3D0d5AB0840:data-change",
+      "type": "data-change",
+      "changes": [
+        {
+          "field": "values.assetList",
+          "before": "eth:0xaE2ee35ECf51dD9853224b20E8E528663c3BAFD6",
+          "after": "eth:0x6c32997Be422D392981a0f1c6Ff9a1E1B945AB4c"
+        },
+        {
+          "field": "values.$pastUpgrades.41",
+          "after": [
+            "2026-05-08T18:33:11.000Z",
+            "0x54a5496444fdd9a6c7cdcbb712c4027aa77acba1b25626b2c1532e1680555c65",
+            [
+              "eth:0x948e4B70338561D279B74A91fe5e8cB8F3f2B11E"
+            ]
+          ]
+        },
+        {
+          "field": "values.$upgradeCount",
+          "before": 41,
+          "after": 42
+        },
+        {
+          "field": "values.$implementation",
+          "before": "eth:0x301A653e3d4FCFCE57957315594FAb5b780caD2b",
+          "after": "eth:0x948e4B70338561D279B74A91fe5e8cB8F3f2B11E"
+        },
+        {
+          "field": "implementationNames.eth:0x301A653e3d4FCFCE57957315594FAb5b780caD2b",
+          "before": "CometWithExtendedAssetList"
+        },
+        {
+          "field": "implementationNames.eth:0x948e4B70338561D279B74A91fe5e8cB8F3f2B11E",
+          "after": "CometWithExtendedAssetList"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-09T08:52:51.000Z",
+      "updateNotifierId": 169,
+      "address": "eth:0x3D0bb1ccaB520A66e607822fC55BC921738fAFE3",
+      "contractName": "cwstETHv3",
+      "entity": null,
+      "id": "169:eth:0x3D0bb1ccaB520A66e607822fC55BC921738fAFE3:data-change",
+      "type": "data-change",
+      "changes": [
+        {
+          "field": "values.assetList",
+          "before": "eth:0x3551C50F84f1B528170E488d1cf03023EdC86b98",
+          "after": "eth:0x465C5e7286C22e705aC145C7BA97b450ca1d4C11"
+        },
+        {
+          "field": "values.$pastUpgrades.19",
+          "after": [
+            "2026-05-08T18:30:59.000Z",
+            "0x9d10a5240900d159849c7d958d6b11831e75e127f51c31476186ab53c08be700",
+            [
+              "eth:0x80325EFd624C83179d9ad9E7F5D1c43878213971"
+            ]
+          ]
+        },
+        {
+          "field": "values.$upgradeCount",
+          "before": 19,
+          "after": 20
+        },
+        {
+          "field": "values.$implementation",
+          "before": "eth:0x6989484971C4297f2CCEf9B1C4c2FD4Cb83Aee9B",
+          "after": "eth:0x80325EFd624C83179d9ad9E7F5D1c43878213971"
+        },
+        {
+          "field": "values.isTransferPaused",
+          "before": true,
+          "after": false
+        },
+        {
+          "field": "implementationNames.eth:0x6989484971C4297f2CCEf9B1C4c2FD4Cb83Aee9B",
+          "before": "CometWithExtendedAssetList"
+        },
+        {
+          "field": "implementationNames.eth:0x80325EFd624C83179d9ad9E7F5D1c43878213971",
+          "after": "CometWithExtendedAssetList"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-09T08:52:51.000Z",
+      "updateNotifierId": 169,
+      "address": "eth:0x595B4a0Fc56A84BbBEA01CbAc0d243ED9324227A",
+      "contractName": "AssetList",
+      "entity": null,
+      "id": "169:eth:0x595B4a0Fc56A84BbBEA01CbAc0d243ED9324227A:contract-removed",
+      "type": "contract-removed"
+    },
+    {
+      "timestamp": "2026-05-09T08:52:51.000Z",
+      "updateNotifierId": 169,
+      "address": "eth:0x5D409e56D886231aDAf00c8775665AD0f9897b56",
+      "contractName": "cUSDSv3",
+      "entity": null,
+      "id": "169:eth:0x5D409e56D886231aDAf00c8775665AD0f9897b56:data-change",
+      "type": "data-change",
+      "changes": [
+        {
+          "field": "values.assetList",
+          "before": "eth:0x23AF5804560d2e066A9AE422eBb3dB08Bb5E5B81",
+          "after": "eth:0xC3a14F69fF08236A1b4F3ba2cE5E7820AF735B4C"
+        },
+        {
+          "field": "values.$pastUpgrades.22",
+          "after": [
+            "2026-05-08T18:33:11.000Z",
+            "0x54a5496444fdd9a6c7cdcbb712c4027aa77acba1b25626b2c1532e1680555c65",
+            [
+              "eth:0x9f12A1E87987941Daa709297317fC33052Fe1830"
+            ]
+          ]
+        },
+        {
+          "field": "values.$upgradeCount",
+          "before": 22,
+          "after": 23
+        },
+        {
+          "field": "values.$implementation",
+          "before": "eth:0x41bcBe31604aAbB5B5699fffC4A9FA0E0692e055",
+          "after": "eth:0x9f12A1E87987941Daa709297317fC33052Fe1830"
+        },
+        {
+          "field": "implementationNames.eth:0x41bcBe31604aAbB5B5699fffC4A9FA0E0692e055",
+          "before": "CometWithExtendedAssetList"
+        },
+        {
+          "field": "implementationNames.eth:0x9f12A1E87987941Daa709297317fC33052Fe1830",
+          "after": "CometWithExtendedAssetList"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-09T08:52:51.000Z",
+      "updateNotifierId": 169,
+      "address": "eth:0x72e9B6F907365d76C6192aD49C0C5ba356b7Fa48",
+      "contractName": "ConstantPriceFeed",
+      "entity": null,
+      "id": "169:eth:0x72e9B6F907365d76C6192aD49C0C5ba356b7Fa48:data-change",
+      "type": "data-change",
+      "changes": [
+        {
+          "field": "values.latestRoundData.startedAt",
+          "before": 1778228963,
+          "after": 1778316755
+        },
+        {
+          "field": "values.latestRoundData.updatedAt",
+          "before": 1778228963,
+          "after": 1778316755
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-09T08:52:51.000Z",
+      "updateNotifierId": 169,
+      "address": "eth:0xA17581A9E3356d9A858b789D68B4d866e593aE94",
+      "contractName": "cWETHv3",
+      "isDependency": false,
+      "entity": null,
+      "id": "169:eth:0xA17581A9E3356d9A858b789D68B4d866e593aE94:data-change",
+      "type": "data-change",
+      "changes": [
+        {
+          "field": "values.assetList",
+          "before": "eth:0x030A60EB6A12C4B31fB2F0d7108Bfbf8425b5d92",
+          "after": "eth:0x90d3FF24A252206D486151B6bBe7aDAf5A3818fD"
+        },
+        {
+          "field": "values.$pastUpgrades.53",
+          "after": [
+            "2026-05-08T18:30:59.000Z",
+            "0x9d10a5240900d159849c7d958d6b11831e75e127f51c31476186ab53c08be700",
+            [
+              "eth:0xd636a83fc540869FD8f792E06948c915bed97080"
+            ]
+          ]
+        },
+        {
+          "field": "values.$upgradeCount",
+          "before": 53,
+          "after": 54
+        },
+        {
+          "field": "values.$implementation",
+          "before": "eth:0xb979f2Ef3b117082a899Bc4Ed01987BEeF184cd9",
+          "after": "eth:0xd636a83fc540869FD8f792E06948c915bed97080"
+        },
+        {
+          "field": "values.isTransferPaused",
+          "before": true,
+          "after": false
+        },
+        {
+          "field": "implementationNames.eth:0xb979f2Ef3b117082a899Bc4Ed01987BEeF184cd9",
+          "before": "CometWithExtendedAssetList"
+        },
+        {
+          "field": "implementationNames.eth:0xd636a83fc540869FD8f792E06948c915bed97080",
+          "after": "CometWithExtendedAssetList"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-09T08:52:51.000Z",
+      "updateNotifierId": 169,
+      "address": "eth:0xaE2ee35ECf51dD9853224b20E8E528663c3BAFD6",
+      "contractName": "AssetList",
+      "entity": null,
+      "id": "169:eth:0xaE2ee35ECf51dD9853224b20E8E528663c3BAFD6:contract-removed",
+      "type": "contract-removed"
+    },
+    {
+      "timestamp": "2026-05-09T08:52:51.000Z",
+      "updateNotifierId": 169,
+      "address": "eth:0xc3d688B66703497DAA19211EEdff47f25384cdc3",
+      "contractName": "cUSDCv3",
+      "isDependency": false,
+      "entity": null,
+      "id": "169:eth:0xc3d688B66703497DAA19211EEdff47f25384cdc3:data-change",
+      "type": "data-change",
+      "changes": [
+        {
+          "field": "values.assetList",
+          "before": "eth:0x595B4a0Fc56A84BbBEA01CbAc0d243ED9324227A",
+          "after": "eth:0xED4aa6696527693Db4a4607661f33778ACbA9653"
+        },
+        {
+          "field": "values.$pastUpgrades.59",
+          "after": [
+            "2026-05-08T18:33:11.000Z",
+            "0x54a5496444fdd9a6c7cdcbb712c4027aa77acba1b25626b2c1532e1680555c65",
+            [
+              "eth:0x83D491269720CE925f92C6bF9F66B7a0779A293a"
+            ]
+          ]
+        },
+        {
+          "field": "values.$upgradeCount",
+          "before": 59,
+          "after": 60
+        },
+        {
+          "field": "values.$implementation",
+          "before": "eth:0xFe36A00669bB4b5834A2F3E2b9A2908fEe21d141",
+          "after": "eth:0x83D491269720CE925f92C6bF9F66B7a0779A293a"
+        },
+        {
+          "field": "implementationNames.eth:0xFe36A00669bB4b5834A2F3E2b9A2908fEe21d141",
+          "before": "CometWithExtendedAssetList"
+        },
+        {
+          "field": "implementationNames.eth:0x83D491269720CE925f92C6bF9F66B7a0779A293a",
+          "after": "CometWithExtendedAssetList"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-09T08:52:51.000Z",
+      "updateNotifierId": 169,
+      "address": "eth:0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "contractName": "Tether USD Token",
+      "entity": null,
+      "id": "169:eth:0xdAC17F958D2ee523a2206206994597C13D831ec7:data-change",
+      "type": "data-change",
+      "changes": [
+        {
+          "field": "values.totalSupply",
+          "before": "99071875962553520",
+          "after": "97071875962553520"
+        },
+        {
+          "field": "values._totalSupply",
+          "before": "99071875962553520",
+          "after": "97071875962553520"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-09T08:52:51.000Z",
+      "updateNotifierId": 169,
+      "address": "eth:0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+      "contractName": "USDS Stablecoin Token",
+      "entity": null,
+      "id": "169:eth:0xdC035D45d973E3EC169d2276DDab16f1e407384F:data-change",
+      "type": "data-change",
+      "changes": [
+        {
+          "field": "values.totalSupply",
+          "before": "7760098446829359955206281910",
+          "after": "7523278579580468331859318967"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-09T08:52:51.000Z",
+      "updateNotifierId": 169,
+      "address": "eth:0x465C5e7286C22e705aC145C7BA97b450ca1d4C11",
+      "contractName": "AssetList",
+      "entity": null,
+      "id": "169:eth:0x465C5e7286C22e705aC145C7BA97b450ca1d4C11:contract-added",
+      "type": "contract-added"
+    },
+    {
+      "timestamp": "2026-05-09T08:52:51.000Z",
+      "updateNotifierId": 169,
+      "address": "eth:0x6c32997Be422D392981a0f1c6Ff9a1E1B945AB4c",
+      "contractName": "AssetList",
+      "entity": null,
+      "id": "169:eth:0x6c32997Be422D392981a0f1c6Ff9a1E1B945AB4c:contract-added",
+      "type": "contract-added"
+    },
+    {
+      "timestamp": "2026-05-09T08:52:51.000Z",
+      "updateNotifierId": 169,
+      "address": "eth:0x90d3FF24A252206D486151B6bBe7aDAf5A3818fD",
+      "contractName": "AssetList",
+      "entity": null,
+      "id": "169:eth:0x90d3FF24A252206D486151B6bBe7aDAf5A3818fD:contract-added",
+      "type": "contract-added"
+    },
+    {
+      "timestamp": "2026-05-09T08:52:51.000Z",
+      "updateNotifierId": 169,
+      "address": "eth:0xC3a14F69fF08236A1b4F3ba2cE5E7820AF735B4C",
+      "contractName": "AssetList",
+      "entity": null,
+      "id": "169:eth:0xC3a14F69fF08236A1b4F3ba2cE5E7820AF735B4C:contract-added",
+      "type": "contract-added"
+    },
+    {
+      "timestamp": "2026-05-09T08:52:51.000Z",
+      "updateNotifierId": 169,
+      "address": "eth:0xED4aa6696527693Db4a4607661f33778ACbA9653",
+      "contractName": "AssetList",
+      "entity": null,
+      "id": "169:eth:0xED4aa6696527693Db4a4607661f33778ACbA9653:contract-added",
+      "type": "contract-added"
+    },
+    {
+      "timestamp": "2026-05-09T10:56:30.000Z",
+      "updateNotifierId": 170,
+      "address": "eth:0x72e9B6F907365d76C6192aD49C0C5ba356b7Fa48",
+      "contractName": "ConstantPriceFeed",
+      "entity": null,
+      "id": "170:eth:0x72e9B6F907365d76C6192aD49C0C5ba356b7Fa48:data-change",
+      "type": "data-change",
+      "changes": [
+        {
+          "field": "values.latestRoundData.startedAt",
+          "before": 1778316755,
+          "after": 1778324171
+        },
+        {
+          "field": "values.latestRoundData.updatedAt",
+          "before": 1778316755,
+          "after": 1778324171
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-09T10:56:30.000Z",
+      "updateNotifierId": 170,
+      "address": "eth:0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+      "contractName": "USDS Stablecoin Token",
+      "entity": null,
+      "id": "170:eth:0xdC035D45d973E3EC169d2276DDab16f1e407384F:data-change",
+      "type": "data-change",
+      "changes": [
+        {
+          "field": "values.totalSupply",
+          "before": "7523278579580468331859318967",
+          "after": "7526948249499405668272173266"
         }
       ]
     }
