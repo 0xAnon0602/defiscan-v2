@@ -2737,27 +2737,6 @@
     {
       "timestamp": "2026-05-09T08:52:51.000Z",
       "updateNotifierId": 169,
-      "address": "eth:0x72e9B6F907365d76C6192aD49C0C5ba356b7Fa48",
-      "contractName": "ConstantPriceFeed",
-      "entity": null,
-      "id": "169:eth:0x72e9B6F907365d76C6192aD49C0C5ba356b7Fa48:data-change",
-      "type": "data-change",
-      "changes": [
-        {
-          "field": "values.latestRoundData.startedAt",
-          "before": 1778228963,
-          "after": 1778316755
-        },
-        {
-          "field": "values.latestRoundData.updatedAt",
-          "before": 1778228963,
-          "after": 1778316755
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-05-09T08:52:51.000Z",
-      "updateNotifierId": 169,
       "address": "eth:0xA17581A9E3356d9A858b789D68B4d866e593aE94",
       "contractName": "cWETHv3",
       "isDependency": false,
@@ -2862,43 +2841,6 @@
     {
       "timestamp": "2026-05-09T08:52:51.000Z",
       "updateNotifierId": 169,
-      "address": "eth:0xdAC17F958D2ee523a2206206994597C13D831ec7",
-      "contractName": "Tether USD Token",
-      "entity": null,
-      "id": "169:eth:0xdAC17F958D2ee523a2206206994597C13D831ec7:data-change",
-      "type": "data-change",
-      "changes": [
-        {
-          "field": "values.totalSupply",
-          "before": "99071875962553520",
-          "after": "97071875962553520"
-        },
-        {
-          "field": "values._totalSupply",
-          "before": "99071875962553520",
-          "after": "97071875962553520"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-05-09T08:52:51.000Z",
-      "updateNotifierId": 169,
-      "address": "eth:0xdC035D45d973E3EC169d2276DDab16f1e407384F",
-      "contractName": "USDS Stablecoin Token",
-      "entity": null,
-      "id": "169:eth:0xdC035D45d973E3EC169d2276DDab16f1e407384F:data-change",
-      "type": "data-change",
-      "changes": [
-        {
-          "field": "values.totalSupply",
-          "before": "7760098446829359955206281910",
-          "after": "7523278579580468331859318967"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-05-09T08:52:51.000Z",
-      "updateNotifierId": 169,
       "address": "eth:0x465C5e7286C22e705aC145C7BA97b450ca1d4C11",
       "contractName": "AssetList",
       "entity": null,
@@ -2940,43 +2882,6 @@
       "entity": null,
       "id": "169:eth:0xED4aa6696527693Db4a4607661f33778ACbA9653:contract-added",
       "type": "contract-added"
-    },
-    {
-      "timestamp": "2026-05-09T10:56:30.000Z",
-      "updateNotifierId": 170,
-      "address": "eth:0x72e9B6F907365d76C6192aD49C0C5ba356b7Fa48",
-      "contractName": "ConstantPriceFeed",
-      "entity": null,
-      "id": "170:eth:0x72e9B6F907365d76C6192aD49C0C5ba356b7Fa48:data-change",
-      "type": "data-change",
-      "changes": [
-        {
-          "field": "values.latestRoundData.startedAt",
-          "before": 1778316755,
-          "after": 1778324171
-        },
-        {
-          "field": "values.latestRoundData.updatedAt",
-          "before": 1778316755,
-          "after": 1778324171
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-05-09T10:56:30.000Z",
-      "updateNotifierId": 170,
-      "address": "eth:0xdC035D45d973E3EC169d2276DDab16f1e407384F",
-      "contractName": "USDS Stablecoin Token",
-      "entity": null,
-      "id": "170:eth:0xdC035D45d973E3EC169d2276DDab16f1e407384F:data-change",
-      "type": "data-change",
-      "changes": [
-        {
-          "field": "values.totalSupply",
-          "before": "7523278579580468331859318967",
-          "after": "7526948249499405668272173266"
-        }
-      ]
     }
   ]
 }
