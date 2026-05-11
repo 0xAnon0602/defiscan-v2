@@ -1,7 +1,7 @@
 {
   "version": "1.1",
-  "lastReconciledAt": 1778324215,
-  "lastConsumedUpdateNotifierId": 170,
+  "lastReconciledAt": 1778518376,
+  "lastConsumedUpdateNotifierId": 174,
   "events": [
     {
       "timestamp": "2026-03-02T13:49:30.000Z",
@@ -2882,6 +2882,56 @@
       "entity": null,
       "id": "169:eth:0xED4aa6696527693Db4a4607661f33778ACbA9653:contract-added",
       "type": "contract-added"
+    },
+    {
+      "timestamp": "2026-05-10T09:04:50.000Z",
+      "updateNotifierId": 174,
+      "address": "eth:0x55bea483873291eB3ded185c9962676F107cB4D6",
+      "contractName": "Safe",
+      "entity": null,
+      "id": "174:eth:0x55bea483873291eB3ded185c9962676F107cB4D6:data-change",
+      "type": "data-change",
+      "changes": [
+        {
+          "field": "values.multisigThreshold",
+          "before": "2 of 4 (50%)",
+          "after": "2 of 5 (40%)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-10T09:04:50.000Z",
+      "updateNotifierId": 174,
+      "address": "eth:0x55bea483873291eB3ded185c9962676F107cB4D6",
+      "contractName": "Safe",
+      "entity": null,
+      "id": "174:eth:0x55bea483873291eB3ded185c9962676F107cB4D6:role:Safe.owners",
+      "type": "role-update",
+      "roleName": "Safe.owners",
+      "changes": [
+        {
+          "field": "values.$members.0",
+          "after": "eth:0xb279f11cB50fa9302DFC93ee136C3D368ce9C5f2"
+        },
+        {
+          "field": "values.$members.1",
+          "after": "eth:0x2B537a7c3b92F78601379839c346cBAF578d86c1"
+        },
+        {
+          "field": "values.$members.0",
+          "before": "eth:0x0FFf5FeC65b98c556C8baEd531d93507C132ee4f",
+          "after": "eth:0x65A62CDd42aB34AC483d1ADe53CC8d9f1e29F637"
+        },
+        {
+          "field": "values.$members.1",
+          "before": "eth:0xC0ffeE04fFF1c6A23351b55dd3925aBcad5b670b",
+          "after": "eth:0x882c937EdABbC4FBd5DC0f863570b6f654520BaD"
+        },
+        {
+          "field": "values.$members.3",
+          "before": "eth:0xA049290eaE17454b64e3728BE261AD748368f30b"
+        }
+      ]
     }
   ]
 }

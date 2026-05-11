@@ -1,7 +1,7 @@
 {
   "version": "1.1",
-  "lastReconciledAt": 1778324932,
-  "lastConsumedUpdateNotifierId": 171,
+  "lastReconciledAt": 1778518648,
+  "lastConsumedUpdateNotifierId": 176,
   "events": [
     {
       "timestamp": "2026-05-04T09:33:39.000Z",
@@ -295,6 +295,39 @@
       "entity": null,
       "id": "171:eth:0xDe841Bf4B67970f5a19165443B0e9ec808E1cC85:contract-removed",
       "type": "contract-removed"
+    },
+    {
+      "timestamp": "2026-05-10T09:04:50.000Z",
+      "updateNotifierId": 176,
+      "address": "eth:0x985F3290d7971a840152E46d00b5ceb60A56f235",
+      "contractName": "Safe",
+      "entity": null,
+      "id": "176:eth:0x985F3290d7971a840152E46d00b5ceb60A56f235:data-change",
+      "type": "data-change",
+      "changes": [
+        {
+          "field": "values.nonce",
+          "before": 17,
+          "after": 18
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-10T09:04:50.000Z",
+      "updateNotifierId": 176,
+      "address": "eth:0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7",
+      "contractName": "rsETH Token",
+      "isDependency": true,
+      "entity": "Kelp",
+      "id": "176:eth:0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7:data-change",
+      "type": "data-change",
+      "changes": [
+        {
+          "field": "values.maxMintAmountPerDay",
+          "before": "5000000000000000000000",
+          "after": "10000000000000000000000"
+        }
+      ]
     }
   ]
 }

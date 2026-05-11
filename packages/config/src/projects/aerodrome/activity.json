@@ -1,7 +1,7 @@
 {
   "version": "1.1",
-  "lastReconciledAt": 1777541799,
-  "lastConsumedUpdateNotifierId": 145,
+  "lastReconciledAt": 1778518893,
+  "lastConsumedUpdateNotifierId": 180,
   "events": [
     {
       "timestamp": "2026-04-28T09:34:24.000Z",
@@ -471,6 +471,32 @@
           "field": "values.activePeriod",
           "before": 1776902400,
           "after": 1777507200
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-11T16:52:47.000Z",
+      "updateNotifierId": 180,
+      "address": "base:0xeB018363F0a9Af8f91F06FEe6613a751b2A33FE5",
+      "contractName": "Minter",
+      "entity": null,
+      "id": "180:base:0xeB018363F0a9Af8f91F06FEe6613a751b2A33FE5:data-change",
+      "type": "data-change",
+      "changes": [
+        {
+          "field": "values.calculateGrowth.2",
+          "before": 0,
+          "after": 1
+        },
+        {
+          "field": "values.calculateGrowth.3",
+          "before": 0,
+          "after": 1
+        },
+        {
+          "field": "values.calculateGrowth.4",
+          "before": 0,
+          "after": 2
         }
       ]
     }

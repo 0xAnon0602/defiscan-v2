@@ -1,9 +1,9 @@
 {
   "version": "1.0",
-  "lastModified": "2026-05-09T11:08:51.696Z",
+  "lastModified": "2026-05-11T16:57:28.349Z",
   "contracts": {
     "eth:0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2": {
-      "lastFetched": "2026-05-09T11:07:15.523Z",
+      "lastFetched": "2026-05-11T16:55:52.144Z",
       "balances": {
         "tokens": [
           {
@@ -12,15 +12,15 @@
             "name": "Royal Dog",
             "balance": "1000000000000000000",
             "decimals": 18,
-            "usdValue": 0.00702151628783636
+            "usdValue": 0.006930391562028625
           },
           {
             "assetAddress": "0x018008bfb33d285247a21d44e50697654f754e63",
             "symbol": "aEthDAI",
             "name": "Aave Ethereum DAI",
-            "balance": "204739020649827",
+            "balance": "204776118958653",
             "decimals": 18,
-            "usdValue": 0.00020469807284569701
+            "usdValue": 0.0002046737308991737
           },
           {
             "assetAddress": "0x21e133e07b6cb3ff846b5a32fa9869a1e5040da1",
@@ -28,15 +28,15 @@
             "name": "Syntor AI",
             "balance": "3.39197888713639e+21",
             "decimals": 18,
-            "usdValue": 0.4005469431396392
+            "usdValue": 0.4037513186847563
           },
           {
             "assetAddress": "0x23878914efe38d27c4d67ab83ed1b93a74d4086a",
             "symbol": "aEthUSDT",
             "name": "Aave Ethereum USDT",
-            "balance": "201873990",
+            "balance": "201914185",
             "decimals": 6,
-            "usdValue": 201.833615202
+            "usdValue": 201.833419326
           },
           {
             "assetAddress": "0x2b591e99afe9f32eaa6214f7b7629768c40eeb39",
@@ -44,7 +44,7 @@
             "name": "HEX",
             "balance": "100000000",
             "decimals": 8,
-            "usdValue": 0.0006023740709334161
+            "usdValue": 0.0006357447930162371
           },
           {
             "assetAddress": "0x57b9d10157f66d8c00a815b5e289a152dedbe7ed",
@@ -60,7 +60,7 @@
             "name": "Dai Stablecoin",
             "balance": "1001984000000000000",
             "decimals": 18,
-            "usdValue": 1.0017836032
+            "usdValue": 1.0014830080000001
           },
           {
             "assetAddress": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
@@ -68,7 +68,7 @@
             "name": "Wrapped liquid staked Ether 2.0",
             "balance": "221501091950370750",
             "decimals": 18,
-            "usdValue": 631.7835059342278
+            "usdValue": 637.2952151837245
           },
           {
             "assetAddress": "0x8ec875ea3c60be1dfac9c4358c83c843db66748a",
@@ -82,9 +82,9 @@
             "assetAddress": "0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c",
             "symbol": "aEthUSDC",
             "name": "Aave Ethereum USDC",
-            "balance": "10575786",
+            "balance": "10578128",
             "decimals": 6,
-            "usdValue": 10.574728527147286
+            "usdValue": 10.581302390717214
           },
           {
             "assetAddress": "0x9d24364b97270961b2948734afe8d58832efd43a",
@@ -100,7 +100,7 @@
             "name": "USD Coin",
             "balance": "25896459",
             "decimals": 6,
-            "usdValue": 25.893869613038696
+            "usdValue": 25.90163932786557
           },
           {
             "assetAddress": "0xa700b4eb416be35b2911fd5dee80678ff64ff6c9",
@@ -108,7 +108,7 @@
             "name": "Aave Ethereum AAVE",
             "balance": "1000000000000000000",
             "decimals": 18,
-            "usdValue": 95.95
+            "usdValue": 101.37
           },
           {
             "assetAddress": "0xbe9895146f7af43049ca1c1ae358b0541ea49704",
@@ -116,7 +116,7 @@
             "name": "Coinbase Wrapped Staked ETH",
             "balance": "3199060000000000",
             "decimals": 18,
-            "usdValue": 8.344268151
+            "usdValue": 8.424404604000001
           },
           {
             "assetAddress": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
@@ -124,7 +124,7 @@
             "name": "Wrapped Ether",
             "balance": "2035180702480125",
             "decimals": 18,
-            "usdValue": 4.707922463626199
+            "usdValue": 4.744596419884891
           },
           {
             "assetAddress": "0xcef597ace4377bffde1323484c22fac4b8d58a3a",
@@ -140,7 +140,7 @@
             "name": "Tether USD",
             "balance": "162877401",
             "decimals": 6,
-            "usdValue": 162.82853777969999
+            "usdValue": 162.8122500396
           },
           {
             "assetAddress": "0xdd157bd06c1840fa886da18a138c983a7d74c1d7",
@@ -148,7 +148,7 @@
             "name": "GameStop",
             "balance": "100000000000000000000",
             "decimals": 18,
-            "usdValue": 0.0013525849552173896
+            "usdValue": 0.0013623769334687222
           },
           {
             "assetAddress": "0xf999da2b5132ea62a158da8a82f2265a1b1d9701",
@@ -159,13 +159,13 @@
             "usdValue": 0
           }
         ],
-        "totalUsdValue": 1143.3292138782815,
-        "timestamp": "2026-05-09T11:07:15.869Z",
+        "totalUsdValue": 1154.3784492933116,
+        "timestamp": "2026-05-11T16:55:52.533Z",
         "source": "debank"
       }
     },
     "eth:0x4e033931ad43597d96D6bcc25c280717730B58B1": {
-      "lastFetched": "2026-05-09T11:07:15.870Z",
+      "lastFetched": "2026-05-11T16:55:52.535Z",
       "balances": {
         "tokens": [
           {
@@ -174,38 +174,38 @@
             "name": "HEX",
             "balance": "100000000",
             "decimals": 8,
-            "usdValue": 0.0006023740709334161
+            "usdValue": 0.0006357447930162371
           }
         ],
-        "totalUsdValue": 0.0006023740709334161,
-        "timestamp": "2026-05-09T11:07:16.810Z",
+        "totalUsdValue": 0.0006357447930162371,
+        "timestamp": "2026-05-11T16:55:53.354Z",
         "source": "debank"
       }
     },
     "eth:0x0AA97c284e98396202b6A04024F5E2c65026F3c0": {
-      "lastFetched": "2026-05-09T11:07:16.810Z",
+      "lastFetched": "2026-05-11T16:55:53.355Z",
       "balances": {
         "tokens": [],
         "totalUsdValue": 0,
-        "timestamp": "2026-05-09T11:07:17.812Z",
+        "timestamp": "2026-05-11T16:55:54.345Z",
         "source": "debank"
       }
     },
     "eth:0x40D16FC0246aD3160Ccc09B8D0D3A2cD28aE6C2f": {
-      "lastFetched": "2026-05-09T11:07:17.813Z",
+      "lastFetched": "2026-05-11T16:55:54.346Z",
       "tokenInfo": {
         "symbol": "GHO",
         "name": "Gho Token",
         "decimals": 18,
-        "price": 0.998,
+        "price": 1.0015,
         "totalSupply": "584000000000000000000000000",
-        "tokenValue": 582832000,
-        "timestamp": "2026-05-09T11:07:18.799Z",
+        "tokenValue": 584876000,
+        "timestamp": "2026-05-11T16:55:55.330Z",
         "source": "debank"
       }
     },
     "eth:0x464C71f6c2F760DdA6093dCB91C24c39e5d6e18c": {
-      "lastFetched": "2026-05-09T11:07:18.799Z",
+      "lastFetched": "2026-05-11T16:55:55.330Z",
       "balances": {
         "tokens": [
           {
@@ -214,15 +214,15 @@
             "name": "TrueUSD",
             "balance": "4.334101095359427e+22",
             "decimals": 18,
-            "usdValue": 43341.01095359427
+            "usdValue": 43336.67685249891
           },
           {
             "assetAddress": "0x00907f9921424583e7ffbfedf84f92b7b2be4977",
             "symbol": "aEthGHO",
             "name": "Aave Ethereum GHO",
-            "balance": "7.232894436942271e+22",
+            "balance": "1.5970070406242056e+23",
             "decimals": 18,
-            "usdValue": 72271.08121392717
+            "usdValue": 159668.76392160807
           },
           {
             "assetAddress": "0x00e2b6d170740c15bf9fb01d0b6e77c0d4510e32",
@@ -230,23 +230,23 @@
             "name": "Royal Dog",
             "balance": "1000000000000000000",
             "decimals": 18,
-            "usdValue": 0.00702151628783636
+            "usdValue": 0.006930391562028625
           },
           {
             "assetAddress": "0x018008bfb33d285247a21d44e50697654f754e63",
             "symbol": "aEthDAI",
             "name": "Aave Ethereum DAI",
-            "balance": "2.9444384744849947e+23",
+            "balance": "3.171065612249725e+23",
             "decimals": 18,
-            "usdValue": 294384.95867900975
+            "usdValue": 316948.00794436
           },
           {
             "assetAddress": "0x028171bca77440897b824ca71d1c56cac55b68a3",
             "symbol": "aDAI",
             "name": "Aave interest bearing DAI",
-            "balance": "1.2543771443079173e+22",
+            "balance": "1.3593923269651211e+22",
             "decimals": 18,
-            "usdValue": 12543.771443079173
+            "usdValue": 13587.126308016386
           },
           {
             "assetAddress": "0x02ff53b107f5540efdeafcecfd4c645ad44f49e7",
@@ -260,9 +260,9 @@
             "assetAddress": "0x030ba81f1c18d280636f32af80b9aad02cf0854e",
             "symbol": "aWETH",
             "name": "Aave interest bearing WETH",
-            "balance": "5640627239584726000",
+            "balance": "6389202372123880000",
             "decimals": 18,
-            "usdValue": 13070.969096017288
+            "usdValue": 14887.86379942818
           },
           {
             "assetAddress": "0x03ab458634910aad20ef5f1c8ee96f1d6ac54919",
@@ -270,7 +270,7 @@
             "name": "Rai Reflex Index",
             "balance": "1084709932242305300",
             "decimals": 18,
-            "usdValue": 3.3838510745184482
+            "usdValue": 3.4025237073045527
           },
           {
             "assetAddress": "0x056fd409e1d7a124bd7017459dfea2f387b6d5cd",
@@ -278,31 +278,31 @@
             "name": "Gemini dollar",
             "balance": "5401848",
             "decimals": 2,
-            "usdValue": 54018.26812378797
+            "usdValue": 53960.626813738105
           },
           {
             "assetAddress": "0x05ec93c0365baaeabf7aeffb0972ea7ecdd39cf1",
             "symbol": "aBAT",
             "name": "Aave interest bearing BAT",
-            "balance": "1.5006780359678912e+21",
+            "balance": "1.5006780360508233e+21",
             "decimals": 18,
-            "usdValue": 167.0254654032263
+            "usdValue": 168.2260078412973
           },
           {
             "assetAddress": "0x09aa30b182488f769a9824f15e6ce58591da4781",
             "symbol": "aEthLidoUSDS",
             "name": "Aave Ethereum Lido USDS",
-            "balance": "1.3227945943993997e+23",
+            "balance": "1.3234058137889553e+23",
             "decimals": 18,
-            "usdValue": 132279.45943993996
+            "usdValue": 132340.58137889553
           },
           {
             "assetAddress": "0x0b925ed163218f6662a35e0f0371ac234f9e9371",
             "symbol": "aEthwstETH",
             "name": "Aave Ethereum wstETH",
-            "balance": "117218574295453840",
+            "balance": "239592002501267680",
             "decimals": 18,
-            "usdValue": 334.3565364578678
+            "usdValue": 689.3817006002033
           },
           {
             "assetAddress": "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e",
@@ -310,15 +310,15 @@
             "name": "yearn.finance",
             "balance": "7198804701899135",
             "decimals": 18,
-            "usdValue": 19.80391173492452
+            "usdValue": 20.148275649930206
           },
           {
             "assetAddress": "0x0c0d01abf3e6adfca0989ebba9d6e85dd58eab1e",
             "symbol": "aEthPYUSD",
             "name": "Aave Ethereum PYUSD",
-            "balance": "349606883377",
+            "balance": "351559858167",
             "decimals": 6,
-            "usdValue": 349571.9226886623
+            "usdValue": 351559.858167
           },
           {
             "assetAddress": "0x0d02755a5700414b26ff040e1de35d337df56218",
@@ -326,7 +326,7 @@
             "name": "Bend Token",
             "balance": "1000000000000000000",
             "decimals": 18,
-            "usdValue": 0.00003619209777129686
+            "usdValue": 0.00003649165179530925
           },
           {
             "assetAddress": "0x0d8775f648430679a709e98d2b0cb6250d2887ef",
@@ -334,7 +334,7 @@
             "name": "Basic Attention Token",
             "balance": "259407426990369280000",
             "decimals": 18,
-            "usdValue": 28.664520682435807
+            "usdValue": 29.0795725656204
           },
           {
             "assetAddress": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942",
@@ -342,15 +342,15 @@
             "name": "Decentraland MANA",
             "balance": "1.9374236116740486e+21",
             "decimals": 18,
-            "usdValue": 189.09254449938715
+            "usdValue": 192.4830358198167
           },
           {
             "assetAddress": "0x101cc05f4a51c0319f570d5e146a8c625198e636",
             "symbol": "aTUSD",
             "name": "Aave interest bearing TUSD",
-            "balance": "1.1564399649062533e+23",
+            "balance": "1.156439966295706e+23",
             "decimals": 18,
-            "usdValue": 115632.43209097628
+            "usdValue": 115632.43222990764
           },
           {
             "assetAddress": "0x106eebf11f34ecccad59c1ca9398d828765f64f8",
@@ -364,9 +364,9 @@
             "assetAddress": "0x10ac93971cdb1f5c778144084242374473c350da",
             "symbol": "aEthtBTC",
             "name": "Aave Ethereum tBTC",
-            "balance": "755263593008826600",
+            "balance": "755556951370293600",
             "decimals": 18,
-            "usdValue": 59621.551806141855
+            "usdValue": 61706.73311868422
           },
           {
             "assetAddress": "0x111111111117dc0aa78b770fa6a738034120c302",
@@ -374,7 +374,7 @@
             "name": "1INCH Token",
             "balance": "1.842586059045673e+21",
             "decimals": 18,
-            "usdValue": 184.51689185215216
+            "usdValue": 189.90251322003468
           },
           {
             "assetAddress": "0x1121acc14c63f3c872bfca497d10926a6098aac5",
@@ -382,7 +382,7 @@
             "name": "Department Of Government Efficiency",
             "balance": "216366244382754100",
             "decimals": 18,
-            "usdValue": 0.0004717748929782651
+            "usdValue": 0.000516940909813387
           },
           {
             "assetAddress": "0x1137a657164e08ebbe187980d87e85b30b9ea661",
@@ -390,7 +390,7 @@
             "name": "BYEBIT",
             "balance": "285372726894162",
             "decimals": 9,
-            "usdValue": 0.001709174508702427
+            "usdValue": 0.0017274992796940637
           },
           {
             "assetAddress": "0x11d666b9c8fa057774324a9bfe6b53eb8d23079f",
@@ -412,9 +412,9 @@
             "assetAddress": "0x13b2f6928d7204328b0e8e4bcd0379aa06ea21fa",
             "symbol": "aAmmWBTC",
             "name": "Aave AMM Market WBTC",
-            "balance": "2182119",
+            "balance": "2182122",
             "decimals": 8,
-            "usdValue": 1749.8580284163002
+            "usdValue": 1765.6240834674
           },
           {
             "assetAddress": "0x1494ca1f11d487c2bbe4543e90080aeba4ba3c2b",
@@ -422,7 +422,7 @@
             "name": "DefiPulse Index",
             "balance": "37722268543370690000",
             "decimals": 18,
-            "usdValue": 1790.3922901587591
+            "usdValue": 1803.768980363001
           },
           {
             "assetAddress": "0x1509b54dfe30dca512a981cac6d9181560919851",
@@ -430,7 +430,7 @@
             "name": "Trump Hat",
             "balance": "1000000000000000000",
             "decimals": 18,
-            "usdValue": 0.000004761291683802104
+            "usdValue": 0.000004800674038485229
           },
           {
             "assetAddress": "0x154c5875b1b0db1794f88d003730dad160e6b38e",
@@ -452,9 +452,9 @@
             "assetAddress": "0x17a79792fe6fe5c95dfe95fe3fcee3caf4fe4cb7",
             "symbol": "aAmmUSDT",
             "name": "Aave AMM Market USDT",
-            "balance": "1574578548",
+            "balance": "1574581507",
             "decimals": 6,
-            "usdValue": 1574.1061744356
+            "usdValue": 1574.2665906986
           },
           {
             "assetAddress": "0x17c95dc655fcdc62d70e64ad3284f30d6fc4b211",
@@ -470,23 +470,23 @@
             "name": "tBTC v2",
             "balance": "5196072972787007",
             "decimals": 18,
-            "usdValue": 410.1851814428628
+            "usdValue": 423.8296354921477
           },
           {
             "assetAddress": "0x18efe565a5373f430e2f809b97de30335b3ad96a",
             "symbol": "aEthLidoGHO",
             "name": "Aave Ethereum Lido GHO",
-            "balance": "7.2366025287561e+24",
+            "balance": "7.241033369166176e+24",
             "decimals": 18,
-            "usdValue": 7231536.90698597
+            "usdValue": 7254067.229230675
           },
           {
             "assetAddress": "0x1982b2f5814301d4e9a8b0201555376e62f82428",
             "symbol": "aSTETH",
             "name": "Aave interest bearing STETH",
-            "balance": "3379441139299060000",
+            "balance": "3380129374203949600",
             "decimals": 18,
-            "usdValue": 7826.0834341273185
+            "usdValue": 7869.803839484903
           },
           {
             "assetAddress": "0x1a88df1cfe15af22b3c4c783d4e6f7f9e0c1885d",
@@ -494,7 +494,7 @@
             "name": "stk GHO",
             "balance": "1000003187936772700",
             "decimals": 18,
-            "usdValue": 0.9980031815608993
+            "usdValue": 1.001503192718678
           },
           {
             "assetAddress": "0x1abaea1f7c830bd89acc67ec4af516284b1bc33c",
@@ -502,23 +502,23 @@
             "name": "Euro Coin",
             "balance": "821548283",
             "decimals": 6,
-            "usdValue": 967.2635910085087
+            "usdValue": 967.8615208424997
           },
           {
             "assetAddress": "0x1c0e06a0b1a4c160c17545ff2a951bfca57c0002",
             "symbol": "aEthETHx",
             "name": "Aave Ethereum ETHx",
-            "balance": "6894360594015362000",
+            "balance": "6894360665870351000",
             "decimals": 18,
-            "usdValue": 17391.903672856457
+            "usdValue": 17498.213725151087
           },
           {
             "assetAddress": "0x1e6bb68acec8fefbd87d192be09bb274170a0548",
             "symbol": "aAMPL",
             "name": "Aave interest bearing AMPL",
-            "balance": "352102462408801",
+            "balance": "352103085074260",
             "decimals": 9,
-            "usdValue": 437197.7906630084
+            "usdValue": 435368.002073095
           },
           {
             "assetAddress": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
@@ -526,7 +526,7 @@
             "name": "Uniswap",
             "balance": "65241275638178660000",
             "decimals": 18,
-            "usdValue": 238.32637990626665
+            "usdValue": 253.4623558543241
           },
           {
             "assetAddress": "0x1fc4db3e7f9124baafb7b34346db7931dad621c2",
@@ -550,15 +550,15 @@
             "name": "Wrapped BTC",
             "balance": "32029",
             "decimals": 8,
-            "usdValue": 25.6410369501
+            "usdValue": 26.075395030699998
           },
           {
             "assetAddress": "0x23878914efe38d27c4d67ab83ed1b93a74d4086a",
             "symbol": "aEthUSDT",
             "name": "Aave Ethereum USDT",
-            "balance": "4517847409165",
+            "balance": "4618098224827",
             "decimals": 6,
-            "usdValue": 4516943.839683167
+            "usdValue": 4616250.985537069
           },
           {
             "assetAddress": "0x24ab03a9a5bc2c49e5523e8d915a3536ac38b91d",
@@ -566,15 +566,15 @@
             "name": "Aave Ethereum syrupUSDT",
             "balance": "45319799",
             "decimals": 6,
-            "usdValue": 51.03647397999477
+            "usdValue": 51.05497981337271
           },
           {
             "assetAddress": "0x2516e7b3f76294e03c42aa4c5b5b4dce9c436fb8",
             "symbol": "aEthBAL",
             "name": "Aave Ethereum BAL",
-            "balance": "7.589996607530985e+22",
+            "balance": "7.59051780334065e+22",
             "decimals": 18,
-            "usdValue": 11820.399791246044
+            "usdValue": 11587.73964364461
           },
           {
             "assetAddress": "0x26e550ac11b26f78a04489d5f20f24e3559f7dd9",
@@ -582,15 +582,15 @@
             "name": "Kekius Maximus",
             "balance": "1208743181",
             "decimals": 9,
-            "usdValue": 0.008884761674687259
+            "usdValue": 0.008783377923187232
           },
           {
             "assetAddress": "0x272f97b7a56a387ae942350bbc7df5700f8a4576",
             "symbol": "aBAL",
             "name": "Aave interest bearing BAL",
-            "balance": "80680655039932000000",
+            "balance": "80680655055775070000",
             "decimals": 18,
-            "usdValue": 12.564927855769312
+            "usdValue": 12.304566132504652
           },
           {
             "assetAddress": "0x276cea2c682f16a9c2a455338bdb075134669dd8",
@@ -598,7 +598,7 @@
             "name": "Trump Fort",
             "balance": "1000000000000000000",
             "decimals": 18,
-            "usdValue": 0.0000029692487017763606
+            "usdValue": 0.000002992909844194711
           },
           {
             "assetAddress": "0x285866acb0d60105b4ed350a463361c2d9afa0e2",
@@ -606,7 +606,7 @@
             "name": "Aave Ethereum PT_sUSDe_27NOV2025",
             "balance": "69509898438674790000",
             "decimals": 18,
-            "usdValue": 69.43595928714953
+            "usdValue": 69.4688586127191
           },
           {
             "assetAddress": "0x290b3b9f7661a6834135be44c3475aef987fa3b2",
@@ -614,15 +614,15 @@
             "name": "Trump Doge",
             "balance": "1000000000000000000",
             "decimals": 18,
-            "usdValue": 0.000014647589964305355
+            "usdValue": 0.000014756891835944567
           },
           {
             "assetAddress": "0x2a1fbcb52ed4d9b23dad17e1e8aed4bb0e6079b8",
             "symbol": "aEthLidoUSDC",
             "name": "Aave Ethereum Lido USDC",
-            "balance": "44900523049",
+            "balance": "45199245730",
             "decimals": 6,
-            "usdValue": 44896.033445655434
+            "usdValue": 45212.80957287186
           },
           {
             "assetAddress": "0x2b23bf339f5cc3393a558373e0a73a576f0838d3",
@@ -636,9 +636,9 @@
             "assetAddress": "0x2d62109243b87c4ba3ee7ba1d91b0dd0a074d7b1",
             "symbol": "aEthrsETH",
             "name": "Aave Ethereum rsETH",
-            "balance": "485691283002372200",
+            "balance": "485694116712734700",
             "decimals": 18,
-            "usdValue": 1201.3395470015776
+            "usdValue": 1211.5132387911196
           },
           {
             "assetAddress": "0x2dbd330bc9b7f3a822a9173ab52172bdddcace2a",
@@ -652,9 +652,9 @@
             "assetAddress": "0x2e8f4bdbe3d47d7d7de490437aea9915d930f1a3",
             "symbol": "aUSDP",
             "name": "Aave interest bearing USDP",
-            "balance": "1.9813160363053238e+23",
+            "balance": "1.981316097090174e+23",
             "decimals": 18,
-            "usdValue": 198012.72466835406
+            "usdValue": 198111.7965480465
           },
           {
             "assetAddress": "0x2edff5af94334fbd7c38ae318edf1c40e072b73b",
@@ -662,7 +662,7 @@
             "name": "Aave Ethereum PT_eUSDe_14AUG2025",
             "balance": "15693436317967830",
             "decimals": 18,
-            "usdValue": 0.015685573749438166
+            "usdValue": 0.015687924155395508
           },
           {
             "assetAddress": "0x312ffc57778cefa11989733e6e08143e7e229c1c",
@@ -670,7 +670,7 @@
             "name": "Aave Ethereum PT_USDe_31JUL2025",
             "balance": "1505214964719775700",
             "decimals": 18,
-            "usdValue": 1.5044608369703014
+            "usdValue": 1.5046862730155675
           },
           {
             "assetAddress": "0x319190e3bbc595602a9e63b2bcfb61c6634355b1",
@@ -684,9 +684,9 @@
             "assetAddress": "0x32a6268f9ba3642dda7892add74f1d34469a4259",
             "symbol": "aEthUSDS",
             "name": "Aave Ethereum USDS",
-            "balance": "1.8483555227890526e+22",
+            "balance": "1.9676859937625e+22",
             "decimals": 18,
-            "usdValue": 18479.85851684495
+            "usdValue": 19667.021507656187
           },
           {
             "assetAddress": "0x33cf519030235f75a13f29afcff5d6ff4fd10350",
@@ -702,7 +702,7 @@
             "name": "Lil Manyu",
             "balance": "1000000000000000000",
             "decimals": 18,
-            "usdValue": 0.000005188604766307305
+            "usdValue": 0.0000052292385497643115
           },
           {
             "assetAddress": "0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0",
@@ -710,15 +710,15 @@
             "name": "Frax Share",
             "balance": "1926816944230409000",
             "decimals": 18,
-            "usdValue": 0.9409750925033635
+            "usdValue": 0.9607255025366388
           },
           {
             "assetAddress": "0x35f6b052c598d933d69a4eec4d04c73a191fe6c2",
             "symbol": "aSNX",
             "name": "Aave interest bearing SNX",
-            "balance": "418168444645922900000",
+            "balance": "418168444791883760000",
             "decimals": 18,
-            "usdValue": 151.12607589503654
+            "usdValue": 147.06984203330552
           },
           {
             "assetAddress": "0x37dabad8ac496148596196fe9adeb54ee3111c78",
@@ -726,7 +726,7 @@
             "name": "Little Dog",
             "balance": "1000000000000000000",
             "decimals": 18,
-            "usdValue": 0.000028206530724083645
+            "usdValue": 0.00002844342875687523
           },
           {
             "assetAddress": "0x38a5357ce55c81add62abc84fb32981e2626adef",
@@ -734,7 +734,7 @@
             "name": "Aave Ethereum PT_USDe_25SEP2025",
             "balance": "4051435477847108",
             "decimals": 18,
-            "usdValue": 0.004049405668158352
+            "usdValue": 0.004050012451649869
           },
           {
             "assetAddress": "0x38c503a438185cde29b5cf4dc1442fd6f074f1cc",
@@ -742,15 +742,15 @@
             "name": "Aave Ethereum PT_USDe_27NOV2025",
             "balance": "3.2797973226799754e+21",
             "decimals": 18,
-            "usdValue": 3278.1541114233396
+            "usdValue": 3278.6453266683575
           },
           {
             "assetAddress": "0x39c6b3e42d6a679d7d776778fe880bc9487c2eda",
             "symbol": "aKNC",
             "name": "Aave interest bearing KNC",
-            "balance": "3.322924192918684e+21",
+            "balance": "3.3229243019813396e+21",
             "decimals": 18,
-            "usdValue": 511.3040508269776
+            "usdValue": 517.7669793471929
           },
           {
             "assetAddress": "0x39f7437e0841b4e57dada656a74527ab748eac72",
@@ -764,17 +764,17 @@
             "assetAddress": "0x3ed3b47dd13ec9a98b44e6204a523e766b225811",
             "symbol": "aUSDT",
             "name": "Aave interest bearing USDT",
-            "balance": "11088675196",
+            "balance": "12085800351",
             "decimals": 6,
-            "usdValue": 11086.4574609608
+            "usdValue": 12080.966030859601
           },
           {
             "assetAddress": "0x3fe6a295459fae07df8a0cecc36f37160fe86aa9",
             "symbol": "aEthLUSD",
             "name": "Aave Ethereum LUSD",
-            "balance": "4.5317459097638766e+21",
+            "balance": "4.5993594937067826e+21",
             "decimals": 18,
-            "usdValue": 4542.864568593162
+            "usdValue": 4610.701850065531
           },
           {
             "assetAddress": "0x408e41876cccdc0f92210600ef50372656052a38",
@@ -782,15 +782,15 @@
             "name": "Republic Token",
             "balance": "3.2543836028405107e+21",
             "decimals": 18,
-            "usdValue": 11.548441202959522
+            "usdValue": 10.807549400217122
           },
           {
             "assetAddress": "0x40d16fc0246ad3160ccc09b8d0d3a2cd28ae6c2f",
             "symbol": "GHO",
             "name": "Gho Token",
-            "balance": "2.2176360338701788e+23",
+            "balance": "2.10659287755993e+23",
             "decimals": 18,
-            "usdValue": 221320.07618024384
+            "usdValue": 210975.276687627
           },
           {
             "assetAddress": "0x4579a27af00a62c0eb156349f31b345c08386419",
@@ -798,7 +798,7 @@
             "name": "Aave Ethereum sUSDe",
             "balance": "1.1936591098233132e+23",
             "decimals": 18,
-            "usdValue": 146797.54611527073
+            "usdValue": 146904.10599712917
           },
           {
             "assetAddress": "0x45804880de22913dafe09f4980848ece6ecbaf78",
@@ -806,7 +806,7 @@
             "name": "Paxos Gold",
             "balance": "1569897731456114",
             "decimals": 18,
-            "usdValue": 7.384689035928359
+            "usdValue": 7.388645178211627
           },
           {
             "assetAddress": "0x46ddf95a62b0f2ef6dc4e70717f36172a595517f",
@@ -822,7 +822,7 @@
             "name": "Aave Ethereum tETH",
             "balance": "1283083138911698700",
             "decimals": 18,
-            "usdValue": 3681.431034534633
+            "usdValue": 3713.6621658023496
           },
           {
             "assetAddress": "0x4921bb864de2e557939b074be20ff4b98723b86b",
@@ -830,7 +830,7 @@
             "name": "Trump Wars",
             "balance": "1000000000000000000",
             "decimals": 18,
-            "usdValue": 0.0000028254671863508513
+            "usdValue": 0.0000028569541424382665
           },
           {
             "assetAddress": "0x496a35a65c00b4aed125d19df3871e6b4cb05188",
@@ -838,7 +838,7 @@
             "name": "Trump Rekt",
             "balance": "1000000000000000000",
             "decimals": 18,
-            "usdValue": 0.000004626477680625527
+            "usdValue": 0.000004660270797655134
           },
           {
             "assetAddress": "0x4b0821e768ed9039a70ed1e80e15e76a5be5df5f",
@@ -846,7 +846,7 @@
             "name": "Aave Ethereum PT_eUSDE_29MAY2025",
             "balance": "49183453200000000",
             "decimals": 18,
-            "usdValue": 0.04915881179811227
+            "usdValue": 0.04916617800389803
           },
           {
             "assetAddress": "0x4c612e3b15b96ff9a6faed838f8d07d479a8dd4c",
@@ -854,7 +854,7 @@
             "name": "Aave Ethereum sDAI",
             "balance": "8251997331833147000",
             "decimals": 18,
-            "usdValue": 9.697318925195663
+            "usdValue": 9.695146551140027
           },
           {
             "assetAddress": "0x4c6fdc0476b2fe0daff0b5824c3a918673d6014e",
@@ -870,7 +870,7 @@
             "name": "USDe",
             "balance": "6000000000000000",
             "decimals": 18,
-            "usdValue": 0.0059964
+            "usdValue": 0.0059988
           },
           {
             "assetAddress": "0x4d3d07f4e7a154c32d36bbcbe2ea64e0b6f98440",
@@ -884,9 +884,9 @@
             "assetAddress": "0x4d5f47fa6a74757f35c14fd3a6ef8e3c9bc514e8",
             "symbol": "aEthWETH",
             "name": "Aave Ethereum WETH",
-            "balance": "5807545653797538000",
+            "balance": "186972782453599340000",
             "decimals": 18,
-            "usdValue": 13429.891248950267
+            "usdValue": 436031.74704874086
           },
           {
             "assetAddress": "0x4da27a545c0c5b758a6ba100e3a049001de870f5",
@@ -894,7 +894,7 @@
             "name": "Staked Aave",
             "balance": "6321616090032968",
             "decimals": 18,
-            "usdValue": 0.6078233870566698
+            "usdValue": 0.6419601139428478
           },
           {
             "assetAddress": "0x4e15361fd6b4bb609fa63c81a2be19d873717870",
@@ -902,7 +902,7 @@
             "name": "Fantom Token",
             "balance": "18035953123628935000",
             "decimals": 18,
-            "usdValue": 0.9478324509855418
+            "usdValue": 0.9549915961426153
           },
           {
             "assetAddress": "0x4e2a4d9b3df7aae73b418bd39f3af9e148e3f479",
@@ -910,7 +910,7 @@
             "name": "Aave Ethereum ezETH",
             "balance": "132803535891211020",
             "decimals": 18,
-            "usdValue": 331.5454190618921
+            "usdValue": 333.5249834142957
           },
           {
             "assetAddress": "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b",
@@ -918,15 +918,15 @@
             "name": "Convex Token",
             "balance": "1",
             "decimals": 18,
-            "usdValue": 1.757213153337524e-18
+            "usdValue": 1.847977642005672e-18
           },
           {
             "assetAddress": "0x4f5923fc5fd4a93352581b38b7cd26943012decf",
             "symbol": "aEthUSDe",
             "name": "Aave Ethereum USDe",
-            "balance": "5.604913133302189e+23",
+            "balance": "6.103881412494053e+23",
             "decimals": 18,
-            "usdValue": 560098.9694108877
+            "usdValue": 610266.0636211555
           },
           {
             "assetAddress": "0x4fabb145d64652a948d72533023f6e7a623c7c53",
@@ -934,7 +934,7 @@
             "name": "Binance USD",
             "balance": "1.4003784774174649e+22",
             "decimals": 18,
-            "usdValue": 14001.81987977307
+            "usdValue": 13999.399897485322
           },
           {
             "assetAddress": "0x4fbb350052bca5417566f188eb2ebce5b19bc964",
@@ -950,7 +950,7 @@
             "name": "ChainLink Token",
             "balance": "8.179757335395454e+21",
             "decimals": 18,
-            "usdValue": 85314.86900817459
+            "usdValue": 86541.8326084839
           },
           {
             "assetAddress": "0x514cd6756ccbe28772d4cb81bc3156ba9d1744aa",
@@ -964,9 +964,9 @@
             "assetAddress": "0x5165d24277cd063f5ac44efd447b27025e888f37",
             "symbol": "aYFI",
             "name": "Aave interest bearing YFI",
-            "balance": "107936009693081730",
+            "balance": "107936009701124700",
             "decimals": 18,
-            "usdValue": 298.3351307916779
+            "usdValue": 302.99323106437964
           },
           {
             "assetAddress": "0x522a8f36e23fe1c5018e28764fea161c5f951cad",
@@ -974,7 +974,7 @@
             "name": "Trump Cat",
             "balance": "1000000000000000000",
             "decimals": 18,
-            "usdValue": 0.000004112869005044311
+            "usdValue": 0.000004142643936143926
           },
           {
             "assetAddress": "0x53fffb19bacd44b82e204d036d579e86097e5d09",
@@ -982,15 +982,15 @@
             "name": "BigMouthFrog",
             "balance": "373254335362502900000",
             "decimals": 18,
-            "usdValue": 1.8626856376145103e-8
+            "usdValue": 1.8776011684420805e-8
           },
           {
             "assetAddress": "0x545bd6c032efdde65a377a6719def2796c8e0f2e",
             "symbol": "aEthENS",
             "name": "Aave Ethereum ENS",
-            "balance": "225967925265872750000",
+            "balance": "225995890812234300000",
             "decimals": 18,
-            "usdValue": 1554.6593258292046
+            "usdValue": 1674.6295509186562
           },
           {
             "assetAddress": "0x56d919e7b25aa42f3f8a4bc77b8982048f2e84b4",
@@ -998,7 +998,7 @@
             "name": "Aave Ethereum Lido rsETH",
             "balance": "5724101168718309",
             "decimals": 18,
-            "usdValue": 14.187742248292132
+            "usdValue": 14.272049870885326
           },
           {
             "assetAddress": "0x57ab1ec28d129707052df4df418d58a2d46d5f51",
@@ -1006,7 +1006,7 @@
             "name": "Synth sUSD",
             "balance": "9.394597901852954e+22",
             "decimals": 18,
-            "usdValue": 67623.83590646919
+            "usdValue": 51585.183968783786
           },
           {
             "assetAddress": "0x57b9d10157f66d8c00a815b5e289a152dedbe7ed",
@@ -1030,7 +1030,7 @@
             "name": "Morpho Token",
             "balance": "1014351459556000800",
             "decimals": 18,
-            "usdValue": 2.1339926006139147
+            "usdValue": 2.1568155084539247
           },
           {
             "assetAddress": "0x5a98fcbea516cf06857215779fd812ca3bef1b32",
@@ -1038,39 +1038,39 @@
             "name": "Lido DAO Token",
             "balance": "13530258404241224000",
             "decimals": 18,
-            "usdValue": 5.437810852664548
+            "usdValue": 5.431045723462427
           },
           {
             "assetAddress": "0x5b502e3796385e1e9755d7043b9c945c3accec9c",
             "symbol": "aEthKNC",
             "name": "Aave Ethereum KNC",
-            "balance": "864074438217969300000",
+            "balance": "864102781563818900000",
             "decimals": 18,
-            "usdValue": 135.1412421372904
+            "usdValue": 136.0097778181451
           },
           {
             "assetAddress": "0x5c647ce0ae10658ec44fa4e11a51c96e94efd1dd",
             "symbol": "aEthcbBTC",
             "name": "Aave Ethereum cbBTC",
-            "balance": "559857455",
+            "balance": "560433720",
             "decimals": 8,
-            "usdValue": 449239.36341171706
+            "usdValue": 457924.900361544
           },
           {
             "assetAddress": "0x5e8c8a7243651db1384c0ddfdbe39761e8e7e51a",
             "symbol": "aEthLINK",
             "name": "Aave Ethereum LINK",
-            "balance": "4.9300839412465526e+22",
+            "balance": "4.933495605894474e+22",
             "decimals": 18,
-            "usdValue": 514207.7550720154
+            "usdValue": 521963.8351036353
           },
           {
             "assetAddress": "0x5ee5bf7ae06d1be5997a1a72006fe6c607ec6de8",
             "symbol": "aEthWBTC",
             "name": "Aave Ethereum WBTC",
-            "balance": "7003768809",
+            "balance": "7010326568",
             "decimals": 8,
-            "usdValue": 5605380.92030368
+            "usdValue": 5713447.699389556
           },
           {
             "assetAddress": "0x5f4a0873a3a02f7c0cb0e13a1d4362a1ad90e751",
@@ -1078,7 +1078,7 @@
             "name": "Aave Ethereum PT_sUSDE_25SEP2025",
             "balance": "5017427101778517",
             "decimals": 18,
-            "usdValue": 0.005012089958276966
+            "usdValue": 0.005014464727503376
           },
           {
             "assetAddress": "0x5f9190496e0dfc831c3bd307978de4a245e2f5cd",
@@ -1086,7 +1086,7 @@
             "name": "Aave Ethereum eUSDe",
             "balance": "38241931845222630000",
             "decimals": 18,
-            "usdValue": 38.22281087968089
+            "usdValue": 38.23428345923457
           },
           {
             "assetAddress": "0x5f98805a4e8be255a32880fdec7f6728c6568ba0",
@@ -1094,7 +1094,7 @@
             "name": "LUSD Stablecoin",
             "balance": "29490177805417",
             "decimals": 18,
-            "usdValue": 0.000029562532088371602
+            "usdValue": 0.000029562902737271003
           },
           {
             "assetAddress": "0x5fb45cdddf00c157f8de83e09dbb9f3e1ffffccb",
@@ -1102,7 +1102,7 @@
             "name": "Remilia Cat",
             "balance": "871810147658",
             "decimals": 9,
-            "usdValue": 0.0038576282370557297
+            "usdValue": 0.003887588454628712
           },
           {
             "assetAddress": "0x5fefd7069a7d91d01f269dade14526ccf3487810",
@@ -1110,7 +1110,7 @@
             "name": "Aave Ethereum eBTC",
             "balance": "2805179",
             "decimals": 8,
-            "usdValue": 2252.8228372433055
+            "usdValue": 2294.1072507834338
           },
           {
             "assetAddress": "0x60597bff98bfb335f57d08bd2d23f96ee0015bdc",
@@ -1118,7 +1118,7 @@
             "name": "Trump Star",
             "balance": "1000000000000000000",
             "decimals": 18,
-            "usdValue": 0.000003474775126935408
+            "usdValue": 0.000003502096039348187
           },
           {
             "assetAddress": "0x635701cc5fe41fe8abd02aa74beb02e3540e9bb2",
@@ -1142,7 +1142,7 @@
             "name": "Mystery",
             "balance": "4.470476738390854e+25",
             "decimals": 18,
-            "usdValue": 0.05255504973757596
+            "usdValue": 0.047674233447527525
           },
           {
             "assetAddress": "0x657e8c867d8b37dcc18fa4caead9c45eb088c642",
@@ -1150,7 +1150,7 @@
             "name": "ether.fi BTC",
             "balance": "6431",
             "decimals": 8,
-            "usdValue": 5.165501555925286
+            "usdValue": 5.260162662360956
           },
           {
             "assetAddress": "0x65906988adee75306021c417a1a3458040239602",
@@ -1158,7 +1158,7 @@
             "name": "Aave Ethereum LBTC",
             "balance": "9552848",
             "decimals": 8,
-            "usdValue": 7688.431301900182
+            "usdValue": 7784.200238738817
           },
           {
             "assetAddress": "0x6639cbcfd178d6b23800937b0de0741bc16a8f8c",
@@ -1172,17 +1172,17 @@
             "assetAddress": "0x68215b6533c47ff9f7125ac95adf00fe4a62f79e",
             "symbol": "aHorRwaUSDC",
             "name": "Aave Horizon RWA USDC",
-            "balance": "35728290532",
+            "balance": "36311420094",
             "decimals": 6,
-            "usdValue": 35724.718060193976
+            "usdValue": 36322.31678903671
           },
           {
             "assetAddress": "0x683923db55fead99a79fa01a27eec3cb19679cc3",
             "symbol": "aFEI",
             "name": "Aave interest bearing FEI",
-            "balance": "1.1361542531358366e+21",
+            "balance": "1.1361542952900247e+21",
             "decimals": 18,
-            "usdValue": 1136.739916195233
+            "usdValue": 1137.2838181739255
           },
           {
             "assetAddress": "0x68749665ff8d2d112fa859aa293f07a622782f38",
@@ -1190,7 +1190,7 @@
             "name": "Tether Gold",
             "balance": "5663",
             "decimals": 6,
-            "usdValue": 26.61094667
+            "usdValue": 26.6591388
           },
           {
             "assetAddress": "0x68ca006db91312cd60a2238ce775be5f9f738bba",
@@ -1204,9 +1204,9 @@
             "assetAddress": "0x6914eccf50837dc61b43ee478a9bd9b439648956",
             "symbol": "aEthEtherFiFRAX",
             "name": "Aave Ethereum EtherFi FRAX",
-            "balance": "1.7511698082300722e+21",
+            "balance": "1.751169960470523e+21",
             "decimals": 18,
-            "usdValue": 1739.8183755345228
+            "usdValue": 1740.156150139156
           },
           {
             "assetAddress": "0x692cd1cce74bfb88947a3e02f6993ce677d54638",
@@ -1222,7 +1222,7 @@
             "name": "Pepe",
             "balance": "8.121421802124849e+24",
             "decimals": 18,
-            "usdValue": 35.08454218517935
+            "usdValue": 35.32818483924309
           },
           {
             "assetAddress": "0x6b175474e89094c44da98b954eedeac495271d0f",
@@ -1230,7 +1230,7 @@
             "name": "Dai Stablecoin",
             "balance": "4.324335515451585e+22",
             "decimals": 18,
-            "usdValue": 43234.706483484944
+            "usdValue": 43221.73347693859
           },
           {
             "assetAddress": "0x6b1a8f210ec6b7b6643cea3583fb0c079f367898",
@@ -1238,7 +1238,7 @@
             "name": "Baanx",
             "balance": "14986234427246078000",
             "decimals": 18,
-            "usdValue": 0.07102161283792782
+            "usdValue": 0.07632953469854123
           },
           {
             "assetAddress": "0x6b9f031d718dded0d681c20cb754f97b3bb81b78",
@@ -1246,7 +1246,7 @@
             "name": "Geeq",
             "balance": "1183789855352638500",
             "decimals": 18,
-            "usdValue": 0.011495196567086096
+            "usdValue": 0.013033245478496113
           },
           {
             "assetAddress": "0x6c3ea9036406852006290770bedfcaba0e23a0e8",
@@ -1254,15 +1254,15 @@
             "name": "PayPal USD",
             "balance": "157191209",
             "decimals": 6,
-            "usdValue": 157.17548987909998
+            "usdValue": 157.2069281209
           },
           {
             "assetAddress": "0x6c5024cd4f8a59110119c56f8933403a539555eb",
             "symbol": "aSUSD",
             "name": "Aave interest bearing SUSD",
-            "balance": "1.5272603220016344e+23",
+            "balance": "1.5272603764299165e+23",
             "decimals": 18,
-            "usdValue": 110176.09852502425
+            "usdValue": 83962.48326261475
           },
           {
             "assetAddress": "0x6cc759b8ce30e719511b6a897cfe449a19f64a92",
@@ -1278,31 +1278,31 @@
             "name": "Render Token",
             "balance": "5489387753105807",
             "decimals": 18,
-            "usdValue": 0.010951308344419671
+            "usdValue": 0.010689662133274387
           },
           {
             "assetAddress": "0x6f634c6135d2ebd550000ac92f494f9cb8183dae",
             "symbol": "aDPI",
             "name": "Aave interest bearing DPI",
-            "balance": "16661315695000304000",
+            "balance": "16661316214475534000",
             "decimals": 18,
-            "usdValue": 797.7125306576622
+            "usdValue": 791.0149627206079
           },
           {
             "assetAddress": "0x71aef7b30728b9bb371578f36c5a1f1502a5723e",
             "symbol": "aEth1INCH",
             "name": "Aave Ethereum 1INCH",
-            "balance": "2.453387374489919e+22",
+            "balance": "2.4533894361996866e+22",
             "decimals": 18,
-            "usdValue": 2462.664253618438
+            "usdValue": 2523.0276169161502
           },
           {
             "assetAddress": "0x7380c583cde4409eff5dd3320d93a45d96b80e2e",
             "symbol": "aEthEtherFiUSDC",
             "name": "Aave Ethereum EtherFi USDC",
-            "balance": "368406474",
+            "balance": "368417286",
             "decimals": 6,
-            "usdValue": 368.406474
+            "usdValue": 368.4541314131413
           },
           {
             "assetAddress": "0x74e5664394998f13b07af42446380acef637969f",
@@ -1310,15 +1310,15 @@
             "name": "Aave Ethereum Lido ezETH",
             "balance": "1422429558892700700",
             "decimals": 18,
-            "usdValue": 3551.110300070809
+            "usdValue": 3572.3129798766827
           },
           {
             "assetAddress": "0x79be75ffc64dd58e66787e4eae470c8a1fd08ba4",
             "symbol": "aAmmDAI",
             "name": "Aave AMM Market DAI",
-            "balance": "4.239327976517442e+21",
+            "balance": "4.245571228003987e+21",
             "decimals": 18,
-            "usdValue": 4239.327976517442
+            "usdValue": 4245.571228003987
           },
           {
             "assetAddress": "0x7a6b87d7a874fce4c2d923b09c0e09e4936bcf57",
@@ -1340,9 +1340,9 @@
             "assetAddress": "0x7b95ec873268a6bfc6427e7a28e396db9d0ebc65",
             "symbol": "aEthCRV",
             "name": "Aave Ethereum CRV",
-            "balance": "5.95820540403785e+22",
+            "balance": "6.014410533980897e+22",
             "decimals": 18,
-            "usdValue": 14907.4299209027
+            "usdValue": 16178.764336408613
           },
           {
             "assetAddress": "0x7badb55bb26a14e52cb9344db5775d618d16af98",
@@ -1356,9 +1356,9 @@
             "assetAddress": "0x7c0477d085ecb607cf8429f3ec91ae5e1e460f4f",
             "symbol": "aEthUSDG",
             "name": "Aave Ethereum USDG",
-            "balance": "179279985260",
+            "balance": "194527289469",
             "decimals": 6,
-            "usdValue": 179273.7104605159
+            "usdValue": 194494.60888436923
           },
           {
             "assetAddress": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
@@ -1366,7 +1366,7 @@
             "name": "Wrapped liquid staked Ether 2.0",
             "balance": "166273905438272850000",
             "decimals": 18,
-            "usdValue": 474260.0137912885
+            "usdValue": 478397.4806294177
           },
           {
             "assetAddress": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
@@ -1374,7 +1374,7 @@
             "name": "Aave Token",
             "balance": "1.1240332981271704e+22",
             "decimals": 18,
-            "usdValue": 1080758.0161492743
+            "usdValue": 1141455.8142481416
           },
           {
             "assetAddress": "0x80fb784b7ed66730e8b1dbd9820afd29931aab03",
@@ -1382,7 +1382,7 @@
             "name": "EthLend Token",
             "balance": "102150244459622470000",
             "decimals": 18,
-            "usdValue": 100.6540835798303
+            "usdValue": 98.92259797720537
           },
           {
             "assetAddress": "0x8207c1ffc5b6804f6024322ccf34f29c3541ae26",
@@ -1390,7 +1390,7 @@
             "name": "OriginToken",
             "balance": "3002522031740736000",
             "decimals": 18,
-            "usdValue": 0.07494294991224877
+            "usdValue": 0.07407221852304396
           },
           {
             "assetAddress": "0x8236a87084f8b84306f72007f36f2618a5634494",
@@ -1398,7 +1398,7 @@
             "name": "Lombard Staked Bitcoin",
             "balance": "130539",
             "decimals": 8,
-            "usdValue": 105.06101513836803
+            "usdValue": 106.36567175851752
           },
           {
             "assetAddress": "0x82866b4a71ba9d930fe338c386b6a45a7133eb36",
@@ -1414,15 +1414,15 @@
             "name": "RLUSD",
             "balance": "34923469998378422000",
             "decimals": 18,
-            "usdValue": 34.92696234537826
+            "usdValue": 34.933947039377934
           },
           {
             "assetAddress": "0x82f9c5ad306bba1ad0de49bb5fa6f01bf61085ef",
             "symbol": "aEthFXS",
             "name": "Aave Ethereum FXS",
-            "balance": "199598235805338860000",
+            "balance": "199598263211094100000",
             "decimals": 18,
-            "usdValue": 96.94220809252957
+            "usdValue": 98.97608028752786
           },
           {
             "assetAddress": "0x83819bf7e906bcf57e9f5b20453a2eff43f3845c",
@@ -1430,7 +1430,7 @@
             "name": "DePORT",
             "balance": "1000000000000000000",
             "decimals": 18,
-            "usdValue": 0.000013589471035542329
+            "usdValue": 0.000013782122584708216
           },
           {
             "assetAddress": "0x83f20f44975d03b1b09e64809b757c47f942beea",
@@ -1438,7 +1438,7 @@
             "name": "Savings Dai",
             "balance": "339410590453470460",
             "decimals": 18,
-            "usdValue": 0.3988578946564663
+            "usdValue": 0.398768356693635
           },
           {
             "assetAddress": "0x853d955acef822db058eb8505911ed77f175b99e",
@@ -1446,7 +1446,7 @@
             "name": "Frax",
             "balance": "37280545340436050000",
             "decimals": 18,
-            "usdValue": 37.027769282377676
+            "usdValue": 37.05099206557607
           },
           {
             "assetAddress": "0x85d385244d41ac914484fd6fbbab177c10a86e79",
@@ -1462,7 +1462,7 @@
             "name": "SushiBar",
             "balance": "34327737654381050000",
             "decimals": 18,
-            "usdValue": 13.26248664549874
+            "usdValue": 13.343586237705214
           },
           {
             "assetAddress": "0x87ffed1b73cbb27e4f820af721db89f089f32ced",
@@ -1476,17 +1476,17 @@
             "assetAddress": "0x8a2b6f94ff3a89a03e8c02ee92b55af90c9454a2",
             "symbol": "aEthXAUt",
             "name": "Aave Ethereum XAUt",
-            "balance": "819262",
+            "balance": "819884",
             "decimals": 6,
-            "usdValue": 3849.7940642000003
+            "usdValue": 3859.3579647999995
           },
           {
             "assetAddress": "0x8a458a9dc9048e005d22849f470891b840296619",
             "symbol": "aEthMKR",
             "name": "Aave Ethereum MKR",
-            "balance": "353574979931195100",
+            "balance": "353575007013699500",
             "decimals": 18,
-            "usdValue": 678.3704257280892
+            "usdValue": 635.480372929206
           },
           {
             "assetAddress": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
@@ -1494,15 +1494,15 @@
             "name": "Staked ENA",
             "balance": "1.4112489999999999e+22",
             "decimals": 18,
-            "usdValue": 1850.8967076742824
+            "usdValue": 1866.704055332991
           },
           {
             "assetAddress": "0x8dae6cb04688c62d939ed9b68d32bc62e49970b1",
             "symbol": "aCRV",
             "name": "Aave interest bearing CRV",
-            "balance": "515490433243094450000",
+            "balance": "515490433667003250000",
             "decimals": 18,
-            "usdValue": 129.23345161404376
+            "usdValue": 140.4711431742584
           },
           {
             "assetAddress": "0x8e870d67f660d95d5be530380d0ec0bd388289e1",
@@ -1510,7 +1510,7 @@
             "name": "Pax Dollar",
             "balance": "4.0604923797485005e+21",
             "decimals": 18,
-            "usdValue": 4060.0863305105254
+            "usdValue": 4059.6802812725505
           },
           {
             "assetAddress": "0x90d2af7d622ca3141efa4d8f1f24d86e5974cc8f",
@@ -1518,7 +1518,7 @@
             "name": "Ethereal Pre-deposit Vault",
             "balance": "229517399893932220",
             "decimals": 18,
-            "usdValue": 0.22935673771629186
+            "usdValue": 0.22949444815622963
           },
           {
             "assetAddress": "0x917e66a4ab8d8b0cb8bba715da32dd1277f88811",
@@ -1532,25 +1532,25 @@
             "assetAddress": "0x927709711794f3de5ddbf1d176bee2d55ba13c21",
             "symbol": "aEthosETH",
             "name": "Aave Ethereum osETH",
-            "balance": "5714614359326224000",
+            "balance": "5714614359386346000",
             "decimals": 18,
-            "usdValue": 14028.76591566558
+            "usdValue": 14148.094303191392
           },
           {
             "assetAddress": "0x946281a2d0dd6e650d08f74833323d66ae4c8b12",
             "symbol": "aHorRwaGHO",
             "name": "Aave Horizon RWA GHO",
-            "balance": "3.2999113609154325e+22",
+            "balance": "3.3002345075317395e+22",
             "decimals": 18,
-            "usdValue": 32972.714318267
+            "usdValue": 32995.74460630233
           },
           {
             "assetAddress": "0x952749e07d7157bb9644a894dfaf3bad5ef6d918",
             "symbol": "aCVX",
             "name": "Aave interest bearing CVX",
-            "balance": "17575047062627543000",
+            "balance": "17575047846853994000",
             "decimals": 18,
-            "usdValue": 31.031235174781372
+            "usdValue": 32.36061553025632
           },
           {
             "assetAddress": "0x956f47f50a910163d8bf957cf5846d573e7f87ca",
@@ -1558,7 +1558,7 @@
             "name": "Fei USD",
             "balance": "257515591969655060000",
             "decimals": 18,
-            "usdValue": 257.6401192290314
+            "usdValue": 257.7623627664779
           },
           {
             "assetAddress": "0x956f824b5a37673c6fc4a6904186cb3ba499349b",
@@ -1572,17 +1572,17 @@
             "assetAddress": "0x977b6fc5de62598b08c85ac8cf2b745874e8b78c",
             "symbol": "aEthcbETH",
             "name": "Aave Ethereum cbETH",
-            "balance": "9115676187087158000",
+            "balance": "9115735023605479000",
             "decimals": 18,
-            "usdValue": 23763.291625070033
+            "usdValue": 24010.481422775887
           },
           {
             "assetAddress": "0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c",
             "symbol": "aEthUSDC",
             "name": "Aave Ethereum USDC",
-            "balance": "7171403056320",
+            "balance": "7325498976872",
             "decimals": 6,
-            "usdValue": 7170685.987721228
+            "usdValue": 7327697.286057817
           },
           {
             "assetAddress": "0x98d1c76831c0abea30e3dac8628bd72d6b0e3dd2",
@@ -1596,17 +1596,17 @@
             "assetAddress": "0x9a14e23a58edf4efdcb360f68cd1b95ce2081a2f",
             "symbol": "aENS",
             "name": "Aave interest bearing ENS",
-            "balance": "9928068900998717000",
+            "balance": "9928068902622988000",
             "decimals": 18,
-            "usdValue": 69.39720161798104
+            "usdValue": 73.46770987941011
           },
           {
             "assetAddress": "0x9a44fd41566876a39655f74971a3a6ea0a17a454",
             "symbol": "aEthLDO",
             "name": "Aave Ethereum LDO",
-            "balance": "9.065396235769907e+21",
+            "balance": "9.067620394203119e+21",
             "decimals": 18,
-            "usdValue": 3637.9435094144637
+            "usdValue": 3637.022540114871
           },
           {
             "assetAddress": "0x9bc94a6a0d99fe559fa4dc5354ce3b96b210c210",
@@ -1630,7 +1630,7 @@
             "name": "Staked USDe",
             "balance": "147032544782279720000",
             "decimals": 18,
-            "usdValue": 180.82253395097055
+            "usdValue": 180.97201738541963
           },
           {
             "assetAddress": "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2",
@@ -1638,23 +1638,23 @@
             "name": "Maker",
             "balance": "722582627164666500",
             "decimals": 18,
-            "usdValue": 1377.230984752455
+            "usdValue": 1293.601452358584
           },
           {
             "assetAddress": "0x9ff58f4ffb29fa2266ab25e75e2a8b3503311656",
             "symbol": "aWBTC",
             "name": "Aave interest bearing WBTC",
-            "balance": "11686724",
+            "balance": "12079609",
             "decimals": 8,
-            "usdValue": 9353.3269753672
+            "usdValue": 9844.935693240499
           },
           {
             "assetAddress": "0xa06bc25b5805d5f8d82847d191cb4af5a3e873e0",
             "symbol": "aLINK",
             "name": "Aave interest bearing LINK",
-            "balance": "269668440439356900000",
+            "balance": "269668440694083130000",
             "decimals": 18,
-            "usdValue": 2812.6418337824925
+            "usdValue": 2853.0921025433995
           },
           {
             "assetAddress": "0xa1290d69c65a6fe4df752f95823fae25cb99e5a7",
@@ -1662,7 +1662,7 @@
             "name": "rsETH",
             "balance": "44133271539",
             "decimals": 18,
-            "usdValue": 0.00010922575324523826
+            "usdValue": 0.00011002777306840518
           },
           {
             "assetAddress": "0xa1f3b9e17033730c0928135b9e04252c0901a99f",
@@ -1678,15 +1678,15 @@
             "name": "ETHx",
             "balance": "415112148785631",
             "decimals": 18,
-            "usdValue": 1.0456699555105886
+            "usdValue": 1.0534703299875778
           },
           {
             "assetAddress": "0xa361718326c15715591c299427c62086f69923d9",
             "symbol": "aBUSD",
             "name": "Aave interest bearing BUSD",
-            "balance": "2.2232337164868258e+21",
+            "balance": "2.2232337191804212e+21",
             "decimals": 18,
-            "usdValue": 2222.9231833281383
+            "usdValue": 2222.72064679893
           },
           {
             "assetAddress": "0xa36ceec605d81ae74268fda28a5c0bd10b1d1f7c",
@@ -1716,9 +1716,9 @@
             "assetAddress": "0xa685a61171bb30d4072b338c80cb7b2c865c873e",
             "symbol": "aMANA",
             "name": "Aave interest bearing MANA",
-            "balance": "3.066423556609248e+22",
+            "balance": "3.0664235633330713e+22",
             "decimals": 18,
-            "usdValue": 3020.4272032601093
+            "usdValue": 3048.944949022073
           },
           {
             "assetAddress": "0xa693b19d2931d498c5b318df961919bb4aee87a5",
@@ -1742,7 +1742,7 @@
             "name": "Aave Ethereum AAVE",
             "balance": "6.166568790229056e+21",
             "decimals": 18,
-            "usdValue": 591682.2754224779
+            "usdValue": 625105.0782655193
           },
           {
             "assetAddress": "0xa90e85666a40022932402ef957dbcc4512cd0739",
@@ -1756,17 +1756,17 @@
             "assetAddress": "0xaa0200d169ff3ba9385c12e073c5d1d30434ae7b",
             "symbol": "aEthmUSD",
             "name": "Aave Ethereum mUSD",
-            "balance": "92391405",
+            "balance": "104359523",
             "decimals": 6,
-            "usdValue": 92.37732682597006
+            "usdValue": 104.38612015072714
           },
           {
             "assetAddress": "0xaa6e91c82942aeae040303bf96c15a6dbcb82ca0",
             "symbol": "aEthEURC",
             "name": "Aave Ethereum EURC",
-            "balance": "116600824192",
+            "balance": "118641120961",
             "decimals": 6,
-            "usdValue": 137281.9276192264
+            "usdValue": 139770.45311136317
           },
           {
             "assetAddress": "0xaaa9214f675316182eaa21c85f0ca99160cc3aaa",
@@ -1774,15 +1774,15 @@
             "name": "QANX Token",
             "balance": "2956754095366430700",
             "decimals": 18,
-            "usdValue": 0.03805097696552213
+            "usdValue": 0.03617487615923096
           },
           {
             "assetAddress": "0xac6df26a590f08dcc95d5a4705ae8abbc88509ef",
             "symbol": "aENJ",
             "name": "Aave interest bearing ENJ",
-            "balance": "1.4619853695847435e+22",
+            "balance": "1.4619853738971077e+22",
             "decimals": 18,
-            "usdValue": 907.3805194615492
+            "usdValue": 865.7234780683945
           },
           {
             "assetAddress": "0xac8102352085c492a0cafacb9afcb77d25a21ce4",
@@ -1798,7 +1798,7 @@
             "name": "MetaMask USD",
             "balance": "1000000",
             "decimals": 6,
-            "usdValue": 0.9998476281820142
+            "usdValue": 1.0001550615604082
           },
           {
             "assetAddress": "0xacdfe439652f78750afce1bba2cb9068edb4e69c",
@@ -1814,15 +1814,15 @@
             "name": "Rocket Pool ETH",
             "balance": "49812677255080260000",
             "decimals": 18,
-            "usdValue": 134053.42509185756
+            "usdValue": 135052.69879142768
           },
           {
             "assetAddress": "0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
             "symbol": "stETH",
             "name": "Liquid staked Ether 2.0",
-            "balance": "708018476472870000",
+            "balance": "708162666890376800",
             "decimals": 18,
-            "usdValue": 1636.6319657682695
+            "usdValue": 1650.5039955161847
           },
           {
             "assetAddress": "0xaea46a60368a7bd060eec7df8cba43b7ef41ad85",
@@ -1830,7 +1830,7 @@
             "name": "Fetch",
             "balance": "14588958396895275000",
             "decimals": 18,
-            "usdValue": 3.4721720984610753
+            "usdValue": 3.4415352858275954
           },
           {
             "assetAddress": "0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6",
@@ -1838,15 +1838,15 @@
             "name": "StargateToken",
             "balance": "28782914175705820000",
             "decimals": 18,
-            "usdValue": 7.417356983079389
+            "usdValue": 6.758228248455727
           },
           {
             "assetAddress": "0xb29130cbcc3f791f077eade0266168e808e5151e",
             "symbol": "a1INCH",
             "name": "Aave interest bearing 1INCH",
-            "balance": "2.0578640144136686e+22",
+            "balance": "2.0578640155264426e+22",
             "decimals": 18,
-            "usdValue": 2065.645319528037
+            "usdValue": 2120.275339165224
           },
           {
             "assetAddress": "0xb50721bcf8d664c30412cfbc6cf7a15145234ad1",
@@ -1854,31 +1854,31 @@
             "name": "Arbitrum",
             "balance": "2789789935340084700",
             "decimals": 18,
-            "usdValue": 0.3994979187407001
+            "usdValue": 0.3950900506428628
           },
           {
             "assetAddress": "0xb76cf92076adbf1d9c39294fa8e7a67579fde357",
             "symbol": "aEthRPL",
             "name": "Aave Ethereum RPL",
-            "balance": "7.522841046231925e+21",
+            "balance": "7.538276803597727e+21",
             "decimals": 18,
-            "usdValue": 15302.885648591617
+            "usdValue": 15776.234189172717
           },
           {
             "assetAddress": "0xb82fa9f31612989525992fcfbb09ab22eff5c85a",
             "symbol": "aEthcrvUSD",
             "name": "Aave Ethereum crvUSD",
-            "balance": "1.0543672347075717e+22",
+            "balance": "1.054420644201155e+22",
             "decimals": 18,
-            "usdValue": 10544.425114323009
+            "usdValue": 10545.54702503018
           },
           {
             "assetAddress": "0xb9d7cb55f463405cdfbe4e90a6d2df01c2b92bf1",
             "symbol": "aUNI",
             "name": "Aave interest bearing UNI",
-            "balance": "197116095780605900000",
+            "balance": "197116096357361060000",
             "decimals": 18,
-            "usdValue": 723.6131876106042
+            "usdValue": 763.4306411920595
           },
           {
             "assetAddress": "0xba100000625a3754423978a60c9317c58a424e3d",
@@ -1886,7 +1886,7 @@
             "name": "Balancer",
             "balance": "12600906003279331000",
             "decimals": 18,
-            "usdValue": 1.9283145185524047
+            "usdValue": 1.9225085409960752
           },
           {
             "assetAddress": "0xbaa70614c7aafb568a93e62a98d55696bcc85dfe",
@@ -1916,17 +1916,17 @@
             "assetAddress": "0xbcca60bb61934080951369a648fb03df4f96263c",
             "symbol": "aUSDC",
             "name": "Aave interest bearing USDC",
-            "balance": "50072282944",
+            "balance": "54001504087",
             "decimals": 6,
-            "usdValue": 50067.27621637836
+            "usdValue": 54017.70939981994
           },
           {
             "assetAddress": "0xbdfa7b7893081b35fb54027489e2bc7a38275129",
             "symbol": "aEthweETH",
             "name": "Aave Ethereum weETH",
-            "balance": "9496010440383958",
+            "balance": "57732741830503990",
             "decimals": 18,
-            "usdValue": 24.03165798160768
+            "usdValue": 147.35952868356847
           },
           {
             "assetAddress": "0xbe1f842e7e0afd2c2322aae5d34ba899544b29db",
@@ -1934,7 +1934,7 @@
             "name": "Aave Ethereum EtherFi weETH",
             "balance": "385079936312074240",
             "decimals": 18,
-            "usdValue": 976.5349011297025
+            "usdValue": 982.4636296645947
           },
           {
             "assetAddress": "0xbe54767735fb7acca2aa7e2d209a6f705073536d",
@@ -1942,7 +1942,7 @@
             "name": "Aave Ethereum PT_sUSDe_5FEB_2026",
             "balance": "2785230176013481000",
             "decimals": 18,
-            "usdValue": 2.782267467670601
+            "usdValue": 2.783585728758663
           },
           {
             "assetAddress": "0xbe9895146f7af43049ca1c1ae358b0541ea49704",
@@ -1950,7 +1950,7 @@
             "name": "Coinbase Wrapped Staked ETH",
             "balance": "26970477722961556",
             "decimals": 18,
-            "usdValue": 70.34844556868677
+            "usdValue": 71.02405603564696
           },
           {
             "assetAddress": "0xbf5495efe5db9ce00f80364c8b423567e58d2110",
@@ -1958,7 +1958,7 @@
             "name": "Renzo Restaked ETH",
             "balance": "109976188036",
             "decimals": 18,
-            "usdValue": 0.0002739881657557961
+            "usdValue": 0.000276315640043524
           },
           {
             "assetAddress": "0xc00e94cb662c3520282e6f5717214004a7f26888",
@@ -1966,7 +1966,7 @@
             "name": "Compound",
             "balance": "49003565637357980",
             "decimals": 18,
-            "usdValue": 1.1167912608753885
+            "usdValue": 1.2069578216481271
           },
           {
             "assetAddress": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
@@ -1974,7 +1974,7 @@
             "name": "Synthetix Network Token",
             "balance": "32354935375014970000",
             "decimals": 18,
-            "usdValue": 11.654247722080392
+            "usdValue": 11.414821200305282
           },
           {
             "assetAddress": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
@@ -1982,15 +1982,15 @@
             "name": "Wrapped Ether",
             "balance": "5923893494696359000",
             "decimals": 18,
-            "usdValue": 13703.565104476247
+            "usdValue": 13810.313665250675
           },
           {
             "assetAddress": "0xc035a7cf15375ce2706766804551791ad035e0c2",
             "symbol": "aEthLidowstETH",
             "name": "Aave Ethereum Lido wstETH",
-            "balance": "20290221479225800",
+            "balance": "41541265028683520",
             "decimals": 18,
-            "usdValue": 57.87622156755823
+            "usdValue": 119.52731156126998
           },
           {
             "assetAddress": "0xc139190f447e929f090edeb554d95abb8b18ac1c",
@@ -1998,7 +1998,7 @@
             "name": "USDtb",
             "balance": "938005826672389200",
             "decimals": 18,
-            "usdValue": 0.9374927374851995
+            "usdValue": 0.9374505272229992
           },
           {
             "assetAddress": "0xc2015641564a5914a17cb9a92ec8d8fecfa8f2d0",
@@ -2006,13 +2006,13 @@
             "name": "Aave Ethereum Lido sUSDe",
             "balance": "280616258541590250000",
             "decimals": 18,
-            "usdValue": 345.1705145954227
+            "usdValue": 345.3490089896489
           },
           {
             "assetAddress": "0xc2e2152647f4c26028482efaf64b2aa28779efc4",
             "symbol": "aUST",
             "name": "Aave interest bearing UST",
-            "balance": "51689898474",
+            "balance": "51689898619",
             "decimals": 6,
             "usdValue": 0
           },
@@ -2028,17 +2028,17 @@
             "assetAddress": "0xc713e5e149d5d0715dcd1c156a020976e7e56b88",
             "symbol": "aMKR",
             "name": "Aave interest bearing MKR",
-            "balance": "57473788269893220",
+            "balance": "57473788273917176",
             "decimals": 18,
-            "usdValue": 110.26944899902307
+            "usdValue": 101.1506970836862
           },
           {
             "assetAddress": "0xc7b4c17861357b8abb91f25581e7263e08dcb59c",
             "symbol": "aEthSNX",
             "name": "Aave Ethereum SNX",
-            "balance": "1.544473259573828e+23",
+            "balance": "1.544484875120063e+23",
             "decimals": 18,
-            "usdValue": 55817.26360099814
+            "usdValue": 54674.76457925022
           },
           {
             "assetAddress": "0xc89b4a8a121dd3e726fe7515e703936cf83e3350",
@@ -2054,15 +2054,15 @@
             "name": "Fire Bitcoin",
             "balance": "773",
             "decimals": 8,
-            "usdValue": 0.6186153324492094
+            "usdValue": 0.6291584286180818
           },
           {
             "assetAddress": "0xc9bc48c72154ef3e5425641a3c747242112a46af",
             "symbol": "aRAI",
             "name": "Aave interest bearing RAI",
-            "balance": "3.194673907648272e+21",
+            "balance": "3.194674020164075e+21",
             "decimals": 18,
-            "usdValue": 9987.79302114195
+            "usdValue": 10013.460628844228
           },
           {
             "assetAddress": "0xcb2e2a2929cffe49e9fcf1eee84736507f186385",
@@ -2086,7 +2086,7 @@
             "name": "Coinbase Wrapped BTC",
             "balance": "19639",
             "decimals": 8,
-            "usdValue": 15.7608120418
+            "usdValue": 16.0297818941
           },
           {
             "assetAddress": "0xcbd85fff5106a42d622be7f9e528db0bff07da8a",
@@ -2100,25 +2100,25 @@
             "assetAddress": "0xcc12abe4ff81c9378d670de1b57f8e0dd228d77a",
             "symbol": "aREN",
             "name": "Aave interest bearing REN",
-            "balance": "2.70227319650082e+21",
+            "balance": "2.7022732091712607e+21",
             "decimals": 18,
-            "usdValue": 9.610005218690254
+            "usdValue": 9.189662996964978
           },
           {
             "assetAddress": "0xcc9ee9483f662091a1de4795249e24ac0ac2630f",
             "symbol": "aEthrETH",
             "name": "Aave Ethereum rETH",
-            "balance": "23203419839182",
+            "balance": "44022894850487",
             "decimals": 18,
-            "usdValue": 0.062407468699970235
+            "usdValue": 0.11941835959859085
           },
           {
             "assetAddress": "0xcca43cef272c30415866914351fdfc3e881bb7c2",
             "symbol": "aEthFBTC",
             "name": "Aave Ethereum FBTC",
-            "balance": "118761",
+            "balance": "131213",
             "decimals": 8,
-            "usdValue": 95.2190955120963
+            "usdValue": 106.17817911119519
           },
           {
             "assetAddress": "0xcd5fe23c85820f7b72d0926fc9b05b43e359b7ee",
@@ -2126,7 +2126,7 @@
             "name": "EtherFi wrapped ETH",
             "balance": "511435338856806700000",
             "decimals": 18,
-            "usdValue": 1295050.6243829215
+            "usdValue": 1304721.0015080376
           },
           {
             "assetAddress": "0xcdf7028ceab81fa0c6971208e83fa7872994bee5",
@@ -2134,15 +2134,15 @@
             "name": "Threshold Network Token",
             "balance": "4781627855633555000",
             "decimals": 18,
-            "usdValue": 0.029837357819153386
+            "usdValue": 0.030602418276054755
           },
           {
             "assetAddress": "0xce1871f791548600cb59efbeffc9c38719142079",
             "symbol": "aLUSD",
             "name": "Aave interest bearing LUSD",
-            "balance": "967152227415874700000",
+            "balance": "967153939355033700000",
             "decimals": 18,
-            "usdValue": 969.5243967669504
+            "usdValue": 969.573772399625
           },
           {
             "assetAddress": "0xce8c60fd8390efcc3fc66a3f0bd64beb969e750e",
@@ -2150,7 +2150,7 @@
             "name": "Aave Ethereum Lido tETH",
             "balance": "5116632001657694",
             "decimals": 18,
-            "usdValue": 14.707238493712724
+            "usdValue": 14.790784816693316
           },
           {
             "assetAddress": "0xcfb0ef3e179427316fbd7f0d0296f173762beee0",
@@ -2166,15 +2166,15 @@
             "name": "Treehouse ETH",
             "balance": "40000000000000000",
             "decimals": 18,
-            "usdValue": 114.97593330102967
+            "usdValue": 115.7730798006511
           },
           {
             "assetAddress": "0xd24946147829deaa935be2ad85a3291dbf109c80",
             "symbol": "aAmmUSDC",
             "name": "Aave AMM Market USDC",
-            "balance": "7678624739",
+            "balance": "7678667515",
             "decimals": 6,
-            "usdValue": 7678.624739
+            "usdValue": 7679.435458545854
           },
           {
             "assetAddress": "0xd2f24e32ea5b6c3d91f5220f19ea11dddb181df9",
@@ -2190,7 +2190,7 @@
             "name": "Wrapped SOL (Wormhole)",
             "balance": "55511267",
             "decimals": 9,
-            "usdValue": 5.1797848117421985
+            "usdValue": 5.395396514411448
           },
           {
             "assetAddress": "0xd33526068d116ce69f19a9ee46f0bd304f21a51f",
@@ -2198,7 +2198,7 @@
             "name": "Rocket Pool Protocol",
             "balance": "605292178756802800",
             "decimals": 18,
-            "usdValue": 1.231279105670029
+            "usdValue": 1.266765789282829
           },
           {
             "assetAddress": "0xd35f648c3c7f17cd1ba92e5eac991e3efcd4566d",
@@ -2214,23 +2214,23 @@
             "name": "Aave interest bearing GUSD",
             "balance": "29546492",
             "decimals": 2,
-            "usdValue": 295463.53468321194
+            "usdValue": 295144.37771785713
           },
           {
             "assetAddress": "0xd4937682df3c8aef4fe912a96a74121c0829e664",
             "symbol": "aFRAX",
             "name": "Aave interest bearing FRAX",
-            "balance": "549647999735317500000",
+            "balance": "549648000304147000000",
             "decimals": 18,
-            "usdValue": 546.0850715453066
+            "usdValue": 546.1993369219852
           },
           {
             "assetAddress": "0xd4e245848d6e1220dbe62e155d89fa327e43cb06",
             "symbol": "aEthFRAX",
             "name": "Aave Ethereum FRAX",
-            "balance": "3.392275653378677e+21",
+            "balance": "3.3963743446211043e+21",
             "decimals": 18,
-            "usdValue": 3370.286244594272
+            "usdValue": 3375.0131839740093
           },
           {
             "assetAddress": "0xd5147bc8e386d91cc5dbe72099dac6c9b99276f5",
@@ -2254,7 +2254,7 @@
             "name": "Kyber Network Crystal",
             "balance": "16419431190217394000",
             "decimals": 18,
-            "usdValue": 2.5161172700300956
+            "usdValue": 2.559947627517374
           },
           {
             "assetAddress": "0xddb3422497e61e13543bea06989c0789117555c5",
@@ -2262,15 +2262,15 @@
             "name": "COTI Token",
             "balance": "445971267972415200",
             "decimals": 18,
-            "usdValue": 0.0067520049971023675
+            "usdValue": 0.0067386258590631945
           },
           {
             "assetAddress": "0xde17a000ba631c5d7c2bd9fb692efea52d90dee2",
             "symbol": "USDN",
             "name": "Ultimate Synthetic Delta Neutral",
-            "balance": "110993986144446770",
+            "balance": "111028760689911650",
             "decimals": 18,
-            "usdValue": 0.1112367654551312
+            "usdValue": 0.11121698905758683
           },
           {
             "assetAddress": "0xde6ef6cb4abd3a473ffc2942eef5d84536f8e864",
@@ -2278,7 +2278,7 @@
             "name": "Aave Ethereum PT_sUSDE_31JUL2025",
             "balance": "2306754273184382500",
             "decimals": 18,
-            "usdValue": 2.304300529795777
+            "usdValue": 2.3053923262384006
           },
           {
             "assetAddress": "0xdefa4e8a7bcba345f687a2f1456f5edd9ce97202",
@@ -2286,7 +2286,7 @@
             "name": "Kyber Network Crystal v2",
             "balance": "2",
             "decimals": 18,
-            "usdValue": 3.1340000000000005e-19
+            "usdValue": 3.154e-19
           },
           {
             "assetAddress": "0xdf7f48892244c6106ea784609f7de10ab36f9c7e",
@@ -2294,15 +2294,23 @@
             "name": "Aave Ethereum EtherFi PYUSD",
             "balance": "100048060",
             "decimals": 6,
-            "usdValue": 100.03805519400001
+            "usdValue": 100.058064806
           },
           {
             "assetAddress": "0xdf7ff54aacacbff42dfe29dd6144a69b629f8c9e",
             "symbol": "aZRX",
             "name": "Aave interest bearing ZRX",
-            "balance": "13864720327654285000",
+            "balance": "13864720328536947000",
             "decimals": 18,
-            "usdValue": 1.6766606292232327
+            "usdValue": 1.7511141774942163
+          },
+          {
+            "assetAddress": "0xe036478da9a7ed89b56fe39a06e1fc1a4b38d4ea",
+            "symbol": "aEthPT_USDe_7MAY2026",
+            "name": "Aave Ethereum PT_USDe_7MAY2026",
+            "balance": "374812593703148450000",
+            "decimals": 18,
+            "usdValue": 374.68094452773613
           },
           {
             "assetAddress": "0xe0c8b298db4cffe05d1bea0bb1ba414522b33c1b",
@@ -2310,7 +2318,7 @@
             "name": "NCDToken",
             "balance": "167221089461130100",
             "decimals": 18,
-            "usdValue": 0.0018421449106330546
+            "usdValue": 0.0018218062515762575
           },
           {
             "assetAddress": "0xe28b3b32b6c345a34ff64674606124dd5aceca30",
@@ -2318,15 +2326,15 @@
             "name": "Injective Token",
             "balance": "16413812377898324",
             "decimals": 18,
-            "usdValue": 0.0695617368575331
+            "usdValue": 0.07177760152854937
           },
           {
             "assetAddress": "0xe3190143eb552456f88464662f0c0c4ac67a77eb",
             "symbol": "aHorRwaRLUSD",
             "name": "Aave Horizon RWA RLUSD",
-            "balance": "8.564993302315999e+22",
+            "balance": "9.236408260723052e+22",
             "decimals": 18,
-            "usdValue": 85658.4980164623
+            "usdValue": 92401.02824027342
           },
           {
             "assetAddress": "0xe397ef3e332256f38983ffae987158da3e18c5ec",
@@ -2342,7 +2350,7 @@
             "name": "0x Protocol Token",
             "balance": "1.005425206078329e+21",
             "decimals": 18,
-            "usdValue": 120.85210977061516
+            "usdValue": 125.97977832161463
           },
           {
             "assetAddress": "0xe52d53c8c9aa7255f8c2fa9f7093fea7192d2933",
@@ -2350,7 +2358,7 @@
             "name": "yield-farming.io",
             "balance": "129977250000000000000",
             "decimals": 18,
-            "usdValue": 0.08033406680364524
+            "usdValue": 0.08099515103770942
           },
           {
             "assetAddress": "0xe6bfd33f52d82ccb5b37e16d3dd81f9ffdabb195",
@@ -2358,7 +2366,7 @@
             "name": "Space and Time",
             "balance": "14933820758310345000",
             "decimals": 18,
-            "usdValue": 0.2070316405328769
+            "usdValue": 0.21099898521221655
           },
           {
             "assetAddress": "0xe728577e9a1fe7032bc309b4541f58f45443866e",
@@ -2366,15 +2374,15 @@
             "name": "Aave Ethereum PT_USDE_5FEB_2026",
             "balance": "325382852729417760000",
             "decimals": 18,
-            "usdValue": 325.2198326663718
+            "usdValue": 325.2685652562251
           },
           {
             "assetAddress": "0xec4ef66d4fceeba34abb4de69db391bc5476ccc8",
             "symbol": "aEthUSDtb",
             "name": "Aave Ethereum USDtb",
-            "balance": "3.952455232676082e+23",
+            "balance": "4.074656798352519e+23",
             "decimals": 18,
-            "usdValue": 395003.6330073684
+            "usdValue": 407234.6467947853
           },
           {
             "assetAddress": "0xf03a7eb46d01d9ecaa104558c732cf82f6b6b645",
@@ -2382,7 +2390,7 @@
             "name": "Liquid Staking Matic",
             "balance": "1.514584379866549e+22",
             "decimals": 18,
-            "usdValue": 1833.2187068175676
+            "usdValue": 1842.2050730274577
           },
           {
             "assetAddress": "0xf1c9acdc66974dfb6decb12aa385b9cd01190e38",
@@ -2390,15 +2398,15 @@
             "name": "Staked ETH",
             "balance": "54626624944217",
             "decimals": 18,
-            "usdValue": 0.13410251084652955
+            "usdValue": 0.13524318397905713
           },
           {
             "assetAddress": "0xf256cc7847e919fac9b808cc216cac87ccf2f47a",
             "symbol": "aXSUSHI",
             "name": "Aave interest bearing XSUSHI",
-            "balance": "47301959173708840000",
+            "balance": "47301959175982300000",
             "decimals": 18,
-            "usdValue": 18.42406572242986
+            "usdValue": 18.319764502075415
           },
           {
             "assetAddress": "0xf2de943065c0b42d920db03ec8a56f674126253f",
@@ -2414,21 +2422,21 @@
             "name": "Enjin Coin",
             "balance": "2.467057207779355e+21",
             "decimals": 18,
-            "usdValue": 152.78682266075924
+            "usdValue": 147.11008477580387
           },
           {
             "assetAddress": "0xf6d2224916ddfbbab6e6bd0d1b7034f4ae0cab18",
             "symbol": "aEthUNI",
             "name": "Aave Ethereum UNI",
-            "balance": "1.169993154410586e+22",
+            "balance": "1.1699976511170535e+22",
             "decimals": 18,
-            "usdValue": 42704.75013598639
+            "usdValue": 45360.80893380816
           },
           {
             "assetAddress": "0xf90a88aabbb21ee8e20f9009e4f51240d682c4e4",
             "symbol": "eUSDT",
             "name": "Evolution interest bearing USDT",
-            "balance": "1627190",
+            "balance": "1629624",
             "decimals": 6,
             "usdValue": 0
           },
@@ -2438,31 +2446,31 @@
             "name": "Curve.Fi USD Stablecoin",
             "balance": "10747522315270940",
             "decimals": 18,
-            "usdValue": 0.010747151724206256
+            "usdValue": 0.010750902523021806
           },
           {
             "assetAddress": "0xf9fb4ad91812b704ba883b11d2b576e890a6730a",
             "symbol": "aAmmWETH",
             "name": "Aave AMM Market WETH",
-            "balance": "481135208788645300",
+            "balance": "481667350356326100",
             "decimals": 18,
-            "usdValue": 1114.9298079738398
+            "usdValue": 1122.1789595131615
           },
           {
             "assetAddress": "0xfa1fdbbd71b0aa16162d76914d69cd8cb3ef92da",
             "symbol": "aEthLidoWETH",
             "name": "Aave Ethereum Lido WETH",
-            "balance": "1510139737723003000",
+            "balance": "3786343471018013700",
             "decimals": 18,
-            "usdValue": 3492.1830420870665
+            "usdValue": 8829.98015502227
           },
           {
             "assetAddress": "0xfa82580c16a31d0c1bc632a36f82e83efef3eec0",
             "symbol": "aEthRLUSD",
             "name": "Aave Ethereum RLUSD",
-            "balance": "9.403339938669118e+23",
+            "balance": "9.425464194332125e+23",
             "decimals": 18,
-            "usdValue": 940428.0272662984
+            "usdValue": 942923.4380009858
           },
           {
             "assetAddress": "0xfabb91ae9318082505c2c6d7acd9d521d4eddeff",
@@ -2486,7 +2494,7 @@
             "name": "Aave interest bearing AAVE",
             "balance": "713848027739221200",
             "decimals": 18,
-            "usdValue": 68.49371826157828
+            "usdValue": 72.36277457192486
           },
           {
             "assetAddress": "eth",
@@ -2494,16 +2502,16 @@
             "name": "ETH",
             "balance": "52973526193934960000",
             "decimals": 18,
-            "usdValue": 122542.06893864392
+            "usdValue": 123496.65188065862
           }
         ],
-        "totalUsdValue": 34803493.58113999,
-        "timestamp": "2026-05-09T11:07:20.395Z",
+        "totalUsdValue": 35910361.07559733,
+        "timestamp": "2026-05-11T16:55:56.924Z",
         "source": "debank"
       }
     },
     "eth:0xAe05Cd22df81871bc7cC2a04BeCfb516bFe332C8": {
-      "lastFetched": "2026-05-09T11:07:20.397Z",
+      "lastFetched": "2026-05-11T16:55:56.929Z",
       "balances": {
         "tokens": [
           {
@@ -2512,16 +2520,16 @@
             "name": "HEX",
             "balance": "100000000",
             "decimals": 8,
-            "usdValue": 0.0006023740709334161
+            "usdValue": 0.0006357447930162371
           }
         ],
-        "totalUsdValue": 0.0006023740709334161,
-        "timestamp": "2026-05-09T11:07:20.803Z",
+        "totalUsdValue": 0.0006357447930162371,
+        "timestamp": "2026-05-11T16:55:57.340Z",
         "source": "debank"
       }
     },
     "eth:0x25F2226B597E8F9514B3F68F00f494cF4f286491": {
-      "lastFetched": "2026-05-09T11:07:20.804Z",
+      "lastFetched": "2026-05-11T16:55:57.341Z",
       "balances": {
         "tokens": [
           {
@@ -2538,7 +2546,7 @@
             "name": "XEN Crypto",
             "balance": "2.61918e+23",
             "decimals": 18,
-            "usdValue": 0.00214903719
+            "usdValue": 0.002114725932
           },
           {
             "assetAddress": "0x0c7d3abede1e5546d2c2b0807fd52b29d3f8bacf",
@@ -2570,7 +2578,7 @@
             "name": "abSHIBA.com",
             "balance": "8824230000000000",
             "decimals": 9,
-            "usdValue": 1085253.0006633496
+            "usdValue": 1094994.123037281
           },
           {
             "assetAddress": "0x2762d11f4c1e0fdd71aa940c32c0b8de3d74d7f0",
@@ -2656,9 +2664,9 @@
             "assetAddress": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
             "symbol": "AAVE",
             "name": "Aave Token",
-            "balance": "2.964916756264512e+23",
+            "balance": "5.986995210301338e+23",
             "decimals": 18,
-            "usdValue": 28507674.611483287
+            "usdValue": 60797936.36061009
           },
           {
             "assetAddress": "0x9783b81438c24848f85848f8df31845097341771",
@@ -2666,7 +2674,7 @@
             "name": "DOG COLLAR",
             "balance": "1e+25",
             "decimals": 18,
-            "usdValue": 0.0017933668369960233
+            "usdValue": 0.0018073980059727234
           },
           {
             "assetAddress": "0xa037cf8368544e096a2037d599c176bcab6dc15e",
@@ -2746,406 +2754,406 @@
             "name": "ETH",
             "balance": "22101000000000000",
             "decimals": 18,
-            "usdValue": 51.12558027
+            "usdValue": 51.523840289999995
           }
         ],
-        "totalUsdValue": 29592978.74166931,
-        "timestamp": "2026-05-09T11:07:22.101Z",
+        "totalUsdValue": 61892982.01140979,
+        "timestamp": "2026-05-11T16:55:58.617Z",
         "source": "debank"
       }
     },
     "eth:0x4da27a545c0c5B758a6BA100e3a049001de870f5": {
-      "lastFetched": "2026-05-09T11:07:22.102Z",
+      "lastFetched": "2026-05-11T16:55:58.618Z",
       "tokenInfo": {
         "symbol": "stkAAVE",
         "name": "Staked Aave",
         "decimals": 18,
-        "price": 96.15,
-        "totalSupply": "1985393114522976922532539",
-        "tokenValue": 190895547.96138427,
-        "timestamp": "2026-05-09T11:07:22.793Z",
+        "price": 101.55,
+        "totalSupply": "2025262016675651495249312",
+        "tokenValue": 205665357.79341242,
+        "timestamp": "2026-05-11T16:55:59.319Z",
         "source": "debank"
       }
     },
     "eth:0x00907f9921424583e7ffBfEdf84F92B7B2Be4977": {
-      "lastFetched": "2026-05-09T11:07:22.793Z",
+      "lastFetched": "2026-05-11T16:55:59.319Z",
       "tokenInfo": {
         "symbol": "aEthGHO",
         "name": "Aave Ethereum GHO",
         "decimals": 18,
-        "price": 0.9992,
-        "totalSupply": "165072328944369422713602085",
-        "tokenValue": 164940271.08121392,
-        "timestamp": "2026-05-09T11:07:23.671Z",
+        "price": 0.9998,
+        "totalSupply": "165159700704062420553041248",
+        "tokenValue": 165126668.76392162,
+        "timestamp": "2026-05-11T16:56:00.330Z",
         "source": "debank"
       }
     },
     "eth:0x018008bfb33d285247A21d44E50697654f754e63": {
-      "lastFetched": "2026-05-09T11:07:23.671Z",
+      "lastFetched": "2026-05-11T16:56:00.330Z",
       "tokenInfo": {
         "symbol": "aEthDAI",
         "name": "Aave Ethereum DAI",
         "decimals": 18,
-        "price": 0.9998,
-        "totalSupply": "123498486208429172170890805",
-        "tokenValue": 123473786.5111875,
-        "timestamp": "2026-05-09T11:07:24.780Z",
+        "price": 0.9995,
+        "totalSupply": "123442930564042276860861714",
+        "tokenValue": 123381209.09876026,
+        "timestamp": "2026-05-11T16:56:01.320Z",
         "source": "debank"
       }
     },
     "eth:0x08b798c40b9AB931356d9aB4235F548325C4cb80": {
-      "lastFetched": "2026-05-09T11:07:24.780Z",
+      "lastFetched": "2026-05-11T16:56:01.321Z",
       "tokenInfo": {
         "symbol": "aHorRwaUSCC",
         "name": "Aave Horizon RWA USCC",
         "decimals": 6,
         "price": 11.575101,
-        "totalSupply": "10770036019944",
-        "tokenValue": 124664254.70448981,
-        "timestamp": "2026-05-09T11:07:25.783Z",
+        "totalSupply": "9755254479944",
+        "tokenValue": 112918055.88605428,
+        "timestamp": "2026-05-11T16:56:02.332Z",
         "source": "debank"
       }
     },
     "eth:0x09AA30b182488f769a9824F15E6Ce58591Da4781": {
-      "lastFetched": "2026-05-09T11:07:25.783Z",
+      "lastFetched": "2026-05-11T16:56:02.333Z",
       "tokenInfo": {
         "symbol": "aEthLidoUSDS",
         "name": "Aave Ethereum Lido USDS",
         "decimals": 18,
         "price": 1,
-        "totalSupply": "260882836818035359446087",
-        "tokenValue": 260882.83681803537,
-        "timestamp": "2026-05-09T11:07:26.673Z",
+        "totalSupply": "260956566206591773088542",
+        "tokenValue": 260956.5662065918,
+        "timestamp": "2026-05-11T16:56:03.328Z",
         "source": "debank"
       }
     },
     "eth:0x0B925eD163218f6662a35e0f0371Ac234f9E9371": {
-      "lastFetched": "2026-05-09T11:07:26.673Z",
+      "lastFetched": "2026-05-11T16:56:03.328Z",
       "tokenInfo": {
         "symbol": "aEthwstETH",
         "name": "Aave Ethereum wstETH",
         "decimals": 18,
-        "price": 2852.4194093600686,
-        "totalSupply": "691097814314418994359364",
-        "tokenValue": 1971300819.3167691,
-        "timestamp": "2026-05-09T11:07:27.776Z",
+        "price": 2877.3151582826968,
+        "totalSupply": "666367518052270536520018",
+        "tokenValue": 1917349360.6790166,
+        "timestamp": "2026-05-11T16:56:04.329Z",
         "source": "debank"
       }
     },
     "eth:0x0C0d01AbF3e6aDfcA0989eBbA9d6e85dD58EaB1E": {
-      "lastFetched": "2026-05-09T11:07:27.776Z",
+      "lastFetched": "2026-05-11T16:56:04.329Z",
       "tokenInfo": {
         "symbol": "aEthPYUSD",
         "name": "Aave Ethereum PYUSD",
         "decimals": 6,
-        "price": 0.9999,
-        "totalSupply": "18988092673316",
-        "tokenValue": 18986193.864048667,
-        "timestamp": "2026-05-09T11:07:28.681Z",
+        "price": 1,
+        "totalSupply": "18677455994018",
+        "tokenValue": 18677455.994018,
+        "timestamp": "2026-05-11T16:56:05.320Z",
         "source": "debank"
       }
     },
     "eth:0x10Ac93971cdb1F5c778144084242374473c350Da": {
-      "lastFetched": "2026-05-09T11:07:28.682Z",
+      "lastFetched": "2026-05-11T16:56:05.321Z",
       "tokenInfo": {
         "symbol": "aEthtBTC",
         "name": "Aave Ethereum tBTC",
         "decimals": 18,
-        "price": 78941.38199965515,
-        "totalSupply": "1888532311644540054165",
-        "tokenValue": 149083350.6322234,
-        "timestamp": "2026-05-09T11:07:29.681Z",
+        "price": 81670.52530821352,
+        "totalSupply": "1890007139927274262601",
+        "tokenValue": 154357875.9541347,
+        "timestamp": "2026-05-11T16:56:06.466Z",
         "source": "debank"
       }
     },
     "eth:0x1241ec22C9BdF16BA1Eb636F2a8de7e28A4343Cf": {
-      "lastFetched": "2026-05-09T11:07:29.681Z",
+      "lastFetched": "2026-05-11T16:56:06.466Z",
       "tokenInfo": {
         "symbol": "aEthPT_srUSDe_2APR2026",
         "name": "Aave Ethereum PT_srUSDe_2APR2026",
         "decimals": 18,
-        "price": 0.999498653300689,
+        "price": 0.9996485029195368,
         "totalSupply": "3341157383493751462180",
-        "tokenValue": 3339.482305267658,
-        "timestamp": "2026-05-09T11:07:30.780Z",
+        "tokenValue": 3339.982976428085,
+        "timestamp": "2026-05-11T16:56:07.333Z",
         "source": "debank"
       }
     },
     "eth:0x12b70410D60f926558245f769059eA3Fc7A7353E": {
-      "lastFetched": "2026-05-09T11:07:30.780Z",
+      "lastFetched": "2026-05-11T16:56:07.334Z",
       "tokenInfo": {
         "symbol": "aEthBTCb",
         "name": "Aave Ethereum BTCb",
         "decimals": 8,
-        "price": 80395.13333416422,
-        "totalSupply": "10873128",
-        "tokenValue": 8741.465753194343,
-        "timestamp": "2026-05-09T11:07:31.671Z",
+        "price": 81038.56285669407,
+        "totalSupply": "10873456",
+        "tokenValue": 8811.692475254973,
+        "timestamp": "2026-05-11T16:56:08.327Z",
         "source": "debank"
       }
     },
     "eth:0x18eFE565A5373f430e2F809b97De30335B3ad96A": {
-      "lastFetched": "2026-05-09T11:07:31.671Z",
+      "lastFetched": "2026-05-11T16:56:08.327Z",
       "tokenInfo": {
         "symbol": "aEthLidoGHO",
         "name": "Aave Ethereum Lido GHO",
         "decimals": 18,
-        "price": 0.9993,
-        "totalSupply": "74281023418190178499039729",
-        "tokenValue": 74229026.70179744,
-        "timestamp": "2026-05-09T11:07:32.787Z",
+        "price": 1.0018,
+        "totalSupply": "73685766539864690722517414",
+        "tokenValue": 73818400.91963644,
+        "timestamp": "2026-05-11T16:56:09.331Z",
         "source": "debank"
       }
     },
     "eth:0x1bA9843bD4327c6c77011406dE5fA8749F7E3479": {
-      "lastFetched": "2026-05-09T11:07:32.787Z",
+      "lastFetched": "2026-05-11T16:56:09.331Z",
       "tokenInfo": {
         "symbol": "aEthSTG",
         "name": "Aave Ethereum STG",
         "decimals": 18,
-        "price": 0.2548,
-        "totalSupply": "477903373389664146880",
-        "tokenValue": 121.76977953968643,
-        "timestamp": "2026-05-09T11:07:33.784Z",
+        "price": 0.241,
+        "totalSupply": "477903536124265922925",
+        "tokenValue": 115.17475220594808,
+        "timestamp": "2026-05-11T16:56:10.323Z",
         "source": "debank"
       }
     },
     "eth:0x1c0E06a0b1A4c160c17545FF2A951bfcA57C0002": {
-      "lastFetched": "2026-05-09T11:07:33.785Z",
+      "lastFetched": "2026-05-11T16:56:10.323Z",
       "tokenInfo": {
         "symbol": "aEthETHx",
         "name": "Aave Ethereum ETHx",
         "decimals": 18,
-        "price": 2522.627506306164,
-        "totalSupply": "1109962118372623199881",
-        "tokenValue": 2800020.970764638,
-        "timestamp": "2026-05-09T11:07:34.784Z",
+        "price": 2538.047336538941,
+        "totalSupply": "1109962118513134617349",
+        "tokenValue": 2817136.3985513817,
+        "timestamp": "2026-05-11T16:56:11.465Z",
         "source": "debank"
       }
     },
     "eth:0x23878914EFE38d27C4D67Ab83ed1b93A74D4086a": {
-      "lastFetched": "2026-05-09T11:07:34.784Z",
+      "lastFetched": "2026-05-11T16:56:11.466Z",
       "tokenInfo": {
         "symbol": "aEthUSDT",
         "name": "Aave Ethereum USDT",
         "decimals": 6,
-        "price": 0.9998,
-        "totalSupply": "1988324415588582",
-        "tokenValue": 1987926750.7054644,
-        "timestamp": "2026-05-09T11:07:35.684Z",
+        "price": 0.9996,
+        "totalSupply": "2047598085304940",
+        "tokenValue": 2046779046.0708182,
+        "timestamp": "2026-05-11T16:56:12.327Z",
         "source": "debank"
       }
     },
     "eth:0x24Ab03a9a5Bc2C49E5523e8d915A3536ac38B91D": {
-      "lastFetched": "2026-05-09T11:07:35.684Z",
+      "lastFetched": "2026-05-11T16:56:12.328Z",
       "tokenInfo": {
         "symbol": "aEthsyrupUSDT",
         "name": "Aave Ethereum syrupUSDT",
         "decimals": 6,
-        "price": 1.1261407840752948,
-        "totalSupply": "8796572470439",
-        "tokenValue": 9906179.019035328,
-        "timestamp": "2026-05-09T11:07:36.671Z",
+        "price": 1.1265491228981996,
+        "totalSupply": "8947493006573",
+        "tokenValue": 10079790.39869259,
+        "timestamp": "2026-05-11T16:56:13.326Z",
         "source": "debank"
       }
     },
     "eth:0x2516E7B3F76294e03C42AA4c5b5b4DCE9C436fB8": {
-      "lastFetched": "2026-05-09T11:07:36.671Z",
+      "lastFetched": "2026-05-11T16:56:13.326Z",
       "tokenInfo": {
         "symbol": "aEthBAL",
         "name": "Aave Ethereum BAL",
         "decimals": 18,
-        "price": 0.15573656224717608,
-        "totalSupply": "466430045367960959097886",
-        "tokenValue": 72640.21179440062,
-        "timestamp": "2026-05-09T11:07:37.686Z",
+        "price": 0.15266072676286657,
+        "totalSupply": "466447661124792634795351",
+        "tokenValue": 71208.23894415014,
+        "timestamp": "2026-05-11T16:56:14.327Z",
         "source": "debank"
       }
     },
     "eth:0x285866acB0d60105B4Ed350a463361c2d9afA0E2": {
-      "lastFetched": "2026-05-09T11:07:37.686Z",
+      "lastFetched": "2026-05-11T16:56:14.327Z",
       "tokenInfo": {
         "symbol": "aEthPT_sUSDe_27NOV2025",
         "name": "Aave Ethereum PT_sUSDe_27NOV2025",
         "decimals": 18,
-        "price": 0.9989362788151604,
+        "price": 0.9994095829964145,
         "totalSupply": "1196823425947072664144",
-        "tokenValue": 1195.5503395143803,
-        "timestamp": "2026-05-09T11:07:38.776Z",
+        "tokenValue": 1196.116801046104,
+        "timestamp": "2026-05-11T16:56:15.331Z",
         "source": "debank"
       }
     },
     "eth:0x2A1FBcb52Ed4d9b23daD17E1E8Aed4BB0E6079b8": {
-      "lastFetched": "2026-05-09T11:07:38.776Z",
+      "lastFetched": "2026-05-11T16:56:15.331Z",
       "tokenInfo": {
         "symbol": "aEthLidoUSDC",
         "name": "Aave Ethereum Lido USDC",
         "decimals": 6,
-        "price": 0.9999000099990001,
-        "totalSupply": "4020860039446",
-        "tokenValue": 4020457.993646635,
-        "timestamp": "2026-05-09T11:07:39.786Z",
+        "price": 1.000300090027008,
+        "totalSupply": "3919506012222",
+        "tokenValue": 3920682.2168870657,
+        "timestamp": "2026-05-11T16:56:16.323Z",
         "source": "debank"
       }
     },
     "eth:0x2D62109243b87C4bA3EE7bA1D91B0dD0A074d7b1": {
-      "lastFetched": "2026-05-09T11:07:39.786Z",
+      "lastFetched": "2026-05-11T16:56:16.323Z",
       "tokenInfo": {
         "symbol": "aEthrsETH",
         "name": "Aave Ethereum rsETH",
         "decimals": 18,
-        "price": 2473.463265750458,
-        "totalSupply": "472386112351535776647911",
-        "tokenValue": 1168429696.1521924,
-        "timestamp": "2026-05-09T11:07:40.783Z",
+        "price": 2494.3955405325055,
+        "totalSupply": "472386112357420930926010",
+        "tokenValue": 1178317812.0738378,
+        "timestamp": "2026-05-11T16:56:17.325Z",
         "source": "debank"
       }
     },
     "eth:0x2eDff5AF94334fBd7C38ae318edf1c40e072b73B": {
-      "lastFetched": "2026-05-09T11:07:40.783Z",
+      "lastFetched": "2026-05-11T16:56:17.325Z",
       "tokenInfo": {
         "symbol": "aEthPT_eUSDe_14AUG2025",
         "name": "Aave Ethereum PT_eUSDe_14AUG2025",
         "decimals": 18,
-        "price": 0.99949899,
+        "price": 0.99964876,
         "totalSupply": "792663661849655849232",
-        "tokenValue": 792.2665294284325,
-        "timestamp": "2026-05-09T11:07:41.782Z",
+        "tokenValue": 792.3852466650677,
+        "timestamp": "2026-05-11T16:56:18.321Z",
         "source": "debank"
       }
     },
     "eth:0x312ffC57778CEfa11989733e6E08143E7E229c1c": {
-      "lastFetched": "2026-05-09T11:07:41.782Z",
+      "lastFetched": "2026-05-11T16:56:18.321Z",
       "tokenInfo": {
         "symbol": "aEthPT_USDe_31JUL2025",
         "name": "Aave Ethereum PT_USDe_31JUL2025",
         "decimals": 18,
-        "price": 0.99949899,
+        "price": 0.99964876,
         "totalSupply": "149584802383394651097",
-        "tokenValue": 149.50985890155255,
-        "timestamp": "2026-05-09T11:07:42.783Z",
+        "tokenValue": 149.5322622174055,
+        "timestamp": "2026-05-11T16:56:19.326Z",
         "source": "debank"
       }
     },
     "eth:0x32a6268f9Ba3642Dda7892aDd74f1D34469A4259": {
-      "lastFetched": "2026-05-09T11:07:42.783Z",
+      "lastFetched": "2026-05-11T16:56:19.326Z",
       "tokenInfo": {
         "symbol": "aEthUSDS",
         "name": "Aave Ethereum USDS",
         "decimals": 18,
-        "price": 0.9998,
-        "totalSupply": "23466363202759520114467918",
-        "tokenValue": 23461669.930118967,
-        "timestamp": "2026-05-09T11:07:43.676Z",
+        "price": 0.9995,
+        "totalSupply": "26594411802752821837783694",
+        "tokenValue": 26581114.59685145,
+        "timestamp": "2026-05-11T16:56:20.329Z",
         "source": "debank"
       }
     },
     "eth:0x38A5357Ce55c81add62aBc84Fb32981e2626ADEf": {
-      "lastFetched": "2026-05-09T11:07:43.676Z",
+      "lastFetched": "2026-05-11T16:56:20.329Z",
       "tokenInfo": {
         "symbol": "aEthPT_USDe_25SEP2025",
         "name": "Aave Ethereum PT_USDe_25SEP2025",
         "decimals": 18,
-        "price": 0.99949899,
+        "price": 0.99964876,
         "totalSupply": "27846079588587049920695",
-        "tokenValue": 27832.128424252372,
-        "timestamp": "2026-05-09T11:07:44.777Z",
+        "tokenValue": 27836.298931592355,
+        "timestamp": "2026-05-11T16:56:21.484Z",
         "source": "debank"
       }
     },
     "eth:0x38C503a438185cDE29b5cF4dC1442FD6F074F1cc": {
-      "lastFetched": "2026-05-09T11:07:44.777Z",
+      "lastFetched": "2026-05-11T16:56:21.484Z",
       "tokenInfo": {
         "symbol": "aEthPT_USDe_27NOV2025",
         "name": "Aave Ethereum PT_USDe_27NOV2025",
         "decimals": 18,
-        "price": 0.99949899,
-        "totalSupply": "154678027070882502205089",
-        "tokenValue": 154600.5318325397,
-        "timestamp": "2026-05-09T11:07:45.679Z",
+        "price": 0.99964876,
+        "totalSupply": "3752926698719768794022",
+        "tokenValue": 3751.6085207461106,
+        "timestamp": "2026-05-11T16:56:22.482Z",
         "source": "debank"
       }
     },
     "eth:0x3Fe6a295459FAe07DF8A0ceCC36F37160FE86AA9": {
-      "lastFetched": "2026-05-09T11:07:45.679Z",
+      "lastFetched": "2026-05-11T16:56:22.483Z",
       "tokenInfo": {
         "symbol": "aEthLUSD",
         "name": "Aave Ethereum LUSD",
         "decimals": 18,
-        "price": 1.0024535044661993,
-        "totalSupply": "1997466569902919511134263",
-        "tokenValue": 2002367.3630532601,
-        "timestamp": "2026-05-09T11:07:46.779Z",
+        "price": 1.0024660730204429,
+        "totalSupply": "1997608811193711599355920",
+        "tokenValue": 2002535.0603883953,
+        "timestamp": "2026-05-11T16:56:23.327Z",
         "source": "debank"
       }
     },
     "eth:0x4579a27aF00A62C0EB156349f31B345c08386419": {
-      "lastFetched": "2026-05-09T11:07:46.779Z",
+      "lastFetched": "2026-05-11T16:56:23.327Z",
       "tokenInfo": {
         "symbol": "aEthsUSDe",
         "name": "Aave Ethereum sUSDe",
         "decimals": 18,
-        "price": 1.2298112996180282,
-        "totalSupply": "195059947644225467682265267",
-        "tokenValue": 239886927.71576947,
-        "timestamp": "2026-05-09T11:07:47.793Z",
+        "price": 1.2307040158129743,
+        "totalSupply": "193115613257453041980247932",
+        "tokenValue": 237668160.75213274,
+        "timestamp": "2026-05-11T16:56:24.332Z",
         "source": "debank"
       }
     },
     "eth:0x481a2acf3A72ffDc602A9541896Ca1DB87f86cf7": {
-      "lastFetched": "2026-05-09T11:07:47.793Z",
+      "lastFetched": "2026-05-11T16:56:24.333Z",
       "tokenInfo": {
         "symbol": "aEthtETH",
         "name": "Aave Ethereum tETH",
         "decimals": 18,
-        "price": 2869.206930469989,
+        "price": 2894.3269950162776,
         "totalSupply": "91883244142123256432",
-        "tokenValue": 263632.0408866461,
-        "timestamp": "2026-05-09T11:07:48.677Z",
+        "tokenValue": 265940.1539102186,
+        "timestamp": "2026-05-11T16:56:25.331Z",
         "source": "debank"
       }
     },
     "eth:0x4B0821e768Ed9039a70eD1E80E15E76a5bE5Df5F": {
-      "lastFetched": "2026-05-09T11:07:48.677Z",
+      "lastFetched": "2026-05-11T16:56:25.331Z",
       "tokenInfo": {
         "symbol": "aEthPT_eUSDE_29MAY2025",
         "name": "Aave Ethereum PT_eUSDE_29MAY2025",
         "decimals": 18,
-        "price": 0.99949899,
+        "price": 0.99964876,
         "totalSupply": "213096791630796844731",
-        "tokenValue": 212.9900280072219,
-        "timestamp": "2026-05-09T11:07:49.676Z",
+        "tokenValue": 213.02194351370446,
+        "timestamp": "2026-05-11T16:56:26.323Z",
         "source": "debank"
       }
     },
     "eth:0x4C612E3B15b96Ff9A6faED838F8d07d479a8dD4c": {
-      "lastFetched": "2026-05-09T11:07:49.676Z",
+      "lastFetched": "2026-05-11T16:56:26.323Z",
       "tokenInfo": {
         "symbol": "aEthsDAI",
         "name": "Aave Ethereum sDAI",
         "decimals": 18,
-        "price": 1.1751480926668507,
+        "price": 1.174884838333593,
         "totalSupply": "43041268476089517756443",
-        "tokenValue": 50579.86455563845,
-        "timestamp": "2026-05-09T11:07:50.786Z",
+        "tokenValue": 50568.533755203214,
+        "timestamp": "2026-05-11T16:56:27.320Z",
         "source": "debank"
       }
     },
     "eth:0x4E2a4d9B3DF7Aae73b418Bd39F3af9e148E3F479": {
-      "lastFetched": "2026-05-09T11:07:50.786Z",
+      "lastFetched": "2026-05-11T16:56:27.320Z",
       "tokenInfo": {
         "symbol": "aEthezETH",
         "name": "Aave Ethereum ezETH",
         "decimals": 18,
-        "price": 2496.510479461066,
-        "totalSupply": "7324777477917861551309",
-        "tokenValue": 18286383.73334234,
-        "timestamp": "2026-05-09T11:07:51.778Z",
+        "price": 2511.41644065494,
+        "totalSupply": "7325777477917861551309",
+        "tokenValue": 18398077.9986226,
+        "timestamp": "2026-05-11T16:56:28.326Z",
         "source": "debank"
       }
     },
     "eth:0x4E58a2E433A739726134c83d2f07b2562e8dFdB3": {
-      "lastFetched": "2026-05-09T11:07:51.778Z",
+      "lastFetched": "2026-05-11T16:56:28.327Z",
       "tokenInfo": {
         "symbol": "aHorRwaUSTB",
         "name": "Aave Horizon RWA USTB",
@@ -3153,285 +3161,285 @@
         "price": 11.07505,
         "totalSupply": "5348201951717",
         "tokenValue": 59231604.02536336,
-        "timestamp": "2026-05-09T11:07:52.794Z",
+        "timestamp": "2026-05-11T16:56:29.330Z",
         "source": "debank"
       }
     },
     "eth:0x4F5923Fc5FD4a93352581b38B7cD26943012DECF": {
-      "lastFetched": "2026-05-09T11:07:52.794Z",
+      "lastFetched": "2026-05-11T16:56:29.330Z",
       "tokenInfo": {
         "symbol": "aEthUSDe",
         "name": "Aave Ethereum USDe",
         "decimals": 18,
-        "price": 0.9993,
-        "totalSupply": "198890998117013692141622109",
-        "tokenValue": 198751774.41833177,
-        "timestamp": "2026-05-09T11:07:53.787Z",
+        "price": 0.9998,
+        "totalSupply": "186414622150829893836426357",
+        "tokenValue": 186377339.22639972,
+        "timestamp": "2026-05-11T16:56:30.342Z",
         "source": "debank"
       }
     },
     "eth:0x4d5F47FA6A74757f35C14fD3a6Ef8E3C9BC514E8": {
-      "lastFetched": "2026-05-09T11:07:53.787Z",
+      "lastFetched": "2026-05-11T16:56:30.342Z",
       "tokenInfo": {
         "symbol": "aEthWETH",
         "name": "Aave Ethereum WETH",
         "decimals": 18,
-        "price": 2312.49,
-        "totalSupply": "1992458328285933465566655",
-        "tokenValue": 4607539959.577938,
-        "timestamp": "2026-05-09T11:07:54.684Z",
+        "price": 2332.06,
+        "totalSupply": "1979408877600388638566533",
+        "tokenValue": 4616100267.096762,
+        "timestamp": "2026-05-11T16:56:31.327Z",
         "source": "debank"
       }
     },
     "eth:0x545bD6c032eFdde65A377A6719DEF2796C8E0f2e": {
-      "lastFetched": "2026-05-09T11:07:54.684Z",
+      "lastFetched": "2026-05-11T16:56:31.328Z",
       "tokenInfo": {
         "symbol": "aEthENS",
         "name": "Aave Ethereum ENS",
         "decimals": 18,
-        "price": 6.88,
-        "totalSupply": "16875555825714802403103",
-        "tokenValue": 116103.82408091785,
-        "timestamp": "2026-05-09T11:07:55.789Z",
+        "price": 7.41,
+        "totalSupply": "16875678043779946580763",
+        "tokenValue": 125048.77430440941,
+        "timestamp": "2026-05-11T16:56:32.329Z",
         "source": "debank"
       }
     },
     "eth:0x56D919E7B25aA42F3F8a4BC77b8982048F2E84B4": {
-      "lastFetched": "2026-05-09T11:07:55.789Z",
+      "lastFetched": "2026-05-11T16:56:32.329Z",
       "tokenInfo": {
         "symbol": "aEthLidorsETH",
         "name": "Aave Ethereum Lido rsETH",
         "decimals": 18,
-        "price": 2478.5973954874958,
+        "price": 2493.3259301706225,
         "totalSupply": "5039985175470251561",
-        "tokenValue": 12492.094129216155,
-        "timestamp": "2026-05-09T11:07:56.680Z",
+        "tokenValue": 12566.325725675513,
+        "timestamp": "2026-05-11T16:56:33.334Z",
         "source": "debank"
       }
     },
     "eth:0x5E8C8A7243651DB1384C0dDfDbE39761E8e7E51a": {
-      "lastFetched": "2026-05-09T11:07:56.680Z",
+      "lastFetched": "2026-05-11T16:56:33.334Z",
       "tokenInfo": {
         "symbol": "aEthLINK",
         "name": "Aave Ethereum LINK",
         "decimals": 18,
-        "price": 10.43,
-        "totalSupply": "9657433324280451290838928",
-        "tokenValue": 100727029.5722451,
-        "timestamp": "2026-05-09T11:07:57.792Z",
+        "price": 10.58,
+        "totalSupply": "9668781477788449211616033",
+        "tokenValue": 102295708.03500178,
+        "timestamp": "2026-05-11T16:56:34.324Z",
         "source": "debank"
       }
     },
     "eth:0x5Ee5bf7ae06D1Be5997A1A72006FE6C607eC6DE8": {
-      "lastFetched": "2026-05-09T11:07:57.793Z",
+      "lastFetched": "2026-05-11T16:56:34.324Z",
       "tokenInfo": {
         "symbol": "aEthWBTC",
         "name": "Aave Ethereum WBTC",
         "decimals": 8,
-        "price": 80033.78,
-        "totalSupply": "2992524301523",
-        "tokenValue": 2395030315.9274545,
-        "timestamp": "2026-05-09T11:07:58.777Z",
+        "price": 81500.45,
+        "totalSupply": "2991468302322",
+        "tokenValue": 2438060127.9997907,
+        "timestamp": "2026-05-11T16:56:35.335Z",
         "source": "debank"
       }
     },
     "eth:0x5F9190496e0DFC831C3bd307978de4a245E2F5cD": {
-      "lastFetched": "2026-05-09T11:07:58.777Z",
+      "lastFetched": "2026-05-11T16:56:35.335Z",
       "tokenInfo": {
         "symbol": "aEtheUSDe",
         "name": "Aave Ethereum eUSDe",
         "decimals": 18,
-        "price": 0.9995000000099595,
-        "totalSupply": "252850208404948781884168",
-        "tokenValue": 252723.7833032646,
-        "timestamp": "2026-05-09T11:07:59.675Z",
+        "price": 0.9998000000099625,
+        "totalSupply": "252348639852819791724823",
+        "tokenValue": 252298.17012736324,
+        "timestamp": "2026-05-11T16:56:36.329Z",
         "source": "debank"
       }
     },
     "eth:0x5b502e3796385E1e9755d7043B9C945C3aCCeC9C": {
-      "lastFetched": "2026-05-09T11:07:59.675Z",
+      "lastFetched": "2026-05-11T16:56:36.329Z",
       "tokenInfo": {
         "symbol": "aEthKNC",
         "name": "Aave Ethereum KNC",
         "decimals": 18,
-        "price": 0.1564,
-        "totalSupply": "58050159143317222508452",
-        "tokenValue": 9079.044890014815,
-        "timestamp": "2026-05-09T11:08:00.682Z",
+        "price": 0.1574,
+        "totalSupply": "58052067903521298304446",
+        "tokenValue": 9137.395488014252,
+        "timestamp": "2026-05-11T16:56:37.331Z",
         "source": "debank"
       }
     },
     "eth:0x5c647cE0Ae10658ec44FA4E11A51c96e94efd1Dd": {
-      "lastFetched": "2026-05-09T11:08:00.682Z",
+      "lastFetched": "2026-05-11T16:56:37.331Z",
       "tokenInfo": {
         "symbol": "aEthcbBTC",
         "name": "Aave Ethereum cbBTC",
         "decimals": 8,
-        "price": 80241.74,
-        "totalSupply": "1621989915320",
-        "tokenValue": 1301512930.6772947,
-        "timestamp": "2026-05-09T11:08:01.794Z",
+        "price": 81709.02,
+        "totalSupply": "1622398868501",
+        "tokenValue": 1325646215.943256,
+        "timestamp": "2026-05-11T16:56:38.331Z",
         "source": "debank"
       }
     },
     "eth:0x5f4a0873a3A02f7C0CB0e13a1d4362a1AD90e751": {
-      "lastFetched": "2026-05-09T11:08:01.794Z",
+      "lastFetched": "2026-05-11T16:56:38.331Z",
       "tokenInfo": {
         "symbol": "aEthPT_sUSDE_25SEP2025",
         "name": "Aave Ethereum PT_sUSDE_25SEP2025",
         "decimals": 18,
-        "price": 0.9989362788151604,
+        "price": 0.9994095829964145,
         "totalSupply": "2109759574815096764620",
-        "tokenValue": 2107.5153788604475,
-        "timestamp": "2026-05-09T11:08:02.674Z",
+        "tokenValue": 2108.5139368886485,
+        "timestamp": "2026-05-11T16:56:39.330Z",
         "source": "debank"
       }
     },
     "eth:0x5fefd7069a7D91d01f269DADE14526CCF3487810": {
-      "lastFetched": "2026-05-09T11:08:02.674Z",
+      "lastFetched": "2026-05-11T16:56:39.330Z",
       "tokenInfo": {
         "symbol": "aEtheBTC",
         "name": "Aave Ethereum eBTC",
         "decimals": 8,
-        "price": 80309.41473764439,
-        "totalSupply": "11639935861",
-        "tokenValue": 9347964.365806287,
-        "timestamp": "2026-05-09T11:08:03.680Z",
+        "price": 81781.13591979099,
+        "totalSupply": "11628101745",
+        "tokenValue": 9509593.692970037,
+        "timestamp": "2026-05-11T16:56:40.490Z",
         "source": "debank"
       }
     },
     "eth:0x65906988ADEe75306021C417a1A3458040239602": {
-      "lastFetched": "2026-05-09T11:08:03.680Z",
+      "lastFetched": "2026-05-11T16:56:40.490Z",
       "tokenInfo": {
         "symbol": "aEthLBTC",
         "name": "Aave Ethereum LBTC",
         "decimals": 8,
-        "price": 80483.13238,
-        "totalSupply": "235071724404",
-        "tokenValue": 189193087.14002007,
-        "timestamp": "2026-05-09T11:08:04.678Z",
+        "price": 81485.649502,
+        "totalSupply": "235187028000",
+        "tokenValue": 191643677.3102506,
+        "timestamp": "2026-05-11T16:56:41.329Z",
         "source": "debank"
       }
     },
     "eth:0x68215B6533c47ff9f7125aC95adf00fE4a62f79e": {
-      "lastFetched": "2026-05-09T11:08:04.678Z",
+      "lastFetched": "2026-05-11T16:56:41.329Z",
       "tokenInfo": {
         "symbol": "aHorRwaUSDC",
         "name": "Aave Horizon RWA USDC",
         "decimals": 6,
-        "price": 0.9999000099990001,
-        "totalSupply": "10031602370172",
-        "tokenValue": 10030599.310240975,
-        "timestamp": "2026-05-09T11:08:05.784Z",
+        "price": 1.000300090027008,
+        "totalSupply": "9896833800633",
+        "tokenValue": 9899803.741755527,
+        "timestamp": "2026-05-11T16:56:42.321Z",
         "source": "debank"
       }
     },
     "eth:0x6914ECCf50837dC61b43ee478a9BD9B439648956": {
-      "lastFetched": "2026-05-09T11:08:05.785Z",
+      "lastFetched": "2026-05-11T16:56:42.322Z",
       "tokenInfo": {
         "symbol": "aEthEtherFiFRAX",
         "name": "Aave Ethereum EtherFi FRAX",
         "decimals": 18,
-        "price": 0.9935178001344013,
-        "totalSupply": "15085810807489240907723",
-        "tokenValue": 14988.021566700487,
-        "timestamp": "2026-05-09T11:08:06.777Z",
+        "price": 0.9937105988681946,
+        "totalSupply": "15085812122164247525064",
+        "tokenValue": 14990.931398328903,
+        "timestamp": "2026-05-11T16:56:43.339Z",
         "source": "debank"
       }
     },
     "eth:0x71Aef7b30728b9BB371578f36c5A1f1502a5723e": {
-      "lastFetched": "2026-05-09T11:08:06.777Z",
+      "lastFetched": "2026-05-11T16:56:43.339Z",
       "tokenInfo": {
         "symbol": "aEth1INCH",
         "name": "Aave Ethereum 1INCH",
         "decimals": 18,
-        "price": 0.10037812533091918,
-        "totalSupply": "2996835844813670485070499",
-        "tokenValue": 300816.76402689767,
-        "timestamp": "2026-05-09T11:08:07.781Z",
+        "price": 0.10283844789127052,
+        "totalSupply": "2996838369295844664671575",
+        "tokenValue": 308190.20647939085,
+        "timestamp": "2026-05-11T16:56:44.329Z",
         "source": "debank"
       }
     },
     "eth:0x7380c583cDe4409eFF5DD3320D93a45D96B80E2e": {
-      "lastFetched": "2026-05-09T11:08:07.781Z",
+      "lastFetched": "2026-05-11T16:56:44.329Z",
       "tokenInfo": {
         "symbol": "aEthEtherFiUSDC",
         "name": "Aave Ethereum EtherFi USDC",
         "decimals": 6,
-        "price": 1,
-        "totalSupply": "8687068333",
-        "tokenValue": 8687.068333,
-        "timestamp": "2026-05-09T11:08:08.785Z",
+        "price": 1.000100010001,
+        "totalSupply": "8687323917",
+        "tokenValue": 8688.192736273626,
+        "timestamp": "2026-05-11T16:56:45.332Z",
         "source": "debank"
       }
     },
     "eth:0x74e5664394998f13B07aF42446380ACef637969f": {
-      "lastFetched": "2026-05-09T11:08:08.785Z",
+      "lastFetched": "2026-05-11T16:56:45.333Z",
       "tokenInfo": {
         "symbol": "aEthLidoezETH",
         "name": "Aave Ethereum Lido ezETH",
         "decimals": 18,
-        "price": 2496.510479461066,
+        "price": 2511.41644065494,
         "totalSupply": "179313654732289047153",
-        "tokenValue": 447658.41814962303,
-        "timestamp": "2026-05-09T11:08:09.686Z",
+        "tokenValue": 450331.2605285942,
+        "timestamp": "2026-05-11T16:56:46.481Z",
         "source": "debank"
       }
     },
     "eth:0x7B95Ec873268a6BFC6427e7a28e396Db9D0ebc65": {
-      "lastFetched": "2026-05-09T11:08:09.686Z",
+      "lastFetched": "2026-05-11T16:56:46.481Z",
       "tokenInfo": {
         "symbol": "aEthCRV",
         "name": "Aave Ethereum CRV",
         "decimals": 18,
-        "price": 0.2502,
-        "totalSupply": "9263563695011783585833690",
-        "tokenValue": 2317743.636491948,
-        "timestamp": "2026-05-09T11:08:10.681Z",
+        "price": 0.269,
+        "totalSupply": "9246925151869024126567733",
+        "tokenValue": 2487422.8658527676,
+        "timestamp": "2026-05-11T16:56:47.328Z",
         "source": "debank"
       }
     },
     "eth:0x7c0477d085ECb607CF8429f3eC91Ae5E1e460F4F": {
-      "lastFetched": "2026-05-09T11:08:10.681Z",
+      "lastFetched": "2026-05-11T16:56:47.328Z",
       "tokenInfo": {
         "symbol": "aEthUSDG",
         "name": "Aave Ethereum USDG",
         "decimals": 6,
-        "price": 0.999965,
-        "totalSupply": "51125462486405",
-        "tokenValue": 51123673.09521797,
-        "timestamp": "2026-05-09T11:08:11.790Z",
+        "price": 0.999832,
+        "totalSupply": "51463528454837",
+        "tokenValue": 51454882.58205659,
+        "timestamp": "2026-05-11T16:56:48.328Z",
         "source": "debank"
       }
     },
     "eth:0x81b76ff3FeD28BA0B4a5D4c76Bd5C13Bd0641d86": {
-      "lastFetched": "2026-05-09T11:08:11.790Z",
+      "lastFetched": "2026-05-11T16:56:48.329Z",
       "tokenInfo": {
         "symbol": "aEthPT_sUSDe_7MAY2026",
         "name": "Aave Ethereum PT_sUSDe_7MAY2026",
         "decimals": 18,
-        "price": 0.9989269011956363,
-        "totalSupply": "1390687927413855645053406",
-        "tokenValue": 1389195.5818617048,
-        "timestamp": "2026-05-09T11:08:12.687Z",
+        "price": 0.9993934961356384,
+        "totalSupply": "864530748172143189102332",
+        "tokenValue": 864006.4069325174,
+        "timestamp": "2026-05-11T16:56:49.333Z",
         "source": "debank"
       }
     },
     "eth:0x82F9c5ad306BBa1AD0De49bB5FA6F01bf61085ef": {
-      "lastFetched": "2026-05-09T11:08:12.688Z",
+      "lastFetched": "2026-05-11T16:56:49.333Z",
       "tokenInfo": {
         "symbol": "aEthFXS",
         "name": "Aave Ethereum FXS",
         "decimals": 18,
-        "price": 0.485686698088223,
-        "totalSupply": "466446750930967757162",
-        "tokenValue": 226.5469822936415,
-        "timestamp": "2026-05-09T11:08:13.793Z",
+        "price": 0.4958764605223607,
+        "totalSupply": "466446815130978224041",
+        "tokenValue": 231.2999957090774,
+        "timestamp": "2026-05-11T16:56:50.328Z",
         "source": "debank"
       }
     },
     "eth:0x844f07AB09aa5dBDCE6A9b1206CE150E1eaDacCb": {
-      "lastFetched": "2026-05-09T11:08:13.793Z",
+      "lastFetched": "2026-05-11T16:56:50.328Z",
       "tokenInfo": {
         "symbol": "aHorRwaJTRSY",
         "name": "Aave Horizon RWA JTRSY",
@@ -3439,272 +3447,272 @@
         "price": 0,
         "totalSupply": "0",
         "tokenValue": 0,
-        "timestamp": "2026-05-09T11:08:14.678Z",
+        "timestamp": "2026-05-11T16:56:51.322Z",
         "source": "debank"
       }
     },
     "eth:0x8A2b6f94Ff3A89a03E8c02Ee92b55aF90c9454A2": {
-      "lastFetched": "2026-05-09T11:08:14.678Z",
+      "lastFetched": "2026-05-11T16:56:51.322Z",
       "tokenInfo": {
         "symbol": "aEthXAUt",
         "name": "Aave Ethereum XAUt",
         "decimals": 6,
-        "price": 4699.1,
-        "totalSupply": "15990116250",
-        "tokenValue": 75139155.270375,
-        "timestamp": "2026-05-09T11:08:15.790Z",
+        "price": 4707.2,
+        "totalSupply": "16126177051",
+        "tokenValue": 75909140.6144672,
+        "timestamp": "2026-05-11T16:56:52.491Z",
         "source": "debank"
       }
     },
     "eth:0x8A458A9dc9048e005d22849F470891b840296619": {
-      "lastFetched": "2026-05-09T11:08:15.790Z",
+      "lastFetched": "2026-05-11T16:56:52.491Z",
       "tokenInfo": {
         "symbol": "aEthMKR",
         "name": "Aave Ethereum MKR",
         "decimals": 18,
-        "price": 1918.604155362177,
-        "totalSupply": "132686519028564518449",
-        "tokenValue": 254572.90676874647,
-        "timestamp": "2026-05-09T11:08:16.797Z",
+        "price": 1797.300036268072,
+        "totalSupply": "132664126742123925852",
+        "tokenValue": 238437.23980509143,
+        "timestamp": "2026-05-11T16:56:53.337Z",
         "source": "debank"
       }
     },
     "eth:0x927709711794F3De5DdBF1D176bEE2D55Ba13c21": {
-      "lastFetched": "2026-05-09T11:08:16.797Z",
+      "lastFetched": "2026-05-11T16:56:53.337Z",
       "tokenInfo": {
         "symbol": "aEthosETH",
         "name": "Aave Ethereum osETH",
         "decimals": 18,
-        "price": 2454.892847278609,
-        "totalSupply": "97001125399916505598910",
-        "tokenValue": 238127368.92223045,
-        "timestamp": "2026-05-09T11:08:17.791Z",
+        "price": 2475.7741141277397,
+        "totalSupply": "96927686549356809533947",
+        "tokenValue": 239971057.30118507,
+        "timestamp": "2026-05-11T16:56:54.342Z",
         "source": "debank"
       }
     },
     "eth:0x946281A2d0DD6e650d08f74833323D66AE4c8b12": {
-      "lastFetched": "2026-05-09T11:08:17.791Z",
+      "lastFetched": "2026-05-11T16:56:54.342Z",
       "tokenInfo": {
         "symbol": "aHorRwaGHO",
         "name": "Aave Horizon RWA GHO",
         "decimals": 18,
-        "price": 0.9992,
-        "totalSupply": "34638198663977267373473862",
-        "tokenValue": 34610488.105046086,
-        "timestamp": "2026-05-09T11:08:18.678Z",
+        "price": 0.9998,
+        "totalSupply": "34641598834766528752707097",
+        "tokenValue": 34634670.514999576,
+        "timestamp": "2026-05-11T16:56:55.339Z",
         "source": "debank"
       }
     },
     "eth:0x977b6fc5dE62598B08C85AC8Cf2b745874E8b78c": {
-      "lastFetched": "2026-05-09T11:08:18.678Z",
+      "lastFetched": "2026-05-11T16:56:55.339Z",
       "tokenInfo": {
         "symbol": "aEthcbETH",
         "name": "Aave Ethereum cbETH",
         "decimals": 18,
-        "price": 2606.86,
-        "totalSupply": "3516515671976137233948",
-        "tokenValue": 9167064.044647714,
-        "timestamp": "2026-05-09T11:08:19.808Z",
+        "price": 2633.96,
+        "totalSupply": "3493036294298694975666",
+        "tokenValue": 9200517.87773099,
+        "timestamp": "2026-05-11T16:56:56.336Z",
         "source": "debank"
       }
     },
     "eth:0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c": {
-      "lastFetched": "2026-05-09T11:08:19.808Z",
+      "lastFetched": "2026-05-11T16:56:56.336Z",
       "tokenInfo": {
         "symbol": "aEthUSDC",
         "name": "Aave Ethereum USDC",
         "decimals": 6,
-        "price": 0.9999000099990001,
-        "totalSupply": "2063927236338808",
-        "tokenValue": 2063720864.2523828,
-        "timestamp": "2026-05-09T11:08:20.681Z",
+        "price": 1.000300090027008,
+        "totalSupply": "2083008472367399",
+        "tokenValue": 2083633562.4361296,
+        "timestamp": "2026-05-11T16:56:57.345Z",
         "source": "debank"
       }
     },
     "eth:0x9A44fd41566876A39655f74971a3A6eA0a17a454": {
-      "lastFetched": "2026-05-09T11:08:20.681Z",
+      "lastFetched": "2026-05-11T16:56:57.345Z",
       "tokenInfo": {
         "symbol": "aEthLDO",
         "name": "Aave Ethereum LDO",
         "decimals": 18,
-        "price": 0.4013,
-        "totalSupply": "697664506975752263510235",
-        "tokenValue": 279972.7666493694,
-        "timestamp": "2026-05-09T11:08:21.789Z",
+        "price": 0.4011,
+        "totalSupply": "694410040802650578828713",
+        "tokenValue": 278527.86736594315,
+        "timestamp": "2026-05-11T16:56:58.344Z",
         "source": "debank"
       }
     },
     "eth:0xA700b4eB416Be35b2911fd5Dee80678ff64fF6C9": {
-      "lastFetched": "2026-05-09T11:08:21.789Z",
+      "lastFetched": "2026-05-11T16:56:58.344Z",
       "tokenInfo": {
         "symbol": "aEthAAVE",
         "name": "Aave Ethereum AAVE",
         "decimals": 18,
-        "price": 95.95,
-        "totalSupply": "815427097985930108312006",
-        "tokenValue": 78240230.05175,
-        "timestamp": "2026-05-09T11:08:22.682Z",
+        "price": 101.37,
+        "totalSupply": "811253215268430135413026",
+        "tokenValue": 82236738.43176077,
+        "timestamp": "2026-05-11T16:56:59.334Z",
         "source": "debank"
       }
     },
     "eth:0xA78Eba24D89e70A03ddB7AC195A15E53315aA5b4": {
-      "lastFetched": "2026-05-09T11:08:22.682Z",
+      "lastFetched": "2026-05-11T16:56:59.335Z",
       "tokenInfo": {
         "symbol": "aEthPT_srUSDe_25JUN2026",
         "name": "Aave Ethereum PT_srUSDe_25JUN2026",
         "decimals": 18,
-        "price": 0.9934475177272069,
-        "totalSupply": "32148215840335935509141213",
-        "tokenValue": 31937565.225940205,
-        "timestamp": "2026-05-09T11:08:23.681Z",
+        "price": 0.9942155202248552,
+        "totalSupply": "32444361945579956964907639",
+        "tokenValue": 32256688.190088272,
+        "timestamp": "2026-05-11T16:57:00.341Z",
         "source": "debank"
       }
     },
     "eth:0xA9ecb0503075124cc0B786096849A331FBe9EE6D": {
-      "lastFetched": "2026-05-09T11:08:23.681Z",
+      "lastFetched": "2026-05-11T16:57:00.341Z",
       "tokenInfo": {
         "symbol": "aEthPT_USDG_28MAY2026",
         "name": "Aave Ethereum PT_USDG_28MAY2026",
         "decimals": 6,
-        "price": 0.9972121744545224,
-        "totalSupply": "59920819467904",
-        "tokenValue": 59753770.67668542,
-        "timestamp": "2026-05-09T11:08:24.684Z",
+        "price": 0.9976023102416646,
+        "totalSupply": "62033684877461",
+        "tokenValue": 61884947.346558504,
+        "timestamp": "2026-05-11T16:57:01.344Z",
         "source": "debank"
       }
     },
     "eth:0xAA6e91C82942aeAE040303Bf96c15a6dBcB82CA0": {
-      "lastFetched": "2026-05-09T11:08:24.684Z",
+      "lastFetched": "2026-05-11T16:57:01.344Z",
       "tokenInfo": {
         "symbol": "aEthEURC",
         "name": "Aave Ethereum EURC",
         "decimals": 6,
-        "price": 1.17736670019735,
-        "totalSupply": "42564081854677",
-        "tokenValue": 50113532.60017096,
-        "timestamp": "2026-05-09T11:08:25.792Z",
+        "price": 1.178094508710086,
+        "totalSupply": "45541702760348",
+        "tokenValue": 53652429.93927295,
+        "timestamp": "2026-05-11T16:57:02.335Z",
         "source": "debank"
       }
     },
     "eth:0xAa0200d169fF3ba9385c12E073c5d1d30434AE7b": {
-      "lastFetched": "2026-05-09T11:08:25.792Z",
+      "lastFetched": "2026-05-11T16:57:02.335Z",
       "tokenInfo": {
         "symbol": "aEthmUSD",
         "name": "Aave Ethereum mUSD",
         "decimals": 6,
-        "price": 0.9998476246353224,
-        "totalSupply": "36882879512",
-        "tokenValue": 36877.259469783996,
-        "timestamp": "2026-05-09T11:08:26.680Z",
+        "price": 1.0002548607924084,
+        "totalSupply": "123949223834",
+        "tokenValue": 123980.81363140474,
+        "timestamp": "2026-05-11T16:57:03.334Z",
         "source": "debank"
       }
     },
     "eth:0xB0EC6c4482Ac1Ef77bE239C0AC833CF37A27c876": {
-      "lastFetched": "2026-05-09T11:08:26.680Z",
+      "lastFetched": "2026-05-11T16:57:03.334Z",
       "tokenInfo": {
         "symbol": "aHorRwaJAAA",
         "name": "Aave Horizon RWA JAAA",
         "decimals": 6,
-        "price": 1.033992352736997,
+        "price": 1.0340957623132283,
         "totalSupply": "2482955641840",
-        "tokenValue": 2567357.145847742,
-        "timestamp": "2026-05-09T11:08:27.786Z",
+        "tokenValue": 2567613.907238466,
+        "timestamp": "2026-05-11T16:57:04.487Z",
         "source": "debank"
       }
     },
     "eth:0xB76CF92076adBF1D9C39294FA8e7A67579FDe357": {
-      "lastFetched": "2026-05-09T11:08:27.787Z",
+      "lastFetched": "2026-05-11T16:57:04.487Z",
       "tokenInfo": {
         "symbol": "aEthRPL",
         "name": "Aave Ethereum RPL",
         "decimals": 18,
-        "price": 2.0341896837308022,
-        "totalSupply": "429283252598546010447664",
-        "tokenValue": 873243.5638343664,
-        "timestamp": "2026-05-09T11:08:28.790Z",
+        "price": 2.0928170456202047,
+        "totalSupply": "429656310363236946490175",
+        "tokenValue": 899192.0500864672,
+        "timestamp": "2026-05-11T16:57:05.342Z",
         "source": "debank"
       }
     },
     "eth:0xBdfa7b7893081B35Fb54027489e2Bc7A38275129": {
-      "lastFetched": "2026-05-09T11:08:28.790Z",
+      "lastFetched": "2026-05-11T16:57:05.342Z",
       "tokenInfo": {
         "symbol": "aEthweETH",
         "name": "Aave Ethereum weETH",
         "decimals": 18,
-        "price": 2530.7109898918766,
-        "totalSupply": "1148214096048329322135804",
-        "tokenValue": 2905798031.6182737,
-        "timestamp": "2026-05-09T11:08:29.788Z",
+        "price": 2552.4429294592896,
+        "totalSupply": "1097961955867923596310080",
+        "tokenValue": 2802485231.070374,
+        "timestamp": "2026-05-11T16:57:06.338Z",
         "source": "debank"
       }
     },
     "eth:0xC035a7cf15375cE2706766804551791aD035E0C2": {
-      "lastFetched": "2026-05-09T11:08:29.788Z",
+      "lastFetched": "2026-05-11T16:57:06.338Z",
       "tokenInfo": {
         "symbol": "aEthLidowstETH",
         "name": "Aave Ethereum Lido wstETH",
         "decimals": 18,
-        "price": 2852.4194093600686,
-        "totalSupply": "69703773178550136297677",
-        "tokenValue": 198824395.5201282,
-        "timestamp": "2026-05-09T11:08:30.688Z",
+        "price": 2877.3151582826968,
+        "totalSupply": "48753188251678576802810",
+        "tokenValue": 140278287.57116467,
+        "timestamp": "2026-05-11T16:57:07.342Z",
         "source": "debank"
       }
     },
     "eth:0xC7B4c17861357B8ABB91F25581E7263E08DCB59c": {
-      "lastFetched": "2026-05-09T11:08:30.688Z",
+      "lastFetched": "2026-05-11T16:57:07.342Z",
       "tokenInfo": {
         "symbol": "aEthSNX",
         "name": "Aave Ethereum SNX",
         "decimals": 18,
-        "price": 0.3614,
-        "totalSupply": "277894081192619253168155",
-        "tokenValue": 100430.92094301259,
-        "timestamp": "2026-05-09T11:08:31.680Z",
+        "price": 0.354,
+        "totalSupply": "277896176204559262629450",
+        "tokenValue": 98375.24637641398,
+        "timestamp": "2026-05-11T16:57:08.349Z",
         "source": "debank"
       }
     },
     "eth:0xCc9EE9483f662091a1de4795249E24aC0aC2630f": {
-      "lastFetched": "2026-05-09T11:08:31.680Z",
+      "lastFetched": "2026-05-11T16:57:08.349Z",
       "tokenInfo": {
         "symbol": "aEthrETH",
         "name": "Aave Ethereum rETH",
         "decimals": 18,
-        "price": 2689.5806364968275,
-        "totalSupply": "35719913523580347311523",
-        "tokenValue": 96071587.75036287,
-        "timestamp": "2026-05-09T11:08:32.680Z",
+        "price": 2712.642137782309,
+        "totalSupply": "37056416399340784300441",
+        "tokenValue": 100520796.6000592,
+        "timestamp": "2026-05-11T16:57:09.337Z",
         "source": "debank"
       }
     },
     "eth:0xDE6eF6CB4aBd3A473ffC2942eEf5D84536F8E864": {
-      "lastFetched": "2026-05-09T11:08:32.680Z",
+      "lastFetched": "2026-05-11T16:57:09.337Z",
       "tokenInfo": {
         "symbol": "aEthPT_sUSDE_31JUL2025",
         "name": "Aave Ethereum PT_sUSDE_31JUL2025",
         "decimals": 18,
-        "price": 0.9989362788151604,
+        "price": 0.9994095829964145,
         "totalSupply": "331376308022826301174",
-        "tokenValue": 331.02381602382854,
-        "timestamp": "2026-05-09T11:08:33.680Z",
+        "tokenValue": 331.18065781598426,
+        "timestamp": "2026-05-11T16:57:10.336Z",
         "source": "debank"
       }
     },
     "eth:0xE036478Da9A7ed89b56FE39A06e1FC1a4b38D4Ea": {
-      "lastFetched": "2026-05-09T11:08:33.680Z",
+      "lastFetched": "2026-05-11T16:57:10.336Z",
       "tokenInfo": {
         "symbol": "aEthPT_USDe_7MAY2026",
         "name": "Aave Ethereum PT_USDe_7MAY2026",
         "decimals": 18,
-        "price": 0.99949899,
-        "totalSupply": "101006659656623962892",
-        "tokenValue": 100.9560543100694,
-        "timestamp": "2026-05-09T11:08:34.789Z",
+        "price": 0.99964876,
+        "totalSupply": "475819253359772388680",
+        "tokenValue": 475.65212660522235,
+        "timestamp": "2026-05-11T16:57:11.339Z",
         "source": "debank"
       }
     },
     "eth:0xE1CfD16b8E4B1C86Bb5b7A104cfEFbc7b09326dD": {
-      "lastFetched": "2026-05-09T11:08:34.789Z",
+      "lastFetched": "2026-05-11T16:57:11.340Z",
       "tokenInfo": {
         "symbol": "aHorRwaVBILL",
         "name": "Aave Horizon RWA VBILL",
@@ -3712,116 +3720,116 @@
         "price": 1,
         "totalSupply": "7250000000000",
         "tokenValue": 7250000,
-        "timestamp": "2026-05-09T11:08:35.791Z",
+        "timestamp": "2026-05-11T16:57:12.337Z",
         "source": "debank"
       }
     },
     "eth:0xE3190143Eb552456F88464662f0c0C4aC67A77eB": {
-      "lastFetched": "2026-05-09T11:08:35.791Z",
+      "lastFetched": "2026-05-11T16:57:12.337Z",
       "tokenInfo": {
         "symbol": "aHorRwaRLUSD",
         "name": "Aave Horizon RWA RLUSD",
         "decimals": 18,
-        "price": 1.0001,
-        "totalSupply": "265915542993993076337278269",
-        "tokenValue": 265942134.54829246,
-        "timestamp": "2026-05-09T11:08:36.790Z",
+        "price": 1.0004,
+        "totalSupply": "265942884004395588353965946",
+        "tokenValue": 266049261.1579973,
+        "timestamp": "2026-05-11T16:57:13.352Z",
         "source": "debank"
       }
     },
     "eth:0xE728577e9a1Fe7032bc309B4541F58f45443866e": {
-      "lastFetched": "2026-05-09T11:08:36.790Z",
+      "lastFetched": "2026-05-11T16:57:13.352Z",
       "tokenInfo": {
         "symbol": "aEthPT_USDE_5FEB_2026",
         "name": "Aave Ethereum PT_USDE_5FEB_2026",
         "decimals": 18,
-        "price": 0.99949899,
+        "price": 0.99964876,
         "totalSupply": "1803847525772159785781",
-        "tokenValue": 1802.9437801232725,
-        "timestamp": "2026-05-09T11:08:37.788Z",
+        "tokenValue": 1803.2139423672077,
+        "timestamp": "2026-05-11T16:57:14.341Z",
         "source": "debank"
       }
     },
     "eth:0xEc4ef66D4fCeEba34aBB4dE69dB391Bc5476ccc8": {
-      "lastFetched": "2026-05-09T11:08:37.788Z",
+      "lastFetched": "2026-05-11T16:57:14.341Z",
       "tokenInfo": {
         "symbol": "aEthUSDtb",
         "name": "Aave Ethereum USDtb",
         "decimals": 18,
-        "price": 0.999388,
-        "totalSupply": "165214169541198544553952758",
-        "tokenValue": 165113058.46943936,
-        "timestamp": "2026-05-09T11:08:38.802Z",
+        "price": 0.999433,
+        "totalSupply": "165325452248988248194559670",
+        "tokenValue": 165231712.71756306,
+        "timestamp": "2026-05-11T16:57:15.340Z",
         "source": "debank"
       }
     },
     "eth:0xF6D2224916DDFbbab6e6bd0D1B7034f4Ae0CaB18": {
-      "lastFetched": "2026-05-09T11:08:38.802Z",
+      "lastFetched": "2026-05-11T16:57:15.340Z",
       "tokenInfo": {
         "symbol": "aEthUNI",
         "name": "Aave Ethereum UNI",
         "decimals": 18,
-        "price": 3.65,
-        "totalSupply": "723968304784254288966663",
-        "tokenValue": 2642484.3124625282,
-        "timestamp": "2026-05-09T11:08:39.685Z",
+        "price": 3.877,
+        "totalSupply": "723968413232901036076049",
+        "tokenValue": 2806825.538103957,
+        "timestamp": "2026-05-11T16:57:16.341Z",
         "source": "debank"
       }
     },
     "eth:0xFa82580c16A31D0c1bC632A36F82e83EfEF3Eec0": {
-      "lastFetched": "2026-05-09T11:08:39.685Z",
+      "lastFetched": "2026-05-11T16:57:16.341Z",
       "tokenInfo": {
         "symbol": "aEthRLUSD",
         "name": "Aave Ethereum RLUSD",
         "decimals": 18,
-        "price": 1.0001,
-        "totalSupply": "20142102542854552316018687",
-        "tokenValue": 20144116.753108837,
-        "timestamp": "2026-05-09T11:08:40.690Z",
+        "price": 1.0004,
+        "totalSupply": "20132983751093180922193725",
+        "tokenValue": 20141036.94459362,
+        "timestamp": "2026-05-11T16:57:17.347Z",
         "source": "debank"
       }
     },
     "eth:0xb82fa9f31612989525992FCfBB09AB22Eff5c85A": {
-      "lastFetched": "2026-05-09T11:08:40.690Z",
+      "lastFetched": "2026-05-11T16:57:17.347Z",
       "tokenInfo": {
         "symbol": "aEthcrvUSD",
         "name": "Aave Ethereum crvUSD",
         "decimals": 18,
-        "price": 1.0000713951669316,
-        "totalSupply": "212912682530761434784398",
-        "tokenValue": 212927.88346727256,
-        "timestamp": "2026-05-09T11:08:41.793Z",
+        "price": 1.0001271392992923,
+        "totalSupply": "212923493785873278603607",
+        "tokenValue": 212950.5647296761,
+        "timestamp": "2026-05-11T16:57:18.490Z",
         "source": "debank"
       }
     },
     "eth:0xbe1F842e7e0afd2c2322aae5d34bA899544b29db": {
-      "lastFetched": "2026-05-09T11:08:41.793Z",
+      "lastFetched": "2026-05-11T16:57:18.490Z",
       "tokenInfo": {
         "symbol": "aEthEtherFiweETH",
         "name": "Aave Ethereum EtherFi weETH",
         "decimals": 18,
-        "price": 2535.927762121329,
+        "price": 2551.3238603747773,
         "totalSupply": "3985674498678644098",
-        "tokenValue": 10107.382611978184,
-        "timestamp": "2026-05-09T11:08:42.796Z",
+        "tokenValue": 10168.746448166103,
+        "timestamp": "2026-05-11T16:57:19.342Z",
         "source": "debank"
       }
     },
     "eth:0xbe54767735fB7Acca2aa7E2d209a6f705073536D": {
-      "lastFetched": "2026-05-09T11:08:42.796Z",
+      "lastFetched": "2026-05-11T16:57:19.342Z",
       "tokenInfo": {
         "symbol": "aEthPT_sUSDe_5FEB_2026",
         "name": "Aave Ethereum PT_sUSDe_5FEB_2026",
         "decimals": 18,
-        "price": 0.9989362788151604,
+        "price": 0.9994095829964145,
         "totalSupply": "20763805382777548752056",
-        "tokenValue": 20741.718483114,
-        "timestamp": "2026-05-09T11:08:43.788Z",
+        "tokenValue": 20751.546079020416,
+        "timestamp": "2026-05-11T16:57:20.480Z",
         "source": "debank"
       }
     },
     "eth:0xc167932AC4EEc2B65844EF00D31b4550250536A5": {
-      "lastFetched": "2026-05-09T11:08:43.788Z",
+      "lastFetched": "2026-05-11T16:57:20.480Z",
       "tokenInfo": {
         "symbol": "aHorRwaUSYC",
         "name": "Aave Horizon RWA USYC",
@@ -3829,25 +3837,25 @@
         "price": 0,
         "totalSupply": "0",
         "tokenValue": 0,
-        "timestamp": "2026-05-09T11:08:44.688Z",
+        "timestamp": "2026-05-11T16:57:21.336Z",
         "source": "debank"
       }
     },
     "eth:0xc2015641564a5914A17CB9A92eC8d8feCfa8f2D0": {
-      "lastFetched": "2026-05-09T11:08:44.688Z",
+      "lastFetched": "2026-05-11T16:57:21.336Z",
       "tokenInfo": {
         "symbol": "aEthLidosUSDe",
         "name": "Aave Ethereum Lido sUSDe",
         "decimals": 18,
-        "price": 1.230044603934682,
+        "price": 1.2306806839506934,
         "totalSupply": "37252217457153763629044",
-        "tokenValue": 45821.88906777334,
-        "timestamp": "2026-05-09T11:08:45.693Z",
+        "tokenValue": 45845.58445884995,
+        "timestamp": "2026-05-11T16:57:22.339Z",
         "source": "debank"
       }
     },
     "eth:0xc293744fFbcf46696D589f5C415e71BC491519cD": {
-      "lastFetched": "2026-05-09T11:08:45.693Z",
+      "lastFetched": "2026-05-11T16:57:22.339Z",
       "tokenInfo": {
         "symbol": "aHorRwaACRED",
         "name": "Aave Horizon RWA ACRED",
@@ -3855,72 +3863,72 @@
         "price": 0,
         "totalSupply": "0",
         "tokenValue": 0,
-        "timestamp": "2026-05-09T11:08:46.794Z",
+        "timestamp": "2026-05-11T16:57:23.484Z",
         "source": "debank"
       }
     },
     "eth:0xcCA43ceF272c30415866914351fdfc3E881bb7c2": {
-      "lastFetched": "2026-05-09T11:08:46.794Z",
+      "lastFetched": "2026-05-11T16:57:23.484Z",
       "tokenInfo": {
         "symbol": "aEthFBTC",
         "name": "Aave Ethereum FBTC",
         "decimals": 8,
-        "price": 80176.39944771586,
-        "totalSupply": "24468628922",
-        "tokenValue": 19618065.66388205,
-        "timestamp": "2026-05-09T11:08:47.797Z",
+        "price": 80920.47214162865,
+        "totalSupply": "21954580514",
+        "tokenValue": 17765750.208642803,
+        "timestamp": "2026-05-11T16:57:24.345Z",
         "source": "debank"
       }
     },
     "eth:0xce8c60fd8390eFCc3Fc66A3f0bd64BEb969e750E": {
-      "lastFetched": "2026-05-09T11:08:47.798Z",
+      "lastFetched": "2026-05-11T16:57:24.345Z",
       "tokenInfo": {
         "symbol": "aEthLidotETH",
         "name": "Aave Ethereum Lido tETH",
         "decimals": 18,
-        "price": 2874.398332525742,
+        "price": 2890.726714741528,
         "totalSupply": "16688578270940928027333",
-        "tokenValue": 47969621.554217935,
-        "timestamp": "2026-05-09T11:08:48.688Z",
+        "tokenValue": 48242119.03886393,
+        "timestamp": "2026-05-11T16:57:25.336Z",
         "source": "debank"
       }
     },
     "eth:0xd4e245848d6E1220DBE62e155d89fa327E43CB06": {
-      "lastFetched": "2026-05-09T11:08:48.688Z",
+      "lastFetched": "2026-05-11T16:57:25.336Z",
       "tokenInfo": {
         "symbol": "aEthFRAX",
         "name": "Aave Ethereum FRAX",
         "decimals": 18,
-        "price": 0.9935178001344013,
-        "totalSupply": "145808669626025496719804",
-        "tokenValue": 144863.50868737252,
-        "timestamp": "2026-05-09T11:08:49.809Z",
+        "price": 0.9937105988681946,
+        "totalSupply": "145819580594744688139291",
+        "tokenValue": 144902.4627595127,
+        "timestamp": "2026-05-11T16:57:26.340Z",
         "source": "debank"
       }
     },
     "eth:0xdF7f48892244C6106EA784609f7de10AB36F9c7e": {
-      "lastFetched": "2026-05-09T11:08:49.809Z",
+      "lastFetched": "2026-05-11T16:57:26.341Z",
       "tokenInfo": {
         "symbol": "aEthEtherFiPYUSD",
         "name": "Aave Ethereum EtherFi PYUSD",
         "decimals": 6,
-        "price": 0.9999,
+        "price": 1.0001,
         "totalSupply": "111600816",
-        "tokenValue": 111.5896559184,
-        "timestamp": "2026-05-09T11:08:50.792Z",
+        "tokenValue": 111.61197608159999,
+        "timestamp": "2026-05-11T16:57:27.333Z",
         "source": "debank"
       }
     },
     "eth:0xfA1fDbBD71B0aA16162D76914d69cD8CB3Ef92da": {
-      "lastFetched": "2026-05-09T11:08:50.792Z",
+      "lastFetched": "2026-05-11T16:57:27.333Z",
       "tokenInfo": {
         "symbol": "aEthLidoWETH",
         "name": "Aave Ethereum Lido WETH",
         "decimals": 18,
-        "price": 2312.49,
-        "totalSupply": "21162177860197646513917",
-        "tokenValue": 48937324.67992845,
-        "timestamp": "2026-05-09T11:08:51.696Z",
+        "price": 2332.06,
+        "totalSupply": "21111877222387029028269",
+        "tokenValue": 49234164.3952399,
+        "timestamp": "2026-05-11T16:57:28.349Z",
         "source": "debank"
       }
     },
