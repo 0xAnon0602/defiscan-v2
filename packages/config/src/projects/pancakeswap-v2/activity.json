@@ -2,55 +2,5 @@
   "version": "1.1",
   "lastReconciledAt": 1778519071,
   "lastConsumedUpdateNotifierId": 184,
-  "events": [
-    {
-      "timestamp": "2026-05-11T16:52:47.000Z",
-      "updateNotifierId": 184,
-      "address": "bnb:0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
-      "contractName": "CakeToken",
-      "isDependency": false,
-      "entity": "PancakeSwap",
-      "id": "184:bnb:0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82:data-change",
-      "type": "data-change",
-      "changes": [
-        {
-          "field": "values.totalSupply",
-          "before": "4204780607751051201610995531",
-          "after": "4263686751751051201610995531"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-05-11T16:52:47.000Z",
-      "updateNotifierId": 184,
-      "address": "bnb:0xa5f8C5Dbd5F286960b9d90548680aE5ebFf07652",
-      "contractName": "MasterChefV2",
-      "entity": null,
-      "id": "184:bnb:0xa5f8C5Dbd5F286960b9d90548680aE5ebFf07652:data-change",
-      "type": "data-change",
-      "changes": [
-        {
-          "field": "values.lastBurnedBlock",
-          "before": 96251029,
-          "after": 97589805
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-05-11T16:52:47.000Z",
-      "updateNotifierId": 184,
-      "address": "bnb:0xcEba60280fb0ecd9A5A26A1552B90944770a4a0e",
-      "contractName": "GnosisSafeL2",
-      "entity": null,
-      "id": "184:bnb:0xcEba60280fb0ecd9A5A26A1552B90944770a4a0e:data-change",
-      "type": "data-change",
-      "changes": [
-        {
-          "field": "values.nonce",
-          "before": 602,
-          "after": 604
-        }
-      ]
-    }
-  ]
+  "events": []
 }

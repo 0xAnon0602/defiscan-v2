@@ -6268,7 +6268,8 @@
     },
     "eth:0x985F3290d7971a840152E46d00b5ceb60A56f235": {
       "ignoreInWatchMode": [
-        "multisigThreshold"
+        "multisigThreshold",
+        "nonce"
       ]
     }
   }

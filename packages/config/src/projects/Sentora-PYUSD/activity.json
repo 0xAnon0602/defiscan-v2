@@ -239,22 +239,6 @@
       "entity": null,
       "id": "172:eth:0x007db14ca0d171fA583955fEF3917B2b9A95CF18:contract-added",
       "type": "contract-added"
-    },
-    {
-      "timestamp": "2026-05-11T16:52:47.000Z",
-      "updateNotifierId": 183,
-      "address": "eth:0x007db14ca0d171fA583955fEF3917B2b9A95CF18",
-      "contractName": "MorphoChainlinkOracleV2",
-      "entity": null,
-      "id": "183:eth:0x007db14ca0d171fA583955fEF3917B2b9A95CF18:data-change",
-      "type": "data-change",
-      "changes": [
-        {
-          "field": "values.price",
-          "before": "802347838204160271302606218461419535565",
-          "after": "816193476825113151094509706892169907357"
-        }
-      ]
     }
   ]
 }

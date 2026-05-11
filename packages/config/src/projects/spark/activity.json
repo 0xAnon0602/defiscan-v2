@@ -169,29 +169,9 @@
       "type": "data-change",
       "changes": [
         {
-          "field": "values.totalSupply",
-          "before": "629689361931087047159467",
-          "after": "635621450125175596452510"
-        },
-        {
-          "field": "values.periodStartTime",
-          "before": 1776470400,
-          "after": 1778284800
-        },
-        {
           "field": "values.maxMintAmountPerDay",
           "before": "5000000000000000000000",
           "after": "10000000000000000000000"
-        },
-        {
-          "field": "values.remainingDailyMintLimit",
-          "before": "5000000000000000000000",
-          "after": "10000000000000000000000"
-        },
-        {
-          "field": "values.currentPeriodMintedAmount",
-          "before": "23331066420172231023",
-          "after": "5932088194088549293043"
         }
       ]
     },

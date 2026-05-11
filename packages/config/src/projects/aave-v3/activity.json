@@ -299,22 +299,6 @@
     {
       "timestamp": "2026-05-10T09:04:50.000Z",
       "updateNotifierId": 176,
-      "address": "eth:0x985F3290d7971a840152E46d00b5ceb60A56f235",
-      "contractName": "Safe",
-      "entity": null,
-      "id": "176:eth:0x985F3290d7971a840152E46d00b5ceb60A56f235:data-change",
-      "type": "data-change",
-      "changes": [
-        {
-          "field": "values.nonce",
-          "before": 17,
-          "after": 18
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-05-10T09:04:50.000Z",
-      "updateNotifierId": 176,
       "address": "eth:0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7",
       "contractName": "rsETH Token",
       "isDependency": true,
