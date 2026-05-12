@@ -1,6 +1,6 @@
 {
   "name": "Gauntlet-USDC-Prime",
-  "timestamp": 1778518367,
+  "timestamp": 1778579383,
   "configHash": "0x2f7d2bf12bfbfafcc93154502188422448af32fcf114b0517596498c0bf382e2",
   "entries": [
     {
@@ -471,7 +471,7 @@
         "feedCap_64c911996D3c6aC71f9b455B1E8E7266BcbD848F": "750000000000000",
         "feeRecipient": "base:0x82C30B9DB2e3B92ACe4E1593B32890dCf8612D03",
         "guardian": "base:0x7084bF4dB6c21e1834dD6482f6056a39A33584cD",
-        "lastTotalAssets": 351698957670065,
+        "lastTotalAssets": 352176412778818,
         "marketCap_oracle_663BECd10daE6C4A3Dcd89F1d76c1174199639B9": "750000000000000",
         "marketOracles": [
           "base:0x663BECd10daE6C4A3Dcd89F1d76c1174199639B9",
@@ -516,10 +516,10 @@
         "supplyQueueLength": 2,
         "symbol": "gtUSDCp",
         "timelock": 604800,
-        "totalSupply": "321228015703428994063787828",
+        "totalAssets": 352176427526182,
+        "totalSupply": "321631660556874641136239819",
         "withdrawQueueLength": 8
       },
-      "errors": { "totalAssets": "Processing error occurred." },
       "fieldMeta": {
         "MAX_TIMELOCK": { "description": "Maximum timelock delay (2 weeks)" },
         "MIN_TIMELOCK": { "description": "Minimum timelock delay (1 day)" },
@@ -1079,6 +1079,6 @@
     "morpho/Morpho": "0xdbb54f2b25b761df9e05263570b2b0fcfef7676c541d7bdfa2974680fe1e3682",
     "Steakhouse-USDC/EACAggregatorProxy": "0x3ba2cbd9a884cdfea15efe908af481b5a5a9c747391c8580bd38b0f8b1603921"
   },
-  "usedBlockNumbers": { "base": 45772327 },
+  "usedBlockNumbers": { "base": 45893689 },
   "permissionsConfigHash": "0xf9463efddf7d3a9200331d65ef01997844cdf031fa7b8fee82b9e542e48dbe27"
 }

@@ -1,7 +1,7 @@
 {
   "name": "pancakeswap-v2",
-  "timestamp": 1778518367,
-  "configHash": "0x89458e17006ca68308355a2f74682c0ef074e5f9874f8734115598f7a2a8d779",
+  "timestamp": 1778579383,
+  "configHash": "0x71605d0dd090a76d148645b7b7be1afb78c322ffb2da8f1317d0b8f9eb40bc75",
   "entries": [
     {
       "address": "bnb:0x0000000000000000000000000000000000000000",
@@ -29,7 +29,7 @@
         "name": "SyrupBar Token",
         "owner": "bnb:0x73feaa1eE314F8c655E354234017bE2193C9E24E",
         "symbol": "SYRUP",
-        "totalSupply": "583729070659598465909614462497"
+        "totalSupply": "583729070618154813103799420078"
       },
       "implementationNames": {
         "bnb:0x009cF7bC57584b7998236eff51b98A168DceA9B0": "SyrupBar"
@@ -48,6 +48,7 @@
         "0xf5e1ca4c51f86f5757484f887dd2a6878c97b417b80df3952a45ed359bddf492"
       ],
       "proxyType": "immutable",
+      "ignoreInWatchMode": ["totalSupply"],
       "sinceTimestamp": 1600753669,
       "sinceBlock": 693963,
       "values": {
@@ -227,6 +228,7 @@
         "0xa27af4468880592828a6c401cbcc6f1217c4e259339ed64a62b3a4d60b742873"
       ],
       "proxyType": "immutable",
+      "ignoreInWatchMode": ["lastBurnedBlock"],
       "sinceTimestamp": 1650270359,
       "sinceBlock": 17047980,
       "values": {
@@ -283,7 +285,7 @@
       "sinceBlock": 6809737,
       "values": {
         "$immutable": true,
-        "allPairsLength": 2530120,
+        "allPairsLength": 2531116,
         "feeTo": "bnb:0x0ED943Ce24BaEBf257488771759F9BF482C39706",
         "feeToSetter": "bnb:0xcEba60280fb0ecd9A5A26A1552B90944770a4a0e",
         "INIT_CODE_PAIR_HASH": "0x00fb7f630766e6a796048ea87d01acd3068e8ff67d078148a3fa3f4a84f69bd5"
@@ -304,9 +306,10 @@
       "proxyType": "gnosis safe",
       "ignoreInWatchMode": [
         "VERSION",
+        "cakeBalance",
         "domainSeparator",
         "getChainId",
-        "cakeBalance"
+        "nonce"
       ],
       "sinceTimestamp": 1631071069,
       "sinceBlock": 10724389,
@@ -359,7 +362,7 @@
       "sinceBlock": 20372641,
       "values": {
         "$immutable": true,
-        "avgLockDuration": 32587875,
+        "avgLockDuration": 32587857,
         "BOOST_PRECISION": 1000000000000,
         "BOOST_RATIO_PRECISION": 100000,
         "BOOST_WEIGHT_PRECISION": 1000000000000,
@@ -771,6 +774,6 @@
   "usedTemplates": {
     "GnosisSafe": "0x12db59bec64fa8de67bbeb6a6e913f6c5ff1598c0a5fba90282afaf08e2a748c"
   },
-  "usedBlockNumbers": { "bsc": 97698637 },
+  "usedBlockNumbers": { "bsc": 97834088 },
   "permissionsConfigHash": "0xc732cbc7ec7add931b864b3993255e7f191999db2a736d9904cbfa4a5769f833"
 }
