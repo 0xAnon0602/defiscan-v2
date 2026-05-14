@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "lastModified": "2026-05-14T06:53:16.000Z",
+  "lastModified": "2026-05-14T07:07:10.245Z",
   "publishedAt": "2026-04-01T00:00:00.000Z",
-  "verified": false,
+  "verified": true,
   "protocolSlug": "EtherFi-Stake",
   "protocolName": "ether.fi",
   "tokenName": "eETH",
@@ -163,18 +163,34 @@
               "type": "dataTable",
               "dataSource": "project.contracts",
               "columns": [
-                { "field": "name", "header": "Name" },
-                { "field": "address", "header": "Address", "format": "address" },
-                { "field": "proxyType", "header": "Proxy Type", "format": "badge" }
+                {
+                  "field": "name",
+                  "header": "Name"
+                },
+                {
+                  "field": "address",
+                  "header": "Address",
+                  "format": "address"
+                },
+                {
+                  "field": "proxyType",
+                  "header": "Proxy Type",
+                  "format": "badge"
+                }
               ],
-              "filters": { "excludeExternal": true }
+              "filters": {
+                "excludeExternal": true
+              }
             }
           ]
         },
         {
           "title": "Audits",
           "content": [
-            { "type": "text", "content": "" }
+            {
+              "type": "text",
+              "content": ""
+            }
           ]
         }
       ]
