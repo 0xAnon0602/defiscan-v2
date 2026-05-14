@@ -357,18 +357,28 @@ Axes: `ADMIN CONTROL`, `DEPENDENCIES`, `ACCESS`, `VERIFIABILITY`, `GOVERNANCE`.
 
 ### ADMIN CONTROL
 
-Cascades by worst-case admin severity. Per-admin impact = `totalReachableCapital + totalReachableTokenValue`. Only admins with impact > 0 are considered.
+Continuous per-admin risk model — no discrete tiers. Only admins with reachable impact ≥ `DUST_USD` ($1) are considered; if none, score is **100**.
 
-- **100** — no admin has reachable fund impact
-- **25** — any admin with impact is an `EOA` or `EOAPermissioned` (dominates everything else)
-- **75 / 50** — any `Multisig` has impact. Score depends on the sum of multisig impact as a share of TVS (`totalCapitalAtRisk + totalTokenValue`): `< 30%` → **75**, otherwise **50**. If TVS is `0`, the share is treated as 100%
-- **80** — only contract-type admins (Timelock, governance contracts, etc.) have impact
+For each impacting admin:
 
-Cascade order is strict: EOA > Multisig > contract-only > none. EOA presence dominates regardless of multisig share.
+1. **Effective impact** — sum each function's impact (`directFundsUsd + directTokenValueUsd + Σ min(rc.usd, rc.effectiveCapUsd)` over `fundsAtRisk` reachable contracts), each attenuated by that function's own delay mitigation. `functionDelaySeconds(f)` takes the **shortest** `delaySeconds` across the function's `delay` mitigations (fastest path wins). `delayAttenuation`: `≥7d → ×0`, `≥3d → ×0.4`, `≥1d → ×0.7`, else `×1`. The per-function sum is capped at the admin's deduplicated `totalReachableCapital + totalReachableTokenValue` to avoid double-counting shared reachable contracts.
+2. **Risk multiplier** (`adminRiskMultiplier`) — "how many independent keys must be compromised": `EOA`/`EOAPermissioned` → **1.0**; `Multisig` with threshold `T` → `max(0.35, 1 − 0.15·(T−1))` (T1→1.0, T2→0.85, T3→0.70, T4→0.55, T5→0.40, T6+→0.35); `Multisig` with no parsed threshold → **0.7**; any other contract type → **0.5**. A 1/N multisig anchors at 1.0, same as an EOA.
+3. **Per-admin risk** = `riskMultiplier · fundShare`, where `fundShare = min(1, effectiveImpact / TVS)` (`TVS = totalCapitalAtRisk + totalTokenValue`; if TVS is `0`, share is 1 when impact > 0 else 0).
+
+The score is set by the **single worst admin**: `score = round(100 · (1 − max(adminRisk_i)))`. Risks are not combined across admins — capital analysis over-flares (many admins each show 100% of TVS reachable), so any cross-admin combination (`1 − Π(1 − riskᵢ)`, decaying tails, etc.) would over-penalise multi-admin protocols on what is largely a data artifact. Until over-flare is addressed, the worst admin is the only honest signal. A worst-case admin (EOA, 100% of TVS, no delay) lands at **0**; a 7-day timelock on every fund path lifts an otherwise-maximal admin back to **100**.
+
+The multisig threshold and size come from structured fields on `CompiledAdmin` — `multisigThreshold` (`values.$threshold`) and `multisigSize` (`values.$members.length`) — populated by `reviewCompiler` straight off the Gnosis Safe discovery entry, not parsed from the display name (which researchers can override).
 
 ### DEPENDENCIES
 
-Count-based: `0 → 100`, `1–2 → 70`, `3–5 → 50`, `6+ → 30`.
+Worst-exposure driven (`computeDependencies`). No dependencies → **100**.
+
+1. **Group by `entity`** (fall back to address when untagged) — depending on a protocol with N contracts is one dependency risk, not N. Drop entries with impact below `DUST_USD` ($1).
+2. **Within an entity, exposure = `min(1, Σ contract TVS shares)`** — an entity's contracts cover disjoint capital (losing the entity loses all of them), so contract shares are additive, capped at the whole TVS. Per-contract share = `(totalFundsAtRisk + totalTokenValueAtRisk) / TVS` (`TVS = totalCapitalAtRisk + totalTokenValue`; if TVS is `0`, share is 1).
+3. `worst` = highest entity exposure. `tail` = `Σ(all entity exposures) − worst`.
+4. **`score = clamp(0, 100, 100·(1 − 0.65·worst) − 7.5·√tail)`**
+
+The single worst entity is the primary signal — one entity that can touch most of the TVL *defines* the dependency risk. `DEP_K_WORST = 0.65` caps a fully-exposed protocol at `35` before any tail. `DEP_K_TAIL = 7.5` applies a concave (`√`) penalty for every other exposed entity, so dependency-heavy protocols degrade smoothly instead of cratering to 0. Low-impact dependencies barely move the score (a protocol whose worst entity touches 30% of TVS with a negligible tail scores ~79).
 
 ### ACCESS
 
