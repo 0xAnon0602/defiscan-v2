@@ -1,7 +1,7 @@
 {
   "version": "1.1",
-  "lastReconciledAt": 1778518918,
-  "lastConsumedUpdateNotifierId": 181,
+  "lastReconciledAt": 1778839475,
+  "lastConsumedUpdateNotifierId": 195,
   "events": [
     {
       "timestamp": "2026-04-25T08:12:54.000Z",
@@ -189,6 +189,23 @@
           "field": "values.delay",
           "before": 86400,
           "after": 172800
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-15T09:55:14.000Z",
+      "updateNotifierId": 195,
+      "address": "eth:0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7",
+      "contractName": "rsETH Token",
+      "isDependency": true,
+      "entity": "Kelp",
+      "id": "195:eth:0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7:data-change",
+      "type": "data-change",
+      "changes": [
+        {
+          "field": "values.paused",
+          "before": true,
+          "after": false
         }
       ]
     }

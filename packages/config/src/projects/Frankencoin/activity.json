@@ -1,7 +1,7 @@
 {
   "version": "1.1",
-  "lastReconciledAt": 1778751877,
-  "lastConsumedUpdateNotifierId": 190,
+  "lastReconciledAt": 1778838983,
+  "lastConsumedUpdateNotifierId": 192,
   "events": [
     {
       "timestamp": "2026-04-21T09:00:35.000Z",
@@ -136,6 +136,38 @@
         {
           "field": "values.getCursedSubjects.0",
           "after": "0x00000000000000005ffb1764e3994092"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-15T09:55:14.000Z",
+      "updateNotifierId": 192,
+      "address": "eth:0x3e445ff4ddDf0ff8aE7458c9746eD80bD664F6C1",
+      "contractName": "StablecoinBridge",
+      "entity": null,
+      "id": "192:eth:0x3e445ff4ddDf0ff8aE7458c9746eD80bD664F6C1:data-change",
+      "type": "data-change",
+      "changes": [
+        {
+          "field": "values.minted",
+          "before": 0,
+          "after": "760000000000000000000000"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-15T09:55:14.000Z",
+      "updateNotifierId": 192,
+      "address": "eth:0xe8464c353210Cc398A45dB2454FBc5BCd25fFf20",
+      "contractName": "RMNRemote",
+      "isDependency": true,
+      "entity": "Chainlink",
+      "id": "192:eth:0xe8464c353210Cc398A45dB2454FBc5BCd25fFf20:data-change",
+      "type": "data-change",
+      "changes": [
+        {
+          "field": "values.getCursedSubjects.0",
+          "before": "0x00000000000000005ffb1764e3994092"
         }
       ]
     }
