@@ -1894,21 +1894,6 @@
           "before": "eth:0xcC692077C65dd464cAA7e7ae614328914f8469b3"
         }
       ]
-    },
-    {
-      "timestamp": "2026-05-15T09:55:14.000Z",
-      "updateNotifierId": 191,
-      "address": "eth:0xF0211b7660680B49De1A7E9f25C65660F0a13Fea",
-      "contractName": "EasyTrack",
-      "entity": null,
-      "id": "191:eth:0xF0211b7660680B49De1A7E9f25C65660F0a13Fea:data-change",
-      "type": "data-change",
-      "changes": [
-        {
-          "field": "errors.motions",
-          "after": "Processing error occurred."
-        }
-      ]
     }
   ]
 }
