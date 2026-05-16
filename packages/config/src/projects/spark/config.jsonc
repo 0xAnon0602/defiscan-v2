@@ -573,7 +573,11 @@
       },
       "ignoreInWatchMode": [
         "getCurrentPeriodStartTime",
-        "getNextDailyLimitResetTimestamp"
+        "getNextDailyLimitResetTimestamp",
+        "rsETHPrice",
+        "highestRsethPrice",
+        "remainingDailyFeeMintLimit",
+        "currentPeriodMintedFeeAmount"
       ]
     },
     "eth:0xFDdf8D19D092839A26b31365c927cA236B5086cf": {

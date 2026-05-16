@@ -225,16 +225,6 @@
           "after": false
         },
         {
-          "field": "values.rsETHPrice",
-          "before": "1069610361882844043",
-          "after": "1071706710316221362"
-        },
-        {
-          "field": "values.highestRsethPrice",
-          "before": "1069610361882844043",
-          "after": "1071706710316221362"
-        },
-        {
           "field": "values.feePeriodStartTime",
           "before": 1776470400,
           "after": 1778889600
@@ -243,16 +233,6 @@
           "field": "values.maxFeeMintAmountPerDay",
           "before": "200000000000000000000",
           "after": "20000000000000000000"
-        },
-        {
-          "field": "values.remainingDailyFeeMintLimit",
-          "before": "200000000000000000000",
-          "after": "19516978531568435546"
-        },
-        {
-          "field": "values.currentPeriodMintedFeeAmount",
-          "before": "1507879294513996496",
-          "after": "483021468431564454"
         }
       ]
     },
