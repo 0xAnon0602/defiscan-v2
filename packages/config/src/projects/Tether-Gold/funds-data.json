@@ -1,17 +1,17 @@
 {
   "version": "1.0",
-  "lastModified": "2026-05-15T10:04:38.610Z",
+  "lastModified": "2026-05-16T09:15:48.386Z",
   "contracts": {
     "eth:0x68749665FF8D2d112Fa859AA293F07A622782F38": {
-      "lastFetched": "2026-05-15T10:04:38.291Z",
+      "lastFetched": "2026-05-16T09:15:48.185Z",
       "tokenInfo": {
         "symbol": "XAUt",
         "name": "Tether Gold",
         "decimals": 6,
-        "price": 4551.6,
+        "price": 4535.7,
         "totalSupply": "707747089000",
-        "tokenValue": 3221381650.2924004,
-        "timestamp": "2026-05-15T10:04:38.609Z",
+        "tokenValue": 3210128471.5773,
+        "timestamp": "2026-05-16T09:15:48.386Z",
         "source": "debank"
       }
     },
