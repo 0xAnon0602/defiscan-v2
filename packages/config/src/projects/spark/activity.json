@@ -1,7 +1,7 @@
 {
   "version": "1.1",
-  "lastReconciledAt": 1778922943,
-  "lastConsumedUpdateNotifierId": 199,
+  "lastReconciledAt": 1779010193,
+  "lastConsumedUpdateNotifierId": 201,
   "events": [
     {
       "timestamp": "2026-04-25T08:12:54.000Z",
@@ -250,6 +250,23 @@
           "field": "values.maxMintAmountPerDay",
           "before": "10000000000000000000000",
           "after": "5000000000000000000000"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-17T09:14:10.000Z",
+      "updateNotifierId": 201,
+      "address": "eth:0x349A73444b1a310BAe67ef67973022020d70020d",
+      "contractName": "LRTOracle",
+      "isDependency": true,
+      "entity": "Kelp",
+      "id": "201:eth:0x349A73444b1a310BAe67ef67973022020d70020d:data-change",
+      "type": "data-change",
+      "changes": [
+        {
+          "field": "values.feePeriodStartTime",
+          "before": 1778889600,
+          "after": 1778976000
         }
       ]
     }

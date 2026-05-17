@@ -1,7 +1,7 @@
 {
   "version": "1.1",
-  "lastReconciledAt": 1778922649,
-  "lastConsumedUpdateNotifierId": 198,
+  "lastReconciledAt": 1779009804,
+  "lastConsumedUpdateNotifierId": 200,
   "events": [
     {
       "timestamp": "2026-05-04T09:33:39.000Z",
@@ -536,6 +536,21 @@
           "field": "values.maxMintAmountPerDay",
           "before": "10000000000000000000000",
           "after": "5000000000000000000000"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-17T09:14:10.000Z",
+      "updateNotifierId": 200,
+      "address": "eth:0xc2aaCf6553D20d1e9d78E365AAba8032af9c85b0",
+      "contractName": "ACLManager",
+      "entity": null,
+      "id": "200:eth:0xc2aaCf6553D20d1e9d78E365AAba8032af9c85b0:data-change",
+      "type": "data-change",
+      "changes": [
+        {
+          "field": "values.accessControl.FLASH_BORROWER_ROLE.members.12",
+          "after": "eth:0xdeCC46a4b09162F5369c5C80383AAa9159bCf192"
         }
       ]
     }
