@@ -252,23 +252,6 @@
           "after": "5000000000000000000000"
         }
       ]
-    },
-    {
-      "timestamp": "2026-05-17T09:14:10.000Z",
-      "updateNotifierId": 201,
-      "address": "eth:0x349A73444b1a310BAe67ef67973022020d70020d",
-      "contractName": "LRTOracle",
-      "isDependency": true,
-      "entity": "Kelp",
-      "id": "201:eth:0x349A73444b1a310BAe67ef67973022020d70020d:data-change",
-      "type": "data-change",
-      "changes": [
-        {
-          "field": "values.feePeriodStartTime",
-          "before": 1778889600,
-          "after": 1778976000
-        }
-      ]
     }
   ]
 }

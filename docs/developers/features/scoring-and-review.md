@@ -357,7 +357,7 @@ Axes: `ADMIN CONTROL`, `DEPENDENCIES`, `ACCESS`, `VERIFIABILITY`, `GOVERNANCE`.
 
 ### ADMIN CONTROL
 
-Continuous per-admin risk model — no discrete tiers. Only admins with reachable impact ≥ `DUST_USD` ($1) are considered; if none, score is **100**.
+Continuous per-admin risk model — no discrete tiers. Admin types `Immutable` (hardcoded protocol-internal callers — function callers fixed at deploy time, not upgradeable, no key-holder) and `Revoked` (ownership renounced to `0x0`) are filtered out by `hasMeaningfulImpact` — they aren't trust-risk admins and don't contribute to the score. Only the remaining admins with reachable impact ≥ `DUST_USD` ($1) are considered; if none, score is **100**. This also means fully-immutable protocols (Liquity v2, Uniswap v2, Aerodrome, etc.) correctly score 100 on this axis.
 
 For each impacting admin:
 
@@ -390,34 +390,34 @@ Additive, four components, total clamped to 100 and rounded.
 
 | Component | Weight | Tiers |
 |---|---|---|
-| **Coverage** | 50 | `100% → 50`, `95–100% → 40`, `90–95% → 20`, `<90% → 5`, **missing → 40** (default when `totals.coverage` is `undefined`, distinct from a real `0`) |
-| **Audits** | 25 | `0 → 0`, `1 → 10`, `2 → 18`, `3 → 22`, `4+ → 25` |
-| **LoC** (inverse — smaller = more auditable) | 15 | `≤5k → 15`, `≤10k → 12`, `≤20k → 8`, `≤50k → 4`, `>50k → 1`, **missing (0) → neutral 8** |
+| **Coverage** | 70 | Linear: `(coverage / 100) · 70` (so `100% → 70`, `90% → 63`, `50% → 35`, `0% → 0`). `totals.coverage` is stored as a percentage `0–100`. **Missing → 56** (neutral fallback of `80% · 0.7` when `totals.coverage` is `undefined`, distinct from a real `0`) |
+| **Audits** | 10 | `0 → 0`, `1 → 4`, `2 → 7`, `3 → 9`, `4+ → 10` |
+| **LoC** (inverse — smaller = more auditable) | 10 | `≤5k → 10`, `≤10k → 8`, `≤20k → 5`, `≤50k → 3`, `>50k → 1`, **missing (0) → neutral 5** |
 | **Bug bounty** (`max(audits[].bounty)` USD) | 10 | `$0 → 0`, `<$100k → 2`, `<$500k → 5`, `<$1M → 7`, `≥$1M → 10` |
+
+Component weights sum to `70 + 10 + 10 + 10 = 100`.
 
 Coverage uses `>=` at bucket edges, so exactly `0.95` → 40 and exactly `0.90` → 20.
 
 ### GOVERNANCE
 
-Measures governance risk using three signals on `CompiledReview`: on-chain vs off-chain execution, total proposal-to-execution delay, and the fund impact governance contracts exert. Additive, max **100**, rounded, clamped.
+Three branches:
 
-**Missing governance:** when `review.governance` is `undefined` (no `governance.json` for the project), return a neutral **55** instead of running the formula. Avoids both rewarding the absence and penalising researchers who haven't filled in governance yet.
+1. **No `governance.json`** (`review.governance === undefined`) → neutral **55**. Distinguishes "researcher hasn't filled it in" from "filled in with constrained governance".
+2. **Off-chain governance** (`voteExecution === 'offchain'`) → reuses **ADMIN CONTROL**. Off-chain votes (Snapshot, etc.) have no on-chain enforcement; the executing multisig signers can ignore the vote, so governance risk collapses into pure admin risk. Score equals `computeControl(review)`.
+3. **On-chain governance** (`voteExecution === 'onchain'`) → continuous formula:
+   - `worstShare` = highest governance admin's reachable capital share of TVS. Iterates `admins` filtered by `isGovernance && hasMeaningfulImpact` (so the `Immutable`/`Revoked` filter applies — fully-immutable protocols with governance have `worstShare = 0`). If no governance admin clears the filter, `worstShare = 0` → score **100** (governance has no fund reach).
+   - `delay` = `durationSeconds(proposalPeriod) + durationSeconds(executionDelay)`.
+   - `delayMitigation` is **linear** between 1 day and 10 days: `clamp(0, 1, 1 − (delay − 1d) / 9d)`. `≤1d` → factor `1` (full impact survives); `≥10d` → factor `0` (impact fully mitigated, users had time to exit).
+   - `score = round(100 · (1 − worstShare · delayMitigation))`.
 
-Otherwise sum the three components:
-
-| Component | Weight | Tiers |
-|---|---|---|
-| **Vote execution** (`review.governance.voteExecution`) | 35 | `onchain` → 35, `offchain` → 10 |
-| **Total delay** (`proposalPeriod + executionDelay`, summed seconds) | 35 | `≥10d → 35`, `≥7d → 28`, `≥3d → 18`, `≥1d → 10`, `≥12h → 5`, `<12h → 2` |
-| **Governance fund share** (sum impact / TVS, capped at 100%; TVS = `totalCapitalAtRisk + totalTokenValue`; TVS `0` with impact > 0 treated as 100%) | 30 | `≤10% → 30`, `≤30% → 22`, `≤60% → 12`, `>60% → 5` |
-
-The impact set is the admins with `isGovernance === true` and meaningful impact. If governance is documented but no admin carries that tag (e.g. offchain Snapshot + multisig executor), it falls back to **all fund-impacting admins** as the impact set.
-
-Max achievable: **100** (35 + 35 + 30).
+   So an on-chain governance with a 10+ day delay scores 100 regardless of fund reach; one with 100% reach and no delay scores 0. Linear in both axes between.
 
 **Duration handling:** `durationSeconds(d)` resolves a `CompiledGovernanceDuration` to seconds:
 - `kind === 'none'` → 0
 - `kind === 'fieldRef'` → `d.seconds` when `d.resolved === true`, else 0
-- `kind === 'fixed'` → parsed from `d.value` via regex `(\d+)\s*(second|minute|hour|day|week)s?` (all matches summed; handles strings like `"4 days"`, `"2 days 6 hours"`)
+- `kind === 'fixed'` → parsed from `d.value` via regex `(\d+)\s*(second|minute|hour|day|week)s?` (all matches summed; handles strings like `"4 days"`, `"2 days 6 hours"`). Range syntax like `"3-14 Days"` is pre-normalised to the **lower bound** before the main parse (`"3-14 Days"` → `"3 Days"`) — the minimum is the worst-case guaranteed delay for risk scoring; crediting the upper bound would overstate enforcement.
 
-**Impact cap:** raw admin impact sums can exceed TVS because admins often reach overlapping contracts. The share is clamped to `min(1, govImpact/tvs)` so the tier boundaries remain meaningful.
+**Why the off-chain → ADMIN CONTROL branch:** off-chain "delays" (a Snapshot voting period, a stated multisig cooldown) aren't enforceable — the actual control sits with whoever signs the executing transaction. Crediting an off-chain voting period as if it were a timelock would overstate enforcement, so off-chain governance is scored exactly as if the executing admins were the protocol's only governance — which they effectively are.
+
+**Why no impact = 100 for on-chain governance:** if no `isGovernance`-tagged admin clears the `hasMeaningfulImpact` filter (so `worstShare = 0`), the formula yields `100 · (1 − 0)` = **100**. This rewards protocols where governance exists but is structurally constrained from touching user funds, and replaces the prior "fall back to all impacting admins" hack — which conflated regular admin risk with governance impact.

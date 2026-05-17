@@ -18,7 +18,18 @@ function adminImpact(a: CompiledAdmin): number {
   return (a.totalReachableCapital ?? 0) + (a.totalReachableTokenValue ?? 0)
 }
 
+// `Immutable` callers are hardcoded into the bytecode (protocol-internal
+// contract → contract calls); `Revoked` is ownership renounced to the zero
+// address. Neither has a key-holder, neither is upgradeable, neither can
+// act adversarially — so they are not trust-risk admins and should not
+// drive ADMIN CONTROL or governance-impact scoring.
+const NON_RISK_ADMIN_TYPES: ReadonlySet<string> = new Set([
+  'Immutable',
+  'Revoked',
+])
+
 function hasMeaningfulImpact(a: CompiledAdmin): boolean {
+  if (NON_RISK_ADMIN_TYPES.has(a.adminType)) return false
   return adminImpact(a) >= DUST_USD
 }
 
@@ -29,39 +40,34 @@ function computeVerifiability(review: CompiledReview): number {
   const auditCount = audits.length
   const maxBounty = audits.reduce((m, a) => Math.max(m, a.bounty ?? 0), 0)
 
-  const coverageScore =
-    coverage === undefined
-      ? 40
-      : coverage >= 1
-        ? 50
-        : coverage >= 0.95
-          ? 40
-          : coverage >= 0.9
-            ? 20
-            : 5
+  // Linear in coverage: 100% → 70, 0% → 0. `totals.coverage` is a
+  // percentage (0–100), not a fraction. Missing data falls back to a
+  // neutral 80% (≈56) so legacy reviews without `totals.coverage`
+  // aren't punished.
+  const coverageScore = ((coverage ?? 80) / 100) * 70
 
   const auditScore =
     auditCount === 0
       ? 0
       : auditCount === 1
-        ? 10
+        ? 4
         : auditCount === 2
-          ? 18
+          ? 7
           : auditCount === 3
-            ? 22
-            : 25
+            ? 9
+            : 10
 
   const locScore =
     loc === 0
-      ? 8
+      ? 5
       : loc <= 5000
-        ? 15
+        ? 10
         : loc <= 10000
-          ? 12
+          ? 8
           : loc <= 20000
-            ? 8
+            ? 5
             : loc <= 50000
-              ? 4
+              ? 3
               : 1
 
   const bountyScore =
@@ -91,9 +97,16 @@ const FIXED_UNIT_SECONDS: Record<string, number> = {
 
 function parseFixedDuration(value: string | undefined): number {
   if (!value) return 0
+  // Range syntax like "3-14 Days" expresses a min/max window — use the
+  // lower bound, which is the worst-case guaranteed delay for risk scoring.
+  // Pre-normalise "N1-N2 unit" → "N1 unit" before the main parse.
+  const normalized = value.replace(
+    /(\d+(?:\.\d+)?)\s*-\s*\d+(?:\.\d+)?(\s*(?:second|minute|hour|day|week)s?)/gi,
+    '$1$2',
+  )
   const re = /(\d+(?:\.\d+)?)\s*(second|minute|hour|day|week)s?/gi
   let total = 0
-  for (const m of value.matchAll(re)) {
+  for (const m of normalized.matchAll(re)) {
     const n = Number.parseFloat(m[1])
     const factor = FIXED_UNIT_SECONDS[m[2].toLowerCase()]
     if (!Number.isNaN(n) && factor) total += n * factor
@@ -112,7 +125,6 @@ function durationSeconds(d: CompiledGovernanceDuration | undefined): number {
 
 function computeGovernance(review: CompiledReview): number {
   const { admins, totals, governance } = review
-  const tvs = totals.totalCapitalAtRisk + (totals.totalTokenValue ?? 0)
 
   // Without a documented governance process there's nothing to score —
   // return a neutral 55 (researcher hasn't filled in governance.json yet,
@@ -120,36 +132,39 @@ function computeGovernance(review: CompiledReview): number {
   // to either rewarding (95) or penalising (low) the absence.
   if (governance === undefined) return 55
 
-  const govAdmins = admins.filter((a) => a.isGovernance && hasMeaningfulImpact(a))
+  // Off-chain governance has no on-chain enforcement — Snapshot votes can
+  // be ignored by the executing multisig signers, so governance risk
+  // collapses into admin risk. Score it identically to ADMIN CONTROL.
+  if (governance.voteExecution === 'offchain') {
+    return computeControl(review)
+  }
 
-  const execScore = governance.voteExecution === 'onchain' ? 35 : 10
+  // On-chain governance: worst governance contract's fund-impact share of
+  // TVS, mitigated by the total proposal + execution delay (longer delay =
+  // more time for users to exit).
+  const tvs = totals.totalCapitalAtRisk + (totals.totalTokenValue ?? 0)
+  const govAdmins = admins.filter(
+    (a) => a.isGovernance && hasMeaningfulImpact(a),
+  )
+  let worstShare = 0
+  for (const a of govAdmins) {
+    const imp = adminImpact(a)
+    const share = tvs > 0 ? Math.min(1, imp / tvs) : imp > 0 ? 1 : 0
+    if (share > worstShare) worstShare = share
+  }
 
+  // Linear mitigation: ≤1 day → no mitigation (factor 1, full impact);
+  // ≥10 days → full mitigation (factor 0, no impact); linear in between.
   const delay =
-    durationSeconds(governance?.proposalPeriod) +
-    durationSeconds(governance?.executionDelay)
-  const delayScore =
-    delay >= 10 * DAY
-      ? 35
-      : delay >= 7 * DAY
-        ? 28
-        : delay >= 3 * DAY
-          ? 18
-          : delay >= 1 * DAY
-            ? 10
-            : delay >= 12 * HOUR
-              ? 5
-              : 2
+    durationSeconds(governance.proposalPeriod) +
+    durationSeconds(governance.executionDelay)
+  const delayMitigation = Math.max(
+    0,
+    Math.min(1, 1 - (delay - 1 * DAY) / (9 * DAY)),
+  )
 
-  const impactAdmins =
-    govAdmins.length > 0 ? govAdmins : admins.filter(hasMeaningfulImpact)
-  const govImpact = impactAdmins.reduce((s, a) => s + adminImpact(a), 0)
-  // Admins can reach overlapping contracts, so raw sums may exceed TVS.
-  // Cap share at 1.0 — the tier boundaries are what matters, not the ratio.
-  const share = Math.min(1, tvs > 0 ? govImpact / tvs : govImpact > 0 ? 1 : 0)
-  const impactScore =
-    share <= 0.1 ? 30 : share <= 0.3 ? 22 : share <= 0.6 ? 12 : 5
-
-  return Math.min(100, Math.round(execScore + delayScore + impactScore))
+  const effectiveImpact = worstShare * delayMitigation
+  return Math.round(100 * (1 - effectiveImpact))
 }
 
 // A timelock long enough to let users exit neutralises an admin action.
