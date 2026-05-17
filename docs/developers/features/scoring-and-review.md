@@ -397,8 +397,6 @@ Additive, four components, total clamped to 100 and rounded.
 
 Component weights sum to `70 + 10 + 10 + 10 = 100`.
 
-Coverage uses `>=` at bucket edges, so exactly `0.95` → 40 and exactly `0.90` → 20.
-
 ### GOVERNANCE
 
 Three branches:
