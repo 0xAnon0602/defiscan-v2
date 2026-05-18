@@ -1,7 +1,7 @@
 {
   "version": "1.1",
-  "lastReconciledAt": 1778922150,
-  "lastConsumedUpdateNotifierId": 197,
+  "lastReconciledAt": 1779103107,
+  "lastConsumedUpdateNotifierId": 202,
   "events": [
     {
       "timestamp": "2026-03-02T13:49:30.000Z",
@@ -1929,6 +1929,32 @@
         {
           "field": "errors.motions",
           "before": "Processing error occurred."
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-18T11:16:19.000Z",
+      "updateNotifierId": 202,
+      "address": "eth:0x68267f3D310E9f0FF53a37c141c90B738E1133c2",
+      "contractName": "AllowedRecipientsRegistry",
+      "entity": null,
+      "id": "202:eth:0x68267f3D310E9f0FF53a37c141c90B738E1133c2:data-change",
+      "type": "data-change",
+      "changes": [
+        {
+          "field": "values.getPeriodState._alreadySpentAmount",
+          "before": "2000000000000000000000000",
+          "after": "4000000000000000000000000"
+        },
+        {
+          "field": "values.getPeriodState._spendableBalanceInPeriod",
+          "before": "16000000000000000000000000",
+          "after": "14000000000000000000000000"
+        },
+        {
+          "field": "values.spendableBalance",
+          "before": "16000000000000000000000000",
+          "after": "14000000000000000000000000"
         }
       ]
     }
