@@ -776,20 +776,6 @@
           "before": {
             "getAnswer": "Processing error occurred."
           }
-        },
-        {
-          "field": "values.getAnswer",
-          "before": [
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        },
-        {
-          "field": "values.latestAnswer",
-          "after": 99710388
         }
       ]
     }

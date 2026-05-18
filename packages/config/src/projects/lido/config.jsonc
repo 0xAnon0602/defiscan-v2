@@ -274,5 +274,11 @@
         "getRageQuitSupport"
       ]
     },
+    "eth:0x68267f3D310E9f0FF53a37c141c90B738E1133c2": {
+      "ignoreInWatchMode": [
+        "getPeriodState",
+        "spendableBalance"
+      ]
+    },
   }
 }

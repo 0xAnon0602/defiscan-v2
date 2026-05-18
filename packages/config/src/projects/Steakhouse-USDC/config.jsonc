@@ -146,7 +146,13 @@
     },
     "eth:0xfdFD9C85aD200c506Cf9e21F1FD8dd01932FBB23": {
       "ignoreMethods": ["proposedAggregator", "getAnswer", "getTimestamp"],
-      "ignoreRelatives": ["aggregator"]
+      "ignoreRelatives": [
+        "aggregator"
+      ],
+      "ignoreInWatchMode": [
+        "getAnswer",
+        "latestAnswer"
+      ]
     },
     "eth:0x86392dC19c0b719886221c78AB11eb8Cf5c52812": {
       "ignoreRelatives": ["aggregator"]
