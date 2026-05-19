@@ -3002,6 +3002,21 @@
             {
               "path": "$self.$admin"
             }
+          ],
+          "mitigations": [
+            {
+              "type": "other",
+              "label": "Consensus primitive",
+              "description": "The Ethereum Beacon Chain DepositContract is an immutable, admin-less Ethereum protocol contract. Calling deposit() on it is a one-way commitment of ETH to the consensus layer, not custody. A failure or compromise of this contract would be a failure of Ethereum itself, so it introduces no additional fund-loss surface to the protocol.",
+              "scopedTo": {
+                "address": "eth:0x00000000219ab540356cBB839Cbe05303d7705Fa",
+                "type": "dependency"
+              },
+              "impactCap": {
+                "value": { "mode": "hardcoded", "amount": 0 },
+                "unit": { "kind": "usd" }
+              }
+            }
           ]
         },
         {
@@ -3014,6 +3029,21 @@
           "ownerDefinitions": [
             {
               "path": "$self.$admin"
+            }
+          ],
+          "mitigations": [
+            {
+              "type": "other",
+              "label": "Consensus primitive",
+              "description": "The Ethereum Beacon Chain DepositContract is an immutable, admin-less Ethereum protocol contract. Calling deposit() on it is a one-way commitment of ETH to the consensus layer, not custody. A failure or compromise of this contract would be a failure of Ethereum itself, so it introduces no additional fund-loss surface to the protocol.",
+              "scopedTo": {
+                "address": "eth:0x00000000219ab540356cBB839Cbe05303d7705Fa",
+                "type": "dependency"
+              },
+              "impactCap": {
+                "value": { "mode": "hardcoded", "amount": 0 },
+                "unit": { "kind": "usd" }
+              }
             }
           ]
         },
@@ -7924,6 +7954,50 @@
             "author": "unknown",
             "date": "2026-04-20T07:22:25.140Z"
           }
+        }
+      ]
+    },
+    "eth:0x294825c2764c7D412dc32d87E2242c4f1D989AF3": {
+      "functions": [
+        {
+          "functionName": "unguaranteedDepositToBeaconChain",
+          "mitigations": [
+            {
+              "type": "other",
+              "label": "Consensus primitive",
+              "description": "The Ethereum Beacon Chain DepositContract is an immutable, admin-less Ethereum protocol contract. Calling deposit() on it is a one-way commitment of ETH to the consensus layer, not custody. A failure or compromise of this contract would be a failure of Ethereum itself, so it introduces no additional fund-loss surface to the protocol.",
+              "scopedTo": {
+                "address": "eth:0x00000000219ab540356cBB839Cbe05303d7705Fa",
+                "type": "dependency"
+              },
+              "impactCap": {
+                "value": { "mode": "hardcoded", "amount": 0 },
+                "unit": { "kind": "usd" }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "eth:0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84": {
+      "functions": [
+        {
+          "functionName": "deposit",
+          "mitigations": [
+            {
+              "type": "other",
+              "label": "Consensus primitive",
+              "description": "The Ethereum Beacon Chain DepositContract is an immutable, admin-less Ethereum protocol contract. Calling deposit() on it is a one-way commitment of ETH to the consensus layer, not custody. A failure or compromise of this contract would be a failure of Ethereum itself, so it introduces no additional fund-loss surface to the protocol.",
+              "scopedTo": {
+                "address": "eth:0x00000000219ab540356cBB839Cbe05303d7705Fa",
+                "type": "dependency"
+              },
+              "impactCap": {
+                "value": { "mode": "hardcoded", "amount": 0 },
+                "unit": { "kind": "usd" }
+              }
+            }
+          ]
         }
       ]
     }
