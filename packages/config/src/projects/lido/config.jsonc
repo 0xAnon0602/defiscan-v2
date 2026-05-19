@@ -129,7 +129,8 @@
       ]
     },
     "eth:0xCE0425301C85c5Ea2A0873A2dEe44d78E02D2316": {
-      "ignoreMethods": ["canSchedule", "canExecute"]
+      "ignoreMethods": ["canSchedule", "canExecute"],
+      "ignoreInWatchMode": ["getProposalsCount"]
     },
     "eth:0xA8F14D033f377779274Ae016584a05bF14Dccaf8": {
       "ignoreInWatchMode": ["getRageQuitSupport", "getSignallingEscrowDetails"]

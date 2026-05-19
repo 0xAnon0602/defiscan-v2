@@ -17,6 +17,13 @@
     "eth:0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0": {
       "ignoreDiscovery": true
     },
+    // weETH (EtherFi) — collateral leaf for the weETH/USDC market. Cuts off the
+    // entire EtherFi protocol tree (timelock, role registry, liquidity pool,
+    // staking manager, oracle, redemption manager, etc.) plus the Lido stETH /
+    // Coinbase cbETH / Curve Vyper pools EtherFi pulls in internally.
+    "eth:0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee": {
+      "ignoreDiscovery": true
+    },
     "eth:0xBEEF01735c132Ada46AA9aA4c54623cAA92A64CB": {
       "ignoreMethods": [
         "convertToShares",
@@ -123,6 +130,11 @@
         },
         "feedCap_0x4F67e4d9BD67eFa28236013288737D39AeF48e79": {
           "handler": { "type": "metaMorphoCap", "mode": "feed", "feed": "0x4F67e4d9BD67eFa28236013288737D39AeF48e79", "queueField": "withdrawQueue" }
+        },
+        // WeEthToEthExchangeRateAdapter — BASE_FEED_1 of the weETH/USDC market oracle.
+        // Mirrors the WstETHPriceFeed pattern so the weETH-rate dependency edge inherits a cap.
+        "feedCap_0x4270E1817576bbA4b640466bE79A408Ef128F828": {
+          "handler": { "type": "metaMorphoCap", "mode": "feed", "feed": "0x4270E1817576bbA4b640466bE79A408Ef128F828", "queueField": "withdrawQueue" }
         }
       },
       "ignoreInWatchMode": [
@@ -135,7 +147,8 @@
         "feedCap_0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6",
         "feedCap_0xF4030086522a5bEEa4988F8cA5B36dbC97BeE88c",
         "feedCap_0xfdFD9C85aD200c506Cf9e21F1FD8dd01932FBB23",
-        "feedCap_0x4F67e4d9BD67eFa28236013288737D39AeF48e79"
+        "feedCap_0x4F67e4d9BD67eFa28236013288737D39AeF48e79",
+        "feedCap_0x4270E1817576bbA4b640466bE79A408Ef128F828"
       ]
     },
     "eth:0x4a3411ac2948B33c69666B35cc6d055B27Ea84f1": {
@@ -159,6 +172,19 @@
     },
     "eth:0xc0053f3FBcCD593758258334Dfce24C2A9A673aD": {
       "ignoreRelatives": ["aggregator"]
+    },
+    // weETH/ETH exchange rate adapter (Morpho-side feed for the weETH market).
+    // Only relative is the WEETH token, which is already ignoreDiscovery above.
+    "eth:0x4270E1817576bbA4b640466bE79A408Ef128F828": {
+      "ignoreInWatchMode": ["latestRoundData"]
+    },
+    // MorphoChainlinkOracleV2 for the weETH market.
+    "eth:0xa3A7A3ceFee206f9d7Fe00eC3C83324ED4228411": {
+      "ignoreInWatchMode": ["price"]
+    },
+    // DummyFeed used as QUOTE_FEED_1 in the new oracle (immutable internal stub).
+    "eth:0xc3866d726C204C0836E0677A31973c649888973D": {
+      "ignoreInWatchMode": ["latestRoundData", "getPrice"]
     },
     "eth:0xA6D6950c9F177F1De7f7757FB33539e3Ec60182a": {
       "ignoreMethods": ["price"]
