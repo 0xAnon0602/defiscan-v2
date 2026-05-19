@@ -1,6 +1,6 @@
 {
   "name": "ethena",
-  "timestamp": 1779106830,
+  "timestamp": 1779187521,
   "configHash": "0xc61cedf695d579cced5d8a9aa9f10d891df9f540bab9eee5d7e76ffd8be06199",
   "entries": [
     {
@@ -43,23 +43,6 @@
         "0xd42bbf9f7dcd3720a7fc6bdc6edfdfae8800a37d6dd4decfa0ef6ca4a2e88940"
       ],
       "proxyType": "gnosis safe",
-      "receivedPermissions": [
-        {
-          "permission": "upgrade",
-          "from": "eth:0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9",
-          "role": "admin",
-          "via": [
-            { "address": "eth:0xf849D7792Ff9b30A57656ee10a2776bCb49F4Fe4" }
-          ]
-        }
-      ],
-      "directlyReceivedPermissions": [
-        {
-          "permission": "act",
-          "from": "eth:0xf849D7792Ff9b30A57656ee10a2776bCb49F4Fe4",
-          "role": ".owner"
-        }
-      ],
       "ignoreInWatchMode": ["nonce"],
       "sinceTimestamp": 1695899615,
       "sinceBlock": 18233861,
@@ -83,13 +66,30 @@
         "getChainId": 1,
         "GnosisSafe_modules": [],
         "multisigThreshold": "5 of 10 (50%)",
-        "nonce": 607,
+        "nonce": 608,
         "VERSION": "1.3.0"
       },
       "implementationNames": {
         "eth:0x3B0AAf6e6fCd4a7cEEf8c92C32DFeA9E64dC1862": "GnosisSafeProxy",
         "eth:0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552": "GnosisSafe"
-      }
+      },
+      "receivedPermissions": [
+        {
+          "permission": "upgrade",
+          "from": "eth:0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9",
+          "role": "admin",
+          "via": [
+            { "address": "eth:0xf849D7792Ff9b30A57656ee10a2776bCb49F4Fe4" }
+          ]
+        }
+      ],
+      "directlyReceivedPermissions": [
+        {
+          "permission": "act",
+          "from": "eth:0xf849D7792Ff9b30A57656ee10a2776bCb49F4Fe4",
+          "role": ".owner"
+        }
+      ]
     },
     {
       "name": "EnaSilo",
@@ -104,7 +104,7 @@
       "sinceBlock": 20713442,
       "values": {
         "$immutable": true,
-        "enaBalance": "55059193032663366654724722",
+        "enaBalance": "53629347095427488039823957",
         "stakingVault": "eth:0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9"
       },
       "fieldMeta": {
@@ -155,7 +155,7 @@
         "owner": "eth:0x3B0AAf6e6fCd4a7cEEf8c92C32DFeA9E64dC1862",
         "pendingOwner": "eth:0x0000000000000000000000000000000000000000",
         "symbol": "USDe",
-        "totalSupply": "4349482555810581223523503861"
+        "totalSupply": "4365922216984861223523503861"
       },
       "implementationNames": {
         "eth:0x4c9EDD5852cd905f086C759E8383e09bff1E68B3": "USDe"
@@ -313,7 +313,7 @@
       "values": {
         "$immutable": true,
         "stakingVault": "eth:0x9D39A5DE30e57443BfF2A8307A4256c8797A3497",
-        "usdeBalance": "29373507214729151127872786"
+        "usdeBalance": "38645282314878473916865300"
       },
       "fieldMeta": {
         "usdeBalance": {
@@ -890,7 +890,9 @@
               "eth:0x8Ac9Ce6AA694A3e472a42998798549F0ae188be6",
               "eth:0x72D4F19C25012deAC6BE4f1a3bA93FB4bC3FC273",
               "eth:0x68Dd88F002B7D855868DfD10C49E734eE85feB66",
-              "eth:0x3453fBB87ddE4985c0a379969235c5D392152C2a"
+              "eth:0x3453fBB87ddE4985c0a379969235c5D392152C2a",
+              "eth:0xd90e2f925DA726b50C4Ed8D0Fb90Ad053324F31b",
+              "eth:0x3B25C67EC4Fd4070E92a677474d553e6Af801617"
             ]
           }
         },
@@ -928,8 +930,8 @@
         ],
         "silo": "eth:0x4655B6A10C83D6bEfF1DC7116436cFD8b4F8d48A",
         "symbol": "sENA",
-        "totalAssets": "1073528918842717698271790023",
-        "totalSupply": "1054268122956414002262918807",
+        "totalAssets": "1073352790590666446787905977",
+        "totalSupply": "1054095154721995277751450549",
         "vestingAmount": "2822834000000000000000000",
         "vestingPeriod": 2592000
       },
@@ -1576,7 +1578,9 @@
               "eth:0x8Ac9Ce6AA694A3e472a42998798549F0ae188be6",
               "eth:0x72D4F19C25012deAC6BE4f1a3bA93FB4bC3FC273",
               "eth:0x68Dd88F002B7D855868DfD10C49E734eE85feB66",
-              "eth:0x3453fBB87ddE4985c0a379969235c5D392152C2a"
+              "eth:0x3453fBB87ddE4985c0a379969235c5D392152C2a",
+              "eth:0xd90e2f925DA726b50C4Ed8D0Fb90Ad053324F31b",
+              "eth:0x3B25C67EC4Fd4070E92a677474d553e6Af801617"
             ]
           }
         },
@@ -1599,8 +1603,8 @@
           "salt": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "extensions": []
         },
-        "getUnvestedAmount": "34996221701388888888889",
-        "lastDistributionTimestamp": 1779092723,
+        "getUnvestedAmount": "48709026939484126984127",
+        "lastDistributionTimestamp": 1779179171,
         "MAX_COOLDOWN_DURATION": 7776000,
         "name": "Staked USDe",
         "owner": "eth:0x3B0AAf6e6fCd4a7cEEf8c92C32DFeA9E64dC1862",
@@ -1612,8 +1616,8 @@
         ],
         "silo": "eth:0x7FC7c91D556B400AFa565013E3F32055a0713425",
         "symbol": "sUSDe",
-        "totalAssets": "1790343441255803874443558924",
-        "totalSupply": "1453361314638039252094208114",
+        "totalAssets": "1780646435583972807635723763",
+        "totalSupply": "1445333521891194304423910651",
         "vestingAmount": "68564026190476190476191"
       },
       "fieldMeta": {
@@ -1709,7 +1713,7 @@
         "getChainId": 1,
         "GnosisSafe_modules": [],
         "multisigThreshold": "4 of 10 (40%)",
-        "nonce": 335,
+        "nonce": 336,
         "VERSION": "1.3.0"
       },
       "implementationNames": {
@@ -1857,7 +1861,7 @@
         "pendingOwner": "eth:0x0000000000000000000000000000000000000000",
         "STAKING_VAULT": "eth:0x9D39A5DE30e57443BfF2A8307A4256c8797A3497",
         "USDE_TOKEN": "eth:0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
-        "usdeBalance": "685640261904761904761913"
+        "usdeBalance": "479948183333333333333340"
       },
       "fieldMeta": {
         "usdeBalance": {
@@ -1877,13 +1881,6 @@
         "0x04a556db1ea1a651e1174247090ad4c7105b455feab1a9672d5c4cd113b9ff0b"
       ],
       "proxyType": "immutable",
-      "directlyReceivedPermissions": [
-        {
-          "permission": "upgrade",
-          "from": "eth:0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9",
-          "role": "admin"
-        }
-      ],
       "sinceTimestamp": 1725889547,
       "sinceBlock": 20713438,
       "values": {
@@ -1892,7 +1889,14 @@
       },
       "implementationNames": {
         "eth:0xf849D7792Ff9b30A57656ee10a2776bCb49F4Fe4": "ProxyAdmin"
-      }
+      },
+      "directlyReceivedPermissions": [
+        {
+          "permission": "upgrade",
+          "from": "eth:0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9",
+          "role": "admin"
+        }
+      ]
     },
     {
       "address": "eth:0xFBE49A82CB2BFF6Fa4C2B1F0d165A5E1175Aac83",
@@ -2395,6 +2399,6 @@
     "global/ProxyAdmin": "0x7d24ef68050bed263f4cfd0471631d16b2f33814fbbd4e9aadf666c81bbf0c2d",
     "GnosisSafe": "0x12db59bec64fa8de67bbeb6a6e913f6c5ff1598c0a5fba90282afaf08e2a748c"
   },
-  "usedBlockNumbers": { "ethereum": 25122049 },
+  "usedBlockNumbers": { "ethereum": 25128753 },
   "permissionsConfigHash": "0x734713f84c581ef424e98bed200b42d10a4b142a0ca478995314f635f1877103"
 }
