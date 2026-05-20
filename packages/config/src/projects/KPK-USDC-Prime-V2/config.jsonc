@@ -1,0 +1,55 @@
+{
+  "$schema": "../../../../discovery/schemas/config.v2.schema.json",
+  "name": "KPK-USDC-Prime-V2",
+  "import": ["../globalConfig.jsonc"],
+  "initialAddresses": [
+    "eth:0x4Ef53d2cAa51C447fdFEEedee8F07FD1962C9ee6",
+    "eth:0x1d511811ACA9d8817a3e50F29CadFf6243A02902"
+  ],
+  "maxAddresses": 100,
+  "maxDepth": 5,
+  "overrides": {
+    // Ignore USDC token — not interesting to discover
+    "eth:0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
+      "ignoreDiscovery": true
+    },
+    "eth:0x4Ef53d2cAa51C447fdFEEedee8F07FD1962C9ee6": {
+      "ignoreMethods": [
+        "convertToShares",
+        "convertToAssets",
+        "previewDeposit",
+        "previewMint",
+        "previewRedeem",
+        "previewWithdraw",
+        // Enumerated via array handler below
+        "adapters"
+      ],
+      "fields": {
+        "adapters": {
+          "handler": {
+            "type": "array",
+            "method": "adapters",
+            "length": "{{ adaptersLength }}"
+          }
+        },
+        "allocators": {
+          "handler": {
+            "type": "event",
+            "select": "allocator",
+            "add": { "event": "SetIsAllocator", "where": ["=", "#isAllocator", true] },
+            "remove": { "event": "SetIsAllocator", "where": ["!=", "#isAllocator", true] }
+          }
+        }
+      },
+      "ignoreInWatchMode": [
+        "totalAssets",
+        "totalSupply"
+      ]
+    },
+    // Markets V1 Adapter — ignore marketIds array (too many values to enumerate fully)
+    "eth:0x1d511811ACA9d8817a3e50F29CadFf6243A02902": {
+      "ignoreMethods": ["marketIds"],
+      "ignoreInWatchMode": ["marketIds"]
+    }
+  }
+}

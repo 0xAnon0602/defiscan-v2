@@ -1,0 +1,56 @@
+{
+  "version": "1.0",
+  "lastModified": "2026-05-20T11:12:04.000Z",
+  "tags": [
+    {
+      "contractAddress": "eth:0x4Ef53d2cAa51C447fdFEEedee8F07FD1962C9ee6",
+      "isExternal": false,
+      "fetchBalances": true,
+      "fetchPositions": true,
+      "timestamp": "2026-05-19T00:00:00.000Z"
+    },
+    {
+      "contractAddress": "eth:0x1d511811ACA9d8817a3e50F29CadFf6243A02902",
+      "isExternal": true,
+      "entity": "Morpho",
+      "timestamp": "2026-05-19T00:00:00.000Z"
+    },
+    {
+      "contractAddress": "eth:0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+      "isExternal": true,
+      "entity": "Morpho",
+      "timestamp": "2026-05-19T00:00:00.000Z"
+    },
+    {
+      "contractAddress": "eth:0x354C92aF243d53A24feb3dFF20372Af7b7c47478",
+      "isExternal": false,
+      "timestamp": "2026-05-19T00:00:00.000Z"
+    },
+    {
+      "contractAddress": "eth:0xf8182E5827c06a47A985eC565A3bcd56437a97bE",
+      "isExternal": false,
+      "timestamp": "2026-05-19T00:00:00.000Z"
+    },
+    {
+      "contractAddress": "eth:0xF0Cf1e3Ec6264b03241826f5b2aBda17B4352A75",
+      "isExternal": false,
+      "timestamp": "2026-05-20T11:12:04.000Z"
+    },
+    {
+      "contractAddress": "eth:0x331D9C769185AE25233314859d53c2b9203a1204",
+      "isExternal": false,
+      "timestamp": "2026-05-20T11:12:04.000Z"
+    },
+    {
+      "contractAddress": "eth:0xAF150c6d108D0C2c96BbFC3CeF9B4848b5D99440",
+      "isExternal": false,
+      "timestamp": "2026-05-20T11:12:04.000Z"
+    },
+    {
+      "contractAddress": "eth:0xD5b66FD462b46B9A08c427ddAf7DC50C05a8dF7d",
+      "isExternal": true,
+      "entity": "Zodiac",
+      "timestamp": "2026-05-20T11:12:04.000Z"
+    }
+  ]
+}
