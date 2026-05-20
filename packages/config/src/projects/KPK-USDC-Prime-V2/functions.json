@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastModified": "2026-05-20T00:00:00.000Z",
+  "lastModified": "2026-05-20T11:12:04.000Z",
   "contracts": {
     "eth:0x4Ef53d2cAa51C447fdFEEedee8F07FD1962C9ee6": {
       "functions": [
@@ -319,9 +319,9 @@
           "functionName": "allocate",
           "isPermissioned": true,
           "score": "no-impact",
-          "description": "Moves vault assets into an adapter (e.g. Markets V1 Adapter → Morpho Blue markets). Constrained by absolute and relative caps.",
+          "description": "Moves vault assets into an adapter (e.g. Markets V1 Adapter → Morpho Blue markets). Constrained by absolute and relative caps. Callable by any allocator (KPK 2/5 multisig or individual KPK operator EOAs).",
           "ownerDefinitions": [
-            { "path": "$self.curator" }
+            { "path": "$self.allocators" }
           ],
           "timestamp": "2026-05-20T00:00:00.000Z",
           "lastChangedBy": { "author": "unknown", "date": "2026-05-20T00:00:00.000Z" }
@@ -330,9 +330,9 @@
           "functionName": "deallocate",
           "isPermissioned": true,
           "score": "no-impact",
-          "description": "Pulls assets back from an adapter into the vault. Callable by allocator or sentinel.",
+          "description": "Pulls assets back from an adapter into the vault. Callable by any allocator or sentinel.",
           "ownerDefinitions": [
-            { "path": "$self.curator" }
+            { "path": "$self.allocators" }
           ],
           "timestamp": "2026-05-20T00:00:00.000Z",
           "lastChangedBy": { "author": "unknown", "date": "2026-05-20T00:00:00.000Z" }
@@ -341,9 +341,9 @@
           "functionName": "setLiquidityAdapterAndData",
           "isPermissioned": true,
           "score": "no-impact",
-          "description": "Allocator-only. Sets which adapter handles automatic liquidity provision for withdrawals.",
+          "description": "Allocator-only. Sets which adapter handles automatic liquidity provision for withdrawals. Callable by any allocator.",
           "ownerDefinitions": [
-            { "path": "$self.curator" }
+            { "path": "$self.allocators" }
           ],
           "timestamp": "2026-05-20T00:00:00.000Z",
           "lastChangedBy": { "author": "unknown", "date": "2026-05-20T00:00:00.000Z" }
@@ -352,9 +352,9 @@
           "functionName": "setMaxRate",
           "isPermissioned": true,
           "score": "no-impact",
-          "description": "Allocator-only. Sets the maximum interest rate the vault will accept.",
+          "description": "Allocator-only. Sets the maximum interest rate the vault will accept. Callable by any allocator.",
           "ownerDefinitions": [
-            { "path": "$self.curator" }
+            { "path": "$self.allocators" }
           ],
           "timestamp": "2026-05-20T00:00:00.000Z",
           "lastChangedBy": { "author": "unknown", "date": "2026-05-20T00:00:00.000Z" }

@@ -31,13 +31,16 @@
             "method": "adapters",
             "length": "{{ adaptersLength }}"
           }
+        },
+        "allocators": {
+          "handler": {
+            "type": "event",
+            "select": "allocator",
+            "add": { "event": "SetIsAllocator", "where": ["=", "#isAllocator", true] },
+            "remove": { "event": "SetIsAllocator", "where": ["!=", "#isAllocator", true] }
+          }
         }
       },
-      // allocators event handler omitted — requires a paid RPC for full getLogs range.
-      // Re-add once an archive/paid endpoint is available:
-      // "allocators": { "handler": { "type": "event", "select": "allocator",
-      //   "add": { "event": "SetIsAllocator", "where": ["=", "#isAllocator", true] },
-      //   "remove": { "event": "SetIsAllocator", "where": ["!=", "#isAllocator", true] } } }
       "ignoreInWatchMode": [
         "totalAssets",
         "totalSupply"

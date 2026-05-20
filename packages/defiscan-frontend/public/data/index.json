@@ -66,7 +66,7 @@
     },
     {
       "slug": "KPK-USDC-Prime-V2",
-      "name": "kpk USDC Prime V2",
+      "name": "KPK USDC Prime V2",
       "chain": "Ethereum",
       "projectType": "yield",
       "tokenName": "kpk_USDC_Primev2",
@@ -75,9 +75,9 @@
         "contractCount": 19,
         "permissionedFunctionCount": 31,
         "scoredFunctionCount": 25,
-        "adminCount": 2,
-        "dependencyCount": 0,
-        "totalCapitalAtRisk": 21354963.433301,
+        "adminCount": 5,
+        "dependencyCount": 1,
+        "totalCapitalAtRisk": 22358450.731305,
         "totalTokenValueAtRisk": 0,
         "totalTokenValue": 0,
         "linesOfCode": 6514,
@@ -423,12 +423,12 @@
     }
   ],
   "globalTotals": {
-    "totalCapitalAtRisk": 11707886760.87853,
+    "totalCapitalAtRisk": 11708890248.176535,
     "totalTokenValueAtRisk": 66480582395.67178,
     "totalTokenValue": 66567608182.14946,
     "protocolsReviewed": 20,
     "totalContractCount": 1169,
-    "totalAdminCount": 189,
+    "totalAdminCount": 192,
     "totalUpdateCount": 1555
   },
   "dependencies": [
@@ -544,8 +544,12 @@
       "address": "eth:0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
       "name": "Morpho Blue",
       "entity": "Morpho",
-      "totalFundsAtRisk": 415030611.23242027,
+      "totalFundsAtRisk": 437389061.96372527,
       "protocols": [
+        {
+          "slug": "KPK-USDC-Prime-V2",
+          "name": "KPK USDC Prime V2"
+        },
         {
           "slug": "Sentora-PYUSD",
           "name": "Sentora PYUSD"
@@ -1209,6 +1213,18 @@
         {
           "slug": "spark",
           "name": "Spark"
+        }
+      ]
+    },
+    {
+      "address": "eth:0x1d511811ACA9d8817a3e50F29CadFf6243A02902",
+      "name": "Markets V1 Adapter",
+      "entity": "Morpho",
+      "totalFundsAtRisk": 22358450.731305,
+      "protocols": [
+        {
+          "slug": "KPK-USDC-Prime-V2",
+          "name": "KPK USDC Prime V2"
         }
       ]
     },

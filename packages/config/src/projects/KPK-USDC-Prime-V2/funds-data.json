@@ -1,9 +1,9 @@
 {
   "version": "1.0",
-  "lastModified": "2026-05-19T00:00:00.000Z",
+  "lastModified": "2026-05-20T11:12:04.000Z",
   "contracts": {
     "eth:0x4Ef53d2cAa51C447fdFEEedee8F07FD1962C9ee6": {
-      "lastFetched": "2026-05-19T00:00:00.000Z",
+      "lastFetched": "2026-05-20T11:12:04.000Z",
       "positions": {
         "protocols": [
           {
@@ -14,25 +14,25 @@
               {
                 "name": "Supply",
                 "stats": {
-                  "assetUsdValue": 21354963.433301,
+                  "assetUsdValue": 22358450.731305,
                   "debtUsdValue": 0,
-                  "netUsdValue": 21354963.433301
+                  "netUsdValue": 22358450.731305
                 },
                 "tokens": [
                   {
                     "symbol": "USDC",
                     "name": "USD Coin",
-                    "amount": 21354963.433301,
+                    "amount": 22358450.731305,
                     "price": 1.0
                   }
                 ]
               }
             ],
-            "totalUsdValue": 21354963.433301
+            "totalUsdValue": 22358450.731305
           }
         ],
-        "totalUsdValue": 21354963.433301,
-        "timestamp": "2026-05-19T00:00:00.000Z",
+        "totalUsdValue": 22358450.731305,
+        "timestamp": "2026-05-20T11:12:04.000Z",
         "source": "onchain"
       }
     }

@@ -34,7 +34,9 @@
         "0xe4df778889ab7b9da5495131e1a19826a03a55e56b4a98ff27a446a861300c58"
       ],
       "proxyType": "immutable",
-      "ignoreInWatchMode": ["marketIds"],
+      "ignoreInWatchMode": [
+        "marketIds"
+      ],
       "sinceTimestamp": 1776163163,
       "sinceBlock": 24877491,
       "values": {
@@ -97,7 +99,9 @@
         "0x7d388119a66f3eae147d748f86136f073d907d6b36f7e87e9363c4c7a2899a8a"
       ],
       "proxyType": "gnosis safe",
-      "ignoreInWatchMode": ["nonce"],
+      "ignoreInWatchMode": [
+        "nonce"
+      ],
       "sinceTimestamp": 1753649003,
       "sinceBlock": 23012950,
       "values": {
@@ -170,15 +174,24 @@
         "0x2d21952f99fc336a43f0881ba30f7fceb798cc57422e462080ae69005a9239d9"
       ],
       "proxyType": "immutable",
-      "ignoreInWatchMode": ["totalAssets", "totalSupply"],
+      "ignoreInWatchMode": [
+        "totalAssets",
+        "totalSupply"
+      ],
       "sinceTimestamp": 1761242519,
       "sinceBlock": 23641853,
       "values": {
         "_totalAssets": 21354523920980,
         "$immutable": true,
-        "accrueInterestView": [21354963433301, 0, 0],
+        "accrueInterestView": [
+          21354963433301,
+          0,
+          0
+        ],
         "adapterRegistry": "eth:0x3696c5eAe4a7Ffd04Ea163564571E9CD8Ed9364e",
-        "adapters": ["eth:0x1d511811ACA9d8817a3e50F29CadFf6243A02902"],
+        "adapters": [
+          "eth:0x1d511811ACA9d8817a3e50F29CadFf6243A02902"
+        ],
         "adaptersLength": 1,
         "asset": "eth:0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "curator": "eth:0xf8182E5827c06a47A985eC565A3bcd56437a97bE",
@@ -202,7 +215,13 @@
         "symbol": "KPK_USDC_Prime",
         "totalAssets": 21354963433301,
         "totalSupply": "20935172535343909594408660",
-        "virtualShares": 1000000000000
+        "virtualShares": 1000000000000,
+        "allocators": [
+          "eth:0xf8182E5827c06a47A985eC565A3bcd56437a97bE",
+          "eth:0xF0Cf1e3Ec6264b03241826f5b2aBda17B4352A75",
+          "eth:0x331D9C769185AE25233314859d53c2b9203a1204",
+          "eth:0xAF150c6d108D0C2c96BbFC3CeF9B4848b5D99440"
+        ]
       },
       "implementationNames": {
         "eth:0x4Ef53d2cAa51C447fdFEEedee8F07FD1962C9ee6": "VaultV2"
@@ -266,7 +285,9 @@
         "0x7d388119a66f3eae147d748f86136f073d907d6b36f7e87e9363c4c7a2899a8a"
       ],
       "proxyType": "gnosis safe",
-      "ignoreInWatchMode": ["nonce"],
+      "ignoreInWatchMode": [
+        "nonce"
+      ],
       "sinceTimestamp": 1759154939,
       "sinceBlock": 23469148,
       "values": {
@@ -347,7 +368,9 @@
       "proxyType": "immutable",
       "sinceTimestamp": 1758019043,
       "sinceBlock": 23375073,
-      "values": { "$immutable": true },
+      "values": {
+        "$immutable": true
+      },
       "implementationNames": {
         "eth:0xb049465969ac6355127cDf9E88deE63d25204d5D": "MorphoMarketV1AdapterFactory"
       }
@@ -417,7 +440,9 @@
         "0xd42bbf9f7dcd3720a7fc6bdc6edfdfae8800a37d6dd4decfa0ef6ca4a2e88940"
       ],
       "proxyType": "gnosis safe",
-      "ignoreInWatchMode": ["nonce"],
+      "ignoreInWatchMode": [
+        "nonce"
+      ],
       "sinceTimestamp": 1646586617,
       "sinceBlock": 14334589,
       "values": {
@@ -481,7 +506,9 @@
       "proxyType": "immutable",
       "sinceTimestamp": 1758019043,
       "sinceBlock": 23375073,
-      "values": { "$immutable": true },
+      "values": {
+        "$immutable": true
+      },
       "implementationNames": {
         "eth:0xD1B8E2dee25c2b89DCD2f98448a7ce87d6F63394": "MorphoVaultV1AdapterFactory"
       }
@@ -545,7 +572,9 @@
         "0x7d388119a66f3eae147d748f86136f073d907d6b36f7e87e9363c4c7a2899a8a"
       ],
       "proxyType": "gnosis safe",
-      "ignoreInWatchMode": ["nonce"],
+      "ignoreInWatchMode": [
+        "nonce"
+      ],
       "sinceTimestamp": 1754683067,
       "sinceBlock": 23098573,
       "values": {
@@ -1221,6 +1250,8 @@
     "morpho/Morpho": "0xdbb54f2b25b761df9e05263570b2b0fcfef7676c541d7bdfa2974680fe1e3682",
     "morpho/MorphoVaultV2": "0xa195ad3b1c0d657c16839333eba95bdf875119f53c1db1b6b9b7efece0359c01"
   },
-  "usedBlockNumbers": { "ethereum": 25130579 },
+  "usedBlockNumbers": {
+    "ethereum": 25130579
+  },
   "permissionsConfigHash": "0x9502d215f7deb1a092285a2f4949419fe7bb6a6b6e03f0f10b5d689982443a1a"
 }

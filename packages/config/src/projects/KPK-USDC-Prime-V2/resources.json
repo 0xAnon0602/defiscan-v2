@@ -3,7 +3,7 @@
     {
       "type": "website",
       "url": "https://kpk.io",
-      "label": "kpk"
+      "label": "KPK"
     },
     {
       "type": "frontend",
@@ -20,7 +20,7 @@
     {
       "type": "docs",
       "url": "https://docs.kpk.io",
-      "label": "kpk Docs"
+      "label": "KPK Docs"
     },
     {
       "type": "docs",
@@ -35,12 +35,18 @@
     {
       "type": "github",
       "url": "https://github.com/karpatkey",
-      "label": "kpk GitHub"
+      "label": "KPK GitHub"
     },
     {
       "type": "x",
       "url": "https://x.com/kpk_io",
-      "label": "kpk on X"
+      "label": "KPK on X"
+    },
+    {
+      "type": "license",
+      "url": "https://github.com/morpho-org/vault-v2/blob/main/LICENSE",
+      "label": "GPL-2.0-or-later",
+      "licenseScope": "Morpho Vault V2 Contracts"
     }
   ],
   "audits": [
