@@ -1,0 +1,35 @@
+{
+  "version": "1.0",
+  "lastModified": "2026-05-19T00:00:00.000Z",
+  "tags": [
+    {
+      "contractAddress": "eth:0x4Ef53d2cAa51C447fdFEEedee8F07FD1962C9ee6",
+      "isExternal": false,
+      "fetchBalances": true,
+      "fetchPositions": true,
+      "timestamp": "2026-05-19T00:00:00.000Z"
+    },
+    {
+      "contractAddress": "eth:0x1d511811ACA9d8817a3e50F29CadFf6243A02902",
+      "isExternal": true,
+      "entity": "Morpho",
+      "timestamp": "2026-05-19T00:00:00.000Z"
+    },
+    {
+      "contractAddress": "eth:0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+      "isExternal": true,
+      "entity": "Morpho",
+      "timestamp": "2026-05-19T00:00:00.000Z"
+    },
+    {
+      "contractAddress": "eth:0x354C92aF243d53A24feb3dFF20372Af7b7c47478",
+      "isExternal": false,
+      "timestamp": "2026-05-19T00:00:00.000Z"
+    },
+    {
+      "contractAddress": "eth:0xf8182E5827c06a47A985eC565A3bcd56437a97bE",
+      "isExternal": false,
+      "timestamp": "2026-05-19T00:00:00.000Z"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "version": "1.0",
+  "lastModified": "2026-05-19T00:00:00.000Z",
+  "contracts": {
+    "eth:0x4Ef53d2cAa51C447fdFEEedee8F07FD1962C9ee6": {
+      "lastFetched": "2026-05-19T00:00:00.000Z",
+      "positions": {
+        "protocols": [
+          {
+            "id": "morphobluev2",
+            "name": "Morpho Blue V2",
+            "chain": "eth",
+            "items": [
+              {
+                "name": "Supply",
+                "stats": {
+                  "assetUsdValue": 21354963.433301,
+                  "debtUsdValue": 0,
+                  "netUsdValue": 21354963.433301
+                },
+                "tokens": [
+                  {
+                    "symbol": "USDC",
+                    "name": "USD Coin",
+                    "amount": 21354963.433301,
+                    "price": 1.0
+                  }
+                ]
+              }
+            ],
+            "totalUsdValue": 21354963.433301
+          }
+        ],
+        "totalUsdValue": 21354963.433301,
+        "timestamp": "2026-05-19T00:00:00.000Z",
+        "source": "onchain"
+      }
+    }
+  }
+}

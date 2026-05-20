@@ -1,0 +1,71 @@
+{
+  "version": "1.0",
+  "lastModified": "2026-05-19T00:00:00.000Z",
+  "protocolSlug": "KPK-USDC-Prime-V2",
+  "protocolName": "kpk USDC Prime V2",
+  "tokenName": "kpk_USDC_Primev2",
+  "chain": "Ethereum",
+  "projectType": "yield",
+  "verified": false,
+  "description": "kpk USDC Prime V2 is a Morpho Vault V2 ERC4626 vault that allocates USDC deposits across selected Morpho Blue lending markets via the Markets V1 Adapter. Total deposits stand at {{vaultPositionsTotal}}. A 5-of-8 Safe holds ownership (setCurator, setIsSentinel), while kpk's 2-of-5 multisig acts as curator — submitting timelocked adapter, cap, and fee changes — and as allocator for day-to-day rebalancing.",
+  "admins": {
+    "eth:0x354C92aF243d53A24feb3dFF20372Af7b7c47478": {
+      "name": "kpk 5/8 Owner Safe",
+      "description": "Vault owner. Can replace the curator and grant/revoke sentinel roles. Controls {{ownerCapital}} in reachable capital."
+    },
+    "eth:0xf8182E5827c06a47A985eC565A3bcd56437a97bE": {
+      "name": "kpk 2/5 Multisig (Curator & Allocator)",
+      "description": "Curator and allocator. Submits timelocked operations for adapter additions, cap increases, and fee changes, and executes day-to-day asset allocation to adapters within configured caps. Controls {{curatorCapital}} in reachable capital."
+    }
+  },
+  "dependencies": {
+    "eth:0x1d511811ACA9d8817a3e50F29CadFf6243A02902": {
+      "name": "Markets V1 Adapter",
+      "description": "Routes vault deposits directly into individual Morpho Blue V1 markets without passing through an intermediate V1 vault. All vault capital flows through this adapter into Morpho Blue."
+    },
+    "eth:0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb": {
+      "name": "Morpho Blue",
+      "description": "The immutable Morpho Blue lending protocol where all vault deposits ultimately land as supply positions. Vault TVS of {{vaultPositionsTotal}} sits inside Morpho Blue markets."
+    }
+  },
+  "funds": {
+    "eth:0x4Ef53d2cAa51C447fdFEEedee8F07FD1962C9ee6": {
+      "name": "kpk USDC Prime V2 Vault (USDC)",
+      "description": "The Morpho Vault V2 contract. Holds {{vaultPositionsTotal}} in Morpho Blue supply positions denominated in USDC, allocated across WETH, WBTC, wstETH, cbBTC, rETH, and OETH collateral markets."
+    }
+  },
+  "sections": {
+    "codeAndAudits": {
+      "title": "Code & Audits",
+      "description": "Smart contract analysis and audit history",
+      "subsections": [
+        {
+          "title": "Contracts",
+          "content": [
+            {
+              "type": "dataTable",
+              "dataSource": "project.contracts",
+              "columns": [
+                { "field": "name", "header": "Name" },
+                { "field": "address", "header": "Address", "format": "address" },
+                { "field": "proxyType", "header": "Proxy Type", "format": "badge" }
+              ],
+              "filters": { "excludeExternal": true }
+            }
+          ]
+        },
+        {
+          "title": "Audits",
+          "content": [
+            { "type": "text", "content": "" }
+          ]
+        }
+      ]
+    }
+  },
+  "dataKeys": {
+    "vaultPositionsTotal": "fundsdata.contracts[\"eth:0x4Ef53d2cAa51C447fdFEEedee8F07FD1962C9ee6\"].positions.totalUsdValue",
+    "ownerCapital": "v2score.inventory.admins.breakdown[\"eth:0x354C92aF243d53A24feb3dFF20372Af7b7c47478\"].totalReachableCapital",
+    "curatorCapital": "v2score.inventory.admins.breakdown[\"eth:0xf8182E5827c06a47A985eC565A3bcd56437a97bE\"].totalReachableCapital"
+  }
+}

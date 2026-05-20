@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "lastModified": "2026-05-20T00:00:00.000Z",
+  "contracts": {
+    "eth:0x4Ef53d2cAa51C447fdFEEedee8F07FD1962C9ee6": {
+      "address": "eth:0x4Ef53d2cAa51C447fdFEEedee8F07FD1962C9ee6",
+      "name": "VaultV2",
+      "externalCalls": []
+    }
+  }
+}

@@ -65,6 +65,27 @@
       }
     },
     {
+      "slug": "KPK-USDC-Prime-V2",
+      "name": "kpk USDC Prime V2",
+      "chain": "Ethereum",
+      "projectType": "yield",
+      "tokenName": "kpk_USDC_Primev2",
+      "verified": false,
+      "totals": {
+        "contractCount": 19,
+        "permissionedFunctionCount": 31,
+        "scoredFunctionCount": 25,
+        "adminCount": 2,
+        "dependencyCount": 0,
+        "totalCapitalAtRisk": 21354963.433301,
+        "totalTokenValueAtRisk": 0,
+        "totalTokenValue": 0,
+        "linesOfCode": 6514,
+        "verifiedContractCount": 19,
+        "coverage": 100
+      }
+    },
+    {
       "slug": "Sentora-PYUSD",
       "name": "Sentora PYUSD",
       "chain": "Ethereum",
@@ -217,19 +238,19 @@
       "chain": "Ethereum",
       "projectType": "stablecoin",
       "tokenName": "USDe",
-      "verified": false,
+      "verified": true,
       "totals": {
-        "contractCount": 42,
+        "contractCount": 12,
         "permissionedFunctionCount": 72,
         "scoredFunctionCount": 72,
         "adminCount": 32,
         "dependencyCount": 0,
-        "totalCapitalAtRisk": 1984156853.2985952,
+        "totalCapitalAtRisk": 1978301135.2144394,
         "totalTokenValueAtRisk": 3979916650.49926,
         "totalTokenValue": 3979916650.49926,
         "linesOfCode": 10919,
         "verifiedContractCount": 12,
-        "coverage": 29
+        "coverage": 100
       }
     },
     {
@@ -402,13 +423,13 @@
     }
   ],
   "globalTotals": {
-    "totalCapitalAtRisk": 11692387515.529383,
+    "totalCapitalAtRisk": 11707886760.87853,
     "totalTokenValueAtRisk": 66480582395.67178,
     "totalTokenValue": 66567608182.14946,
-    "protocolsReviewed": 19,
-    "totalContractCount": 1180,
-    "totalAdminCount": 187,
-    "totalUpdateCount": 1556
+    "protocolsReviewed": 20,
+    "totalContractCount": 1169,
+    "totalAdminCount": 189,
+    "totalUpdateCount": 1555
   },
   "dependencies": [
     {
