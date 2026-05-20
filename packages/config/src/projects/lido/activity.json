@@ -1,7 +1,7 @@
 {
   "version": "1.1",
-  "lastReconciledAt": 1779187646,
-  "lastConsumedUpdateNotifierId": 204,
+  "lastReconciledAt": 1779273197,
+  "lastConsumedUpdateNotifierId": 208,
   "events": [
     {
       "timestamp": "2026-03-02T13:49:30.000Z",
@@ -1929,6 +1929,55 @@
         {
           "field": "errors.motions",
           "before": "Processing error occurred."
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-20T10:32:41.000Z",
+      "updateNotifierId": 208,
+      "address": "eth:0x6baAd6D39673CEd726Ef9Da4dEd03dDc2C42ba95",
+      "contractName": "Safe",
+      "entity": null,
+      "id": "208:eth:0x6baAd6D39673CEd726Ef9Da4dEd03dDc2C42ba95:role:Safe.owners",
+      "type": "role-update",
+      "roleName": "Safe.owners",
+      "changes": [
+        {
+          "field": "values.$members.0",
+          "before": "eth:0xC6CaC32CC23C2cF9BF8e0B203d677458d87556cE",
+          "after": "eth:0xaDde18968eD03080262DefD572e7A9C6b0F05A05"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-20T10:32:41.000Z",
+      "updateNotifierId": 208,
+      "address": "eth:0xfeef177E6168F9b7fd59e6C5b6c2d87FF398c6FD",
+      "contractName": "GnosisSafe",
+      "entity": null,
+      "id": "208:eth:0xfeef177E6168F9b7fd59e6C5b6c2d87FF398c6FD:data-change",
+      "type": "data-change",
+      "changes": [
+        {
+          "field": "values.multisigThreshold",
+          "before": "2 of 3 (67%)",
+          "after": "2 of 2 (100%)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-20T10:32:41.000Z",
+      "updateNotifierId": 208,
+      "address": "eth:0xfeef177E6168F9b7fd59e6C5b6c2d87FF398c6FD",
+      "contractName": "GnosisSafe",
+      "entity": null,
+      "id": "208:eth:0xfeef177E6168F9b7fd59e6C5b6c2d87FF398c6FD:role:Safe.owners",
+      "type": "role-update",
+      "roleName": "Safe.owners",
+      "changes": [
+        {
+          "field": "values.$members.0",
+          "before": "eth:0xc576b7bF977f15357Af8c935f7b8b543497fc072"
         }
       ]
     }
