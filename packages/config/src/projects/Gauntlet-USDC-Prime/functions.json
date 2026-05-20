@@ -195,11 +195,6 @@
             "contractAddress": "base:0xeE8F4eC5672F09119b96Ab6fB59C27E1b7e44b61",
             "fieldName": "timelock"
           },
-          "dependencies": [
-            {
-              "contractAddress": "base:0x64c911996D3c6aC71f9b455B1E8E7266BcbD848F"
-            }
-          ],
           "mitigations": [
             {
               "type": "delay",
@@ -207,26 +202,6 @@
               "delayRef": {
                 "contractAddress": "base:0xeE8F4eC5672F09119b96Ab6fB59C27E1b7e44b61",
                 "fieldName": "timelock"
-              }
-            },
-            {
-              "type": "other",
-              "label": "Per-market cap",
-              "description": "Prices the cbBTC/USDC market. Capital exposure under BTC/USD feed failure is bounded by the market's USDC supply cap.",
-              "scopedTo": {
-                "address": "base:0x64c911996D3c6aC71f9b455B1E8E7266BcbD848F",
-                "type": "dependency"
-              },
-              "impactCap": {
-                "value": {
-                  "mode": "fieldRef",
-                  "contractAddress": "base:0xeE8F4eC5672F09119b96Ab6fB59C27E1b7e44b61",
-                  "fieldName": "feedCap_64c911996D3c6aC71f9b455B1E8E7266BcbD848F"
-                },
-                "unit": {
-                  "kind": "scaler",
-                  "factor": "1e6"
-                }
               }
             }
           ],
