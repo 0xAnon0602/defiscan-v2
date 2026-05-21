@@ -1,9 +1,9 @@
 {
   "version": "1.0",
-  "lastModified": "2026-05-20T10:40:43.533Z",
+  "lastModified": "2026-05-21T15:07:55.167Z",
   "contracts": {
     "eth:0x19b3cD7032B8C062E8d44EaCad661a0970DD8c55": {
-      "lastFetched": "2026-05-20T10:40:42.874Z",
+      "lastFetched": "2026-05-21T15:07:53.454Z",
       "balances": {
         "tokens": [
           {
@@ -12,11 +12,11 @@
             "name": "HEX",
             "balance": "100000000",
             "decimals": 8,
-            "usdValue": 0.0005685969025063915
+            "usdValue": 0.0005535712698431072
           }
         ],
-        "totalUsdValue": 0.0005685969025063915,
-        "timestamp": "2026-05-20T10:40:43.081Z",
+        "totalUsdValue": 0.0005535712698431072,
+        "timestamp": "2026-05-21T15:07:53.908Z",
         "source": "debank"
       },
       "positions": {
@@ -29,185 +29,185 @@
               {
                 "name": "Supply",
                 "stats": {
-                  "assetUsdValue": 1200960,
+                  "assetUsdValue": 10437425.314278586,
                   "debtUsdValue": 0,
-                  "netUsdValue": 1200960
+                  "netUsdValue": 10437425.314278586
                 },
                 "tokens": [
                   {
                     "symbol": "PYUSD",
                     "name": "PayPal USD",
-                    "amount": 1200000,
-                    "price": 1.0008
+                    "amount": 10431166.61431,
+                    "price": 1.0006
                   }
                 ]
               },
               {
                 "name": "Supply",
                 "stats": {
-                  "assetUsdValue": 14874574.469493628,
+                  "assetUsdValue": 15369698.257753143,
                   "debtUsdValue": 0,
-                  "netUsdValue": 14874574.469493628
+                  "netUsdValue": 15369698.257753143
                 },
                 "tokens": [
                   {
                     "symbol": "PYUSD",
                     "name": "PayPal USD",
-                    "amount": 14862684.322036,
-                    "price": 1.0008
+                    "amount": 15360481.968572,
+                    "price": 1.0006
                   }
                 ]
               },
               {
                 "name": "Supply",
                 "stats": {
-                  "assetUsdValue": 3397860.4216569695,
+                  "assetUsdValue": 3416888.5332536856,
                   "debtUsdValue": 0,
-                  "netUsdValue": 3397860.4216569695
+                  "netUsdValue": 3416888.5332536856
                 },
                 "tokens": [
                   {
                     "symbol": "PYUSD",
                     "name": "PayPal USD",
-                    "amount": 3395144.306212,
-                    "price": 1.0008
+                    "amount": 3414839.629476,
+                    "price": 1.0006
                   }
                 ]
               },
               {
                 "name": "Supply",
                 "stats": {
-                  "assetUsdValue": 66008240.56206188,
+                  "assetUsdValue": 66000261.45800618,
                   "debtUsdValue": 0,
-                  "netUsdValue": 66008240.56206188
+                  "netUsdValue": 66000261.45800618
                 },
                 "tokens": [
                   {
                     "symbol": "PYUSD",
                     "name": "PayPal USD",
-                    "amount": 65955476.181117,
-                    "price": 1.0008
+                    "amount": 65960685.046978,
+                    "price": 1.0006
                   }
                 ]
               },
               {
                 "name": "Supply",
                 "stats": {
-                  "assetUsdValue": 23448.954875565596,
+                  "assetUsdValue": 23434.5561383016,
                   "debtUsdValue": 0,
-                  "netUsdValue": 23448.954875565596
+                  "netUsdValue": 23434.5561383016
                 },
                 "tokens": [
                   {
                     "symbol": "PYUSD",
                     "name": "PayPal USD",
-                    "amount": 23430.210707,
-                    "price": 1.0008
+                    "amount": 23420.503836,
+                    "price": 1.0006
                   }
                 ]
               },
               {
                 "name": "Supply",
                 "stats": {
-                  "assetUsdValue": 75042848.53457382,
+                  "assetUsdValue": 75040120.59289427,
                   "debtUsdValue": 0,
-                  "netUsdValue": 75042848.53457382
+                  "netUsdValue": 75040120.59289427
                 },
                 "tokens": [
                   {
                     "symbol": "PYUSD",
                     "name": "PayPal USD",
-                    "amount": 74982862.244778,
-                    "price": 1.0008
+                    "amount": 74995123.518783,
+                    "price": 1.0006
                   }
                 ]
               },
               {
                 "name": "Supply",
                 "stats": {
-                  "assetUsdValue": 33675509.24020432,
+                  "assetUsdValue": 33844233.17890036,
                   "debtUsdValue": 0,
-                  "netUsdValue": 33675509.24020432
+                  "netUsdValue": 33844233.17890036
                 },
                 "tokens": [
                   {
                     "symbol": "PYUSD",
                     "name": "PayPal USD",
-                    "amount": 33648590.36791,
-                    "price": 1.0008
+                    "amount": 33823938.815611,
+                    "price": 1.0006
                   }
                 ]
               },
               {
                 "name": "Supply",
                 "stats": {
-                  "assetUsdValue": 72706757.96689051,
+                  "assetUsdValue": 75024781.92036736,
                   "debtUsdValue": 0,
-                  "netUsdValue": 72706757.96689051
+                  "netUsdValue": 75024781.92036736
                 },
                 "tokens": [
                   {
                     "symbol": "PYUSD",
                     "name": "PayPal USD",
-                    "amount": 72648639.055646,
-                    "price": 1.0008
+                    "amount": 74979794.043941,
+                    "price": 1.0006
                   }
                 ]
               },
               {
                 "name": "Supply",
                 "stats": {
-                  "assetUsdValue": 23.798620677599995,
+                  "assetUsdValue": 23.793864758199998,
                   "debtUsdValue": 0,
-                  "netUsdValue": 23.798620677599995
+                  "netUsdValue": 23.793864758199998
                 },
                 "tokens": [
                   {
                     "symbol": "PYUSD",
                     "name": "PayPal USD",
                     "amount": 23.779597,
-                    "price": 1.0008
+                    "price": 1.0006
                   }
                 ]
               },
               {
                 "name": "Supply",
                 "stats": {
-                  "assetUsdValue": 968576.0586337439,
+                  "assetUsdValue": 968862.3041802273,
                   "debtUsdValue": 0,
-                  "netUsdValue": 968576.0586337439
+                  "netUsdValue": 968862.3041802273
                 },
                 "tokens": [
                   {
                     "symbol": "PYUSD",
                     "name": "PayPal USD",
-                    "amount": 967801.81718,
-                    "price": 1.0008
+                    "amount": 968281.335379,
+                    "price": 1.0006
                   }
                 ]
               },
               {
                 "name": "Supply",
                 "stats": {
-                  "assetUsdValue": 656394.646155156,
+                  "assetUsdValue": 656263.472165117,
                   "debtUsdValue": 0,
-                  "netUsdValue": 656394.646155156
+                  "netUsdValue": 656263.472165117
                 },
                 "tokens": [
                   {
                     "symbol": "PYUSD",
                     "name": "PayPal USD",
                     "amount": 655869.950195,
-                    "price": 1.0008
+                    "price": 1.0006
                   }
                 ]
               }
             ],
-            "totalUsdValue": 268555194.6531663
+            "totalUsdValue": 280781993.38180196
           }
         ],
-        "totalUsdValue": 268555194.6531663,
-        "timestamp": "2026-05-20T10:40:43.533Z",
+        "totalUsdValue": 280781993.38180196,
+        "timestamp": "2026-05-21T15:07:55.167Z",
         "source": "onchain/debank"
       }
     }
