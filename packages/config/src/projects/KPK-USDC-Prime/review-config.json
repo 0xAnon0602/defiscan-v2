@@ -6,7 +6,7 @@
   "tokenName": "kpk_USDC_Primev2",
   "chain": "Ethereum",
   "projectType": "yield",
-  "verified": false,
+  "verified": true,
   "description": "KPK USDC Prime is a Morpho Vault V2 ERC4626 vault that allocates USDC deposits across selected Morpho Blue lending markets via the Markets V1 Adapter. A 5-of-8 Safe holds ownership (setCurator, setIsSentinel), while KPK's 2-of-5 multisig acts as curator — submitting timelocked adapter, cap, and fee changes. Day-to-day rebalancing is performed by any of four allocators: the KPK 2/5 multisig and three individual KPK operator EOAs.",
   "admins": {
     "eth:0x354C92aF243d53A24feb3dFF20372Af7b7c47478": {

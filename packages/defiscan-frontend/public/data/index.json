@@ -70,11 +70,11 @@
       "chain": "Ethereum",
       "projectType": "yield",
       "tokenName": "kpk_USDC_Primev2",
-      "verified": false,
+      "verified": true,
       "totals": {
         "contractCount": 38,
         "permissionedFunctionCount": 31,
-        "scoredFunctionCount": 25,
+        "scoredFunctionCount": 31,
         "adminCount": 5,
         "dependencyCount": 3,
         "totalCapitalAtRisk": 22358450.731305,

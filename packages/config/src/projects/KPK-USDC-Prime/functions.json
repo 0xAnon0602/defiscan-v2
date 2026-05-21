@@ -12,8 +12,15 @@
           "ownerDefinitions": [
             { "path": "$self.owner" }
           ],
-          "timestamp": "2026-05-20T00:00:00.000Z",
-          "lastChangedBy": { "author": "unknown", "date": "2026-05-20T00:00:00.000Z" }
+          "mitigations": [
+            {
+              "type": "other",
+              "label": "5/8 Multisig",
+              "description": "Requires 5 of 8 signers on the KPK Owner Safe to agree before execution. No single key can act unilaterally."
+            }
+          ],
+          "timestamp": "2026-05-21T00:00:00.000Z",
+          "lastChangedBy": { "author": "unknown", "date": "2026-05-21T00:00:00.000Z" }
         },
         {
           "functionName": "setCurator",
@@ -23,8 +30,15 @@
           "ownerDefinitions": [
             { "path": "$self.owner" }
           ],
-          "timestamp": "2026-05-20T00:00:00.000Z",
-          "lastChangedBy": { "author": "unknown", "date": "2026-05-20T00:00:00.000Z" }
+          "mitigations": [
+            {
+              "type": "other",
+              "label": "5/8 Multisig",
+              "description": "Requires 5 of 8 signers on the KPK Owner Safe to agree before execution. No single key can act unilaterally."
+            }
+          ],
+          "timestamp": "2026-05-21T00:00:00.000Z",
+          "lastChangedBy": { "author": "unknown", "date": "2026-05-21T00:00:00.000Z" }
         },
         {
           "functionName": "setIsSentinel",
@@ -34,7 +48,14 @@
           "ownerDefinitions": [
             { "path": "$self.owner" }
           ],
-          "timestamp": "2026-05-20T00:00:00.000Z",
+          "mitigations": [
+            {
+              "type": "other",
+              "label": "5/8 Multisig",
+              "description": "Requires 5 of 8 signers on the KPK Owner Safe to agree before execution. No single key can act unilaterally."
+            }
+          ],
+          "timestamp": "2026-05-21T00:00:00.000Z",
           "lastChangedBy": { "author": "unknown", "date": "2026-05-20T00:00:00.000Z" }
         },
         {
@@ -45,8 +66,15 @@
           "ownerDefinitions": [
             { "path": "$self.owner" }
           ],
-          "timestamp": "2026-05-20T00:00:00.000Z",
-          "lastChangedBy": { "author": "unknown", "date": "2026-05-20T00:00:00.000Z" }
+          "mitigations": [
+            {
+              "type": "other",
+              "label": "5/8 Multisig",
+              "description": "Requires 5 of 8 signers on the KPK Owner Safe to agree before execution. No single key can act unilaterally."
+            }
+          ],
+          "timestamp": "2026-05-21T00:00:00.000Z",
+          "lastChangedBy": { "author": "unknown", "date": "2026-05-21T00:00:00.000Z" }
         },
         {
           "functionName": "setSymbol",
@@ -56,13 +84,20 @@
           "ownerDefinitions": [
             { "path": "$self.owner" }
           ],
-          "timestamp": "2026-05-20T00:00:00.000Z",
-          "lastChangedBy": { "author": "unknown", "date": "2026-05-20T00:00:00.000Z" }
+          "mitigations": [
+            {
+              "type": "other",
+              "label": "5/8 Multisig",
+              "description": "Requires 5 of 8 signers on the KPK Owner Safe to agree before execution. No single key can act unilaterally."
+            }
+          ],
+          "timestamp": "2026-05-21T00:00:00.000Z",
+          "lastChangedBy": { "author": "unknown", "date": "2026-05-21T00:00:00.000Z" }
         },
         {
           "functionName": "submit",
           "isPermissioned": true,
-          "score": "unscored",
+          "score": "no-impact",
           "description": "Queues a timelocked operation. Curator-only. All cap increases, adapter changes, fee changes, and role changes flow through this. The delay is enforced per queued operation type, not on submit itself.",
           "ownerDefinitions": [
             { "path": "$self.curator" }
@@ -73,7 +108,7 @@
         {
           "functionName": "addAdapter",
           "isPermissioned": true,
-          "score": "unscored",
+          "score": "critical",
           "description": "3-day timelock before execution. Adds a new adapter, enabling fund allocation to it once caps are set.",
           "ownerDefinitions": [
             { "path": "$self.curator" }
@@ -109,7 +144,7 @@
         {
           "functionName": "increaseAbsoluteCap",
           "isPermissioned": true,
-          "score": "unscored",
+          "score": "no-impact",
           "description": "3-day timelock before execution. Increases the maximum assets allocatable to an adapter market.",
           "ownerDefinitions": [
             { "path": "$self.curator" }
@@ -138,7 +173,7 @@
         {
           "functionName": "increaseRelativeCap",
           "isPermissioned": true,
-          "score": "unscored",
+          "score": "no-impact",
           "description": "3-day timelock before execution. Increases the relative cap (as fraction of totalAssets) for an adapter market.",
           "ownerDefinitions": [
             { "path": "$self.curator" }
@@ -178,8 +213,8 @@
         {
           "functionName": "setAdapterRegistry",
           "isPermissioned": true,
-          "score": "unscored",
-          "description": "Immediate (no timelock). Sets the registry that whitelists valid adapters.",
+          "score": "no-impact",
+          "description": "Abdicated. The curator has permanently and irreversibly disabled this function — the adapter registry can never be changed.",
           "ownerDefinitions": [
             { "path": "$self.curator" }
           ],
@@ -190,37 +225,47 @@
           "functionName": "setPerformanceFee",
           "isPermissioned": true,
           "score": "no-impact",
-          "description": "Immediate (no timelock). Sets performance fee, capped at MAX_PERFORMANCE_FEE.",
+          "description": "14-day timelock before execution. Sets performance fee, capped at MAX_PERFORMANCE_FEE.",
           "ownerDefinitions": [
             { "path": "$self.curator" }
           ],
           "mitigations": [
+            {
+              "type": "delay",
+              "description": "14-day timelock enforced by the vault before this operation can be executed.",
+              "delay": 1209601
+            },
             {
               "type": "valueRange",
               "description": "Fee capped at MAX_PERFORMANCE_FEE by contract",
               "valueRange": { "min": 0, "max": 50, "unit": "%" }
             }
           ],
-          "timestamp": "2026-05-20T00:00:00.000Z",
-          "lastChangedBy": { "author": "unknown", "date": "2026-05-20T00:00:00.000Z" }
+          "timestamp": "2026-05-21T00:00:00.000Z",
+          "lastChangedBy": { "author": "unknown", "date": "2026-05-21T00:00:00.000Z" }
         },
         {
           "functionName": "setManagementFee",
           "isPermissioned": true,
           "score": "no-impact",
-          "description": "Immediate (no timelock). Sets management fee, capped at MAX_MANAGEMENT_FEE.",
+          "description": "14-day timelock before execution. Sets management fee, capped at MAX_MANAGEMENT_FEE.",
           "ownerDefinitions": [
             { "path": "$self.curator" }
           ],
           "mitigations": [
+            {
+              "type": "delay",
+              "description": "14-day timelock enforced by the vault before this operation can be executed.",
+              "delay": 1209601
+            },
             {
               "type": "valueRange",
               "description": "Fee capped at MAX_MANAGEMENT_FEE by contract",
               "valueRange": { "min": 0, "max": 5, "unit": "%" }
             }
           ],
-          "timestamp": "2026-05-20T00:00:00.000Z",
-          "lastChangedBy": { "author": "unknown", "date": "2026-05-20T00:00:00.000Z" }
+          "timestamp": "2026-05-21T00:00:00.000Z",
+          "lastChangedBy": { "author": "unknown", "date": "2026-05-21T00:00:00.000Z" }
         },
         {
           "functionName": "setPerformanceFeeRecipient",
@@ -320,7 +365,7 @@
         {
           "functionName": "abdicate",
           "isPermissioned": true,
-          "score": "unscored",
+          "score": "no-impact",
           "description": "7-day timelock before execution. Permanently and irreversibly disables the ability to submit a specific function selector.",
           "ownerDefinitions": [
             { "path": "$self.curator" }
