@@ -1,0 +1,158 @@
+{
+  "version": "1.0",
+  "lastModified": "2026-05-19T00:00:00.000Z",
+  "protocolSlug": "KPK-USDC-Prime",
+  "protocolName": "KPK USDC Prime",
+  "tokenName": "kpk_USDC_Primev2",
+  "chain": "Ethereum",
+  "projectType": "yield",
+  "verified": false,
+  "description": "KPK USDC Prime is a Morpho Vault V2 ERC4626 vault that allocates USDC deposits across selected Morpho Blue lending markets via the Markets V1 Adapter. A 5-of-8 Safe holds ownership (setCurator, setIsSentinel), while KPK's 2-of-5 multisig acts as curator — submitting timelocked adapter, cap, and fee changes. Day-to-day rebalancing is performed by any of four allocators: the KPK 2/5 multisig and three individual KPK operator EOAs.",
+  "admins": {
+    "eth:0x354C92aF243d53A24feb3dFF20372Af7b7c47478": {
+      "name": "KPK 5/8 Owner Safe",
+      "description": "Vault owner. Can replace the curator and grant/revoke sentinel roles. Controls {{ownerCapital}} in reachable capital."
+    },
+    "eth:0xf8182E5827c06a47A985eC565A3bcd56437a97bE": {
+      "name": "KPK 2/5 Multisig (Curator & Allocator)",
+      "description": "Curator and allocator. Submits timelocked operations for adapter additions, cap increases, and fee changes, and executes day-to-day asset allocation to adapters within configured caps. Controls {{curatorCapital}} in reachable capital."
+    },
+    "eth:0xF0Cf1e3Ec6264b03241826f5b2aBda17B4352A75": {
+      "name": "KPK Operator EOA",
+      "description": "KPK operator EOA with the allocator role. Can call allocate and deallocate on the vault within configured caps."
+    },
+    "eth:0x331D9C769185AE25233314859d53c2b9203a1204": {
+      "name": "KPK Operator EOA (Vault Deployer)",
+      "description": "KPK operator EOA that deployed the vault, also holds the allocator role. Can call allocate and deallocate within configured caps."
+    },
+    "eth:0xAF150c6d108D0C2c96BbFC3CeF9B4848b5D99440": {
+      "name": "KPK Operator EOA",
+      "description": "KPK operator EOA with the allocator role. Can call allocate and deallocate on the vault within configured caps."
+    }
+  },
+  "dependencies": {
+    "eth:0x1d511811ACA9d8817a3e50F29CadFf6243A02902": {
+      "name": "Markets V1 Adapter",
+      "description": "Routes vault deposits directly into individual Morpho Blue V1 markets without passing through an intermediate V1 vault. All vault capital flows through this adapter into Morpho Blue."
+    },
+    "eth:0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb": {
+      "name": "Morpho Blue",
+      "description": "The immutable Morpho Blue lending protocol where all vault deposits ultimately land as supply positions."
+    },
+    "eth:0x36Cb058364a811636685ef15a71E8ea99043f815": {
+      "name": "rETH/USDC Oracle",
+      "description": "MorphoChainlinkOracleV2 computing the rETH/USDC collateral price from rETH/ETH × ETH/USD / USDC/USD Chainlink feeds."
+    },
+    "eth:0xE8aDfF9117151fb5ad7313873780b87cC56EEDB0": {
+      "name": "OETH/USDC Oracle",
+      "description": "MorphoChainlinkOracleV2 computing the OETH/USDC collateral price using ETH/USD / USDC/USD feeds (OETH treated as 1:1 ETH)."
+    },
+    "eth:0xA6D6950c9F177F1De7f7757FB33539e3Ec60182a": {
+      "name": "cbBTC/USDC Oracle",
+      "description": "MorphoChainlinkOracleV2 computing the cbBTC/USDC collateral price from the Chainlink BTC/USD feed."
+    },
+    "eth:0xDddd770BADd886dF3864029e4B377B5F6a2B6b83": {
+      "name": "WBTC/USDC Oracle",
+      "description": "MorphoChainlinkOracleV2 computing the WBTC/USDC collateral price from WBTC/BTC × BTC/USD / USDC/USD Chainlink feeds."
+    },
+    "eth:0x48F7E36EB6B826B2dF4B2E630B62Cd25e89E40e2": {
+      "name": "wstETH/USDC Oracle",
+      "description": "MorphoChainlinkOracleV2 computing the wstETH/USDC collateral price from wstETH/ETH / USDC/ETH Chainlink feeds."
+    },
+    "eth:0x57bfdF6aB73995C5af58A95A16798190e366CA5b": {
+      "name": "LBTC/USDC Oracle",
+      "description": "MorphoChainlinkOracleV2 computing the LBTC/USDC collateral price from Redstone LBTC/USD / USDC/USD feeds."
+    },
+    "eth:0xDCc04fFaCD7B49035cCdBbbA59a5f955944129DB": {
+      "name": "cbBTC/USDC Oracle (alt)",
+      "description": "MorphoChainlinkOracleV2 computing an alternative cbBTC/USDC collateral price from Redstone cbBTC/USD × Chainlink BTC/USD feeds."
+    },
+    "eth:0x0F948CBa8231Db7898ef36A4212581Ad7b1B4580": {
+      "name": "WETH/USDC Oracle",
+      "description": "MorphoChainlinkOracleV2 computing the WETH/USDC collateral price from the Chainlink ETH/USD feed."
+    },
+    "eth:0x8200f6622bb906a78896a3da4ddc81ebc8a08458": {
+      "name": "Chainlink rETH/ETH Price Feed",
+      "description": "Chainlink price feed providing the rETH/ETH exchange rate, used by the rETH/USDC oracle."
+    },
+    "eth:0x5f4ec3df9cbd43714fe2740f5e3616155c5b8419": {
+      "name": "Chainlink ETH/USD Price Feed",
+      "description": "Chainlink price feed providing the ETH/USD price, used by the rETH/USDC and OETH/USDC oracles."
+    },
+    "eth:0x8fffffd4afb6115b954bd326cbe7b4ba576818f6": {
+      "name": "Chainlink USDC/USD Price Feed",
+      "description": "Chainlink price feed providing the USDC/USD price, used by rETH/USDC, OETH/USDC, and WBTC/USDC oracles."
+    },
+    "eth:0xf4030086522a5beea4988f8ca5b36dbc97bee88c": {
+      "name": "Chainlink BTC/USD Price Feed",
+      "description": "Chainlink price feed providing the BTC/USD price, used by cbBTC/USDC, WBTC/USDC, and cbBTC alt oracles."
+    },
+    "eth:0xfdfd9c85ad200c506cf9e21f1fd8dd01932fbb23": {
+      "name": "Chainlink WBTC/BTC Price Feed",
+      "description": "Chainlink price feed providing the WBTC/BTC exchange rate, used by the WBTC/USDC oracle."
+    },
+    "eth:0x4f67e4d9bd67efa28236013288737d39aef48e79": {
+      "name": "Chainlink wstETH/ETH Price Feed",
+      "description": "Chainlink price feed providing the wstETH/ETH exchange rate, used by the wstETH/USDC oracle."
+    },
+    "eth:0x986b5e1e1755e3c2440e960477f25201b0a8bbd4": {
+      "name": "Chainlink USDC/ETH Price Feed",
+      "description": "Chainlink price feed providing the USDC/ETH price, used by the wstETH/USDC oracle."
+    },
+    "eth:0xcf17f459f4d1d9e6fb5aa5013bd2d7eb6083bd45": {
+      "name": "Redstone LBTC/USD Price Feed",
+      "description": "Redstone price feed providing the LBTC/USD price, used by the LBTC/USDC oracle."
+    },
+    "eth:0x6a5a24455e5c9c288632944a88cea923e0496024": {
+      "name": "Redstone USDC/USD Price Feed",
+      "description": "Redstone price feed providing the USDC/USD price, used by the LBTC/USDC oracle."
+    },
+    "eth:0xb415eaa355d8440ac7ecb602d3fb67ccc1f0bc81": {
+      "name": "Redstone cbBTC/USD Price Feed",
+      "description": "Redstone price feed providing the cbBTC/USD price, used by the cbBTC/USDC alt oracle."
+    },
+    "eth:0xc0053f3fbccd593758258334dfce24c2a9a673ad": {
+      "name": "Chainlink ETH/USD Price Feed",
+      "description": "Chainlink price feed providing the ETH/USD price, used by the WETH/USDC oracle."
+    }
+  },
+  "funds": {
+    "eth:0x4Ef53d2cAa51C447fdFEEedee8F07FD1962C9ee6": {
+      "name": "KPK USDC Prime Vault (USDC)",
+      "description": "The Morpho Vault V2 contract. Holds USDC supply positions in Morpho Blue markets across WETH, WBTC, wstETH, cbBTC, rETH, and OETH collateral."
+    }
+  },
+  "sections": {
+    "codeAndAudits": {
+      "title": "Code & Audits",
+      "description": "Smart contract analysis and audit history",
+      "subsections": [
+        {
+          "title": "Contracts",
+          "content": [
+            {
+              "type": "dataTable",
+              "dataSource": "project.contracts",
+              "columns": [
+                { "field": "name", "header": "Name" },
+                { "field": "address", "header": "Address", "format": "address" },
+                { "field": "proxyType", "header": "Proxy Type", "format": "badge" }
+              ],
+              "filters": { "excludeExternal": true }
+            }
+          ]
+        },
+        {
+          "title": "Audits",
+          "content": [
+            { "type": "text", "content": "" }
+          ]
+        }
+      ]
+    }
+  },
+  "dataKeys": {
+    "ownerCapital": "v2score.inventory.admins.breakdown[\"eth:0x354C92aF243d53A24feb3dFF20372Af7b7c47478\"].totalReachableCapital",
+    "curatorCapital": "v2score.inventory.admins.breakdown[\"eth:0xf8182E5827c06a47A985eC565A3bcd56437a97bE\"].totalReachableCapital"
+  }
+}

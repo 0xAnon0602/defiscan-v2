@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastModified": "2026-05-20T11:12:04.000Z",
+  "lastModified": "2026-05-21T00:00:00.000Z",
   "contracts": {
     "eth:0x4Ef53d2cAa51C447fdFEEedee8F07FD1962C9ee6": {
       "functions": [
@@ -63,7 +63,7 @@
           "functionName": "submit",
           "isPermissioned": true,
           "score": "unscored",
-          "description": "Queues a timelocked operation. Curator-only. All cap increases, adapter changes, fee changes, and role changes flow through this.",
+          "description": "Queues a timelocked operation. Curator-only. All cap increases, adapter changes, fee changes, and role changes flow through this. The delay is enforced per queued operation type, not on submit itself.",
           "ownerDefinitions": [
             { "path": "$self.curator" }
           ],
@@ -74,34 +74,55 @@
           "functionName": "addAdapter",
           "isPermissioned": true,
           "score": "unscored",
-          "description": "Timelocked. Adds a new adapter, enabling fund allocation to it once caps are set.",
+          "description": "3-day timelock before execution. Adds a new adapter, enabling fund allocation to it once caps are set.",
           "ownerDefinitions": [
             { "path": "$self.curator" }
           ],
-          "timestamp": "2026-05-20T00:00:00.000Z",
-          "lastChangedBy": { "author": "unknown", "date": "2026-05-20T00:00:00.000Z" }
+          "mitigations": [
+            {
+              "type": "delay",
+              "description": "3-day timelock enforced by the vault before this operation can be executed.",
+              "delay": 259201
+            }
+          ],
+          "timestamp": "2026-05-21T00:00:00.000Z",
+          "lastChangedBy": { "author": "unknown", "date": "2026-05-21T00:00:00.000Z" }
         },
         {
           "functionName": "removeAdapter",
           "isPermissioned": true,
           "score": "no-impact",
-          "description": "Timelocked. Removes an adapter, preventing future allocations to it.",
+          "description": "7-day timelock before execution. Removes an adapter, preventing future allocations to it.",
           "ownerDefinitions": [
             { "path": "$self.curator" }
           ],
-          "timestamp": "2026-05-20T00:00:00.000Z",
-          "lastChangedBy": { "author": "unknown", "date": "2026-05-20T00:00:00.000Z" }
+          "mitigations": [
+            {
+              "type": "delay",
+              "description": "7-day timelock enforced by the vault before this operation can be executed.",
+              "delay": 604801
+            }
+          ],
+          "timestamp": "2026-05-21T00:00:00.000Z",
+          "lastChangedBy": { "author": "unknown", "date": "2026-05-21T00:00:00.000Z" }
         },
         {
           "functionName": "increaseAbsoluteCap",
           "isPermissioned": true,
           "score": "unscored",
-          "description": "Timelocked. Increases the maximum assets allocatable to an adapter market.",
+          "description": "3-day timelock before execution. Increases the maximum assets allocatable to an adapter market.",
           "ownerDefinitions": [
             { "path": "$self.curator" }
           ],
-          "timestamp": "2026-05-20T00:00:00.000Z",
-          "lastChangedBy": { "author": "unknown", "date": "2026-05-20T00:00:00.000Z" }
+          "mitigations": [
+            {
+              "type": "delay",
+              "description": "3-day timelock enforced by the vault before this operation can be executed.",
+              "delay": 259201
+            }
+          ],
+          "timestamp": "2026-05-21T00:00:00.000Z",
+          "lastChangedBy": { "author": "unknown", "date": "2026-05-21T00:00:00.000Z" }
         },
         {
           "functionName": "decreaseAbsoluteCap",
@@ -118,12 +139,19 @@
           "functionName": "increaseRelativeCap",
           "isPermissioned": true,
           "score": "unscored",
-          "description": "Timelocked. Increases the relative cap (as fraction of totalAssets) for an adapter market.",
+          "description": "3-day timelock before execution. Increases the relative cap (as fraction of totalAssets) for an adapter market.",
           "ownerDefinitions": [
             { "path": "$self.curator" }
           ],
-          "timestamp": "2026-05-20T00:00:00.000Z",
-          "lastChangedBy": { "author": "unknown", "date": "2026-05-20T00:00:00.000Z" }
+          "mitigations": [
+            {
+              "type": "delay",
+              "description": "3-day timelock enforced by the vault before this operation can be executed.",
+              "delay": 259201
+            }
+          ],
+          "timestamp": "2026-05-21T00:00:00.000Z",
+          "lastChangedBy": { "author": "unknown", "date": "2026-05-21T00:00:00.000Z" }
         },
         {
           "functionName": "decreaseRelativeCap",
@@ -140,29 +168,29 @@
           "functionName": "setIsAllocator",
           "isPermissioned": true,
           "score": "no-impact",
-          "description": "Timelocked. Grants or revokes allocator role. Allocators can move funds between adapters.",
+          "description": "Immediate (no timelock). Grants or revokes allocator role. Allocators can move funds between adapters within configured caps.",
           "ownerDefinitions": [
             { "path": "$self.curator" }
           ],
-          "timestamp": "2026-05-20T00:00:00.000Z",
-          "lastChangedBy": { "author": "unknown", "date": "2026-05-20T00:00:00.000Z" }
+          "timestamp": "2026-05-21T00:00:00.000Z",
+          "lastChangedBy": { "author": "unknown", "date": "2026-05-21T00:00:00.000Z" }
         },
         {
           "functionName": "setAdapterRegistry",
           "isPermissioned": true,
           "score": "unscored",
-          "description": "Timelocked. Sets the registry that whitelists valid adapters.",
+          "description": "Immediate (no timelock). Sets the registry that whitelists valid adapters.",
           "ownerDefinitions": [
             { "path": "$self.curator" }
           ],
-          "timestamp": "2026-05-20T00:00:00.000Z",
-          "lastChangedBy": { "author": "unknown", "date": "2026-05-20T00:00:00.000Z" }
+          "timestamp": "2026-05-21T00:00:00.000Z",
+          "lastChangedBy": { "author": "unknown", "date": "2026-05-21T00:00:00.000Z" }
         },
         {
           "functionName": "setPerformanceFee",
           "isPermissioned": true,
           "score": "no-impact",
-          "description": "Timelocked. Sets performance fee, capped at MAX_PERFORMANCE_FEE.",
+          "description": "Immediate (no timelock). Sets performance fee, capped at MAX_PERFORMANCE_FEE.",
           "ownerDefinitions": [
             { "path": "$self.curator" }
           ],
@@ -180,7 +208,7 @@
           "functionName": "setManagementFee",
           "isPermissioned": true,
           "score": "no-impact",
-          "description": "Timelocked. Sets management fee, capped at MAX_MANAGEMENT_FEE.",
+          "description": "Immediate (no timelock). Sets management fee, capped at MAX_MANAGEMENT_FEE.",
           "ownerDefinitions": [
             { "path": "$self.curator" }
           ],
@@ -198,7 +226,7 @@
           "functionName": "setPerformanceFeeRecipient",
           "isPermissioned": true,
           "score": "no-impact",
-          "description": "Timelocked. Sets address that receives performance fees.",
+          "description": "Sets address that receives performance fees.",
           "ownerDefinitions": [
             { "path": "$self.curator" }
           ],
@@ -209,7 +237,7 @@
           "functionName": "setManagementFeeRecipient",
           "isPermissioned": true,
           "score": "no-impact",
-          "description": "Timelocked. Sets address that receives management fees.",
+          "description": "Sets address that receives management fees.",
           "ownerDefinitions": [
             { "path": "$self.curator" }
           ],
@@ -220,7 +248,7 @@
           "functionName": "setReceiveSharesGate",
           "isPermissioned": true,
           "score": "no-impact",
-          "description": "Timelocked. Sets gate contract that controls who can receive vault shares.",
+          "description": "Sets gate contract that controls who can receive vault shares.",
           "ownerDefinitions": [
             { "path": "$self.curator" }
           ],
@@ -231,7 +259,7 @@
           "functionName": "setSendSharesGate",
           "isPermissioned": true,
           "score": "no-impact",
-          "description": "Timelocked. Sets gate contract that controls who can send vault shares.",
+          "description": "Sets gate contract that controls who can send vault shares.",
           "ownerDefinitions": [
             { "path": "$self.curator" }
           ],
@@ -242,7 +270,7 @@
           "functionName": "setReceiveAssetsGate",
           "isPermissioned": true,
           "score": "no-impact",
-          "description": "Timelocked. Sets gate contract that controls who can deposit.",
+          "description": "Sets gate contract that controls who can deposit.",
           "ownerDefinitions": [
             { "path": "$self.curator" }
           ],
@@ -253,7 +281,7 @@
           "functionName": "setSendAssetsGate",
           "isPermissioned": true,
           "score": "no-impact",
-          "description": "Timelocked. Sets gate contract that controls who can withdraw.",
+          "description": "Sets gate contract that controls who can withdraw.",
           "ownerDefinitions": [
             { "path": "$self.curator" }
           ],
@@ -264,34 +292,48 @@
           "functionName": "increaseTimelock",
           "isPermissioned": true,
           "score": "no-impact",
-          "description": "Timelocked. Increases the delay for a specific function selector.",
+          "description": "7-day timelock before execution. Increases the delay for a specific function selector.",
           "ownerDefinitions": [
             { "path": "$self.curator" }
           ],
-          "timestamp": "2026-05-20T00:00:00.000Z",
-          "lastChangedBy": { "author": "unknown", "date": "2026-05-20T00:00:00.000Z" }
+          "mitigations": [
+            {
+              "type": "delay",
+              "description": "7-day timelock enforced by the vault before this operation can be executed.",
+              "delay": 604801
+            }
+          ],
+          "timestamp": "2026-05-21T00:00:00.000Z",
+          "lastChangedBy": { "author": "unknown", "date": "2026-05-21T00:00:00.000Z" }
         },
         {
           "functionName": "decreaseTimelock",
           "isPermissioned": true,
           "score": "no-impact",
-          "description": "Timelocked. Decreases the delay for a specific function selector.",
+          "description": "Immediate (no timelock). Decreases the delay for a specific function selector — a protective action.",
           "ownerDefinitions": [
             { "path": "$self.curator" }
           ],
-          "timestamp": "2026-05-20T00:00:00.000Z",
-          "lastChangedBy": { "author": "unknown", "date": "2026-05-20T00:00:00.000Z" }
+          "timestamp": "2026-05-21T00:00:00.000Z",
+          "lastChangedBy": { "author": "unknown", "date": "2026-05-21T00:00:00.000Z" }
         },
         {
           "functionName": "abdicate",
           "isPermissioned": true,
           "score": "unscored",
-          "description": "Timelocked. Permanently and irreversibly disables the ability to submit a specific function selector.",
+          "description": "7-day timelock before execution. Permanently and irreversibly disables the ability to submit a specific function selector.",
           "ownerDefinitions": [
             { "path": "$self.curator" }
           ],
-          "timestamp": "2026-05-20T00:00:00.000Z",
-          "lastChangedBy": { "author": "unknown", "date": "2026-05-20T00:00:00.000Z" }
+          "mitigations": [
+            {
+              "type": "delay",
+              "description": "7-day timelock enforced by the vault before this operation can be executed.",
+              "delay": 604801
+            }
+          ],
+          "timestamp": "2026-05-21T00:00:00.000Z",
+          "lastChangedBy": { "author": "unknown", "date": "2026-05-21T00:00:00.000Z" }
         },
         {
           "functionName": "setForceDeallocatePenalty",
