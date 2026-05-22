@@ -1,3 +1,236 @@
+Generated with discovered.json: 0x15f1ed44170a14215230e1da2afa6bb069815802
+
+# Diff at Fri, 22 May 2026 22:25:08 GMT:
+
+- author: 0xAnon (<utkarshshail005@protonmail.com>)
+- comparing to: main@a8b4dc0490c38d249ada0878bc7bf1e78fb69eee block: 1779487728
+- current timestamp: 1779488609
+
+## Description
+
+Provide description of changes. This section will be preserved.
+
+## Watched changes
+
+```diff
+    contract MorphoChainlinkOracleV2 (eth:0x0F948CBa8231Db7898ef36A4212581Ad7b1B4580) {
+    +++ description: None
+      values.price:
+-        "2070261360030000000000000000"
++        "2074075080000000000000000000"
+    }
+```
+
+```diff
+    contract MorphoMarketV1AdapterV2 (eth:0x1d511811ACA9d8817a3e50F29CadFf6243A02902) {
+    +++ description: None
+      values.realAssets:
+-        22409572440189
++        22409599113910
+    }
+```
+
+```diff
+    contract VaultV2 (eth:0x4Ef53d2cAa51C447fdFEEedee8F07FD1962C9ee6) {
+    +++ description: None
+      values.accrueInterestView.0:
+-        22409572440189
++        22409599113910
+    }
+```
+
+```diff
+    contract RethExchangeRateAdapter (eth:0x8200f6622bb906a78896a3da4DdC81EbC8a08458) {
+    +++ description: None
+      values.latestRoundData.updatedAt:
+-        1779487727
++        1779488603
+    }
+```
+
+```diff
+    contract Rocket Pool ETH Token (eth:0xae78736Cd615f374D3085123A210448E74Fc6393) {
+    +++ description: None
+      values.getCollateralRate:
+-        "9785067324500916"
++        "9785696574316078"
+      values.getTotalCollateral:
+-        "3804075296367531001244"
++        "3804320460506544672568"
+      values.totalSupply:
+-        "334013123260052905217084"
++        "334013170222474442416303"
+    }
+```
+
+## Config/verification related changes
+
+Following changes come from updates made to the config file,
+or/and contracts becoming verified, not from differences found during
+discovery. Values are for block 1779487728 (main branch discovery), not current.
+
+```diff
++   Status: CREATED
+    contract MorphoChainlinkOracleV2 (eth:0x0F948CBa8231Db7898ef36A4212581Ad7b1B4580)
+    +++ description: None
+```
+
+```diff
++   Status: CREATED
+    contract GnosisSafe (eth:0x21f73D42Eb58Ba49dDB685dc29D3bF5c0f0373CA)
+    +++ description: None
+```
+
+```diff
++   Status: CREATED
+    contract ConfirmedTransactionModule (eth:0x2e1B5a40Edc922bCE489668b11749B8eAbd67f6b)
+    +++ description: None
+```
+
+```diff
++   Status: CREATED
+    contract MorphoChainlinkOracleV2 (eth:0x36Cb058364a811636685ef15a71E8ea99043f815)
+    +++ description: None
+```
+
+```diff
++   Status: CREATED
+    contract ChainlinkOracle (eth:0x48F7E36EB6B826B2dF4B2E630B62Cd25e89E40e2)
+    +++ description: None
+```
+
+```diff
++   Status: CREATED
+    contract WstETHPriceFeed (eth:0x4F67e4d9BD67eFa28236013288737D39AeF48e79)
+    +++ description: None
+```
+
+```diff
++   Status: CREATED
+    contract MorphoChainlinkOracleV2 (eth:0x57bfdF6aB73995C5af58A95A16798190e366CA5b)
+    +++ description: None
+```
+
+```diff
++   Status: CREATED
+    contract EACAggregatorProxy (eth:0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419)
+    +++ description: None
+```
+
+```diff
++   Status: CREATED
+    contract GnosisSafe (eth:0x6906F3a09BCc1b7cd3b0C8626724299618dF4472)
+    +++ description: None
+```
+
+```diff
++   Status: CREATED
+    contract ChainlinkOvalBase (eth:0x6a5a24455e5c9C288632944A88ceA923e0496024)
+    +++ description: None
+```
+
+```diff
++   Status: CREATED
+    contract RethExchangeRateAdapter (eth:0x8200f6622bb906a78896a3da4DdC81EbC8a08458)
+    +++ description: None
+```
+
+```diff
++   Status: CREATED
+    contract ProxyAdmin (eth:0x8223a6271d1e0BDA019Ee55d545d7B86eFF1F573)
+    +++ description: None
+```
+
+```diff
++   Status: CREATED
+    contract EACAggregatorProxy (eth:0x8350b7De6a6a2C1368E7D4Bd968190e13E354297)
+    +++ description: None
+```
+
+```diff
++   Status: CREATED
+    contract EACAggregatorProxy (eth:0x86392dC19c0b719886221c78AB11eb8Cf5c52812)
+    +++ description: None
+```
+
+```diff
++   Status: CREATED
+    contract EACAggregatorProxy (eth:0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6)
+    +++ description: None
+```
+
+```diff
++   Status: CREATED
+    contract EACAggregatorProxy (eth:0x986b5E1e1755e3C2440e960477f25201B0a8bbD4)
+    +++ description: None
+```
+
+```diff
++   Status: CREATED
+    contract MorphoChainlinkOracleV2 (eth:0xA6D6950c9F177F1De7f7757FB33539e3Ec60182a)
+    +++ description: None
+```
+
+```diff
++   Status: CREATED
+    contract Rocket Pool ETH Token (eth:0xae78736Cd615f374D3085123A210448E74Fc6393)
+    +++ description: None
+```
+
+```diff
++   Status: CREATED
+    contract EthereumPriceFeedLbtcFundamentalWithoutRoundsV1 (eth:0xb415eAA355D8440ac7eCB602D3fb67ccC1f0bc81)
+    +++ description: None
+```
+
+```diff
++   Status: CREATED
+    contract EACAggregatorProxy (eth:0xc0053f3FBcCD593758258334Dfce24C2A9A673aD)
+    +++ description: None
+```
+
+```diff
++   Status: CREATED
+    contract ChainlinkOvalBase (eth:0xCf17f459F4D1D9e6fb5aa5013Bd2D7EB6083bd45)
+    +++ description: None
+```
+
+```diff
++   Status: CREATED
+    contract EthereumMultiFeedAdapterWithoutRoundsV3 (eth:0xd72a6BA4a87DDB33e801b3f1c7750b2d0911fC6C)
+    +++ description: None
+```
+
+```diff
++   Status: CREATED
+    contract MorphoChainlinkOracleV2 (eth:0xDCc04fFaCD7B49035cCdBbbA59a5f955944129DB)
+    +++ description: None
+```
+
+```diff
++   Status: CREATED
+    contract ChainlinkOracle (eth:0xDddd770BADd886dF3864029e4B377B5F6a2B6b83)
+    +++ description: None
+```
+
+```diff
++   Status: CREATED
+    contract MorphoChainlinkOracleV2 (eth:0xE8aDfF9117151fb5ad7313873780b87cC56EEDB0)
+    +++ description: None
+```
+
+```diff
++   Status: CREATED
+    contract EACAggregatorProxy (eth:0xF4030086522a5bEEa4988F8cA5B36dbC97BeE88c)
+    +++ description: None
+```
+
+```diff
++   Status: CREATED
+    contract EACAggregatorProxy (eth:0xfdFD9C85aD200c506Cf9e21F1FD8dd01932FBB23)
+    +++ description: None
+```
+
 Generated with discovered.json: 0x9d701a00f3b5e7c2db956d0ea3a35be1393409d4
 
 # Diff at Fri, 22 May 2026 22:10:10 GMT:

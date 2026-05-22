@@ -46,10 +46,45 @@
         "totalSupply"
       ]
     },
-    // Markets V1 Adapter — ignore marketIds array (too many values to enumerate fully)
     "eth:0x1d511811ACA9d8817a3e50F29CadFf6243A02902": {
       "ignoreMethods": ["marketIds"],
-      "ignoreInWatchMode": ["marketIds"]
+      "fields": {
+        "marketIds": {
+          "handler": {
+            "type": "array",
+            "method": "marketIds",
+            "length": "{{ marketIdsLength }}"
+          }
+        },
+        "marketParams": {
+          "handler": {
+            "type": "morphoMarkets",
+            "morphoAddressField": "morpho",
+            "queueField": "marketIds",
+            "ignoreRelative": true
+          }
+        },
+        "marketOracles": {
+          "handler": {
+            "type": "morphoMarkets",
+            "extractField": "oracle",
+            "sourceField": "marketParams"
+          }
+        }
+      },
+      "ignoreInWatchMode": ["marketIds", "marketParams", "marketOracles"]
+    },
+    // wstETH collateral token — not relevant to discover
+    "eth:0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0": {
+      "ignoreDiscovery": true
+    },
+    // rETH token — array functions overflow, not relevant to discover
+    "eth:0xae78736Cd615f374D3085123A210448E74Fc6393": {
+      "ignoreMethods": ["getEthValue", "getRethValue"]
+    },
+    // RedStone multi-feed adapter — view functions revert (no data in current context)
+    "eth:0xd72a6BA4a87DDB33e801b3f1c7750b2d0911fC6C": {
+      "ignoreMethods": ["extractTimestampsAndAssertAllAreEqual", "getDataServiceId"]
     }
   }
 }
