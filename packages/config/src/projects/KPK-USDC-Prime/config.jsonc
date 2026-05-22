@@ -1,6 +1,6 @@
 {
   "$schema": "../../../../discovery/schemas/config.v2.schema.json",
-  "name": "KPK-USDC-Prime-V2",
+  "name": "KPK-USDC-Prime",
   "import": ["../globalConfig.jsonc"],
   "initialAddresses": [
     "eth:0x4Ef53d2cAa51C447fdFEEedee8F07FD1962C9ee6",

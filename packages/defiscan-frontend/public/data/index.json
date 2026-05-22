@@ -65,11 +65,11 @@
       }
     },
     {
-      "slug": "KPK-USDC-Prime-V2",
-      "name": "KPK USDC Prime V2",
+      "slug": "KPK-USDC-Prime",
+      "name": "KPK USDC Prime",
       "chain": "Ethereum",
       "projectType": "yield",
-      "tokenName": "kpk_USDC_Primev2",
+      "tokenName": "KPK_USDC_Prime",
       "verified": false,
       "totals": {
         "contractCount": 19,
@@ -547,8 +547,8 @@
       "totalFundsAtRisk": 437389061.96372527,
       "protocols": [
         {
-          "slug": "KPK-USDC-Prime-V2",
-          "name": "KPK USDC Prime V2"
+          "slug": "KPK-USDC-Prime",
+          "name": "KPK USDC Prime"
         },
         {
           "slug": "Sentora-PYUSD",
@@ -1223,8 +1223,8 @@
       "totalFundsAtRisk": 22358450.731305,
       "protocols": [
         {
-          "slug": "KPK-USDC-Prime-V2",
-          "name": "KPK USDC Prime V2"
+          "slug": "KPK-USDC-Prime",
+          "name": "KPK USDC Prime"
         }
       ]
     },
