@@ -1,7 +1,7 @@
 {
   "name": "KPK-USDC-Prime",
-  "timestamp": 1779209489,
-  "configHash": "0x65ac2d30b80b64dc4f8cc3e18e13179989ed623feed788fb3576e13c6bea873c",
+  "timestamp": 1779487728,
+  "configHash": "0x5974bbe0d73925e32d28ca887fed779f7b63d8d6783ddb0ab71a07d1f1b4b82e",
   "entries": [
     {
       "address": "eth:0x13cA8756E9470b71B8e998352c8741706217f963",
@@ -34,9 +34,7 @@
         "0xe4df778889ab7b9da5495131e1a19826a03a55e56b4a98ff27a446a861300c58"
       ],
       "proxyType": "immutable",
-      "ignoreInWatchMode": [
-        "marketIds"
-      ],
+      "ignoreInWatchMode": ["marketIds"],
       "sinceTimestamp": 1776163163,
       "sinceBlock": 24877491,
       "values": {
@@ -48,7 +46,7 @@
         "marketIdsLength": 8,
         "morpho": "eth:0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
         "parentVault": "eth:0x4Ef53d2cAa51C447fdFEEedee8F07FD1962C9ee6",
-        "realAssets": 21353196014110,
+        "realAssets": 22409572440189,
         "skimRecipient": "eth:0x0000000000000000000000000000000000000000"
       },
       "implementationNames": {
@@ -99,9 +97,7 @@
         "0x7d388119a66f3eae147d748f86136f073d907d6b36f7e87e9363c4c7a2899a8a"
       ],
       "proxyType": "gnosis safe",
-      "ignoreInWatchMode": [
-        "nonce"
-      ],
+      "ignoreInWatchMode": ["nonce"],
       "sinceTimestamp": 1753649003,
       "sinceBlock": 23012950,
       "values": {
@@ -122,7 +118,7 @@
         "getChainId": 1,
         "GnosisSafe_modules": [],
         "multisigThreshold": "5 of 8 (63%)",
-        "nonce": 28,
+        "nonce": 29,
         "VERSION": "1.4.1"
       },
       "implementationNames": {
@@ -174,31 +170,28 @@
         "0x2d21952f99fc336a43f0881ba30f7fceb798cc57422e462080ae69005a9239d9"
       ],
       "proxyType": "immutable",
-      "ignoreInWatchMode": [
-        "totalAssets",
-        "totalSupply"
-      ],
+      "ignoreInWatchMode": ["totalAssets", "totalSupply"],
       "sinceTimestamp": 1761242519,
       "sinceBlock": 23641853,
       "values": {
-        "_totalAssets": 21354523920980,
+        "_totalAssets": 22408742131782,
         "$immutable": true,
-        "accrueInterestView": [
-          21354963433301,
-          0,
-          0
-        ],
+        "accrueInterestView": [22409572440189, 0, 0],
         "adapterRegistry": "eth:0x3696c5eAe4a7Ffd04Ea163564571E9CD8Ed9364e",
-        "adapters": [
-          "eth:0x1d511811ACA9d8817a3e50F29CadFf6243A02902"
-        ],
+        "adapters": ["eth:0x1d511811ACA9d8817a3e50F29CadFf6243A02902"],
         "adaptersLength": 1,
+        "allocators": [
+          "eth:0xf8182E5827c06a47A985eC565A3bcd56437a97bE",
+          "eth:0xF0Cf1e3Ec6264b03241826f5b2aBda17B4352A75",
+          "eth:0x331D9C769185AE25233314859d53c2b9203a1204",
+          "eth:0xAF150c6d108D0C2c96BbFC3CeF9B4848b5D99440"
+        ],
         "asset": "eth:0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "curator": "eth:0xf8182E5827c06a47A985eC565A3bcd56437a97bE",
         "decimals": 18,
         "DOMAIN_SEPARATOR": "0x5aa066a3ab2c60ffdd9e7947f3fa139298acc923f6d2fa236f1967821108b45f",
         "firstTotalAssets": 0,
-        "lastUpdate": 1779190235,
+        "lastUpdate": 1779460235,
         "liquidityAdapter": "eth:0x1d511811ACA9d8817a3e50F29CadFf6243A02902",
         "liquidityData": "0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48000000000000000000000000cbb7c0000ab88b473b1f5afd9ef808440eed33bf000000000000000000000000a6d6950c9f177f1de7f7757fb33539e3ec60182a000000000000000000000000870ac11d48b15db9a138cf899d20f13f79ba00bc0000000000000000000000000000000000000000000000000bef55718ad60000",
         "managementFee": 0,
@@ -213,25 +206,9 @@
         "sendAssetsGate": "eth:0x0000000000000000000000000000000000000000",
         "sendSharesGate": "eth:0x0000000000000000000000000000000000000000",
         "symbol": "KPK_USDC_Prime",
-        "totalAssets": 21354963433301,
-        "totalSupply": "20935172535343909594408660",
-        "virtualShares": 1000000000000,
-        "allocators": [
-          "eth:0xf8182E5827c06a47A985eC565A3bcd56437a97bE",
-          "eth:0xF0Cf1e3Ec6264b03241826f5b2aBda17B4352A75",
-          "eth:0x331D9C769185AE25233314859d53c2b9203a1204",
-          "eth:0xAF150c6d108D0C2c96BbFC3CeF9B4848b5D99440"
-        ],
-        "marketOracles": [
-          "eth:0x36Cb058364a811636685ef15a71E8ea99043f815",
-          "eth:0xE8aDfF9117151fb5ad7313873780b87cC56EEDB0",
-          "eth:0xA6D6950c9F177F1De7f7757FB33539e3Ec60182a",
-          "eth:0xDddd770BADd886dF3864029e4B377B5F6a2B6b83",
-          "eth:0x48F7E36EB6B826B2dF4B2E630B62Cd25e89E40e2",
-          "eth:0x57bfdF6aB73995C5af58A95A16798190e366CA5b",
-          "eth:0xDCc04fFaCD7B49035cCdBbbA59a5f955944129DB",
-          "eth:0x0F948CBa8231Db7898ef36A4212581Ad7b1B4580"
-        ]
+        "totalAssets": 22409572440189,
+        "totalSupply": "21961792147161252272203795",
+        "virtualShares": 1000000000000
       },
       "implementationNames": {
         "eth:0x4Ef53d2cAa51C447fdFEEedee8F07FD1962C9ee6": "VaultV2"
@@ -295,9 +272,7 @@
         "0x7d388119a66f3eae147d748f86136f073d907d6b36f7e87e9363c4c7a2899a8a"
       ],
       "proxyType": "gnosis safe",
-      "ignoreInWatchMode": [
-        "nonce"
-      ],
+      "ignoreInWatchMode": ["nonce"],
       "sinceTimestamp": 1759154939,
       "sinceBlock": 23469148,
       "values": {
@@ -378,9 +353,7 @@
       "proxyType": "immutable",
       "sinceTimestamp": 1758019043,
       "sinceBlock": 23375073,
-      "values": {
-        "$immutable": true
-      },
+      "values": { "$immutable": true },
       "implementationNames": {
         "eth:0xb049465969ac6355127cDf9E88deE63d25204d5D": "MorphoMarketV1AdapterFactory"
       }
@@ -450,9 +423,7 @@
         "0xd42bbf9f7dcd3720a7fc6bdc6edfdfae8800a37d6dd4decfa0ef6ca4a2e88940"
       ],
       "proxyType": "gnosis safe",
-      "ignoreInWatchMode": [
-        "nonce"
-      ],
+      "ignoreInWatchMode": ["nonce"],
       "sinceTimestamp": 1646586617,
       "sinceBlock": 14334589,
       "values": {
@@ -516,9 +487,7 @@
       "proxyType": "immutable",
       "sinceTimestamp": 1758019043,
       "sinceBlock": 23375073,
-      "values": {
-        "$immutable": true
-      },
+      "values": { "$immutable": true },
       "implementationNames": {
         "eth:0xD1B8E2dee25c2b89DCD2f98448a7ce87d6F63394": "MorphoVaultV1AdapterFactory"
       }
@@ -582,9 +551,7 @@
         "0x7d388119a66f3eae147d748f86136f073d907d6b36f7e87e9363c4c7a2899a8a"
       ],
       "proxyType": "gnosis safe",
-      "ignoreInWatchMode": [
-        "nonce"
-      ],
+      "ignoreInWatchMode": ["nonce"],
       "sinceTimestamp": 1754683067,
       "sinceBlock": 23098573,
       "values": {
@@ -604,7 +571,7 @@
           "eth:0xD5b66FD462b46B9A08c427ddAf7DC50C05a8dF7d"
         ],
         "multisigThreshold": "2 of 5 (40%)",
-        "nonce": 61,
+        "nonce": 62,
         "VERSION": "1.4.1"
       },
       "implementationNames": {
@@ -628,360 +595,6 @@
       },
       "implementationNames": {
         "eth:0xFb4d38d93736A040993C50AAAc776a2Be2cff8Be": "MorphoMarketV1RegistryV2"
-      }
-    },
-    {
-      "name": "MorphoChainlinkOracleV2",
-      "address": "eth:0x36Cb058364a811636685ef15a71E8ea99043f815",
-      "type": "Contract",
-      "proxyType": "immutable",
-      "values": {
-        "$immutable": true,
-        "BASE_FEED_1": "eth:0x8200f6622bb906a78896a3da4ddc81ebc8a08458",
-        "BASE_FEED_2": "eth:0x5f4ec3df9cbd43714fe2740f5e3616155c5b8419",
-        "BASE_VAULT": "eth:0x0000000000000000000000000000000000000000",
-        "BASE_VAULT_CONVERSION_SAMPLE": 1,
-        "QUOTE_FEED_1": "eth:0x8fffffd4afb6115b954bd326cbe7b4ba576818f6",
-        "QUOTE_FEED_2": "eth:0x0000000000000000000000000000000000000000",
-        "QUOTE_VAULT": "eth:0x0000000000000000000000000000000000000000",
-        "QUOTE_VAULT_CONVERSION_SAMPLE": 1,
-        "SCALE_FACTOR": "1000000",
-        "feeds": [
-          "eth:0x8200f6622bb906a78896a3da4ddc81ebc8a08458",
-          "eth:0x5f4ec3df9cbd43714fe2740f5e3616155c5b8419",
-          "eth:0x8fffffd4afb6115b954bd326cbe7b4ba576818f6"
-        ]
-      },
-      "implementationNames": {
-        "eth:0x36Cb058364a811636685ef15a71E8ea99043f815": "MorphoChainlinkOracleV2"
-      }
-    },
-    {
-      "name": "MorphoChainlinkOracleV2",
-      "address": "eth:0xE8aDfF9117151fb5ad7313873780b87cC56EEDB0",
-      "type": "Contract",
-      "proxyType": "immutable",
-      "values": {
-        "$immutable": true,
-        "BASE_FEED_1": "eth:0x5f4ec3df9cbd43714fe2740f5e3616155c5b8419",
-        "BASE_FEED_2": "eth:0x0000000000000000000000000000000000000000",
-        "BASE_VAULT": "eth:0x0000000000000000000000000000000000000000",
-        "BASE_VAULT_CONVERSION_SAMPLE": 1,
-        "QUOTE_FEED_1": "eth:0x8fffffd4afb6115b954bd326cbe7b4ba576818f6",
-        "QUOTE_FEED_2": "eth:0x0000000000000000000000000000000000000000",
-        "QUOTE_VAULT": "eth:0x0000000000000000000000000000000000000000",
-        "QUOTE_VAULT_CONVERSION_SAMPLE": 1,
-        "SCALE_FACTOR": "1000000",
-        "feeds": [
-          "eth:0x5f4ec3df9cbd43714fe2740f5e3616155c5b8419",
-          "eth:0x8fffffd4afb6115b954bd326cbe7b4ba576818f6"
-        ]
-      },
-      "implementationNames": {
-        "eth:0xE8aDfF9117151fb5ad7313873780b87cC56EEDB0": "MorphoChainlinkOracleV2"
-      }
-    },
-    {
-      "name": "MorphoChainlinkOracleV2",
-      "address": "eth:0xA6D6950c9F177F1De7f7757FB33539e3Ec60182a",
-      "type": "Contract",
-      "proxyType": "immutable",
-      "values": {
-        "$immutable": true,
-        "BASE_FEED_1": "eth:0xf4030086522a5beea4988f8ca5b36dbc97bee88c",
-        "BASE_FEED_2": "eth:0x0000000000000000000000000000000000000000",
-        "BASE_VAULT": "eth:0x0000000000000000000000000000000000000000",
-        "BASE_VAULT_CONVERSION_SAMPLE": 1,
-        "QUOTE_FEED_1": "eth:0x0000000000000000000000000000000000000000",
-        "QUOTE_FEED_2": "eth:0x0000000000000000000000000000000000000000",
-        "QUOTE_VAULT": "eth:0x0000000000000000000000000000000000000000",
-        "QUOTE_VAULT_CONVERSION_SAMPLE": 1,
-        "SCALE_FACTOR": "1000000",
-        "feeds": [
-          "eth:0xf4030086522a5beea4988f8ca5b36dbc97bee88c"
-        ]
-      },
-      "implementationNames": {
-        "eth:0xA6D6950c9F177F1De7f7757FB33539e3Ec60182a": "MorphoChainlinkOracleV2"
-      }
-    },
-    {
-      "name": "MorphoChainlinkOracleV2",
-      "address": "eth:0xDddd770BADd886dF3864029e4B377B5F6a2B6b83",
-      "type": "Contract",
-      "proxyType": "immutable",
-      "values": {
-        "$immutable": true,
-        "BASE_FEED_1": "eth:0xfdfd9c85ad200c506cf9e21f1fd8dd01932fbb23",
-        "BASE_FEED_2": "eth:0xf4030086522a5beea4988f8ca5b36dbc97bee88c",
-        "BASE_VAULT": "eth:0x0000000000000000000000000000000000000000",
-        "BASE_VAULT_CONVERSION_SAMPLE": 1,
-        "QUOTE_FEED_1": "eth:0x8fffffd4afb6115b954bd326cbe7b4ba576818f6",
-        "QUOTE_FEED_2": "eth:0x0000000000000000000000000000000000000000",
-        "QUOTE_VAULT": "eth:0x0000000000000000000000000000000000000000",
-        "QUOTE_VAULT_CONVERSION_SAMPLE": 1,
-        "SCALE_FACTOR": "1000000",
-        "feeds": [
-          "eth:0xfdfd9c85ad200c506cf9e21f1fd8dd01932fbb23",
-          "eth:0xf4030086522a5beea4988f8ca5b36dbc97bee88c",
-          "eth:0x8fffffd4afb6115b954bd326cbe7b4ba576818f6"
-        ]
-      },
-      "implementationNames": {
-        "eth:0xDddd770BADd886dF3864029e4B377B5F6a2B6b83": "MorphoChainlinkOracleV2"
-      }
-    },
-    {
-      "name": "MorphoChainlinkOracleV2",
-      "address": "eth:0x48F7E36EB6B826B2dF4B2E630B62Cd25e89E40e2",
-      "type": "Contract",
-      "proxyType": "immutable",
-      "values": {
-        "$immutable": true,
-        "BASE_FEED_1": "eth:0x4f67e4d9bd67efa28236013288737d39aef48e79",
-        "BASE_FEED_2": "eth:0x0000000000000000000000000000000000000000",
-        "BASE_VAULT": "eth:0x0000000000000000000000000000000000000000",
-        "BASE_VAULT_CONVERSION_SAMPLE": 1,
-        "QUOTE_FEED_1": "eth:0x986b5e1e1755e3c2440e960477f25201b0a8bbd4",
-        "QUOTE_FEED_2": "eth:0x0000000000000000000000000000000000000000",
-        "QUOTE_VAULT": "eth:0x0000000000000000000000000000000000000000",
-        "QUOTE_VAULT_CONVERSION_SAMPLE": 1,
-        "SCALE_FACTOR": "1000000",
-        "feeds": [
-          "eth:0x4f67e4d9bd67efa28236013288737d39aef48e79",
-          "eth:0x986b5e1e1755e3c2440e960477f25201b0a8bbd4"
-        ]
-      },
-      "implementationNames": {
-        "eth:0x48F7E36EB6B826B2dF4B2E630B62Cd25e89E40e2": "MorphoChainlinkOracleV2"
-      }
-    },
-    {
-      "name": "MorphoChainlinkOracleV2",
-      "address": "eth:0x57bfdF6aB73995C5af58A95A16798190e366CA5b",
-      "type": "Contract",
-      "proxyType": "immutable",
-      "values": {
-        "$immutable": true,
-        "BASE_FEED_1": "eth:0xcf17f459f4d1d9e6fb5aa5013bd2d7eb6083bd45",
-        "BASE_FEED_2": "eth:0x0000000000000000000000000000000000000000",
-        "BASE_VAULT": "eth:0x0000000000000000000000000000000000000000",
-        "BASE_VAULT_CONVERSION_SAMPLE": 1,
-        "QUOTE_FEED_1": "eth:0x6a5a24455e5c9c288632944a88cea923e0496024",
-        "QUOTE_FEED_2": "eth:0x0000000000000000000000000000000000000000",
-        "QUOTE_VAULT": "eth:0x0000000000000000000000000000000000000000",
-        "QUOTE_VAULT_CONVERSION_SAMPLE": 1,
-        "SCALE_FACTOR": "1000000",
-        "feeds": [
-          "eth:0xcf17f459f4d1d9e6fb5aa5013bd2d7eb6083bd45",
-          "eth:0x6a5a24455e5c9c288632944a88cea923e0496024"
-        ]
-      },
-      "implementationNames": {
-        "eth:0x57bfdF6aB73995C5af58A95A16798190e366CA5b": "MorphoChainlinkOracleV2"
-      }
-    },
-    {
-      "name": "MorphoChainlinkOracleV2",
-      "address": "eth:0xDCc04fFaCD7B49035cCdBbbA59a5f955944129DB",
-      "type": "Contract",
-      "proxyType": "immutable",
-      "values": {
-        "$immutable": true,
-        "BASE_FEED_1": "eth:0xb415eaa355d8440ac7ecb602d3fb67ccc1f0bc81",
-        "BASE_FEED_2": "eth:0xf4030086522a5beea4988f8ca5b36dbc97bee88c",
-        "BASE_VAULT": "eth:0x0000000000000000000000000000000000000000",
-        "BASE_VAULT_CONVERSION_SAMPLE": 1,
-        "QUOTE_FEED_1": "eth:0x0000000000000000000000000000000000000000",
-        "QUOTE_FEED_2": "eth:0x0000000000000000000000000000000000000000",
-        "QUOTE_VAULT": "eth:0x0000000000000000000000000000000000000000",
-        "QUOTE_VAULT_CONVERSION_SAMPLE": 1,
-        "SCALE_FACTOR": "1000000",
-        "feeds": [
-          "eth:0xb415eaa355d8440ac7ecb602d3fb67ccc1f0bc81",
-          "eth:0xf4030086522a5beea4988f8ca5b36dbc97bee88c"
-        ]
-      },
-      "implementationNames": {
-        "eth:0xDCc04fFaCD7B49035cCdBbbA59a5f955944129DB": "MorphoChainlinkOracleV2"
-      }
-    },
-    {
-      "name": "MorphoChainlinkOracleV2",
-      "address": "eth:0x0F948CBa8231Db7898ef36A4212581Ad7b1B4580",
-      "type": "Contract",
-      "proxyType": "immutable",
-      "values": {
-        "$immutable": true,
-        "BASE_FEED_1": "eth:0xc0053f3fbccd593758258334dfce24c2a9a673ad",
-        "BASE_FEED_2": "eth:0x0000000000000000000000000000000000000000",
-        "BASE_VAULT": "eth:0x0000000000000000000000000000000000000000",
-        "BASE_VAULT_CONVERSION_SAMPLE": 1,
-        "QUOTE_FEED_1": "eth:0x0000000000000000000000000000000000000000",
-        "QUOTE_FEED_2": "eth:0x0000000000000000000000000000000000000000",
-        "QUOTE_VAULT": "eth:0x0000000000000000000000000000000000000000",
-        "QUOTE_VAULT_CONVERSION_SAMPLE": 1,
-        "SCALE_FACTOR": "1000000",
-        "feeds": [
-          "eth:0xc0053f3fbccd593758258334dfce24c2a9a673ad"
-        ]
-      },
-      "implementationNames": {
-        "eth:0x0F948CBa8231Db7898ef36A4212581Ad7b1B4580": "MorphoChainlinkOracleV2"
-      }
-    },
-    {
-      "name": "EACAggregatorProxy",
-      "address": "eth:0x8200f6622bb906a78896a3da4ddc81ebc8a08458",
-      "type": "Contract",
-      "proxyType": "immutable",
-      "values": {
-        "$immutable": true,
-        "description": "rETH/ETH exchange rate adapter",
-        "decimals": 18
-      },
-      "implementationNames": {
-        "eth:0x8200f6622bb906a78896a3da4ddc81ebc8a08458": "EACAggregatorProxy"
-      }
-    },
-    {
-      "name": "EACAggregatorProxy",
-      "address": "eth:0x5f4ec3df9cbd43714fe2740f5e3616155c5b8419",
-      "type": "Contract",
-      "proxyType": "immutable",
-      "values": {
-        "$immutable": true,
-        "description": "ETH / USD",
-        "decimals": 8
-      },
-      "implementationNames": {
-        "eth:0x5f4ec3df9cbd43714fe2740f5e3616155c5b8419": "EACAggregatorProxy"
-      }
-    },
-    {
-      "name": "EACAggregatorProxy",
-      "address": "eth:0x8fffffd4afb6115b954bd326cbe7b4ba576818f6",
-      "type": "Contract",
-      "proxyType": "immutable",
-      "values": {
-        "$immutable": true,
-        "description": "USDC / USD",
-        "decimals": 8
-      },
-      "implementationNames": {
-        "eth:0x8fffffd4afb6115b954bd326cbe7b4ba576818f6": "EACAggregatorProxy"
-      }
-    },
-    {
-      "name": "EACAggregatorProxy",
-      "address": "eth:0xf4030086522a5beea4988f8ca5b36dbc97bee88c",
-      "type": "Contract",
-      "proxyType": "immutable",
-      "values": {
-        "$immutable": true,
-        "description": "BTC / USD",
-        "decimals": 8
-      },
-      "implementationNames": {
-        "eth:0xf4030086522a5beea4988f8ca5b36dbc97bee88c": "EACAggregatorProxy"
-      }
-    },
-    {
-      "name": "EACAggregatorProxy",
-      "address": "eth:0xfdfd9c85ad200c506cf9e21f1fd8dd01932fbb23",
-      "type": "Contract",
-      "proxyType": "immutable",
-      "values": {
-        "$immutable": true,
-        "description": "WBTC / BTC",
-        "decimals": 8
-      },
-      "implementationNames": {
-        "eth:0xfdfd9c85ad200c506cf9e21f1fd8dd01932fbb23": "EACAggregatorProxy"
-      }
-    },
-    {
-      "name": "EACAggregatorProxy",
-      "address": "eth:0x4f67e4d9bd67efa28236013288737d39aef48e79",
-      "type": "Contract",
-      "proxyType": "immutable",
-      "values": {
-        "$immutable": true,
-        "description": "Custom price feed for wstETH / ETH",
-        "decimals": 18
-      },
-      "implementationNames": {
-        "eth:0x4f67e4d9bd67efa28236013288737d39aef48e79": "EACAggregatorProxy"
-      }
-    },
-    {
-      "name": "EACAggregatorProxy",
-      "address": "eth:0x986b5e1e1755e3c2440e960477f25201b0a8bbd4",
-      "type": "Contract",
-      "proxyType": "immutable",
-      "values": {
-        "$immutable": true,
-        "description": "USDC / ETH",
-        "decimals": 18
-      },
-      "implementationNames": {
-        "eth:0x986b5e1e1755e3c2440e960477f25201b0a8bbd4": "EACAggregatorProxy"
-      }
-    },
-    {
-      "name": "PriceFeed",
-      "address": "eth:0xcf17f459f4d1d9e6fb5aa5013bd2d7eb6083bd45",
-      "type": "Contract",
-      "proxyType": "immutable",
-      "values": {
-        "$immutable": true,
-        "description": "LBTC / USD",
-        "decimals": 8
-      },
-      "implementationNames": {
-        "eth:0xcf17f459f4d1d9e6fb5aa5013bd2d7eb6083bd45": "PriceFeed"
-      }
-    },
-    {
-      "name": "PriceFeed",
-      "address": "eth:0x6a5a24455e5c9c288632944a88cea923e0496024",
-      "type": "Contract",
-      "proxyType": "immutable",
-      "values": {
-        "$immutable": true,
-        "description": "USDC / USD",
-        "decimals": 8
-      },
-      "implementationNames": {
-        "eth:0x6a5a24455e5c9c288632944a88cea923e0496024": "PriceFeed"
-      }
-    },
-    {
-      "name": "PriceFeed",
-      "address": "eth:0xb415eaa355d8440ac7ecb602d3fb67ccc1f0bc81",
-      "type": "Contract",
-      "proxyType": "immutable",
-      "values": {
-        "$immutable": true,
-        "description": "Redstone Price Feed",
-        "decimals": 8
-      },
-      "implementationNames": {
-        "eth:0xb415eaa355d8440ac7ecb602d3fb67ccc1f0bc81": "PriceFeed"
-      }
-    },
-    {
-      "name": "EACAggregatorProxy",
-      "address": "eth:0xc0053f3fbccd593758258334dfce24c2a9a673ad",
-      "type": "Contract",
-      "proxyType": "immutable",
-      "values": {
-        "$immutable": true,
-        "description": "ETH / USD",
-        "decimals": 8
-      },
-      "implementationNames": {
-        "eth:0xc0053f3fbccd593758258334dfce24c2a9a673ad": "EACAggregatorProxy"
       }
     }
   ],
@@ -1614,8 +1227,6 @@
     "morpho/Morpho": "0xdbb54f2b25b761df9e05263570b2b0fcfef7676c541d7bdfa2974680fe1e3682",
     "morpho/MorphoVaultV2": "0xa195ad3b1c0d657c16839333eba95bdf875119f53c1db1b6b9b7efece0359c01"
   },
-  "usedBlockNumbers": {
-    "ethereum": 25130579
-  },
+  "usedBlockNumbers": { "ethereum": 25153688 },
   "permissionsConfigHash": "0x9502d215f7deb1a092285a2f4949419fe7bb6a6b6e03f0f10b5d689982443a1a"
 }

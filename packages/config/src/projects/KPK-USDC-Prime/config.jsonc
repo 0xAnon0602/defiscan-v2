@@ -35,9 +35,9 @@
         "allocators": {
           "handler": {
             "type": "event",
-            "select": "allocator",
-            "add": { "event": "SetIsAllocator", "where": ["=", "#isAllocator", true] },
-            "remove": { "event": "SetIsAllocator", "where": ["!=", "#isAllocator", true] }
+            "select": "account",
+            "add": { "event": "SetIsAllocator", "where": ["=", "#newIsAllocator", true] },
+            "remove": { "event": "SetIsAllocator", "where": ["!=", "#newIsAllocator", true] }
           }
         }
       },
