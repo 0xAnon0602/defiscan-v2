@@ -1991,21 +1991,6 @@
       "type": "data-change",
       "changes": [
         {
-          "field": "values.getPeriodState._periodStartTimestamp",
-          "before": 1775001600,
-          "after": 1767225600
-        },
-        {
-          "field": "values.getPeriodState._spendableBalanceInPeriod",
-          "before": 0,
-          "after": "4750000000000000000000000"
-        },
-        {
-          "field": "values.spendableBalance",
-          "before": 0,
-          "after": "4750000000000000000000000"
-        },
-        {
           "field": "values.getLimitParameters.0",
           "before": "250000000000000000000000",
           "after": "5000000000000000000000000"
