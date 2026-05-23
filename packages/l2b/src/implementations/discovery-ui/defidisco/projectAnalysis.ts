@@ -1238,10 +1238,16 @@ export class ProjectAnalysis {
       if (!entry) continue
 
       for (const fieldName of tag.dependencyFields) {
-        const fieldValue = entry.values?.[fieldName]
-        if (!Array.isArray(fieldValue)) continue
+        const rawValue = entry.values?.[fieldName]
+        const fieldValue = Array.isArray(rawValue)
+          ? rawValue
+          : typeof rawValue === 'string'
+            ? [rawValue]
+            : []
+        if (fieldValue.length === 0) continue
 
         for (const addr of fieldValue) {
+          if (!addr || addr === 'eth:0x0000000000000000000000000000000000000000') continue
           const key = normalizeChainAddress(addr)
           if (depMap.has(key)) continue
           const addrTag = this.tagsByAddress.get(key)
