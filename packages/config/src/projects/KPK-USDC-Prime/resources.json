@@ -7,7 +7,7 @@
     },
     {
       "type": "frontend",
-      "url": "https://app.morpho.org/ethereum/vault/0x4Ef53d2cAa51C447fdFEEedee8F07FD1962C9ee6",
+      "url": "https://app.morpho.org/ethereum/vault/0x4Ef53d2cAa51C447fdFEEedee8F07FD1962C9ee6/kpk-usdc-prime-v2",
       "frontendSubtype": "third-party",
       "label": "Morpho App"
     },
@@ -19,8 +19,13 @@
     },
     {
       "type": "docs",
-      "url": "https://docs.kpk.io",
-      "label": "KPK Docs"
+      "url": "https://docs.kpk.io/vaults/vaults/morpho/ethereum/usdc-prime",
+      "label": "KPK USDC Prime Handbook"
+    },
+    {
+      "type": "other",
+      "url": "https://dune.com/kpk/kpk-morpho-vaults#kpk-usdc-prime-vault",
+      "label": "Live Metrics (Dune)"
     },
     {
       "type": "docs",
