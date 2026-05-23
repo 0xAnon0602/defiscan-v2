@@ -1,7 +1,7 @@
 {
   "version": "1.1",
-  "lastReconciledAt": 1779273217,
-  "lastConsumedUpdateNotifierId": 209,
+  "lastReconciledAt": 1779527678,
+  "lastConsumedUpdateNotifierId": 215,
   "events": [
     {
       "timestamp": "2026-03-03T13:51:02.000Z",
@@ -1303,6 +1303,64 @@
       "entity": null,
       "id": "209:eth:0xfE8A8FC74B2fdD3D745AbFc4940DD858BA60696c:contract-removed",
       "type": "contract-removed"
+    },
+    {
+      "timestamp": "2026-05-23T09:11:42.000Z",
+      "updateNotifierId": 215,
+      "address": "eth:0xBEEF01735c132Ada46AA9aA4c54623cAA92A64CB",
+      "contractName": "MetaMorpho",
+      "isDependency": false,
+      "entity": null,
+      "id": "215:eth:0xBEEF01735c132Ada46AA9aA4c54623cAA92A64CB:data-change",
+      "type": "data-change",
+      "changes": [
+        {
+          "field": "values.supplyQueue.3",
+          "before": "0x94b823e6bd8ea533b4e33fbc307faea0b307301bc48763acc4d4aa4def7636cd"
+        },
+        {
+          "field": "values.supplyQueue.4",
+          "after": "0x94b823e6bd8ea533b4e33fbc307faea0b307301bc48763acc4d4aa4def7636cd"
+        },
+        {
+          "field": "values.marketParams.4",
+          "before": {
+            "irm": "eth:0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "lltv": "860000000000000000",
+            "oracle": "eth:0x0F948CBa8231Db7898ef36A4212581Ad7b1B4580",
+            "marketId": "0x94b823e6bd8ea533b4e33fbc307faea0b307301bc48763acc4d4aa4def7636cd",
+            "loanToken": "eth:0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "collateralToken": "eth:0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+          }
+        },
+        {
+          "field": "values.marketParams.5",
+          "after": {
+            "marketId": "0x94b823e6bd8ea533b4e33fbc307faea0b307301bc48763acc4d4aa4def7636cd",
+            "loanToken": "eth:0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "collateralToken": "eth:0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "oracle": "eth:0x0F948CBa8231Db7898ef36A4212581Ad7b1B4580",
+            "irm": "eth:0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "lltv": "860000000000000000"
+          }
+        },
+        {
+          "field": "values.marketOracles.4",
+          "before": "eth:0x0F948CBa8231Db7898ef36A4212581Ad7b1B4580"
+        },
+        {
+          "field": "values.marketOracles.5",
+          "after": "eth:0x0F948CBa8231Db7898ef36A4212581Ad7b1B4580"
+        },
+        {
+          "field": "values.withdrawQueue.4",
+          "before": "0x94b823e6bd8ea533b4e33fbc307faea0b307301bc48763acc4d4aa4def7636cd"
+        },
+        {
+          "field": "values.withdrawQueue.5",
+          "after": "0x94b823e6bd8ea533b4e33fbc307faea0b307301bc48763acc4d4aa4def7636cd"
+        }
+      ]
     }
   ]
 }
