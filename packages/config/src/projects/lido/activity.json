@@ -2095,42 +2095,6 @@
           }
         }
       ]
-    },
-    {
-      "timestamp": "2026-05-25T18:47:07.000Z",
-      "updateNotifierId": 217,
-      "address": "eth:0xDAdC4C36cD8F468A398C25d0D8aaf6A928B47Ab4",
-      "contractName": "AllowedRecipientsRegistry",
-      "entity": null,
-      "id": "217:eth:0xDAdC4C36cD8F468A398C25d0D8aaf6A928B47Ab4:data-change",
-      "type": "data-change",
-      "changes": [
-        {
-          "field": "values.getPeriodState._alreadySpentAmount",
-          "before": "1500000000000000000000000",
-          "after": "400000000000000000000000"
-        },
-        {
-          "field": "values.getPeriodState._periodEndTimestamp",
-          "before": 1775001600,
-          "after": 1782864000
-        },
-        {
-          "field": "values.getPeriodState._periodStartTimestamp",
-          "before": 1767225600,
-          "after": 1775001600
-        },
-        {
-          "field": "values.getPeriodState._spendableBalanceInPeriod",
-          "before": "3500000000000000000000000",
-          "after": "4600000000000000000000000"
-        },
-        {
-          "field": "values.spendableBalance",
-          "before": "3500000000000000000000000",
-          "after": "4600000000000000000000000"
-        }
-      ]
     }
   ]
 }

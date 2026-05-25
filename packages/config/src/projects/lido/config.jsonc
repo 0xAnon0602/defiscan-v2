@@ -287,5 +287,11 @@
         "spendableBalance"
       ]
     },
+    "eth:0xDAdC4C36cD8F468A398C25d0D8aaf6A928B47Ab4": {
+      "ignoreInWatchMode": [
+        "getPeriodState",
+        "spendableBalance"
+      ]
+    },
   }
 }
