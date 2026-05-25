@@ -82,7 +82,6 @@
           "handler": { "type": "call", "method": "timelock", "args": ["0xb2e32848"] }
         },
         // Force-deallocate penalty for the Markets V1 Adapter (raw uint, 1e18-scaled).
-        // Snapshot at 2026-05-25: 5e15 = 0.5%. Planned to be lowered to 0 per KPK roadmap.
         "forceDeallocatePenalty_marketsV1Adapter": {
           "handler": {
             "type": "call",
