@@ -1,7 +1,7 @@
 {
   "version": "1.1",
-  "lastReconciledAt": 1779376095,
-  "lastConsumedUpdateNotifierId": 212,
+  "lastReconciledAt": 1779735205,
+  "lastConsumedUpdateNotifierId": 219,
   "events": [
     {
       "timestamp": "2026-05-19T10:45:21.000Z",
@@ -120,6 +120,46 @@
         {
           "field": "values.accessControl.FULL_RESTRICTED_STAKER_ROLE.members.573",
           "after": "eth:0xaC4cC4B68ea24BbFAAC8fD127B67Ed445ACcCE22"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-25T18:47:07.000Z",
+      "updateNotifierId": 219,
+      "address": "eth:0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9",
+      "contractName": "StakedENA",
+      "isDependency": false,
+      "entity": null,
+      "id": "219:eth:0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9:data-change",
+      "type": "data-change",
+      "changes": [
+        {
+          "field": "values.accessControl.BLACKLISTED_ROLE.members.525",
+          "after": "eth:0x36D41d8Af87f06bCa2e6005FAE8EeEc91f6F36c3"
+        },
+        {
+          "field": "values.accessControl.BLACKLISTED_ROLE.members.526",
+          "after": "eth:0x712482c359Fa8F10664A165422f582Afe2ce91f1"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-25T18:47:07.000Z",
+      "updateNotifierId": 219,
+      "address": "eth:0x9D39A5DE30e57443BfF2A8307A4256c8797A3497",
+      "contractName": "Staked USDe Token",
+      "isDependency": false,
+      "entity": null,
+      "id": "219:eth:0x9D39A5DE30e57443BfF2A8307A4256c8797A3497:data-change",
+      "type": "data-change",
+      "changes": [
+        {
+          "field": "values.accessControl.FULL_RESTRICTED_STAKER_ROLE.members.574",
+          "after": "eth:0x36D41d8Af87f06bCa2e6005FAE8EeEc91f6F36c3"
+        },
+        {
+          "field": "values.accessControl.FULL_RESTRICTED_STAKER_ROLE.members.575",
+          "after": "eth:0x712482c359Fa8F10664A165422f582Afe2ce91f1"
         }
       ]
     }
