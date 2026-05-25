@@ -1,7 +1,7 @@
 {
   "version": "1.1",
-  "lastReconciledAt": 1779273254,
-  "lastConsumedUpdateNotifierId": 211,
+  "lastReconciledAt": 1779527785,
+  "lastConsumedUpdateNotifierId": 216,
   "events": [
     {
       "timestamp": "2026-03-26T08:10:03.000Z",
@@ -1791,6 +1791,23 @@
           "field": "values.layerZeroConfig.perEid.30362.inboundRateLimit.limit",
           "before": "20000000000000000000",
           "after": "500000000000000000000"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-23T09:11:42.000Z",
+      "updateNotifierId": 216,
+      "address": "eth:0x308861A430be4cce5502d0A12724771Fc6DaF216",
+      "contractName": "LiquidityPool",
+      "isDependency": false,
+      "entity": null,
+      "id": "216:eth:0x308861A430be4cce5502d0A12724771Fc6DaF216:data-change",
+      "type": "data-change",
+      "changes": [
+        {
+          "field": "values.validatorSizeWei",
+          "before": "1901000000000000000000",
+          "after": "32000000000000000000"
         }
       ]
     }

@@ -1,7 +1,7 @@
 {
   "version": "1.1",
-  "lastReconciledAt": 1779273197,
-  "lastConsumedUpdateNotifierId": 208,
+  "lastReconciledAt": 1779527630,
+  "lastConsumedUpdateNotifierId": 214,
   "events": [
     {
       "timestamp": "2026-03-02T13:49:30.000Z",
@@ -1978,6 +1978,76 @@
         {
           "field": "values.$members.0",
           "before": "eth:0xc576b7bF977f15357Af8c935f7b8b543497fc072"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-23T09:11:42.000Z",
+      "updateNotifierId": 214,
+      "address": "eth:0x3B525F4c059F246Ca4aa995D21087204F30c9E2F",
+      "contractName": "AllowedRecipientsRegistry",
+      "entity": null,
+      "id": "214:eth:0x3B525F4c059F246Ca4aa995D21087204F30c9E2F:data-change",
+      "type": "data-change",
+      "changes": [
+        {
+          "field": "values.getLimitParameters.0",
+          "before": "250000000000000000000000",
+          "after": "5000000000000000000000000"
+        },
+        {
+          "field": "values.getLimitParameters.1",
+          "before": 3,
+          "after": 6
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-23T09:11:42.000Z",
+      "updateNotifierId": 214,
+      "address": "eth:0x7FaDB6358950c5fAA66Cb5EB8eE5147De3df355a",
+      "contractName": "HashConsensus",
+      "entity": null,
+      "id": "214:eth:0x7FaDB6358950c5fAA66Cb5EB8eE5147De3df355a:data-change",
+      "type": "data-change",
+      "changes": [
+        {
+          "field": "values.accessControl.MANAGE_FRAME_CONFIG_ROLE",
+          "after": {
+            "adminRole": "DEFAULT_ADMIN_ROLE",
+            "members": []
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-23T09:11:42.000Z",
+      "updateNotifierId": 214,
+      "address": "eth:0x9895F0F17cc1d1891b6f18ee0b483B6f221b37Bb",
+      "contractName": "ACL",
+      "entity": null,
+      "id": "214:eth:0x9895F0F17cc1d1891b6f18ee0b483B6f221b37Bb:data-change",
+      "type": "data-change",
+      "changes": [
+        {
+          "field": "values.permissions.eth:0x55032650b14df07b85bF18A3a3eC8E0Af2e028d5.0x75abc64490e17b40ea1e66691c3eb493647b24430b358bd87ec3e5127f1621ee.entities.0",
+          "after": "eth:0xF45C77EadD434612fCD93db978B3E36B0D58eC99"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-23T09:11:42.000Z",
+      "updateNotifierId": 214,
+      "address": "eth:0xCE0425301C85c5Ea2A0873A2dEe44d78E02D2316",
+      "contractName": "EmergencyProtectedTimelock",
+      "entity": null,
+      "id": "214:eth:0xCE0425301C85c5Ea2A0873A2dEe44d78E02D2316:data-change",
+      "type": "data-change",
+      "changes": [
+        {
+          "field": "values.getEmergencyProtectionDetails.emergencyProtectionEndsAfter",
+          "before": 1781913600,
+          "after": 1813449600
         }
       ]
     }

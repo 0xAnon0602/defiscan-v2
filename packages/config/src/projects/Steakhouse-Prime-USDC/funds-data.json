@@ -1,9 +1,9 @@
 {
   "version": "1.0",
-  "lastModified": "2026-05-22T10:33:26.209Z",
+  "lastModified": "2026-05-24T09:29:09.993Z",
   "contracts": {
     "base:0xBEEFE94c8aD530842bfE7d8B397938fFc1cb83b2": {
-      "lastFetched": "2026-05-22T10:33:24.879Z",
+      "lastFetched": "2026-05-24T09:29:08.711Z",
       "balances": {
         "tokens": [
           {
@@ -87,6 +87,14 @@
             "usdValue": 0
           },
           {
+            "assetAddress": "0x158609cc4e5e1eb12d8d03329860e597d8048358",
+            "symbol": "ESSE",
+            "name": "ESSE by Virtuals",
+            "balance": "2000000000000000000",
+            "decimals": 18,
+            "usdValue": 0
+          },
+          {
             "assetAddress": "0x166d54f12a00bf3bc944bdbde4f132011f6d6eeb",
             "symbol": "ZORA",
             "name": "Scatter Zora",
@@ -123,6 +131,14 @@
             "symbol": "PADEL",
             "name": "Padel ",
             "balance": "27000000000000000000",
+            "decimals": 18,
+            "usdValue": 0
+          },
+          {
+            "assetAddress": "0x1df7f4d6402ad305f5d1a52799839f5204c0b672",
+            "symbol": "NOAR",
+            "name": "Northern Oil Assets Reserve",
+            "balance": "15000000000000000000",
             "decimals": 18,
             "usdValue": 0
           },
@@ -380,7 +396,7 @@
             "name": "Wrapped Ether",
             "balance": "1",
             "decimals": 18,
-            "usdValue": 2.1242e-15
+            "usdValue": 2.12002e-15
           },
           {
             "assetAddress": "0x42bf317d055894dd80d7fe3ba8008209a344befe",
@@ -451,6 +467,14 @@
             "symbol": "RCS",
             "name": "Reserve Currency of Socialcom",
             "balance": "1000000000000000000",
+            "decimals": 18,
+            "usdValue": 0
+          },
+          {
+            "assetAddress": "0x4d9e2faf6f5503b2a35f610a4a9c9b0b39abc5d7",
+            "symbol": "USRX",
+            "name": "#USRXSyntra402",
+            "balance": "20000000000000000000",
             "decimals": 18,
             "usdValue": 0
           },
@@ -559,6 +583,14 @@
             "usdValue": 0
           },
           {
+            "assetAddress": "0x6ab0beb71a0c420035e861ee6834db4ccd2ff71f",
+            "symbol": "SXC",
+            "name": "SpaceX Cat's",
+            "balance": "10000000000000000000",
+            "decimals": 18,
+            "usdValue": 0
+          },
+          {
             "assetAddress": "0x6b50d18768cf5ab56163db2e82222a9ae0ad2e2e",
             "symbol": "VDOR",
             "name": "VANGUARD DIGITAL OIL RESERVE",
@@ -599,10 +631,26 @@
             "usdValue": 0
           },
           {
+            "assetAddress": "0x732fa41fd64f217f44a0196d165c252d631693ea",
+            "symbol": "PEPETO KING",
+            "name": "PEPETO KING",
+            "balance": "25000000000000000000",
+            "decimals": 18,
+            "usdValue": 0
+          },
+          {
             "assetAddress": "0x745e91e6db835646f790799e46afb73c459f5af7",
             "symbol": "DIGITAL",
             "name": "Digital Money Coin",
             "balance": "1000000000000000000",
+            "decimals": 18,
+            "usdValue": 0
+          },
+          {
+            "assetAddress": "0x75618e57ed8c1da6894d0bda2974f1bd96d8c63b",
+            "symbol": "SROS",
+            "name": "STRATEGIC RAVE OIL SUPPLY",
+            "balance": "10000000000000000000",
             "decimals": 18,
             "usdValue": 0
           },
@@ -708,7 +756,7 @@
             "name": "USD Coin",
             "balance": "1032178",
             "decimals": 6,
-            "usdValue": 1.0331077970173155
+            "usdValue": 1.0332112112112113
           },
           {
             "assetAddress": "0x83bbec3b499a4ad10ffc3a075fc90f3207daaaf5",
@@ -831,6 +879,22 @@
             "usdValue": 0
           },
           {
+            "assetAddress": "0x8fff03cac838735acbc195f0771d610cfe7d9c75",
+            "symbol": "ABC",
+            "name": "Axxio Base Coin",
+            "balance": "25000000000000000000",
+            "decimals": 18,
+            "usdValue": 0
+          },
+          {
+            "assetAddress": "0x9066706ac311d2a453db23d7072ace0c78d3cda9",
+            "symbol": "BASOR",
+            "name": "Base Strategic Oil Supply Reserve",
+            "balance": "25000000000000000000",
+            "decimals": 18,
+            "usdValue": 0
+          },
+          {
             "assetAddress": "0x922c1d70db9ea47d95dc856210132722f46a9796",
             "symbol": "OEM",
             "name": "OEM look",
@@ -875,6 +939,14 @@
             "symbol": "VDOR",
             "name": "Vanguard digital Oil Reserve",
             "balance": "25000000000000000000",
+            "decimals": 18,
+            "usdValue": 0
+          },
+          {
+            "assetAddress": "0x9c82ef137b6da02b8705ef4c96aec2e791d91379",
+            "symbol": "USAR",
+            "name": "United States Asset Reserve",
+            "balance": "1000000000000000000",
             "decimals": 18,
             "usdValue": 0
           },
@@ -1172,7 +1244,7 @@
             "name": "Steakhouse Prime USDC",
             "balance": "97161441160098370000",
             "decimals": 18,
-            "usdValue": 101.40476980036154
+            "usdValue": 101.43663218572424
           },
           {
             "assetAddress": "0xc106d65cc1b6ee81cabc7f9de679eb0d469ccbfd",
@@ -1292,7 +1364,7 @@
             "name": "Cypher",
             "balance": "18445209263787390",
             "decimals": 18,
-            "usdValue": 0.00015496773373217197
+            "usdValue": 0.00014661132841628234
           },
           {
             "assetAddress": "0xd37f51055faaaad35df58068defae974b958de60",
@@ -1567,8 +1639,8 @@
             "usdValue": 0
           }
         ],
-        "totalUsdValue": 102.4380325651126,
-        "timestamp": "2026-05-22T10:33:25.605Z",
+        "totalUsdValue": 102.46999000826386,
+        "timestamp": "2026-05-24T09:29:09.326Z",
         "source": "debank"
       },
       "positions": {
@@ -1582,21 +1654,21 @@
               {
                 "name": "Rewards",
                 "stats": {
-                  "assetUsdValue": 3.5463475639035527,
+                  "assetUsdValue": 3.8645619021479782,
                   "debtUsdValue": 0,
-                  "netUsdValue": 3.5463475639035527
+                  "netUsdValue": 3.8645619021479782
                 },
                 "tokens": [
                   {
                     "symbol": "MORPHO",
                     "name": "Morpho Token",
                     "amount": 1.7688401236488365,
-                    "price": 2.0049
+                    "price": 2.1848
                   }
                 ]
               }
             ],
-            "totalUsdValue": 3.5463475639035527
+            "totalUsdValue": 3.8645619021479782
           },
           {
             "id": "base_morphoblue",
@@ -1607,89 +1679,89 @@
               {
                 "name": "Deposit",
                 "stats": {
-                  "assetUsdValue": 71363.66970532003,
+                  "assetUsdValue": 67680.24807790911,
                   "debtUsdValue": 0,
-                  "netUsdValue": 71363.66970532003
+                  "netUsdValue": 67680.24807790911
                 },
                 "tokens": [
                   {
                     "symbol": "USDC",
                     "name": "USD Coin",
-                    "amount": 71299.44240258525,
-                    "price": 1.0009008107296566
+                    "amount": 67612.5678298312,
+                    "price": 1.001001001001001
                   }
                 ]
               },
               {
                 "name": "Deposit",
                 "stats": {
-                  "assetUsdValue": 18277331.047878727,
+                  "assetUsdValue": 18843345.905119587,
                   "debtUsdValue": 0,
-                  "netUsdValue": 18277331.047878727
+                  "netUsdValue": 18843345.905119587
                 },
                 "tokens": [
                   {
                     "symbol": "USDC",
                     "name": "USD Coin",
-                    "amount": 18260881.449935637,
-                    "price": 1.0009008107296566
+                    "amount": 18824502.559214465,
+                    "price": 1.001001001001001
                   }
                 ]
               },
               {
                 "name": "Deposit",
                 "stats": {
-                  "assetUsdValue": 111930.51312742736,
+                  "assetUsdValue": 149443.35488643733,
                   "debtUsdValue": 0,
-                  "netUsdValue": 111930.51312742736
+                  "netUsdValue": 149443.35488643733
                 },
                 "tokens": [
                   {
                     "symbol": "USDC",
                     "name": "USD Coin",
-                    "amount": 111829.77566561267,
-                    "price": 1.0009008107296566
+                    "amount": 149293.91153155087,
+                    "price": 1.001001001001001
                   }
                 ]
               },
               {
                 "name": "Deposit",
                 "stats": {
-                  "assetUsdValue": 447287546.0079261,
+                  "assetUsdValue": 439067463.6594936,
                   "debtUsdValue": 0,
-                  "netUsdValue": 447287546.0079261
+                  "netUsdValue": 439067463.6594936
                 },
                 "tokens": [
                   {
                     "symbol": "USDC",
                     "name": "USD Coin",
-                    "amount": 446884987.216519,
-                    "price": 1.0009008107296566
+                    "amount": 438628396.1958341,
+                    "price": 1.001001001001001
                   }
                 ]
               },
               {
                 "name": "Yield",
                 "stats": {
-                  "assetUsdValue": 101.40143328996095,
+                  "assetUsdValue": 101.43757757757758,
                   "debtUsdValue": 0,
-                  "netUsdValue": 101.40143328996095
+                  "netUsdValue": 101.43757757757758
                 },
                 "tokens": [
                   {
                     "symbol": "USDC",
                     "name": "USD Coin",
-                    "amount": 101.310172,
-                    "price": 1.0009008107296566
+                    "amount": 101.33614,
+                    "price": 1.001001001001001
                   }
                 ]
               }
             ],
-            "totalUsdValue": 465748272.64007086
+            "totalUsdValue": 458128034.60515517
           }
         ],
-        "totalUsdValue": 465748276.1864184,
-        "timestamp": "2026-05-22T10:33:26.209Z",
+        "totalUsdValue": 458128038.4697171,
+        "timestamp": "2026-05-24T09:29:09.993Z",
         "source": "debank"
       }
     }
