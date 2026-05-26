@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastModified": "2026-05-21T00:00:00.000Z",
+  "lastModified": "2026-05-26T00:00:00.000Z",
   "contracts": {
     "eth:0x4Ef53d2cAa51C447fdFEEedee8F07FD1962C9ee6": {
       "functions": [
@@ -144,20 +144,112 @@
         {
           "functionName": "increaseAbsoluteCap",
           "isPermissioned": true,
-          "score": "no-impact",
-          "description": "3-day timelock before execution. Increases the maximum assets allocatable to an adapter market.",
+          "score": "critical",
+          "description": "3-day timelock before execution. Increases the maximum USDC allocatable to a specific adapter market. Each active market's cap bounds the maximum capital that can be deployed to that oracle's Morpho Blue position.",
           "ownerDefinitions": [
             { "path": "$self.curator" }
+          ],
+          "dependencies": [
+            { "contractAddress": "eth:0x36Cb058364a811636685ef15a71E8ea99043f815" },
+            { "contractAddress": "eth:0xE8aDfF9117151fb5ad7313873780b87cC56EEDB0" },
+            { "contractAddress": "eth:0xA6D6950c9F177F1De7f7757FB33539e3Ec60182a" },
+            { "contractAddress": "eth:0xDddd770BADd886dF3864029e4B377B5F6a2B6b83" },
+            { "contractAddress": "eth:0x48F7E36EB6B826B2dF4B2E630B62Cd25e89E40e2" },
+            { "contractAddress": "eth:0x0F948CBa8231Db7898ef36A4212581Ad7b1B4580" }
           ],
           "mitigations": [
             {
               "type": "delay",
               "description": "3-day timelock enforced by the vault before this operation can be executed.",
               "delay": 259201
+            },
+            {
+              "type": "other",
+              "label": "Per-market cap",
+              "description": "Maximum USDC allocatable to the rETH/USDC Morpho Blue market via this vault.",
+              "scopedTo": { "address": "eth:0x36Cb058364a811636685ef15a71E8ea99043f815", "type": "dependency" },
+              "impactCap": {
+                "value": {
+                  "mode": "fieldRef",
+                  "contractAddress": "eth:0x1d511811ACA9d8817a3e50F29CadFf6243A02902",
+                  "fieldName": "absoluteCapByOracle.eth:0x36Cb058364a811636685ef15a71E8ea99043f815"
+                },
+                "unit": { "kind": "scaler", "factor": "1e6" }
+              }
+            },
+            {
+              "type": "other",
+              "label": "Per-market cap",
+              "description": "Maximum USDC allocatable to the OETH/USDC Morpho Blue market via this vault.",
+              "scopedTo": { "address": "eth:0xE8aDfF9117151fb5ad7313873780b87cC56EEDB0", "type": "dependency" },
+              "impactCap": {
+                "value": {
+                  "mode": "fieldRef",
+                  "contractAddress": "eth:0x1d511811ACA9d8817a3e50F29CadFf6243A02902",
+                  "fieldName": "absoluteCapByOracle.eth:0xE8aDfF9117151fb5ad7313873780b87cC56EEDB0"
+                },
+                "unit": { "kind": "scaler", "factor": "1e6" }
+              }
+            },
+            {
+              "type": "other",
+              "label": "Per-market cap",
+              "description": "Maximum USDC allocatable to the cbBTC/USDC Morpho Blue market via this vault.",
+              "scopedTo": { "address": "eth:0xA6D6950c9F177F1De7f7757FB33539e3Ec60182a", "type": "dependency" },
+              "impactCap": {
+                "value": {
+                  "mode": "fieldRef",
+                  "contractAddress": "eth:0x1d511811ACA9d8817a3e50F29CadFf6243A02902",
+                  "fieldName": "absoluteCapByOracle.eth:0xA6D6950c9F177F1De7f7757FB33539e3Ec60182a"
+                },
+                "unit": { "kind": "scaler", "factor": "1e6" }
+              }
+            },
+            {
+              "type": "other",
+              "label": "Per-market cap",
+              "description": "Maximum USDC allocatable to the WBTC/USDC Morpho Blue market via this vault.",
+              "scopedTo": { "address": "eth:0xDddd770BADd886dF3864029e4B377B5F6a2B6b83", "type": "dependency" },
+              "impactCap": {
+                "value": {
+                  "mode": "fieldRef",
+                  "contractAddress": "eth:0x1d511811ACA9d8817a3e50F29CadFf6243A02902",
+                  "fieldName": "absoluteCapByOracle.eth:0xDddd770BADd886dF3864029e4B377B5F6a2B6b83"
+                },
+                "unit": { "kind": "scaler", "factor": "1e6" }
+              }
+            },
+            {
+              "type": "other",
+              "label": "Per-market cap",
+              "description": "Maximum USDC allocatable to the wstETH/USDC Morpho Blue market via this vault.",
+              "scopedTo": { "address": "eth:0x48F7E36EB6B826B2dF4B2E630B62Cd25e89E40e2", "type": "dependency" },
+              "impactCap": {
+                "value": {
+                  "mode": "fieldRef",
+                  "contractAddress": "eth:0x1d511811ACA9d8817a3e50F29CadFf6243A02902",
+                  "fieldName": "absoluteCapByOracle.eth:0x48F7E36EB6B826B2dF4B2E630B62Cd25e89E40e2"
+                },
+                "unit": { "kind": "scaler", "factor": "1e6" }
+              }
+            },
+            {
+              "type": "other",
+              "label": "Per-market cap",
+              "description": "Maximum USDC allocatable to the WETH/USDC Morpho Blue market via this vault.",
+              "scopedTo": { "address": "eth:0x0F948CBa8231Db7898ef36A4212581Ad7b1B4580", "type": "dependency" },
+              "impactCap": {
+                "value": {
+                  "mode": "fieldRef",
+                  "contractAddress": "eth:0x1d511811ACA9d8817a3e50F29CadFf6243A02902",
+                  "fieldName": "absoluteCapByOracle.eth:0x0F948CBa8231Db7898ef36A4212581Ad7b1B4580"
+                },
+                "unit": { "kind": "scaler", "factor": "1e6" }
+              }
             }
           ],
           "timestamp": "2026-05-21T00:00:00.000Z",
-          "lastChangedBy": { "author": "unknown", "date": "2026-05-21T00:00:00.000Z" }
+          "lastChangedBy": { "author": "unknown", "date": "2026-05-26T00:00:00.000Z" }
         },
         {
           "functionName": "decreaseAbsoluteCap",

@@ -110,7 +110,13 @@
             "type": "morphoMarkets",
             "morphoAddressField": "morpho",
             "queueField": "marketIds",
-            "ignoreRelative": true
+            "ignoreRelative": true,
+            // Fetch expectedSupplyAssets(marketId) from the adapter to identify active markets.
+            "fetchExpectedAssets": true,
+            // Fetch vault.absoluteCap(capId) per market.
+            // capId = keccak256(abi.encode("this/marketParams", adapterAddress, marketParams))
+            "fetchAbsoluteCap": true,
+            "vaultAddressField": "parentVault"
           }
         },
         "marketOracles": {
@@ -119,9 +125,32 @@
             "extractField": "oracle",
             "sourceField": "marketParams"
           }
+        },
+        // Only oracles for markets with expectedAssets >= $1 (active markets).
+        // 1000000 = $1 in USDC 6-decimal — filters out dust residuals from inactive markets.
+        // Used by contract-tags dependencyFields to avoid pulling in stale oracles.
+        "activeMarketOracles": {
+          "handler": {
+            "type": "morphoMarkets",
+            "extractField": "oracle",
+            "sourceField": "marketParams",
+            "minAssetsThreshold": 1000000
+          }
+        },
+        // Per-oracle absoluteCap map: { "0x<oracle>": absoluteCap (USDC 6-decimal) }
+        // Keyed by oracle address; active markets only (dust filtered by minAssetsThreshold).
+        // Used by impactCap fieldRef on increaseAbsoluteCap mitigations in functions.json.
+        "absoluteCapByOracle": {
+          "handler": {
+            "type": "morphoMarkets",
+            "extractField": "absoluteCap",
+            "keyByField": "oracle",
+            "sourceField": "marketParams",
+            "minAssetsThreshold": 1000000
+          }
         }
       },
-      "ignoreInWatchMode": ["marketIds", "marketParams", "marketOracles"]
+      "ignoreInWatchMode": ["marketIds", "marketParams", "marketOracles", "activeMarketOracles", "absoluteCapByOracle"]
     },
     // wstETH collateral token — not relevant to discover
     "eth:0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0": {

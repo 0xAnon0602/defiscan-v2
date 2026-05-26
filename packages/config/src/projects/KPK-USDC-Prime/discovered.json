@@ -1,7 +1,7 @@
 {
   "name": "KPK-USDC-Prime",
-  "timestamp": 1779707133,
-  "configHash": "0x0164581ad8a82216b1630172e89e89fbc6dd55505ac60f844bee1acc32b45640",
+  "timestamp": 1779779281,
+  "configHash": "0x4393ff7f7c2496e0fd3a80f1a97f2dc4c3d403fff03ffa8cb3ff02ef21d467dd",
   "entries": [
     {
       "address": "eth:0x05724B9C8C1dDE1b2f659d7c0676ff63f6d5E781",
@@ -24,7 +24,7 @@
         "BASE_FEED_2": "eth:0x0000000000000000000000000000000000000000",
         "BASE_VAULT": "eth:0x0000000000000000000000000000000000000000",
         "BASE_VAULT_CONVERSION_SAMPLE": 1,
-        "price": "2114220900000000000000000000",
+        "price": "2096832170000000000000000000",
         "QUOTE_FEED_1": "eth:0x0000000000000000000000000000000000000000",
         "QUOTE_FEED_2": "eth:0x0000000000000000000000000000000000000000",
         "QUOTE_VAULT": "eth:0x0000000000000000000000000000000000000000",
@@ -66,11 +66,33 @@
         "0xe4df778889ab7b9da5495131e1a19826a03a55e56b4a98ff27a446a861300c58"
       ],
       "proxyType": "immutable",
-      "ignoreInWatchMode": ["marketIds", "marketParams", "marketOracles"],
+      "ignoreInWatchMode": [
+        "marketIds",
+        "marketParams",
+        "marketOracles",
+        "activeMarketOracles",
+        "absoluteCapByOracle"
+      ],
       "sinceTimestamp": 1776163163,
       "sinceBlock": 24877491,
       "values": {
         "$immutable": true,
+        "absoluteCapByOracle": {
+          "eth:0x36Cb058364a811636685ef15a71E8ea99043f815": 3.402823669209385e+38,
+          "eth:0xE8aDfF9117151fb5ad7313873780b87cC56EEDB0": 3.402823669209385e+38,
+          "eth:0xA6D6950c9F177F1De7f7757FB33539e3Ec60182a": 3.402823669209385e+38,
+          "eth:0xDddd770BADd886dF3864029e4B377B5F6a2B6b83": 3.402823669209385e+38,
+          "eth:0x48F7E36EB6B826B2dF4B2E630B62Cd25e89E40e2": 3.402823669209385e+38,
+          "eth:0x0F948CBa8231Db7898ef36A4212581Ad7b1B4580": 3.402823669209385e+38
+        },
+        "activeMarketOracles": [
+          "eth:0x36Cb058364a811636685ef15a71E8ea99043f815",
+          "eth:0xE8aDfF9117151fb5ad7313873780b87cC56EEDB0",
+          "eth:0xA6D6950c9F177F1De7f7757FB33539e3Ec60182a",
+          "eth:0xDddd770BADd886dF3864029e4B377B5F6a2B6b83",
+          "eth:0x48F7E36EB6B826B2dF4B2E630B62Cd25e89E40e2",
+          "eth:0x0F948CBa8231Db7898ef36A4212581Ad7b1B4580"
+        ],
         "adapterId": "0x2424113bfe3c06f78b258b35ce691dc3d8260e298338cef37c34f4fb3b22ad85",
         "adaptiveCurveIrm": "eth:0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
         "asset": "eth:0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
@@ -103,7 +125,9 @@
             "collateralToken": "eth:0xae78736Cd615f374D3085123A210448E74Fc6393",
             "oracle": "eth:0x36Cb058364a811636685ef15a71E8ea99043f815",
             "irm": "eth:0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
-            "lltv": "860000000000000000"
+            "lltv": "860000000000000000",
+            "expectedAssets": 2797386692274,
+            "absoluteCap": 3.402823669209385e+38
           },
           {
             "marketId": "0xb8fef900b383db2dbbf4458c7f46acf5b140f26d603a6d1829963f241b82510e",
@@ -111,7 +135,9 @@
             "collateralToken": "eth:0x856c4Efb76C1D1AE02e20CEB03A2A6a08b0b8dC3",
             "oracle": "eth:0xE8aDfF9117151fb5ad7313873780b87cC56EEDB0",
             "irm": "eth:0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
-            "lltv": "860000000000000000"
+            "lltv": "860000000000000000",
+            "expectedAssets": 2700893010039,
+            "absoluteCap": 3.402823669209385e+38
           },
           {
             "marketId": "0x64d65c9a2d91c36d56fbc42d69e979335320169b3df63bf92789e2c8883fcc64",
@@ -119,7 +145,9 @@
             "collateralToken": "eth:0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
             "oracle": "eth:0xA6D6950c9F177F1De7f7757FB33539e3Ec60182a",
             "irm": "eth:0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
-            "lltv": "860000000000000000"
+            "lltv": "860000000000000000",
+            "expectedAssets": 10399120039191,
+            "absoluteCap": 3.402823669209385e+38
           },
           {
             "marketId": "0x3a85e619751152991742810df6ec69ce473daef99e28a64ab2340d7b7ccfee49",
@@ -127,7 +155,9 @@
             "collateralToken": "eth:0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
             "oracle": "eth:0xDddd770BADd886dF3864029e4B377B5F6a2B6b83",
             "irm": "eth:0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
-            "lltv": "860000000000000000"
+            "lltv": "860000000000000000",
+            "expectedAssets": 4769928542075,
+            "absoluteCap": 3.402823669209385e+38
           },
           {
             "marketId": "0xb323495f7e4148be5643a4ea4a8221eef163e4bccfdedc2a6f4696baacbc86cc",
@@ -135,7 +165,9 @@
             "collateralToken": "eth:0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
             "oracle": "eth:0x48F7E36EB6B826B2dF4B2E630B62Cd25e89E40e2",
             "irm": "eth:0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
-            "lltv": "860000000000000000"
+            "lltv": "860000000000000000",
+            "expectedAssets": 1625744183295,
+            "absoluteCap": 3.402823669209385e+38
           },
           {
             "marketId": "0xe4cfbee9af4ad713b41bf79f009ca02b17c001a0c0e7bd2e6a89b1111b3d3f08",
@@ -143,7 +175,9 @@
             "collateralToken": "eth:0x18084fbA666a33d37592fA2633fD49a74DD93a88",
             "oracle": "eth:0x57bfdF6aB73995C5af58A95A16798190e366CA5b",
             "irm": "eth:0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
-            "lltv": "770000000000000000"
+            "lltv": "770000000000000000",
+            "expectedAssets": 295,
+            "absoluteCap": 0
           },
           {
             "marketId": "0xbf02d6c6852fa0b8247d5514d0c91e6c1fbde9a168ac3fd2033028b5ee5ce6d0",
@@ -151,7 +185,9 @@
             "collateralToken": "eth:0x8236a87084f8B84306f72007F36F2618A5634494",
             "oracle": "eth:0xDCc04fFaCD7B49035cCdBbbA59a5f955944129DB",
             "irm": "eth:0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
-            "lltv": "860000000000000000"
+            "lltv": "860000000000000000",
+            "expectedAssets": 414,
+            "absoluteCap": 0
           },
           {
             "marketId": "0x94b823e6bd8ea533b4e33fbc307faea0b307301bc48763acc4d4aa4def7636cd",
@@ -159,12 +195,14 @@
             "collateralToken": "eth:0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
             "oracle": "eth:0x0F948CBa8231Db7898ef36A4212581Ad7b1B4580",
             "irm": "eth:0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
-            "lltv": "860000000000000000"
+            "lltv": "860000000000000000",
+            "expectedAssets": 129266593482,
+            "absoluteCap": 3.402823669209385e+38
           }
         ],
         "morpho": "eth:0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
         "parentVault": "eth:0x4Ef53d2cAa51C447fdFEEedee8F07FD1962C9ee6",
-        "realAssets": 22421251481965,
+        "realAssets": 22422339061065,
         "skimRecipient": "eth:0x0000000000000000000000000000000000000000"
       },
       "implementationNames": {
@@ -355,7 +393,7 @@
         "BASE_FEED_2": "eth:0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419",
         "BASE_VAULT": "eth:0x0000000000000000000000000000000000000000",
         "BASE_VAULT_CONVERSION_SAMPLE": 1,
-        "price": "2460968499692910164450596470",
+        "price": "2446457386538531361829784609",
         "QUOTE_FEED_1": "eth:0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6",
         "QUOTE_FEED_2": "eth:0x0000000000000000000000000000000000000000",
         "QUOTE_VAULT": "eth:0x0000000000000000000000000000000000000000",
@@ -395,7 +433,7 @@
         "$immutable": true,
         "BASE_FEED_1": "eth:0x4F67e4d9BD67eFa28236013288737D39AeF48e79",
         "BASE_FEED_2": "eth:0x0000000000000000000000000000000000000000",
-        "price": "2599930026070687307270980765",
+        "price": "2599961129183400439989771404",
         "QUOTE_FEED_1": "eth:0x986b5E1e1755e3C2440e960477f25201B0a8bbD4",
         "QUOTE_FEED_2": "eth:0x0000000000000000000000000000000000000000",
         "SCALE_FACTOR": "10000000000000000000000000000000000",
@@ -424,9 +462,14 @@
       "sinceTimestamp": 1761242519,
       "sinceBlock": 23641853,
       "values": {
-        "_totalAssets": 22418649760886,
+        "_totalAssets": 22422692511950,
         "$immutable": true,
-        "accrueInterestView": [22421251481965, 0, 0],
+        "abdicated_setAdapterRegistry": true,
+        "abdicated_setReceiveAssetsGate": true,
+        "abdicated_setReceiveSharesGate": true,
+        "abdicated_setSendAssetsGate": false,
+        "abdicated_setSendSharesGate": true,
+        "accrueInterestView": [22423356793453, 0, 0],
         "adapterRegistry": "eth:0x3696c5eAe4a7Ffd04Ea163564571E9CD8Ed9364e",
         "adapters": ["eth:0x1d511811ACA9d8817a3e50F29CadFf6243A02902"],
         "adaptersLength": 1,
@@ -441,7 +484,8 @@
         "decimals": 18,
         "DOMAIN_SEPARATOR": "0x5aa066a3ab2c60ffdd9e7947f3fa139298acc923f6d2fa236f1967821108b45f",
         "firstTotalAssets": 0,
-        "lastUpdate": 1779620975,
+        "forceDeallocatePenalty_marketsV1Adapter": 5000000000000000,
+        "lastUpdate": 1779756011,
         "liquidityAdapter": "eth:0x1d511811ACA9d8817a3e50F29CadFf6243A02902",
         "liquidityData": "0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48000000000000000000000000cbb7c0000ab88b473b1f5afd9ef808440eed33bf000000000000000000000000a6d6950c9f177f1de7f7757fb33539e3ec60182a000000000000000000000000870ac11d48b15db9a138cf899d20f13f79ba00bc0000000000000000000000000000000000000000000000000bef55718ad60000",
         "managementFee": 0,
@@ -456,7 +500,14 @@
         "sendAssetsGate": "eth:0x0000000000000000000000000000000000000000",
         "sendSharesGate": "eth:0x0000000000000000000000000000000000000000",
         "symbol": "KPK_USDC_Prime",
-        "totalAssets": 22421251481965,
+        "timelock_abdicate": 604801,
+        "timelock_increaseAbsoluteCap": 259201,
+        "timelock_setCurator": 0,
+        "timelock_setForceDeallocatePenalty": 0,
+        "timelock_setIsSentinel": 0,
+        "timelock_setOwner": 0,
+        "timelock_setSendAssetsGate": 604801,
+        "totalAssets": 22423356793453,
         "totalSupply": "21966691347510471330878479",
         "virtualShares": 1000000000000
       },
@@ -479,11 +530,11 @@
         "decimals": 8,
         "description": "Custom price feed for wstETH / ETH",
         "latestRoundData": {
-          "roundId": "36893488147419104015",
-          "answer": 123527826,
-          "startedAt": 1779655245,
-          "updatedAt": 1779655259,
-          "answeredInRound": "36893488147419104015"
+          "roundId": "36893488147419104016",
+          "answer": 123560975,
+          "startedAt": 1779741647,
+          "updatedAt": 1779741743,
+          "answeredInRound": "36893488147419104016"
         },
         "stETHtoETHPriceFeed": "eth:0x86392dC19c0b719886221c78AB11eb8Cf5c52812",
         "stETHToETHPriceFeedDecimals": 18,
@@ -516,7 +567,7 @@
         "BASE_FEED_2": "eth:0x0000000000000000000000000000000000000000",
         "BASE_VAULT": "eth:0x0000000000000000000000000000000000000000",
         "BASE_VAULT_CONVERSION_SAMPLE": 1,
-        "price": "76578566201444394568408673217",
+        "price": "77515304197164806996331404879",
         "QUOTE_FEED_1": "eth:0x6a5a24455e5c9C288632944A88ceA923e0496024",
         "QUOTE_FEED_2": "eth:0x0000000000000000000000000000000000000000",
         "QUOTE_VAULT": "eth:0x0000000000000000000000000000000000000000",
@@ -631,12 +682,12 @@
         "$immutable": true,
         "CHAINLINK_SOURCE": "eth:0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6",
         "decimals": 8,
-        "getLatestSourceData": ["999656210000000000", 1779696023],
-        "internalLatestData": ["999656210000000000", 1779696023],
+        "getLatestSourceData": ["999627890000000000", 1779778859],
+        "internalLatestData": ["999627890000000000", 1779778859],
         "lastUnlockTime": 1722819719,
-        "latestAnswer": 99965621,
-        "latestRoundData": [1, 99965621, 1779696023, 1779696023, 1],
-        "latestTimestamp": 1779696023,
+        "latestAnswer": 99962789,
+        "latestRoundData": [1, 99962789, 1779778859, 1779778859, 1],
+        "latestTimestamp": 1779778859,
         "lockWindow": 0,
         "maxTraversal": 10,
         "owner": "eth:0x0000000000000000000000000000000000000000"
@@ -681,9 +732,9 @@
         "description": "rETH/ETH exchange rate adapter",
         "latestRoundData": {
           "roundId": 0,
-          "answer": "1164103137874245613",
+          "answer": "1164166111160030400",
           "startedAt": 0,
-          "updatedAt": 1779707123,
+          "updatedAt": 1779779279,
           "answeredInRound": 0
         },
         "rETH": "eth:0xae78736Cd615f374D3085123A210448E74Fc6393",
@@ -935,7 +986,7 @@
         "BASE_FEED_2": "eth:0x0000000000000000000000000000000000000000",
         "BASE_VAULT": "eth:0x0000000000000000000000000000000000000000",
         "BASE_VAULT_CONVERSION_SAMPLE": 1,
-        "price": "773910000000000000000000000000000000000",
+        "price": "768825664700000000000000000000000000000",
         "QUOTE_FEED_1": "eth:0x0000000000000000000000000000000000000000",
         "QUOTE_FEED_2": "eth:0x0000000000000000000000000000000000000000",
         "QUOTE_VAULT": "eth:0x0000000000000000000000000000000000000000",
@@ -977,12 +1028,12 @@
       "values": {
         "$immutable": true,
         "decimals": 18,
-        "getCollateralRate": "9558853633783038",
-        "getExchangeRate": "1164103137874245613",
-        "getTotalCollateral": "3712631656998367227239",
+        "getCollateralRate": "9990886495415850",
+        "getExchangeRate": "1164166111160030400",
+        "getTotalCollateral": "3879936181895320561349",
         "name": "Rocket Pool ETH",
         "symbol": "rETH",
-        "totalSupply": "333644977738803841129421",
+        "totalSupply": "333584301393348693366808",
         "version": 1
       },
       "implementationNames": {
@@ -1040,8 +1091,8 @@
         "latestRoundData": {
           "roundId": 1,
           "answer": 100400154,
-          "startedAt": 1779629927,
-          "updatedAt": 1779629927,
+          "startedAt": 1779716339,
+          "updatedAt": 1779716339,
           "answeredInRound": 1
         },
         "version": 1
@@ -1215,12 +1266,12 @@
         "$immutable": true,
         "CHAINLINK_SOURCE": "eth:0x8350b7De6a6a2C1368E7D4Bd968190e13E354297",
         "decimals": 8,
-        "getLatestSourceData": ["76552239256170000000000", 1779651167],
-        "internalLatestData": ["76552239256170000000000", 1779651167],
+        "getLatestSourceData": ["77486459977320000000000", 1779737579],
+        "internalLatestData": ["77486459977320000000000", 1779737579],
         "lastUnlockTime": 1722819719,
-        "latestAnswer": 7655223925617,
-        "latestRoundData": [1, 7655223925617, 1779651167, 1779651167, 1],
-        "latestTimestamp": 1779651167,
+        "latestAnswer": 7748645997732,
+        "latestRoundData": [1, 7748645997732, 1779737579, 1779737579, 1],
+        "latestTimestamp": 1779737579,
         "lockWindow": 0,
         "maxTraversal": 10,
         "owner": "eth:0x0000000000000000000000000000000000000000"
@@ -1321,7 +1372,7 @@
         ],
         "$upgradeCount": 3,
         "getUniqueSignersThreshold": 3,
-        "priceOfETH": "2119231165370000000000"
+        "priceOfETH": "2100747150000000000000"
       },
       "implementationNames": {
         "eth:0xd72a6BA4a87DDB33e801b3f1c7750b2d0911fC6C": "TransparentUpgradeableProxy",
@@ -1349,7 +1400,7 @@
         "BASE_FEED_2": "eth:0xF4030086522a5bEEa4988F8cA5B36dbC97BeE88c",
         "BASE_VAULT": "eth:0x0000000000000000000000000000000000000000",
         "BASE_VAULT_CONVERSION_SAMPLE": 1,
-        "price": "777006831821400000000000000000000000000",
+        "price": "771902151350323638000000000000000000000",
         "QUOTE_FEED_1": "eth:0x0000000000000000000000000000000000000000",
         "QUOTE_FEED_2": "eth:0x0000000000000000000000000000000000000000",
         "QUOTE_VAULT": "eth:0x0000000000000000000000000000000000000000",
@@ -1374,7 +1425,7 @@
         "$immutable": true,
         "BASE_FEED_1": "eth:0xfdFD9C85aD200c506Cf9e21F1FD8dd01932FBB23",
         "BASE_FEED_2": "eth:0xF4030086522a5bEEa4988F8cA5B36dbC97BeE88c",
-        "price": "771911061686797304045157684760443792971",
+        "price": "767181388147946732458615175292878232919",
         "QUOTE_FEED_1": "eth:0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6",
         "QUOTE_FEED_2": "eth:0x0000000000000000000000000000000000000000",
         "SCALE_FACTOR": "100000000000000000000000000",
@@ -1411,7 +1462,7 @@
         "BASE_FEED_2": "eth:0x0000000000000000000000000000000000000000",
         "BASE_VAULT": "eth:0x0000000000000000000000000000000000000000",
         "BASE_VAULT_CONVERSION_SAMPLE": 1,
-        "price": "2114046788145296471473928021",
+        "price": "2101467619685961343075371776",
         "QUOTE_FEED_1": "eth:0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6",
         "QUOTE_FEED_2": "eth:0x0000000000000000000000000000000000000000",
         "QUOTE_VAULT": "eth:0x0000000000000000000000000000000000000000",
@@ -2795,6 +2846,6 @@
     "morpho/MorphoVaultV2": "0xa195ad3b1c0d657c16839333eba95bdf875119f53c1db1b6b9b7efece0359c01",
     "Steakhouse-USDC/EACAggregatorProxy": "0x3ba2cbd9a884cdfea15efe908af481b5a5a9c747391c8580bd38b0f8b1603921"
   },
-  "usedBlockNumbers": { "ethereum": 25171907 },
+  "usedBlockNumbers": { "ethereum": 25177895 },
   "permissionsConfigHash": "0x505d823a0d1a46e2f46a79bfb5e52b45981739f036bfd62db409e7f479abcc8e"
 }

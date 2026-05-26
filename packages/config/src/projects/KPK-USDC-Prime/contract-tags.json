@@ -14,7 +14,7 @@
       "isExternal": true,
       "entity": "Morpho",
       "dependencyFields": [
-        "marketOracles"
+        "activeMarketOracles"
       ],
       "timestamp": "2026-05-19T00:00:00.000Z"
     },

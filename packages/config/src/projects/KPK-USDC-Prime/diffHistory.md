@@ -1,3 +1,289 @@
+Generated with discovered.json: 0x0c4404d87828830ef381b74d6358a92ee0c4d1cb
+
+# Diff at Tue, 26 May 2026 07:09:55 GMT:
+
+- author: 0xAnon (<utkarshshail005@protonmail.com>)
+- comparing to: main@5b74b4a46db3b446acd96018424caf78935e32bc block: 1779707133
+- current timestamp: 1779779281
+
+## Description
+
+Provide description of changes. This section will be preserved.
+
+## Watched changes
+
+```diff
+    contract MorphoChainlinkOracleV2 (eth:0x0F948CBa8231Db7898ef36A4212581Ad7b1B4580) {
+    +++ description: None
+      values.price:
+-        "2114220900000000000000000000"
++        "2096832170000000000000000000"
+    }
+```
+
+```diff
+    contract MorphoMarketV1AdapterV2 (eth:0x1d511811ACA9d8817a3e50F29CadFf6243A02902) {
+    +++ description: None
+      values.realAssets:
+-        22421251481965
++        22422339061065
+    }
+```
+
+```diff
+    contract MorphoChainlinkOracleV2 (eth:0x36Cb058364a811636685ef15a71E8ea99043f815) {
+    +++ description: None
+      values.price:
+-        "2460968499692910164450596470"
++        "2446457386538531361829784609"
+    }
+```
+
+```diff
+    contract ChainlinkOracle (eth:0x48F7E36EB6B826B2dF4B2E630B62Cd25e89E40e2) {
+    +++ description: None
+      values.price:
+-        "2599930026070687307270980765"
++        "2599961129183400439989771404"
+    }
+```
+
+```diff
+    contract VaultV2 (eth:0x4Ef53d2cAa51C447fdFEEedee8F07FD1962C9ee6) {
+    +++ description: None
+      values._totalAssets:
+-        22418649760886
++        22422692511950
+      values.accrueInterestView.0:
+-        22421251481965
++        22423356793453
+      values.lastUpdate:
+-        1779620975
++        1779756011
+    }
+```
+
+```diff
+    contract WstETHPriceFeed (eth:0x4F67e4d9BD67eFa28236013288737D39AeF48e79) {
+    +++ description: None
+      values.latestRoundData.roundId:
+-        "36893488147419104015"
++        "36893488147419104016"
+      values.latestRoundData.answer:
+-        123527826
++        123560975
+      values.latestRoundData.startedAt:
+-        1779655245
++        1779741647
+      values.latestRoundData.updatedAt:
+-        1779655259
++        1779741743
+      values.latestRoundData.answeredInRound:
+-        "36893488147419104015"
++        "36893488147419104016"
+    }
+```
+
+```diff
+    contract MorphoChainlinkOracleV2 (eth:0x57bfdF6aB73995C5af58A95A16798190e366CA5b) {
+    +++ description: None
+      values.price:
+-        "76578566201444394568408673217"
++        "77515304197164806996331404879"
+    }
+```
+
+```diff
+    contract ChainlinkOvalBase (eth:0x6a5a24455e5c9C288632944A88ceA923e0496024) {
+    +++ description: None
+      values.getLatestSourceData.0:
+-        "999656210000000000"
++        "999627890000000000"
+      values.getLatestSourceData.1:
+-        1779696023
++        1779778859
+      values.internalLatestData.0:
+-        "999656210000000000"
++        "999627890000000000"
+      values.internalLatestData.1:
+-        1779696023
++        1779778859
+      values.latestAnswer:
+-        99965621
++        99962789
+      values.latestRoundData.1:
+-        99965621
++        99962789
+      values.latestRoundData.2:
+-        1779696023
++        1779778859
+      values.latestRoundData.3:
+-        1779696023
++        1779778859
+      values.latestTimestamp:
+-        1779696023
++        1779778859
+    }
+```
+
+```diff
+    contract RethExchangeRateAdapter (eth:0x8200f6622bb906a78896a3da4DdC81EbC8a08458) {
+    +++ description: None
+      values.latestRoundData.answer:
+-        "1164103137874245613"
++        "1164166111160030400"
+      values.latestRoundData.updatedAt:
+-        1779707123
++        1779779279
+    }
+```
+
+```diff
+    contract MorphoChainlinkOracleV2 (eth:0xA6D6950c9F177F1De7f7757FB33539e3Ec60182a) {
+    +++ description: None
+      values.price:
+-        "773910000000000000000000000000000000000"
++        "768825664700000000000000000000000000000"
+    }
+```
+
+```diff
+    contract Rocket Pool ETH Token (eth:0xae78736Cd615f374D3085123A210448E74Fc6393) {
+    +++ description: None
+      values.getCollateralRate:
+-        "9558853633783038"
++        "9990886495415850"
+      values.getExchangeRate:
+-        "1164103137874245613"
++        "1164166111160030400"
+      values.getTotalCollateral:
+-        "3712631656998367227239"
++        "3879936181895320561349"
+      values.totalSupply:
+-        "333644977738803841129421"
++        "333584301393348693366808"
+    }
+```
+
+```diff
+    contract EthereumPriceFeedLbtcFundamentalWithoutRoundsV1 (eth:0xb415eAA355D8440ac7eCB602D3fb67ccC1f0bc81) {
+    +++ description: None
+      values.latestRoundData.startedAt:
+-        1779629927
++        1779716339
+      values.latestRoundData.updatedAt:
+-        1779629927
++        1779716339
+    }
+```
+
+```diff
+    contract ChainlinkOvalBase (eth:0xCf17f459F4D1D9e6fb5aa5013Bd2D7EB6083bd45) {
+    +++ description: None
+      values.getLatestSourceData.0:
+-        "76552239256170000000000"
++        "77486459977320000000000"
+      values.getLatestSourceData.1:
+-        1779651167
++        1779737579
+      values.internalLatestData.0:
+-        "76552239256170000000000"
++        "77486459977320000000000"
+      values.internalLatestData.1:
+-        1779651167
++        1779737579
+      values.latestAnswer:
+-        7655223925617
++        7748645997732
+      values.latestRoundData.1:
+-        7655223925617
++        7748645997732
+      values.latestRoundData.2:
+-        1779651167
++        1779737579
+      values.latestRoundData.3:
+-        1779651167
++        1779737579
+      values.latestTimestamp:
+-        1779651167
++        1779737579
+    }
+```
+
+```diff
+    contract EthereumMultiFeedAdapterWithoutRoundsV3 (eth:0xd72a6BA4a87DDB33e801b3f1c7750b2d0911fC6C) {
+    +++ description: None
+      values.priceOfETH:
+-        "2119231165370000000000"
++        "2100747150000000000000"
+    }
+```
+
+```diff
+    contract MorphoChainlinkOracleV2 (eth:0xDCc04fFaCD7B49035cCdBbbA59a5f955944129DB) {
+    +++ description: None
+      values.price:
+-        "777006831821400000000000000000000000000"
++        "771902151350323638000000000000000000000"
+    }
+```
+
+```diff
+    contract ChainlinkOracle (eth:0xDddd770BADd886dF3864029e4B377B5F6a2B6b83) {
+    +++ description: None
+      values.price:
+-        "771911061686797304045157684760443792971"
++        "767181388147946732458615175292878232919"
+    }
+```
+
+```diff
+    contract MorphoChainlinkOracleV2 (eth:0xE8aDfF9117151fb5ad7313873780b87cC56EEDB0) {
+    +++ description: None
+      values.price:
+-        "2114046788145296471473928021"
++        "2101467619685961343075371776"
+    }
+```
+
+## Config/verification related changes
+
+Following changes come from updates made to the config file,
+or/and contracts becoming verified, not from differences found during
+discovery. Values are for block 1779707133 (main branch discovery), not current.
+
+```diff
+    contract VaultV2 (eth:0x4Ef53d2cAa51C447fdFEEedee8F07FD1962C9ee6) {
+    +++ description: None
+      values.abdicated_setAdapterRegistry:
++        true
+      values.abdicated_setReceiveAssetsGate:
++        true
+      values.abdicated_setReceiveSharesGate:
++        true
+      values.abdicated_setSendAssetsGate:
++        false
+      values.abdicated_setSendSharesGate:
++        true
+      values.forceDeallocatePenalty_marketsV1Adapter:
++        5000000000000000
+      values.timelock_abdicate:
++        604801
+      values.timelock_increaseAbsoluteCap:
++        259201
+      values.timelock_setCurator:
++        0
+      values.timelock_setForceDeallocatePenalty:
++        0
+      values.timelock_setIsSentinel:
++        0
+      values.timelock_setOwner:
++        0
+      values.timelock_setSendAssetsGate:
++        604801
+    }
+```
+
 Generated with discovered.json: 0x621d863d97ae92d23d0e8d17da83862f1ccb697a
 
 # Diff at Mon, 25 May 2026 11:06:59 GMT:
