@@ -1257,9 +1257,12 @@ export class ProjectAnalysis {
           const key = normalizeChainAddress(addr)
           if (depMap.has(key)) continue
           const addrTag = this.tagsByAddress.get(key)
+          const addrEntry = this.discovered.entries?.find(
+            (e: any) => e.type === 'Contract' && addressesEqual(e.address, addr),
+          )
           depMap.set(key, {
             address: addr,
-            name: addrTag?.entity ?? addr,
+            name: addrEntry?.values?.description ?? addrEntry?.name ?? addrTag?.entity ?? addr,
             entity: addrTag?.entity,
             isAutoDetected: true,
             dependencyType: undefined,

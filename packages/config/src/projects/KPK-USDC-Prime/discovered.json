@@ -1,6 +1,6 @@
 {
   "name": "KPK-USDC-Prime",
-  "timestamp": 1779789148,
+  "timestamp": 1779808025,
   "configHash": "0xb0b8e4d57214d0b46b3817a8eafac971853ee073e9ce2c0265307af77ee517aa",
   "entries": [
     {
@@ -24,7 +24,7 @@
         "BASE_FEED_2": "eth:0x0000000000000000000000000000000000000000",
         "BASE_VAULT": "eth:0x0000000000000000000000000000000000000000",
         "BASE_VAULT_CONVERSION_SAMPLE": 1,
-        "price": "2094789457640000000000000000",
+        "price": "2100628912160000000000000000",
         "QUOTE_FEED_1": "eth:0x0000000000000000000000000000000000000000",
         "QUOTE_FEED_2": "eth:0x0000000000000000000000000000000000000000",
         "QUOTE_VAULT": "eth:0x0000000000000000000000000000000000000000",
@@ -126,7 +126,7 @@
             "oracle": "eth:0x36Cb058364a811636685ef15a71E8ea99043f815",
             "irm": "eth:0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
             "lltv": "860000000000000000",
-            "expectedAssets": 2797420502557,
+            "expectedAssets": 2797485237657,
             "absoluteCap": 3.402823669209385e+38
           },
           {
@@ -136,7 +136,7 @@
             "oracle": "eth:0xE8aDfF9117151fb5ad7313873780b87cC56EEDB0",
             "irm": "eth:0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
             "lltv": "860000000000000000",
-            "expectedAssets": 2700933574023,
+            "expectedAssets": 2701163826995,
             "absoluteCap": 3.402823669209385e+38
           },
           {
@@ -146,7 +146,7 @@
             "oracle": "eth:0xA6D6950c9F177F1De7f7757FB33539e3Ec60182a",
             "irm": "eth:0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
             "lltv": "860000000000000000",
-            "expectedAssets": 10399247999077,
+            "expectedAssets": 4917634607299,
             "absoluteCap": 3.402823669209385e+38
           },
           {
@@ -156,7 +156,7 @@
             "oracle": "eth:0xDddd770BADd886dF3864029e4B377B5F6a2B6b83",
             "irm": "eth:0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
             "lltv": "860000000000000000",
-            "expectedAssets": 4769987344934,
+            "expectedAssets": 9023500933684,
             "absoluteCap": 3.402823669209385e+38
           },
           {
@@ -166,7 +166,7 @@
             "oracle": "eth:0x48F7E36EB6B826B2dF4B2E630B62Cd25e89E40e2",
             "irm": "eth:0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
             "lltv": "860000000000000000",
-            "expectedAssets": 1625764276624,
+            "expectedAssets": 2925135743357,
             "absoluteCap": 3.402823669209385e+38
           },
           {
@@ -196,13 +196,13 @@
             "oracle": "eth:0x0F948CBa8231Db7898ef36A4212581Ad7b1B4580",
             "irm": "eth:0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
             "lltv": "860000000000000000",
-            "expectedAssets": 129268187612,
+            "expectedAssets": 59256742198,
             "absoluteCap": 3.402823669209385e+38
           }
         ],
         "morpho": "eth:0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
         "parentVault": "eth:0x4Ef53d2cAa51C447fdFEEedee8F07FD1962C9ee6",
-        "realAssets": 22422621885536,
+        "realAssets": 22424177091899,
         "skimRecipient": "eth:0x0000000000000000000000000000000000000000"
       },
       "implementationNames": {
@@ -393,7 +393,7 @@
         "BASE_FEED_2": "eth:0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419",
         "BASE_VAULT": "eth:0x0000000000000000000000000000000000000000",
         "BASE_VAULT_CONVERSION_SAMPLE": 1,
-        "price": "2440147396326955164964647681",
+        "price": "2442259075780869769069721037",
         "QUOTE_FEED_1": "eth:0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6",
         "QUOTE_FEED_2": "eth:0x0000000000000000000000000000000000000000",
         "QUOTE_VAULT": "eth:0x0000000000000000000000000000000000000000",
@@ -433,7 +433,7 @@
         "$immutable": true,
         "BASE_FEED_1": "eth:0x4F67e4d9BD67eFa28236013288737D39AeF48e79",
         "BASE_FEED_2": "eth:0x0000000000000000000000000000000000000000",
-        "price": "2599961129183400439989771404",
+        "price": "2600459669808743959383470634",
         "QUOTE_FEED_1": "eth:0x986b5E1e1755e3C2440e960477f25201B0a8bbD4",
         "QUOTE_FEED_2": "eth:0x0000000000000000000000000000000000000000",
         "SCALE_FACTOR": "10000000000000000000000000000000000",
@@ -471,14 +471,14 @@
       "sinceTimestamp": 1761242519,
       "sinceBlock": 23641853,
       "values": {
-        "_totalAssets": 22422692511950,
+        "_totalAssets": 22424167335097,
         "$immutable": true,
         "abdicated_setAdapterRegistry": true,
         "abdicated_setReceiveAssetsGate": true,
         "abdicated_setReceiveSharesGate": true,
         "abdicated_setSendAssetsGate": false,
         "abdicated_setSendSharesGate": true,
-        "accrueInterestView": [22423639617924, 0, 0],
+        "accrueInterestView": [22424177091899, 0, 0],
         "adapterRegistry": "eth:0x3696c5eAe4a7Ffd04Ea163564571E9CD8Ed9364e",
         "adapters": ["eth:0x1d511811ACA9d8817a3e50F29CadFf6243A02902"],
         "adaptersLength": 1,
@@ -494,7 +494,7 @@
         "DOMAIN_SEPARATOR": "0x5aa066a3ab2c60ffdd9e7947f3fa139298acc923f6d2fa236f1967821108b45f",
         "firstTotalAssets": 0,
         "forceDeallocatePenalty_marketsV1Adapter": 5000000000000000,
-        "lastUpdate": 1779756011,
+        "lastUpdate": 1779807659,
         "liquidityAdapter": "eth:0x1d511811ACA9d8817a3e50F29CadFf6243A02902",
         "liquidityData": "0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48000000000000000000000000cbb7c0000ab88b473b1f5afd9ef808440eed33bf000000000000000000000000a6d6950c9f177f1de7f7757fb33539e3ec60182a000000000000000000000000870ac11d48b15db9a138cf899d20f13f79ba00bc0000000000000000000000000000000000000000000000000bef55718ad60000",
         "managementFee": 0,
@@ -522,7 +522,7 @@
         "timelock_setOwner": 0,
         "timelock_setPerformanceFee": 1209601,
         "timelock_setSendAssetsGate": 604801,
-        "totalAssets": 22423639617924,
+        "totalAssets": 22424177091899,
         "totalSupply": "21966691347510471330878479",
         "virtualShares": 1000000000000
       },
@@ -546,7 +546,7 @@
         "description": "Custom price feed for wstETH / ETH",
         "latestRoundData": {
           "roundId": "36893488147419104016",
-          "answer": 123560975,
+          "answer": 123568988,
           "startedAt": 1779741647,
           "updatedAt": 1779741743,
           "answeredInRound": "36893488147419104016"
@@ -749,7 +749,7 @@
           "roundId": 0,
           "answer": "1164166111160030400",
           "startedAt": 0,
-          "updatedAt": 1779789143,
+          "updatedAt": 1779808019,
           "answeredInRound": 0
         },
         "rETH": "eth:0xae78736Cd615f374D3085123A210448E74Fc6393",
@@ -1001,7 +1001,7 @@
         "BASE_FEED_2": "eth:0x0000000000000000000000000000000000000000",
         "BASE_VAULT": "eth:0x0000000000000000000000000000000000000000",
         "BASE_VAULT_CONVERSION_SAMPLE": 1,
-        "price": "766408866170300000000000000000000000000",
+        "price": "766479746100000000000000000000000000000",
         "QUOTE_FEED_1": "eth:0x0000000000000000000000000000000000000000",
         "QUOTE_FEED_2": "eth:0x0000000000000000000000000000000000000000",
         "QUOTE_VAULT": "eth:0x0000000000000000000000000000000000000000",
@@ -1043,12 +1043,12 @@
       "values": {
         "$immutable": true,
         "decimals": 18,
-        "getCollateralRate": "9991906214085937",
+        "getCollateralRate": "10001746530269125",
         "getExchangeRate": "1164166111160030400",
-        "getTotalCollateral": "3880336181895320561349",
+        "getTotalCollateral": "3884271811236592590142",
         "name": "Rocket Pool ETH",
         "symbol": "rETH",
-        "totalSupply": "333584644815130316626991",
+        "totalSupply": "333594449506995660705223",
         "version": 1
       },
       "implementationNames": {
@@ -1101,13 +1101,13 @@
         "description": "Redstone Price Feed",
         "getDataFeedId": "0x4c4254435f46554e44414d454e54414c00000000000000000000000000000000",
         "getPriceFeedAdapter": "eth:0xd72a6BA4a87DDB33e801b3f1c7750b2d0911fC6C",
-        "latestAnswer": 100400154,
+        "latestAnswer": 100409047,
         "latestRound": 1,
         "latestRoundData": {
           "roundId": 1,
-          "answer": 100400154,
-          "startedAt": 1779716339,
-          "updatedAt": 1779716339,
+          "answer": 100409047,
+          "startedAt": 1779802751,
+          "updatedAt": 1779802751,
           "answeredInRound": 1
         },
         "version": 1
@@ -1387,7 +1387,7 @@
         ],
         "$upgradeCount": 3,
         "getUniqueSignersThreshold": 3,
-        "priceOfETH": "2090211078500000000000"
+        "priceOfETH": "2097986301060000000000"
       },
       "implementationNames": {
         "eth:0xd72a6BA4a87DDB33e801b3f1c7750b2d0911fC6C": "TransparentUpgradeableProxy",
@@ -1415,7 +1415,7 @@
         "BASE_FEED_2": "eth:0xF4030086522a5bEEa4988F8cA5B36dbC97BeE88c",
         "BASE_VAULT": "eth:0x0000000000000000000000000000000000000000",
         "BASE_VAULT_CONVERSION_SAMPLE": 1,
-        "price": "769475681904635102262000000000000000000",
+        "price": "769615008507029667000000000000000000000",
         "QUOTE_FEED_1": "eth:0x0000000000000000000000000000000000000000",
         "QUOTE_FEED_2": "eth:0x0000000000000000000000000000000000000000",
         "QUOTE_VAULT": "eth:0x0000000000000000000000000000000000000000",
@@ -1440,7 +1440,7 @@
         "$immutable": true,
         "BASE_FEED_1": "eth:0xfdFD9C85aD200c506Cf9e21F1FD8dd01932FBB23",
         "BASE_FEED_2": "eth:0xF4030086522a5bEEa4988F8cA5B36dbC97BeE88c",
-        "price": "764779788386294715450285759080112841068",
+        "price": "764850517653699558143788150071170416267",
         "QUOTE_FEED_1": "eth:0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6",
         "QUOTE_FEED_2": "eth:0x0000000000000000000000000000000000000000",
         "SCALE_FACTOR": "100000000000000000000000000",
@@ -1477,7 +1477,7 @@
         "BASE_FEED_2": "eth:0x0000000000000000000000000000000000000000",
         "BASE_VAULT": "eth:0x0000000000000000000000000000000000000000",
         "BASE_VAULT_CONVERSION_SAMPLE": 1,
-        "price": "2096047439394603589194629555",
+        "price": "2097861338144680093665681893",
         "QUOTE_FEED_1": "eth:0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6",
         "QUOTE_FEED_2": "eth:0x0000000000000000000000000000000000000000",
         "QUOTE_VAULT": "eth:0x0000000000000000000000000000000000000000",
@@ -2861,6 +2861,6 @@
     "morpho/MorphoVaultV2": "0xa195ad3b1c0d657c16839333eba95bdf875119f53c1db1b6b9b7efece0359c01",
     "Steakhouse-USDC/EACAggregatorProxy": "0x3ba2cbd9a884cdfea15efe908af481b5a5a9c747391c8580bd38b0f8b1603921"
   },
-  "usedBlockNumbers": { "ethereum": 25178715 },
+  "usedBlockNumbers": { "ethereum": 25180283 },
   "permissionsConfigHash": "0x617af3a53de39acab6dbdab1ead1e88c04d63f018a4b84faf2cc20558bb4fd32"
 }

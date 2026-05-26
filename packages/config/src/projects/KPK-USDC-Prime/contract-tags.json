@@ -116,30 +116,6 @@
       ]
     },
     {
-      "contractAddress": "eth:0x57bfdF6aB73995C5af58A95A16798190e366CA5b",
-      "isExternal": true,
-      "entity": "Morpho",
-      "timestamp": "2026-05-21T00:00:00.000Z",
-      "dependencyFields": [
-        "BASE_FEED_1",
-        "BASE_FEED_2",
-        "QUOTE_FEED_1",
-        "QUOTE_FEED_2"
-      ]
-    },
-    {
-      "contractAddress": "eth:0xDCc04fFaCD7B49035cCdBbbA59a5f955944129DB",
-      "isExternal": true,
-      "entity": "Morpho",
-      "timestamp": "2026-05-21T00:00:00.000Z",
-      "dependencyFields": [
-        "BASE_FEED_1",
-        "BASE_FEED_2",
-        "QUOTE_FEED_1",
-        "QUOTE_FEED_2"
-      ]
-    },
-    {
       "contractAddress": "eth:0x0F948CBa8231Db7898ef36A4212581Ad7b1B4580",
       "isExternal": true,
       "entity": "Morpho",
@@ -191,24 +167,6 @@
       "contractAddress": "eth:0x986b5e1e1755e3c2440e960477f25201b0a8bbd4",
       "isExternal": true,
       "entity": "Chainlink",
-      "timestamp": "2026-05-21T00:00:00.000Z"
-    },
-    {
-      "contractAddress": "eth:0xcf17f459f4d1d9e6fb5aa5013bd2d7eb6083bd45",
-      "isExternal": true,
-      "entity": "Redstone",
-      "timestamp": "2026-05-21T00:00:00.000Z"
-    },
-    {
-      "contractAddress": "eth:0x6a5a24455e5c9c288632944a88cea923e0496024",
-      "isExternal": true,
-      "entity": "Redstone",
-      "timestamp": "2026-05-21T00:00:00.000Z"
-    },
-    {
-      "contractAddress": "eth:0xb415eaa355d8440ac7ecb602d3fb67ccc1f0bc81",
-      "isExternal": true,
-      "entity": "Redstone",
       "timestamp": "2026-05-21T00:00:00.000Z"
     },
     {

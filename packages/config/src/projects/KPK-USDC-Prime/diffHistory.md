@@ -1,3 +1,164 @@
+Generated with discovered.json: 0xfef1b7d6aa55168546e4952ac011e64a3a0c8875
+
+# Diff at Tue, 26 May 2026 15:08:42 GMT:
+
+- author: 0xAnon (<utkarshshail005@protonmail.com>)
+- comparing to: main@6af279723bc8021e28bf46aa09810265194d0678 block: 1779789148
+- current timestamp: 1779808025
+
+## Description
+
+Provide description of changes. This section will be preserved.
+
+## Watched changes
+
+```diff
+    contract WETH/USDC Oracle (eth:0x0F948CBa8231Db7898ef36A4212581Ad7b1B4580) {
+    +++ description: None
+      values.price:
+-        "2094789457640000000000000000"
++        "2100628912160000000000000000"
+    }
+```
+
+```diff
+    contract MorphoMarketV1AdapterV2 (eth:0x1d511811ACA9d8817a3e50F29CadFf6243A02902) {
+    +++ description: None
+      values.realAssets:
+-        22422621885536
++        22424177091899
+    }
+```
+
+```diff
+    contract rETH/USDC Oracle (eth:0x36Cb058364a811636685ef15a71E8ea99043f815) {
+    +++ description: None
+      values.price:
+-        "2440147396326955164964647681"
++        "2442259075780869769069721037"
+    }
+```
+
+```diff
+    contract wstETH/USDC Oracle (eth:0x48F7E36EB6B826B2dF4B2E630B62Cd25e89E40e2) {
+    +++ description: None
+      values.price:
+-        "2599961129183400439989771404"
++        "2600459669808743959383470634"
+    }
+```
+
+```diff
+    contract VaultV2 (eth:0x4Ef53d2cAa51C447fdFEEedee8F07FD1962C9ee6) {
+    +++ description: None
+      values._totalAssets:
+-        22422692511950
++        22424167335097
+      values.accrueInterestView.0:
+-        22423639617924
++        22424177091899
+      values.lastUpdate:
+-        1779756011
++        1779807659
+    }
+```
+
+```diff
+    contract WstETHPriceFeed (eth:0x4F67e4d9BD67eFa28236013288737D39AeF48e79) {
+    +++ description: None
+      values.latestRoundData.answer:
+-        123560975
++        123568988
+    }
+```
+
+```diff
+    contract RethExchangeRateAdapter (eth:0x8200f6622bb906a78896a3da4DdC81EbC8a08458) {
+    +++ description: None
+      values.latestRoundData.updatedAt:
+-        1779789143
++        1779808019
+    }
+```
+
+```diff
+    contract cbBTC/USDC Oracle (eth:0xA6D6950c9F177F1De7f7757FB33539e3Ec60182a) {
+    +++ description: None
+      values.price:
+-        "766408866170300000000000000000000000000"
++        "766479746100000000000000000000000000000"
+    }
+```
+
+```diff
+    contract Rocket Pool ETH Token (eth:0xae78736Cd615f374D3085123A210448E74Fc6393) {
+    +++ description: None
+      values.getCollateralRate:
+-        "9991906214085937"
++        "10001746530269125"
+      values.getTotalCollateral:
+-        "3880336181895320561349"
++        "3884271811236592590142"
+      values.totalSupply:
+-        "333584644815130316626991"
++        "333594449506995660705223"
+    }
+```
+
+```diff
+    contract EthereumPriceFeedLbtcFundamentalWithoutRoundsV1 (eth:0xb415eAA355D8440ac7eCB602D3fb67ccC1f0bc81) {
+    +++ description: None
+      values.latestAnswer:
+-        100400154
++        100409047
+      values.latestRoundData.answer:
+-        100400154
++        100409047
+      values.latestRoundData.startedAt:
+-        1779716339
++        1779802751
+      values.latestRoundData.updatedAt:
+-        1779716339
++        1779802751
+    }
+```
+
+```diff
+    contract EthereumMultiFeedAdapterWithoutRoundsV3 (eth:0xd72a6BA4a87DDB33e801b3f1c7750b2d0911fC6C) {
+    +++ description: None
+      values.priceOfETH:
+-        "2090211078500000000000"
++        "2097986301060000000000"
+    }
+```
+
+```diff
+    contract MorphoChainlinkOracleV2 (eth:0xDCc04fFaCD7B49035cCdBbbA59a5f955944129DB) {
+    +++ description: None
+      values.price:
+-        "769475681904635102262000000000000000000"
++        "769615008507029667000000000000000000000"
+    }
+```
+
+```diff
+    contract WBTC/USDC Oracle (eth:0xDddd770BADd886dF3864029e4B377B5F6a2B6b83) {
+    +++ description: None
+      values.price:
+-        "764779788386294715450285759080112841068"
++        "764850517653699558143788150071170416267"
+    }
+```
+
+```diff
+    contract OETH/USDC Oracle (eth:0xE8aDfF9117151fb5ad7313873780b87cC56EEDB0) {
+    +++ description: None
+      values.price:
+-        "2096047439394603589194629555"
++        "2097861338144680093665681893"
+    }
+```
+
 Generated with discovered.json: 0x62838e4e5ec682f9a221ba4cab72bd9cd9055353
 
 # Diff at Tue, 26 May 2026 09:53:57 GMT:
