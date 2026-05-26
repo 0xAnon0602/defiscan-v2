@@ -1,28 +1,28 @@
 {
   "version": "1.0",
-  "lastModified": "2026-05-24T09:28:27.409Z",
+  "lastModified": "2026-05-25T18:47:21.387Z",
   "contracts": {
     "eth:0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f": {
-      "lastFetched": "2026-05-24T09:28:27.125Z",
+      "lastFetched": "2026-05-25T18:47:21.038Z",
       "aggregate": {
-        "totalUsdValue": 765870999.7500966,
-        "contractCount": 508795,
+        "totalUsdValue": 768976875.4692557,
+        "contractCount": 509104,
         "handlerName": "uniswap-v2-factory",
         "breakdown": [],
-        "timestamp": "2026-05-24T09:28:27.222Z",
+        "timestamp": "2026-05-25T18:47:21.212Z",
         "source": "thegraph-uniswap-v2"
       }
     },
     "eth:0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984": {
-      "lastFetched": "2026-05-24T09:28:27.222Z",
+      "lastFetched": "2026-05-25T18:47:21.212Z",
       "tokenInfo": {
         "symbol": "UNI",
         "name": "Uniswap",
         "decimals": 18,
-        "price": 3.458,
+        "price": 3.358,
         "totalSupply": "1000000000000000000000000000",
-        "tokenValue": 3458000000,
-        "timestamp": "2026-05-24T09:28:27.409Z",
+        "tokenValue": 3358000000,
+        "timestamp": "2026-05-25T18:47:21.386Z",
         "source": "debank"
       }
     }
