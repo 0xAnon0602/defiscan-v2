@@ -39,6 +39,55 @@
             "add": { "event": "SetIsAllocator", "where": ["=", "#newIsAllocator", true] },
             "remove": { "event": "SetIsAllocator", "where": ["!=", "#newIsAllocator", true] }
           }
+        },
+        // Abdication state per selector — abdicated() returns true if the function can never be called again.
+        // Snapshot at 2026-05-25: 4 of 5 user-facing gate/registry setters are abdicated; setSendAssetsGate is not.
+        "abdicated_setAdapterRegistry": {
+          "handler": { "type": "call", "method": "abdicated", "args": ["0x5b34b823"] }
+        },
+        "abdicated_setReceiveAssetsGate": {
+          "handler": { "type": "call", "method": "abdicated", "args": ["0x04dbf0ce"] }
+        },
+        "abdicated_setReceiveSharesGate": {
+          "handler": { "type": "call", "method": "abdicated", "args": ["0x2cb19f98"] }
+        },
+        "abdicated_setSendSharesGate": {
+          "handler": { "type": "call", "method": "abdicated", "args": ["0xc21ad028"] }
+        },
+        "abdicated_setSendAssetsGate": {
+          "handler": { "type": "call", "method": "abdicated", "args": ["0x871c979c"] }
+        },
+        // Per-selector timelock durations (seconds). 0 = no delay. Surfaces the asymmetry between
+        // instant owner actions (setCurator/setOwner/setIsSentinel) and timelocked curator actions
+        // (increaseAbsoluteCap = 3 days).
+        "timelock_setCurator": {
+          "handler": { "type": "call", "method": "timelock", "args": ["0xe90956cf"] }
+        },
+        "timelock_setOwner": {
+          "handler": { "type": "call", "method": "timelock", "args": ["0x13af4035"] }
+        },
+        "timelock_setIsSentinel": {
+          "handler": { "type": "call", "method": "timelock", "args": ["0x920ed706"] }
+        },
+        "timelock_increaseAbsoluteCap": {
+          "handler": { "type": "call", "method": "timelock", "args": ["0xf6f98fd5"] }
+        },
+        "timelock_setForceDeallocatePenalty": {
+          "handler": { "type": "call", "method": "timelock", "args": ["0x3e9d2ac7"] }
+        },
+        "timelock_setSendAssetsGate": {
+          "handler": { "type": "call", "method": "timelock", "args": ["0x871c979c"] }
+        },
+        "timelock_abdicate": {
+          "handler": { "type": "call", "method": "timelock", "args": ["0xb2e32848"] }
+        },
+        // Force-deallocate penalty for the Markets V1 Adapter (raw uint, 1e18-scaled).
+        "forceDeallocatePenalty_marketsV1Adapter": {
+          "handler": {
+            "type": "call",
+            "method": "forceDeallocatePenalty",
+            "args": ["0x1d511811ACA9d8817a3e50F29CadFf6243A02902"]
+          }
         }
       },
       "ignoreInWatchMode": [
