@@ -81,6 +81,24 @@
         "timelock_abdicate": {
           "handler": { "type": "call", "method": "timelock", "args": ["0xb2e32848"] }
         },
+        "timelock_addAdapter": {
+          "handler": { "type": "call", "method": "timelock", "args": ["0x60d54d41"] }
+        },
+        "timelock_removeAdapter": {
+          "handler": { "type": "call", "method": "timelock", "args": ["0x585cd34b"] }
+        },
+        "timelock_increaseRelativeCap": {
+          "handler": { "type": "call", "method": "timelock", "args": ["0x2438525b"] }
+        },
+        "timelock_setPerformanceFee": {
+          "handler": { "type": "call", "method": "timelock", "args": ["0x70897b23"] }
+        },
+        "timelock_setManagementFee": {
+          "handler": { "type": "call", "method": "timelock", "args": ["0xfe56e232"] }
+        },
+        "timelock_increaseTimelock": {
+          "handler": { "type": "call", "method": "timelock", "args": ["0x47966291"] }
+        },
         // Force-deallocate penalty for the Markets V1 Adapter (raw uint, 1e18-scaled).
         "forceDeallocatePenalty_marketsV1Adapter": {
           "handler": {
@@ -92,7 +110,13 @@
       },
       "ignoreInWatchMode": [
         "totalAssets",
-        "totalSupply"
+        "totalSupply",
+        "timelock_addAdapter",
+        "timelock_removeAdapter",
+        "timelock_increaseRelativeCap",
+        "timelock_setPerformanceFee",
+        "timelock_setManagementFee",
+        "timelock_increaseTimelock"
       ]
     },
     "eth:0x1d511811ACA9d8817a3e50F29CadFf6243A02902": {
@@ -163,6 +187,13 @@
     // RedStone multi-feed adapter — view functions revert (no data in current context)
     "eth:0xd72a6BA4a87DDB33e801b3f1c7750b2d0911fC6C": {
       "ignoreMethods": ["extractTimestampsAndAssertAllAreEqual", "getDataServiceId"]
-    }
+    },
+    // Oracle display names — derived from the Morpho Blue market each oracle prices
+    "eth:0x36Cb058364a811636685ef15a71E8ea99043f815": { "displayName": "rETH/USDC Oracle" },
+    "eth:0xE8aDfF9117151fb5ad7313873780b87cC56EEDB0": { "displayName": "OETH/USDC Oracle" },
+    "eth:0xA6D6950c9F177F1De7f7757FB33539e3Ec60182a": { "displayName": "cbBTC/USDC Oracle" },
+    "eth:0xDddd770BADd886dF3864029e4B377B5F6a2B6b83": { "displayName": "WBTC/USDC Oracle" },
+    "eth:0x48F7E36EB6B826B2dF4B2E630B62Cd25e89E40e2": { "displayName": "wstETH/USDC Oracle" },
+    "eth:0x0F948CBa8231Db7898ef36A4212581Ad7b1B4580": { "displayName": "WETH/USDC Oracle" }
   }
 }

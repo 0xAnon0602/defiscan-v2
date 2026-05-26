@@ -1,3 +1,224 @@
+Generated with discovered.json: 0x62838e4e5ec682f9a221ba4cab72bd9cd9055353
+
+# Diff at Tue, 26 May 2026 09:53:57 GMT:
+
+- author: 0xAnon (<utkarshshail005@protonmail.com>)
+- comparing to: main@b2b51cb69f8f2d67c195f8307c23fa7b9e993121 block: 1779779281
+- current timestamp: 1779789148
+
+## Description
+
+Provide description of changes. This section will be preserved.
+
+## Watched changes
+
+```diff
+    contract WETH/USDC Oracle (eth:0x0F948CBa8231Db7898ef36A4212581Ad7b1B4580) {
+    +++ description: None
+      values.price:
+-        "2096832170000000000000000000"
++        "2094789457640000000000000000"
+    }
+```
+
+```diff
+    contract MorphoMarketV1AdapterV2 (eth:0x1d511811ACA9d8817a3e50F29CadFf6243A02902) {
+    +++ description: None
+      values.realAssets:
+-        22422339061065
++        22422621885536
+    }
+```
+
+```diff
+    contract rETH/USDC Oracle (eth:0x36Cb058364a811636685ef15a71E8ea99043f815) {
+    +++ description: None
+      values.price:
+-        "2446457386538531361829784609"
++        "2440147396326955164964647681"
+    }
+```
+
+```diff
+    contract VaultV2 (eth:0x4Ef53d2cAa51C447fdFEEedee8F07FD1962C9ee6) {
+    +++ description: None
+      values.accrueInterestView.0:
+-        22423356793453
++        22423639617924
+    }
+```
+
+```diff
+    contract MorphoChainlinkOracleV2 (eth:0x57bfdF6aB73995C5af58A95A16798190e366CA5b) {
+    +++ description: None
+      values.price:
+-        "77515304197164806996331404879"
++        "77516320814424132464307900689"
+    }
+```
+
+```diff
+    contract ChainlinkOvalBase (eth:0x6a5a24455e5c9C288632944A88ceA923e0496024) {
+    +++ description: None
+      values.getLatestSourceData.0:
+-        "999627890000000000"
++        "999614780000000000"
+      values.getLatestSourceData.1:
+-        1779778859
++        1779782435
+      values.internalLatestData.0:
+-        "999627890000000000"
++        "999614780000000000"
+      values.internalLatestData.1:
+-        1779778859
++        1779782435
+      values.latestAnswer:
+-        99962789
++        99961478
+      values.latestRoundData.1:
+-        99962789
++        99961478
+      values.latestRoundData.2:
+-        1779778859
++        1779782435
+      values.latestRoundData.3:
+-        1779778859
++        1779782435
+      values.latestTimestamp:
+-        1779778859
++        1779782435
+    }
+```
+
+```diff
+    contract RethExchangeRateAdapter (eth:0x8200f6622bb906a78896a3da4DdC81EbC8a08458) {
+    +++ description: None
+      values.latestRoundData.updatedAt:
+-        1779779279
++        1779789143
+    }
+```
+
+```diff
+    contract cbBTC/USDC Oracle (eth:0xA6D6950c9F177F1De7f7757FB33539e3Ec60182a) {
+    +++ description: None
+      values.price:
+-        "768825664700000000000000000000000000000"
++        "766408866170300000000000000000000000000"
+    }
+```
+
+```diff
+    contract Rocket Pool ETH Token (eth:0xae78736Cd615f374D3085123A210448E74Fc6393) {
+    +++ description: None
+      values.getCollateralRate:
+-        "9990886495415850"
++        "9991906214085937"
+      values.getTotalCollateral:
+-        "3879936181895320561349"
++        "3880336181895320561349"
+      values.totalSupply:
+-        "333584301393348693366808"
++        "333584644815130316626991"
+    }
+```
+
+```diff
+    contract EthereumMultiFeedAdapterWithoutRoundsV3 (eth:0xd72a6BA4a87DDB33e801b3f1c7750b2d0911fC6C) {
+    +++ description: None
+      values.priceOfETH:
+-        "2100747150000000000000"
++        "2090211078500000000000"
+    }
+```
+
+```diff
+    contract MorphoChainlinkOracleV2 (eth:0xDCc04fFaCD7B49035cCdBbbA59a5f955944129DB) {
+    +++ description: None
+      values.price:
+-        "771902151350323638000000000000000000000"
++        "769475681904635102262000000000000000000"
+    }
+```
+
+```diff
+    contract WBTC/USDC Oracle (eth:0xDddd770BADd886dF3864029e4B377B5F6a2B6b83) {
+    +++ description: None
+      values.price:
+-        "767181388147946732458615175292878232919"
++        "764779788386294715450285759080112841068"
+    }
+```
+
+```diff
+    contract OETH/USDC Oracle (eth:0xE8aDfF9117151fb5ad7313873780b87cC56EEDB0) {
+    +++ description: None
+      values.price:
+-        "2101467619685961343075371776"
++        "2096047439394603589194629555"
+    }
+```
+
+## Config/verification related changes
+
+Following changes come from updates made to the config file,
+or/and contracts becoming verified, not from differences found during
+discovery. Values are for block 1779779281 (main branch discovery), not current.
+
+```diff
+    contract WETH/USDC Oracle (eth:0x0F948CBa8231Db7898ef36A4212581Ad7b1B4580) {
+    +++ description: None
+      name:
+-        "MorphoChainlinkOracleV2"
++        "WETH/USDC Oracle"
+    }
+```
+
+```diff
+    contract rETH/USDC Oracle (eth:0x36Cb058364a811636685ef15a71E8ea99043f815) {
+    +++ description: None
+      name:
+-        "MorphoChainlinkOracleV2"
++        "rETH/USDC Oracle"
+    }
+```
+
+```diff
+    contract wstETH/USDC Oracle (eth:0x48F7E36EB6B826B2dF4B2E630B62Cd25e89E40e2) {
+    +++ description: None
+      name:
+-        "ChainlinkOracle"
++        "wstETH/USDC Oracle"
+    }
+```
+
+```diff
+    contract cbBTC/USDC Oracle (eth:0xA6D6950c9F177F1De7f7757FB33539e3Ec60182a) {
+    +++ description: None
+      name:
+-        "MorphoChainlinkOracleV2"
++        "cbBTC/USDC Oracle"
+    }
+```
+
+```diff
+    contract WBTC/USDC Oracle (eth:0xDddd770BADd886dF3864029e4B377B5F6a2B6b83) {
+    +++ description: None
+      name:
+-        "ChainlinkOracle"
++        "WBTC/USDC Oracle"
+    }
+```
+
+```diff
+    contract OETH/USDC Oracle (eth:0xE8aDfF9117151fb5ad7313873780b87cC56EEDB0) {
+    +++ description: None
+      name:
+-        "MorphoChainlinkOracleV2"
++        "OETH/USDC Oracle"
+    }
+```
+
 Generated with discovered.json: 0x0c4404d87828830ef381b74d6358a92ee0c4d1cb
 
 # Diff at Tue, 26 May 2026 07:09:55 GMT:

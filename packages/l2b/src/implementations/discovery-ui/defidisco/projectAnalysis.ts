@@ -373,7 +373,13 @@ function buildMergedMitigations(
 
   if (func.mitigations && func.mitigations.length > 0) {
     for (const m of func.mitigations) {
-      if (
+      if (m.type === 'delay' && m.delayRef && m.delaySeconds === undefined) {
+        const resolved = resolveDelayFromDiscovered(paths, projectName, m.delayRef)
+        mitigations.push({
+          ...m,
+          delaySeconds: resolved.isResolved ? resolved.seconds : undefined,
+        })
+      } else if (
         m.type === 'delay' &&
         typeof (m as any).delay === 'number' &&
         m.delaySeconds === undefined
