@@ -374,7 +374,11 @@ function buildMergedMitigations(
   if (func.mitigations && func.mitigations.length > 0) {
     for (const m of func.mitigations) {
       if (m.type === 'delay' && m.delayRef && m.delaySeconds === undefined) {
-        const resolved = resolveDelayFromDiscovered(paths, projectName, m.delayRef)
+        const resolved = resolveDelayFromDiscovered(
+          paths,
+          projectName,
+          m.delayRef,
+        )
         mitigations.push({
           ...m,
           delaySeconds: resolved.isResolved ? resolved.seconds : undefined,
@@ -1253,16 +1257,25 @@ export class ProjectAnalysis {
         if (fieldValue.length === 0) continue
 
         for (const addr of fieldValue) {
-          if (!addr || addr === 'eth:0x0000000000000000000000000000000000000000') continue
+          if (
+            !addr ||
+            addr === 'eth:0x0000000000000000000000000000000000000000'
+          )
+            continue
           const key = normalizeChainAddress(addr)
           if (depMap.has(key)) continue
           const addrTag = this.tagsByAddress.get(key)
           const addrEntry = this.discovered.entries?.find(
-            (e: any) => e.type === 'Contract' && addressesEqual(e.address, addr),
+            (e: any) =>
+              e.type === 'Contract' && addressesEqual(e.address, addr),
           )
           depMap.set(key, {
             address: addr,
-            name: addrEntry?.values?.description ?? addrEntry?.name ?? addrTag?.entity ?? addr,
+            name:
+              addrEntry?.values?.description ??
+              addrEntry?.name ??
+              addrTag?.entity ??
+              addr,
             entity: addrTag?.entity,
             isAutoDetected: true,
             dependencyType: undefined,

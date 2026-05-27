@@ -55,8 +55,7 @@ const ID_TO_MARKET_PARAMS_ABI =
 const EXPECTED_SUPPLY_ASSETS_ABI =
   'function expectedSupplyAssets(bytes32) view returns (uint256)'
 
-const ABSOLUTE_CAP_ABI =
-  'function absoluteCap(bytes32) view returns (uint256)'
+const ABSOLUTE_CAP_ABI = 'function absoluteCap(bytes32) view returns (uint256)'
 
 export class MorphoMarketsHandler implements Handler {
   readonly dependencies: string[] = []
@@ -129,7 +128,8 @@ export class MorphoMarketsHandler implements Handler {
           const m = market as Record<string, ContractValue>
           if (
             this.definition.minAssetsThreshold !== undefined &&
-            Number(m['expectedAssets'] ?? 0) < this.definition.minAssetsThreshold
+            Number(m['expectedAssets'] ?? 0) <
+              this.definition.minAssetsThreshold
           ) {
             continue
           }
@@ -214,10 +214,7 @@ export class MorphoMarketsHandler implements Handler {
         vaultAddr = ChainSpecificAddress(this.definition.vaultAddress)
       } else if (this.definition.vaultAddressField) {
         const fieldName = this.definition.vaultAddressField
-        const rawVault = resolveReference(
-          `{{ ${fieldName} }}`,
-          referenceInput,
-        )
+        const rawVault = resolveReference(`{{ ${fieldName} }}`, referenceInput)
         if (typeof rawVault === 'string') {
           const chain = ChainSpecificAddress.chain(address)
           // Raw value may already include chain prefix (auto-discovered fields sometimes do)
