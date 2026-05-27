@@ -1,28 +1,28 @@
 {
   "version": "1.0",
-  "lastModified": "2026-05-25T18:53:18.559Z",
+  "lastModified": "2026-05-26T17:01:07.906Z",
   "contracts": {
     "bnb:0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73": {
-      "lastFetched": "2026-05-25T18:53:17.795Z",
+      "lastFetched": "2026-05-26T17:01:06.765Z",
       "aggregate": {
-        "totalUsdValue": 1830134340.4268274,
-        "contractCount": 2551971,
+        "totalUsdValue": 1826407597.9151597,
+        "contractCount": 2553473,
         "handlerName": "pancakeswap-v2-factory",
         "breakdown": [],
-        "timestamp": "2026-05-25T18:53:18.380Z",
+        "timestamp": "2026-05-26T17:01:07.640Z",
         "source": "defillama-pancakeswap-amm"
       }
     },
     "bnb:0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82": {
-      "lastFetched": "2026-05-25T18:53:18.380Z",
+      "lastFetched": "2026-05-26T17:01:07.640Z",
       "tokenInfo": {
         "symbol": "Cake",
         "name": "PancakeSwap Token",
         "decimals": 18,
-        "price": 1.4593288999895662,
+        "price": 1.4295253374725094,
         "totalSupply": "4382329363751051201610995531",
-        "tokenValue": 6395259889.794797,
-        "timestamp": "2026-05-25T18:53:18.558Z",
+        "tokenValue": 6264650862.631908,
+        "timestamp": "2026-05-26T17:01:07.905Z",
         "source": "debank"
       }
     }
